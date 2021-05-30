@@ -1,0 +1,47 @@
+/Users/alexandr/Desktop/iChat/iChat/Services/Model/MChat.swift
+/Users/alexandr/Desktop/iChat/iChat/Extensions/OneLineTextField.swift
+/Users/alexandr/Desktop/iChat/iChat/Extensions/UIKit/UIFont\ +\ Extension.swift
+/Users/alexandr/Desktop/iChat/iChat/Controllers/SectionHeader.swift
+/Users/alexandr/Desktop/iChat/iChat/Extensions/UIApplication\ +\ Extension.swift
+/Users/alexandr/Desktop/iChat/iChat/Extensions/GradientView.swift
+/Users/alexandr/Desktop/iChat/iChat/SignUp&Auth/AuthViewController.swift
+/Users/alexandr/Desktop/iChat/iChat/Helpers/AuthError.swift
+/Users/alexandr/Desktop/iChat/iChat/Extensions/UIKit/UISegmentControl\ +\ Extension.swift
+/Users/alexandr/Desktop/iChat/iChat/Services/Model/MUser.swift
+/Users/alexandr/Desktop/iChat/iChat/Helpers/Validators.swift
+/Users/alexandr/Desktop/iChat/iChat/Controllers/Cell/ActiveChatCell.swift
+/Users/alexandr/Desktop/iChat/iChat/SignUp&Auth/SignUpViewController.swift
+/Users/alexandr/Desktop/iChat/iChat/Extensions/InsertableTextField.swift
+/Users/alexandr/Desktop/iChat/iChat/Controllers/PeopleViewController.swift
+/Users/alexandr/Desktop/iChat/iChat/AppDelegate.swift
+/Users/alexandr/Desktop/iChat/iChat/Services/FirestoreService.swift
+/Users/alexandr/Desktop/iChat/iChat/Controllers/ProfileViewController.swift
+/Users/alexandr/Desktop/iChat/iChat/Extensions/ButtonFormView.swift
+/Users/alexandr/Desktop/iChat/iChat/Controllers/ChatRequestViewController.swift
+/Users/alexandr/Desktop/iChat/iChat/SignUp&Auth/SetupProfileViewController.swift
+/Users/alexandr/Desktop/iChat/iChat/Services/ListenerService.swift
+/Users/alexandr/Desktop/iChat/iChat/Extensions/AddPhotoView.swift
+/Users/alexandr/Desktop/iChat/iChat/Extensions/UIKit/UILabel\ +\ Extension.swift
+/Users/alexandr/Desktop/iChat/iChat/Extensions/UIKit/UIColor\ +\ Extension.swift
+/Users/alexandr/Desktop/iChat/iChat/Helpers/UserError.swift
+/Users/alexandr/Desktop/iChat/iChat/Extensions/UIKit/UIImageView\ +\ Extension.swift
+/Users/alexandr/Desktop/iChat/iChat/Extensions/UIKit/UIView\ +\ Extension.swift
+/Users/alexandr/Desktop/iChat/iChat/Controllers/ChatsViewController.swift
+/Users/alexandr/Desktop/iChat/iChat/SceneDelegate.swift
+/Users/alexandr/Desktop/iChat/iChat/Services/StorageService.swift
+/Users/alexandr/Desktop/iChat/iChat/Extensions/UIKit/UIButton\ +\ Extension.swift
+/Users/alexandr/Desktop/iChat/iChat/Controllers/Cell/UserCell.swift
+/Users/alexandr/Desktop/iChat/iChat/Protocols/AuthNavigatingDelegate.swift
+/Users/alexandr/Desktop/iChat/iChat/Extensions/UIKit/UIViewController\ +\ Extension.swift
+/Users/alexandr/Desktop/iChat/iChat/Protocols/SelfConfiguringCell.swift
+/Users/alexandr/Desktop/iChat/iChat/Controllers/Cell/WaitingChatCell.swift
+/Users/alexandr/Desktop/iChat/iChat/Extensions/UIImage\ +\ Extension.swift
+/Users/alexandr/Desktop/iChat/iChat/SignUp&Auth/LoginViewController.swift
+/Users/alexandr/Desktop/iChat/iChat/Extensions/UIKit/StackView\ +\ Extension.swift
+/Users/alexandr/Desktop/iChat/iChat/Services/Model/MMessage.swift
+/Users/alexandr/Desktop/iChat/iChat/Extensions/Bundle\ +\ Extension.swift
+/Users/alexandr/Desktop/iChat/iChat/Services/AuthService.swift
+/Users/alexandr/Desktop/iChat/iChat/Controllers/ListViewController.swift
+/Users/alexandr/Desktop/iChat/iChat/Protocols/WaitingChatsNavigation.swift
+/Users/alexandr/Desktop/iChat/iChat/Controllers/MainTabBarController.swift
+/Users/alexandr/Desktop/iChat/iChat/Extensions/UIKit/UIScrollView.swift

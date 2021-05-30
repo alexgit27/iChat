@@ -1,0 +1,253 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DetectorType"
+provides-nominal:
+- "10MessageKit12DetectorTypeO"
+provides-member:
+- ["10MessageKit12DetectorTypeO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "Array"
+- "Bool"
+- !private "BooleanLiteralType"
+- "DetectorType"
+- !private "FloatLiteralType"
+- "Hashable"
+- "Hasher"
+- "Int"
+- !private "IntegerLiteralType"
+- "NSRegularExpression"
+- "NSTextCheckingResult"
+- "StringLiteralType"
+- !private "toInt"
+depends-member:
+- ["s7CVarArgP", "CheckingType"]
+- !private ["s7CVarArgP", "hashValue"]
+- ["s7CVarArgP", "init"]
+- !private ["So18NSTextCheckingTypeV", "address"]
+- !private ["So18NSTextCheckingTypeV", "date"]
+- !private ["So18NSTextCheckingTypeV", "link"]
+- !private ["So18NSTextCheckingTypeV", "phoneNumber"]
+- !private ["So18NSTextCheckingTypeV", "regularExpression"]
+- !private ["So18NSTextCheckingTypeV", "transitInformation"]
+- ["s28CustomDebugStringConvertibleP", "CheckingType"]
+- !private ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "CheckingType"]
+- !private ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["10MessageKit12DetectorTypeO", "=="]
+- ["10MessageKit12DetectorTypeO", "Bool"]
+- ["10MessageKit12DetectorTypeO", "DetectorType"]
+- ["10MessageKit12DetectorTypeO", "Hasher"]
+- ["10MessageKit12DetectorTypeO", "Int"]
+- ["10MessageKit12DetectorTypeO", "NSRegularExpression"]
+- ["10MessageKit12DetectorTypeO", "NSTextCheckingResult"]
+- ["10MessageKit12DetectorTypeO", ""]
+- ["10MessageKit12DetectorTypeO", "__derived_enum_equals"]
+- ["10MessageKit12DetectorTypeO", "_rawHashValue"]
+- ["10MessageKit12DetectorTypeO", "address"]
+- ["10MessageKit12DetectorTypeO", "custom"]
+- ["10MessageKit12DetectorTypeO", "date"]
+- ["10MessageKit12DetectorTypeO", "hash"]
+- ["10MessageKit12DetectorTypeO", "hashValue"]
+- ["10MessageKit12DetectorTypeO", "hashtag"]
+- ["10MessageKit12DetectorTypeO", "isCustom"]
+- ["10MessageKit12DetectorTypeO", "mention"]
+- ["10MessageKit12DetectorTypeO", "phoneNumber"]
+- ["10MessageKit12DetectorTypeO", "textCheckingType"]
+- !private ["10MessageKit12DetectorTypeO", "toInt"]
+- ["10MessageKit12DetectorTypeO", "transitInformation"]
+- ["10MessageKit12DetectorTypeO", "url"]
+- ["SQ", "=="]
+- ["SQ", "ArrayLiteralElement"]
+- ["SQ", "CheckingType"]
+- ["SQ", "DetectorType"]
+- ["SQ", "Element"]
+- ["SQ", "NSRegularExpression"]
+- ["SQ", ""]
+- !private ["SQ", "__derived_enum_equals"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "address"]
+- ["SQ", "custom"]
+- ["SQ", "date"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- !private ["SQ", "link"]
+- ["SQ", "phoneNumber"]
+- !private ["SQ", "regularExpression"]
+- !private ["SQ", "toInt"]
+- ["SQ", "transitInformation"]
+- ["SQ", "url"]
+- ["s25ExpressibleByArrayLiteralP", "ArrayLiteralElement"]
+- ["s25ExpressibleByArrayLiteralP", "Element"]
+- ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "address"]
+- !private ["s25ExpressibleByArrayLiteralP", "date"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "link"]
+- !private ["s25ExpressibleByArrayLiteralP", "phoneNumber"]
+- !private ["s25ExpressibleByArrayLiteralP", "regularExpression"]
+- !private ["s25ExpressibleByArrayLiteralP", "transitInformation"]
+- ["SH", "=="]
+- ["SH", "CheckingType"]
+- ["SH", "DetectorType"]
+- ["SH", "NSRegularExpression"]
+- ["SH", ""]
+- !private ["SH", "__derived_enum_equals"]
+- ["SH", "_rawHashValue"]
+- ["SH", "address"]
+- ["SH", "custom"]
+- ["SH", "date"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "phoneNumber"]
+- !private ["SH", "toInt"]
+- ["SH", "transitInformation"]
+- ["SH", "url"]
+- !private ["s6HasherV", "combine"]
+- ["So8NSCodingP", "CheckingType"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "hashValue"]
+- ["So8NSCodingP", "init"]
+- ["So9NSCopyingP", "CheckingType"]
+- !private ["So9NSCopyingP", "hashValue"]
+- ["So9NSCopyingP", "init"]
+- ["So8NSObjectC", "CheckingType"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "hashValue"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "regularExpressionWithPattern"]
+- ["So8NSObjectP", "CheckingType"]
+- !private ["So8NSObjectP", "hashValue"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "regularExpressionWithPattern"]
+- !private ["So19NSRegularExpressionC", "hashValue"]
+- ["So19NSRegularExpressionC", "init"]
+- ["So14NSSecureCodingP", "CheckingType"]
+- !private ["So14NSSecureCodingP", "hashValue"]
+- ["So14NSSecureCodingP", "init"]
+- ["So20NSTextCheckingResultC", "CheckingType"]
+- ["s9OptionSetP", "ArrayLiteralElement"]
+- ["s9OptionSetP", "Element"]
+- !private ["s9OptionSetP", "address"]
+- !private ["s9OptionSetP", "date"]
+- ["s9OptionSetP", "init"]
+- !private ["s9OptionSetP", "link"]
+- !private ["s9OptionSetP", "phoneNumber"]
+- !private ["s9OptionSetP", "regularExpression"]
+- !private ["s9OptionSetP", "transitInformation"]
+- ["So26NSRegularExpressionOptionsV", "ArrayLiteralElement"]
+- ["So26NSRegularExpressionOptionsV", "Element"]
+- ["So26NSRegularExpressionOptionsV", "init"]
+- ["SY", "ArrayLiteralElement"]
+- ["SY", "Element"]
+- ["SY", ""]
+- !private ["SY", "address"]
+- !private ["SY", "date"]
+- ["SY", "init"]
+- !private ["SY", "link"]
+- !private ["SY", "phoneNumber"]
+- !private ["SY", "regularExpression"]
+- !private ["SY", "transitInformation"]
+- ["s10SetAlgebraP", "ArrayLiteralElement"]
+- ["s10SetAlgebraP", "Element"]
+- ["s10SetAlgebraP", ""]
+- !private ["s10SetAlgebraP", "address"]
+- !private ["s10SetAlgebraP", "date"]
+- ["s10SetAlgebraP", "init"]
+- !private ["s10SetAlgebraP", "link"]
+- !private ["s10SetAlgebraP", "phoneNumber"]
+- !private ["s10SetAlgebraP", "regularExpression"]
+- !private ["s10SetAlgebraP", "transitInformation"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "CheckingType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hashValue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CheckingType"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "hashValue"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+depends-nominal:
+- "s7CVarArgP"
+- !private "So18NSTextCheckingTypeV"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "10MessageKit12DetectorTypeO"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- "SH"
+- !private "s6HasherV"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So19NSRegularExpressionC"
+- "So14NSSecureCodingP"
+- "So20NSTextCheckingResultC"
+- "s9OptionSetP"
+- "So26NSRegularExpressionOptionsV"
+- "SY"
+- "s10SetAlgebraP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/MapKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/InputBarAccessoryView/InputBarAccessoryView.framework/Modules/InputBarAccessoryView.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Users/alexandr/Desktop/iChat/Pods/Target Support Files/MessageKit/MessageKit-umbrella.h"
+- "/Users/alexandr/Desktop/iChat/Pods/Target Support Files/InputBarAccessoryView/InputBarAccessoryView-umbrella.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/InputBarAccessoryView/InputBarAccessoryView.framework/Headers/InputBarAccessoryView-Swift.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/alexandr/Desktop/iChat/build/Pods.build/Debug-iphonesimulator/MessageKit.build/unextended-module.modulemap"
+- "/Users/alexandr/Desktop/iChat/build/Pods.build/Debug-iphonesimulator/InputBarAccessoryView.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "1fffecd1d75272c478762d22314cca0a"

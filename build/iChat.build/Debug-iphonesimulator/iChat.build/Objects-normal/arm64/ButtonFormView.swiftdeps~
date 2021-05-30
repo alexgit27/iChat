@@ -1,0 +1,871 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ButtonFormView"
+provides-nominal:
+- "5iChat14ButtonFormViewC"
+provides-member:
+- ["5iChat14ButtonFormViewC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "ButtonFormView"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "NSCoder"
+- !private "NSLayoutConstraint"
+- !private "StringLiteralType"
+- "UIButton"
+- "UILabel"
+- "UIView"
+- !private "bottomAnchor"
+- !private "fatalError"
+depends-member:
+- !private ["7SwiftUI10AnimatableP", "zero"]
+- ["SK", ""]
+- ["5iChat14ButtonFormViewC", "NSCoder"]
+- !private ["5iChat14ButtonFormViewC", "NSLayoutConstraint"]
+- ["5iChat14ButtonFormViewC", "UIButton"]
+- ["5iChat14ButtonFormViewC", "UILabel"]
+- ["5iChat14ButtonFormViewC", ""]
+- !private ["5iChat14ButtonFormViewC", "addSubview"]
+- !private ["5iChat14ButtonFormViewC", "bottomAnchor"]
+- ["5iChat14ButtonFormViewC", "deinit"]
+- !private ["5iChat14ButtonFormViewC", "fatalError"]
+- ["5iChat14ButtonFormViewC", "init"]
+- !private ["5iChat14ButtonFormViewC", "leadingAnchor"]
+- !private ["5iChat14ButtonFormViewC", "topAnchor"]
+- !private ["5iChat14ButtonFormViewC", "trailingAnchor"]
+- !private ["5iChat14ButtonFormViewC", "translatesAutoresizingMaskIntoConstraints"]
+- ["So15CALayerDelegateP", "NSCoder"]
+- !private ["So15CALayerDelegateP", "NSLayoutConstraint"]
+- ["So15CALayerDelegateP", "UIButton"]
+- ["So15CALayerDelegateP", "UILabel"]
+- ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "addSubview"]
+- !private ["So15CALayerDelegateP", "bottomAnchor"]
+- !private ["So15CALayerDelegateP", "fatalError"]
+- !private ["So15CALayerDelegateP", "heightAnchor"]
+- ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "leadingAnchor"]
+- !private ["So15CALayerDelegateP", "topAnchor"]
+- !private ["So15CALayerDelegateP", "trailingAnchor"]
+- !private ["So15CALayerDelegateP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So6CGRectV", "zero"]
+- !private ["s7CVarArgP", "NSLayoutConstraint"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "activate"]
+- !private ["s7CVarArgP", "addSubview"]
+- !private ["s7CVarArgP", "bottomAnchor"]
+- !private ["s7CVarArgP", "constraint"]
+- !private ["s7CVarArgP", "fatalError"]
+- !private ["s7CVarArgP", "heightAnchor"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isActive"]
+- !private ["s7CVarArgP", "leadingAnchor"]
+- !private ["s7CVarArgP", "topAnchor"]
+- !private ["s7CVarArgP", "trailingAnchor"]
+- !private ["s7CVarArgP", "translatesAutoresizingMaskIntoConstraints"]
+- ["Sl", ""]
+- ["SL", ""]
+- !private ["s28CustomDebugStringConvertibleP", "NSLayoutConstraint"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "activate"]
+- !private ["s28CustomDebugStringConvertibleP", "addSubview"]
+- !private ["s28CustomDebugStringConvertibleP", "bottomAnchor"]
+- !private ["s28CustomDebugStringConvertibleP", "constraint"]
+- !private ["s28CustomDebugStringConvertibleP", "fatalError"]
+- !private ["s28CustomDebugStringConvertibleP", "heightAnchor"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isActive"]
+- !private ["s28CustomDebugStringConvertibleP", "leadingAnchor"]
+- !private ["s28CustomDebugStringConvertibleP", "topAnchor"]
+- !private ["s28CustomDebugStringConvertibleP", "trailingAnchor"]
+- !private ["s28CustomDebugStringConvertibleP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s28CustomDebugStringConvertibleP", "zero"]
+- !private ["s17CustomReflectableP", "zero"]
+- !private ["s23CustomStringConvertibleP", "NSLayoutConstraint"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "activate"]
+- !private ["s23CustomStringConvertibleP", "addSubview"]
+- !private ["s23CustomStringConvertibleP", "bottomAnchor"]
+- !private ["s23CustomStringConvertibleP", "constraint"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- !private ["s23CustomStringConvertibleP", "heightAnchor"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isActive"]
+- !private ["s23CustomStringConvertibleP", "leadingAnchor"]
+- !private ["s23CustomStringConvertibleP", "topAnchor"]
+- !private ["s23CustomStringConvertibleP", "trailingAnchor"]
+- !private ["s23CustomStringConvertibleP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["Se", "zero"]
+- !private ["SE", "zero"]
+- !private ["SQ", "NSLayoutConstraint"]
+- ["SQ", ""]
+- !private ["SQ", "activate"]
+- !private ["SQ", "addSubview"]
+- !private ["SQ", "bottomAnchor"]
+- !private ["SQ", "constraint"]
+- !private ["SQ", "fatalError"]
+- !private ["SQ", "heightAnchor"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isActive"]
+- !private ["SQ", "leadingAnchor"]
+- !private ["SQ", "topAnchor"]
+- !private ["SQ", "trailingAnchor"]
+- !private ["SQ", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["SQ", "zero"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["SH", "NSLayoutConstraint"]
+- ["SH", ""]
+- !private ["SH", "activate"]
+- !private ["SH", "addSubview"]
+- !private ["SH", "bottomAnchor"]
+- !private ["SH", "constraint"]
+- !private ["SH", "fatalError"]
+- !private ["SH", "heightAnchor"]
+- !private ["SH", "init"]
+- !private ["SH", "isActive"]
+- !private ["SH", "leadingAnchor"]
+- !private ["SH", "topAnchor"]
+- !private ["SH", "trailingAnchor"]
+- !private ["SH", "translatesAutoresizingMaskIntoConstraints"]
+- ["s25LosslessStringConvertibleP", ""]
+- ["So8NSCodingP", "NSCoder"]
+- !private ["So8NSCodingP", "NSLayoutConstraint"]
+- ["So8NSCodingP", "UIButton"]
+- ["So8NSCodingP", "UILabel"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addSubview"]
+- !private ["So8NSCodingP", "bottomAnchor"]
+- !private ["So8NSCodingP", "constraint"]
+- !private ["So8NSCodingP", "constraintEqualToAnchor"]
+- !private ["So8NSCodingP", "constraintEqualToConstant"]
+- !private ["So8NSCodingP", "constraintEqualToSystemSpacingAfter"]
+- !private ["So8NSCodingP", "constraintEqualToSystemSpacingAfterAnchor"]
+- !private ["So8NSCodingP", "constraintEqualToSystemSpacingBelow"]
+- !private ["So8NSCodingP", "constraintEqualToSystemSpacingBelowAnchor"]
+- !private ["So8NSCodingP", "constraintGreaterThanOrEqualToAnchor"]
+- !private ["So8NSCodingP", "constraintGreaterThanOrEqualToConstant"]
+- !private ["So8NSCodingP", "constraintGreaterThanOrEqualToSystemSpacingAfter"]
+- !private ["So8NSCodingP", "constraintGreaterThanOrEqualToSystemSpacingAfterAnchor"]
+- !private ["So8NSCodingP", "constraintGreaterThanOrEqualToSystemSpacingBelow"]
+- !private ["So8NSCodingP", "constraintGreaterThanOrEqualToSystemSpacingBelowAnchor"]
+- !private ["So8NSCodingP", "constraintLessThanOrEqualToAnchor"]
+- !private ["So8NSCodingP", "constraintLessThanOrEqualToConstant"]
+- !private ["So8NSCodingP", "constraintLessThanOrEqualToSystemSpacingAfter"]
+- !private ["So8NSCodingP", "constraintLessThanOrEqualToSystemSpacingAfterAnchor"]
+- !private ["So8NSCodingP", "constraintLessThanOrEqualToSystemSpacingBelow"]
+- !private ["So8NSCodingP", "constraintLessThanOrEqualToSystemSpacingBelowAnchor"]
+- !private ["So8NSCodingP", "fatalError"]
+- !private ["So8NSCodingP", "heightAnchor"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "leadingAnchor"]
+- !private ["So8NSCodingP", "topAnchor"]
+- !private ["So8NSCodingP", "trailingAnchor"]
+- !private ["So8NSCodingP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So9NSCopyingP", "constraint"]
+- !private ["So9NSCopyingP", "constraintEqualToAnchor"]
+- !private ["So9NSCopyingP", "constraintEqualToConstant"]
+- !private ["So9NSCopyingP", "constraintEqualToSystemSpacingAfter"]
+- !private ["So9NSCopyingP", "constraintEqualToSystemSpacingAfterAnchor"]
+- !private ["So9NSCopyingP", "constraintEqualToSystemSpacingBelow"]
+- !private ["So9NSCopyingP", "constraintEqualToSystemSpacingBelowAnchor"]
+- !private ["So9NSCopyingP", "constraintGreaterThanOrEqualToAnchor"]
+- !private ["So9NSCopyingP", "constraintGreaterThanOrEqualToConstant"]
+- !private ["So9NSCopyingP", "constraintGreaterThanOrEqualToSystemSpacingAfter"]
+- !private ["So9NSCopyingP", "constraintGreaterThanOrEqualToSystemSpacingAfterAnchor"]
+- !private ["So9NSCopyingP", "constraintGreaterThanOrEqualToSystemSpacingBelow"]
+- !private ["So9NSCopyingP", "constraintGreaterThanOrEqualToSystemSpacingBelowAnchor"]
+- !private ["So9NSCopyingP", "constraintLessThanOrEqualToAnchor"]
+- !private ["So9NSCopyingP", "constraintLessThanOrEqualToConstant"]
+- !private ["So9NSCopyingP", "constraintLessThanOrEqualToSystemSpacingAfter"]
+- !private ["So9NSCopyingP", "constraintLessThanOrEqualToSystemSpacingAfterAnchor"]
+- !private ["So9NSCopyingP", "constraintLessThanOrEqualToSystemSpacingBelow"]
+- !private ["So9NSCopyingP", "constraintLessThanOrEqualToSystemSpacingBelowAnchor"]
+- ["So14NSLayoutAnchorC", ""]
+- !private ["So14NSLayoutAnchorC", "constraint"]
+- !private ["So14NSLayoutAnchorC", "constraintEqualToAnchor"]
+- !private ["So14NSLayoutAnchorC", "constraintEqualToConstant"]
+- !private ["So14NSLayoutAnchorC", "constraintEqualToSystemSpacingAfter"]
+- !private ["So14NSLayoutAnchorC", "constraintEqualToSystemSpacingAfterAnchor"]
+- !private ["So14NSLayoutAnchorC", "constraintEqualToSystemSpacingBelow"]
+- !private ["So14NSLayoutAnchorC", "constraintEqualToSystemSpacingBelowAnchor"]
+- !private ["So14NSLayoutAnchorC", "constraintGreaterThanOrEqualToAnchor"]
+- !private ["So14NSLayoutAnchorC", "constraintGreaterThanOrEqualToConstant"]
+- !private ["So14NSLayoutAnchorC", "constraintGreaterThanOrEqualToSystemSpacingAfter"]
+- !private ["So14NSLayoutAnchorC", "constraintGreaterThanOrEqualToSystemSpacingAfterAnchor"]
+- !private ["So14NSLayoutAnchorC", "constraintGreaterThanOrEqualToSystemSpacingBelow"]
+- !private ["So14NSLayoutAnchorC", "constraintGreaterThanOrEqualToSystemSpacingBelowAnchor"]
+- !private ["So14NSLayoutAnchorC", "constraintLessThanOrEqualToAnchor"]
+- !private ["So14NSLayoutAnchorC", "constraintLessThanOrEqualToConstant"]
+- !private ["So14NSLayoutAnchorC", "constraintLessThanOrEqualToSystemSpacingAfter"]
+- !private ["So14NSLayoutAnchorC", "constraintLessThanOrEqualToSystemSpacingAfterAnchor"]
+- !private ["So14NSLayoutAnchorC", "constraintLessThanOrEqualToSystemSpacingBelow"]
+- !private ["So14NSLayoutAnchorC", "constraintLessThanOrEqualToSystemSpacingBelowAnchor"]
+- !private ["So18NSLayoutConstraintC", "activate"]
+- !private ["So18NSLayoutConstraintC", "isActive"]
+- !private ["So17NSLayoutDimensionC", "constraint"]
+- !private ["So19NSLayoutXAxisAnchorC", "constraint"]
+- !private ["So19NSLayoutYAxisAnchorC", "constraint"]
+- ["So8NSObjectC", "NSCoder"]
+- !private ["So8NSObjectC", "NSLayoutConstraint"]
+- ["So8NSObjectC", "UIButton"]
+- ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "activate"]
+- !private ["So8NSObjectC", "activateConstraints"]
+- !private ["So8NSObjectC", "addSubview"]
+- !private ["So8NSObjectC", "bottomAnchor"]
+- !private ["So8NSObjectC", "constraint"]
+- !private ["So8NSObjectC", "constraintEqualToAnchor"]
+- !private ["So8NSObjectC", "constraintEqualToConstant"]
+- !private ["So8NSObjectC", "constraintEqualToSystemSpacingAfter"]
+- !private ["So8NSObjectC", "constraintEqualToSystemSpacingAfterAnchor"]
+- !private ["So8NSObjectC", "constraintEqualToSystemSpacingBelow"]
+- !private ["So8NSObjectC", "constraintEqualToSystemSpacingBelowAnchor"]
+- !private ["So8NSObjectC", "constraintGreaterThanOrEqualToAnchor"]
+- !private ["So8NSObjectC", "constraintGreaterThanOrEqualToConstant"]
+- !private ["So8NSObjectC", "constraintGreaterThanOrEqualToSystemSpacingAfter"]
+- !private ["So8NSObjectC", "constraintGreaterThanOrEqualToSystemSpacingAfterAnchor"]
+- !private ["So8NSObjectC", "constraintGreaterThanOrEqualToSystemSpacingBelow"]
+- !private ["So8NSObjectC", "constraintGreaterThanOrEqualToSystemSpacingBelowAnchor"]
+- !private ["So8NSObjectC", "constraintLessThanOrEqualToAnchor"]
+- !private ["So8NSObjectC", "constraintLessThanOrEqualToConstant"]
+- !private ["So8NSObjectC", "constraintLessThanOrEqualToSystemSpacingAfter"]
+- !private ["So8NSObjectC", "constraintLessThanOrEqualToSystemSpacingAfterAnchor"]
+- !private ["So8NSObjectC", "constraintLessThanOrEqualToSystemSpacingBelow"]
+- !private ["So8NSObjectC", "constraintLessThanOrEqualToSystemSpacingBelowAnchor"]
+- !private ["So8NSObjectC", "fatalError"]
+- !private ["So8NSObjectC", "heightAnchor"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isActive"]
+- !private ["So8NSObjectC", "leadingAnchor"]
+- !private ["So8NSObjectC", "topAnchor"]
+- !private ["So8NSObjectC", "trailingAnchor"]
+- !private ["So8NSObjectC", "translatesAutoresizingMaskIntoConstraints"]
+- ["So8NSObjectP", "NSCoder"]
+- !private ["So8NSObjectP", "NSLayoutConstraint"]
+- ["So8NSObjectP", "UIButton"]
+- ["So8NSObjectP", "UILabel"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "activate"]
+- !private ["So8NSObjectP", "activateConstraints"]
+- !private ["So8NSObjectP", "addSubview"]
+- !private ["So8NSObjectP", "bottomAnchor"]
+- !private ["So8NSObjectP", "constraint"]
+- !private ["So8NSObjectP", "constraintEqualToAnchor"]
+- !private ["So8NSObjectP", "constraintEqualToConstant"]
+- !private ["So8NSObjectP", "constraintEqualToSystemSpacingAfter"]
+- !private ["So8NSObjectP", "constraintEqualToSystemSpacingAfterAnchor"]
+- !private ["So8NSObjectP", "constraintEqualToSystemSpacingBelow"]
+- !private ["So8NSObjectP", "constraintEqualToSystemSpacingBelowAnchor"]
+- !private ["So8NSObjectP", "constraintGreaterThanOrEqualToAnchor"]
+- !private ["So8NSObjectP", "constraintGreaterThanOrEqualToConstant"]
+- !private ["So8NSObjectP", "constraintGreaterThanOrEqualToSystemSpacingAfter"]
+- !private ["So8NSObjectP", "constraintGreaterThanOrEqualToSystemSpacingAfterAnchor"]
+- !private ["So8NSObjectP", "constraintGreaterThanOrEqualToSystemSpacingBelow"]
+- !private ["So8NSObjectP", "constraintGreaterThanOrEqualToSystemSpacingBelowAnchor"]
+- !private ["So8NSObjectP", "constraintLessThanOrEqualToAnchor"]
+- !private ["So8NSObjectP", "constraintLessThanOrEqualToConstant"]
+- !private ["So8NSObjectP", "constraintLessThanOrEqualToSystemSpacingAfter"]
+- !private ["So8NSObjectP", "constraintLessThanOrEqualToSystemSpacingAfterAnchor"]
+- !private ["So8NSObjectP", "constraintLessThanOrEqualToSystemSpacingBelow"]
+- !private ["So8NSObjectP", "constraintLessThanOrEqualToSystemSpacingBelowAnchor"]
+- !private ["So8NSObjectP", "fatalError"]
+- !private ["So8NSObjectP", "heightAnchor"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isActive"]
+- !private ["So8NSObjectP", "leadingAnchor"]
+- !private ["So8NSObjectP", "topAnchor"]
+- !private ["So8NSObjectP", "trailingAnchor"]
+- !private ["So8NSObjectP", "translatesAutoresizingMaskIntoConstraints"]
+- ["ST", ""]
+- ["s16TextOutputStreamP", ""]
+- ["s20TextOutputStreamableP", ""]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "bottomAnchor"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "heightAnchor"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "leadingAnchor"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "topAnchor"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "trailingAnchor"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So29UIAccessibilityIdentificationP", "NSCoder"]
+- !private ["So29UIAccessibilityIdentificationP", "NSLayoutConstraint"]
+- ["So29UIAccessibilityIdentificationP", "UIButton"]
+- ["So29UIAccessibilityIdentificationP", "UILabel"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "addSubview"]
+- !private ["So29UIAccessibilityIdentificationP", "bottomAnchor"]
+- !private ["So29UIAccessibilityIdentificationP", "fatalError"]
+- !private ["So29UIAccessibilityIdentificationP", "heightAnchor"]
+- ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "leadingAnchor"]
+- !private ["So29UIAccessibilityIdentificationP", "topAnchor"]
+- !private ["So29UIAccessibilityIdentificationP", "trailingAnchor"]
+- !private ["So29UIAccessibilityIdentificationP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So12UIAppearanceP", "NSCoder"]
+- !private ["So12UIAppearanceP", "NSLayoutConstraint"]
+- ["So12UIAppearanceP", "UIButton"]
+- ["So12UIAppearanceP", "UILabel"]
+- ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "addSubview"]
+- !private ["So12UIAppearanceP", "bottomAnchor"]
+- !private ["So12UIAppearanceP", "fatalError"]
+- !private ["So12UIAppearanceP", "heightAnchor"]
+- ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "leadingAnchor"]
+- !private ["So12UIAppearanceP", "topAnchor"]
+- !private ["So12UIAppearanceP", "trailingAnchor"]
+- !private ["So12UIAppearanceP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So21UIAppearanceContainerP", "NSCoder"]
+- !private ["So21UIAppearanceContainerP", "NSLayoutConstraint"]
+- ["So21UIAppearanceContainerP", "UIButton"]
+- ["So21UIAppearanceContainerP", "UILabel"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "addSubview"]
+- !private ["So21UIAppearanceContainerP", "bottomAnchor"]
+- !private ["So21UIAppearanceContainerP", "fatalError"]
+- !private ["So21UIAppearanceContainerP", "heightAnchor"]
+- ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "leadingAnchor"]
+- !private ["So21UIAppearanceContainerP", "topAnchor"]
+- !private ["So21UIAppearanceContainerP", "trailingAnchor"]
+- !private ["So21UIAppearanceContainerP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So8UIButtonC", "bottomAnchor"]
+- !private ["So8UIButtonC", "heightAnchor"]
+- !private ["So8UIButtonC", "leadingAnchor"]
+- !private ["So8UIButtonC", "topAnchor"]
+- !private ["So8UIButtonC", "trailingAnchor"]
+- !private ["So8UIButtonC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "bottomAnchor"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "leadingAnchor"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "topAnchor"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So32UIContextMenuInteractionDelegateP", "bottomAnchor"]
+- !private ["So32UIContextMenuInteractionDelegateP", "heightAnchor"]
+- !private ["So32UIContextMenuInteractionDelegateP", "leadingAnchor"]
+- !private ["So32UIContextMenuInteractionDelegateP", "topAnchor"]
+- !private ["So32UIContextMenuInteractionDelegateP", "trailingAnchor"]
+- !private ["So32UIContextMenuInteractionDelegateP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So9UIControlC", ""]
+- !private ["So9UIControlC", "bottomAnchor"]
+- !private ["So9UIControlC", "heightAnchor"]
+- !private ["So9UIControlC", "leadingAnchor"]
+- !private ["So9UIControlC", "topAnchor"]
+- !private ["So9UIControlC", "trailingAnchor"]
+- !private ["So9UIControlC", "translatesAutoresizingMaskIntoConstraints"]
+- ["So17UICoordinateSpaceP", "NSCoder"]
+- !private ["So17UICoordinateSpaceP", "NSLayoutConstraint"]
+- ["So17UICoordinateSpaceP", "UIButton"]
+- ["So17UICoordinateSpaceP", "UILabel"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "addSubview"]
+- !private ["So17UICoordinateSpaceP", "bottomAnchor"]
+- !private ["So17UICoordinateSpaceP", "fatalError"]
+- !private ["So17UICoordinateSpaceP", "heightAnchor"]
+- ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "leadingAnchor"]
+- !private ["So17UICoordinateSpaceP", "topAnchor"]
+- !private ["So17UICoordinateSpaceP", "trailingAnchor"]
+- !private ["So17UICoordinateSpaceP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So13UIDynamicItemP", "NSCoder"]
+- !private ["So13UIDynamicItemP", "NSLayoutConstraint"]
+- ["So13UIDynamicItemP", "UIButton"]
+- ["So13UIDynamicItemP", "UILabel"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "addSubview"]
+- !private ["So13UIDynamicItemP", "bottomAnchor"]
+- !private ["So13UIDynamicItemP", "fatalError"]
+- !private ["So13UIDynamicItemP", "heightAnchor"]
+- ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "leadingAnchor"]
+- !private ["So13UIDynamicItemP", "topAnchor"]
+- !private ["So13UIDynamicItemP", "trailingAnchor"]
+- !private ["So13UIDynamicItemP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So18UIFocusEnvironmentP", "NSCoder"]
+- !private ["So18UIFocusEnvironmentP", "NSLayoutConstraint"]
+- ["So18UIFocusEnvironmentP", "UIButton"]
+- ["So18UIFocusEnvironmentP", "UILabel"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "addSubview"]
+- !private ["So18UIFocusEnvironmentP", "bottomAnchor"]
+- !private ["So18UIFocusEnvironmentP", "fatalError"]
+- !private ["So18UIFocusEnvironmentP", "heightAnchor"]
+- ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "leadingAnchor"]
+- !private ["So18UIFocusEnvironmentP", "topAnchor"]
+- !private ["So18UIFocusEnvironmentP", "trailingAnchor"]
+- !private ["So18UIFocusEnvironmentP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So11UIFocusItemP", "NSCoder"]
+- !private ["So11UIFocusItemP", "NSLayoutConstraint"]
+- ["So11UIFocusItemP", "UIButton"]
+- ["So11UIFocusItemP", "UILabel"]
+- ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "addSubview"]
+- !private ["So11UIFocusItemP", "bottomAnchor"]
+- !private ["So11UIFocusItemP", "fatalError"]
+- !private ["So11UIFocusItemP", "heightAnchor"]
+- ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "leadingAnchor"]
+- !private ["So11UIFocusItemP", "topAnchor"]
+- !private ["So11UIFocusItemP", "trailingAnchor"]
+- !private ["So11UIFocusItemP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So20UIFocusItemContainerP", "NSCoder"]
+- !private ["So20UIFocusItemContainerP", "NSLayoutConstraint"]
+- ["So20UIFocusItemContainerP", "UIButton"]
+- ["So20UIFocusItemContainerP", "UILabel"]
+- ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "addSubview"]
+- !private ["So20UIFocusItemContainerP", "bottomAnchor"]
+- !private ["So20UIFocusItemContainerP", "fatalError"]
+- !private ["So20UIFocusItemContainerP", "heightAnchor"]
+- ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "leadingAnchor"]
+- !private ["So20UIFocusItemContainerP", "topAnchor"]
+- !private ["So20UIFocusItemContainerP", "trailingAnchor"]
+- !private ["So20UIFocusItemContainerP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So7UILabelC", "bottomAnchor"]
+- !private ["So7UILabelC", "leadingAnchor"]
+- !private ["So7UILabelC", "topAnchor"]
+- !private ["So7UILabelC", "translatesAutoresizingMaskIntoConstraints"]
+- ["So24UILargeContentViewerItemP", "NSCoder"]
+- !private ["So24UILargeContentViewerItemP", "NSLayoutConstraint"]
+- ["So24UILargeContentViewerItemP", "UIButton"]
+- ["So24UILargeContentViewerItemP", "UILabel"]
+- ["So24UILargeContentViewerItemP", ""]
+- !private ["So24UILargeContentViewerItemP", "addSubview"]
+- !private ["So24UILargeContentViewerItemP", "bottomAnchor"]
+- !private ["So24UILargeContentViewerItemP", "fatalError"]
+- !private ["So24UILargeContentViewerItemP", "heightAnchor"]
+- ["So24UILargeContentViewerItemP", "init"]
+- !private ["So24UILargeContentViewerItemP", "leadingAnchor"]
+- !private ["So24UILargeContentViewerItemP", "topAnchor"]
+- !private ["So24UILargeContentViewerItemP", "trailingAnchor"]
+- !private ["So24UILargeContentViewerItemP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So30UIPasteConfigurationSupportingP", "NSCoder"]
+- !private ["So30UIPasteConfigurationSupportingP", "NSLayoutConstraint"]
+- ["So30UIPasteConfigurationSupportingP", "UIButton"]
+- ["So30UIPasteConfigurationSupportingP", "UILabel"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "addSubview"]
+- !private ["So30UIPasteConfigurationSupportingP", "bottomAnchor"]
+- !private ["So30UIPasteConfigurationSupportingP", "fatalError"]
+- !private ["So30UIPasteConfigurationSupportingP", "heightAnchor"]
+- ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "leadingAnchor"]
+- !private ["So30UIPasteConfigurationSupportingP", "topAnchor"]
+- !private ["So30UIPasteConfigurationSupportingP", "trailingAnchor"]
+- !private ["So30UIPasteConfigurationSupportingP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So11UIResponderC", "NSCoder"]
+- !private ["So11UIResponderC", "NSLayoutConstraint"]
+- ["So11UIResponderC", "UIButton"]
+- ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", ""]
+- !private ["So11UIResponderC", "addSubview"]
+- !private ["So11UIResponderC", "bottomAnchor"]
+- !private ["So11UIResponderC", "fatalError"]
+- !private ["So11UIResponderC", "heightAnchor"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "leadingAnchor"]
+- !private ["So11UIResponderC", "topAnchor"]
+- !private ["So11UIResponderC", "trailingAnchor"]
+- !private ["So11UIResponderC", "translatesAutoresizingMaskIntoConstraints"]
+- ["So30UIResponderStandardEditActionsP", "NSCoder"]
+- !private ["So30UIResponderStandardEditActionsP", "NSLayoutConstraint"]
+- ["So30UIResponderStandardEditActionsP", "UIButton"]
+- ["So30UIResponderStandardEditActionsP", "UILabel"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "addSubview"]
+- !private ["So30UIResponderStandardEditActionsP", "bottomAnchor"]
+- !private ["So30UIResponderStandardEditActionsP", "fatalError"]
+- !private ["So30UIResponderStandardEditActionsP", "heightAnchor"]
+- ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "leadingAnchor"]
+- !private ["So30UIResponderStandardEditActionsP", "topAnchor"]
+- !private ["So30UIResponderStandardEditActionsP", "trailingAnchor"]
+- !private ["So30UIResponderStandardEditActionsP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "bottomAnchor"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "heightAnchor"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "leadingAnchor"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "topAnchor"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "trailingAnchor"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So18UITraitEnvironmentP", "NSCoder"]
+- !private ["So18UITraitEnvironmentP", "NSLayoutConstraint"]
+- ["So18UITraitEnvironmentP", "UIButton"]
+- ["So18UITraitEnvironmentP", "UILabel"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "addSubview"]
+- !private ["So18UITraitEnvironmentP", "bottomAnchor"]
+- !private ["So18UITraitEnvironmentP", "fatalError"]
+- !private ["So18UITraitEnvironmentP", "heightAnchor"]
+- ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "leadingAnchor"]
+- !private ["So18UITraitEnvironmentP", "topAnchor"]
+- !private ["So18UITraitEnvironmentP", "trailingAnchor"]
+- !private ["So18UITraitEnvironmentP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So23UIUserActivityRestoringP", "NSCoder"]
+- !private ["So23UIUserActivityRestoringP", "NSLayoutConstraint"]
+- ["So23UIUserActivityRestoringP", "UIButton"]
+- ["So23UIUserActivityRestoringP", "UILabel"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "addSubview"]
+- !private ["So23UIUserActivityRestoringP", "bottomAnchor"]
+- !private ["So23UIUserActivityRestoringP", "fatalError"]
+- !private ["So23UIUserActivityRestoringP", "heightAnchor"]
+- ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "leadingAnchor"]
+- !private ["So23UIUserActivityRestoringP", "topAnchor"]
+- !private ["So23UIUserActivityRestoringP", "trailingAnchor"]
+- !private ["So23UIUserActivityRestoringP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So6UIViewC", "NSCoder"]
+- !private ["So6UIViewC", "NSLayoutConstraint"]
+- ["So6UIViewC", "UIButton"]
+- ["So6UIViewC", "UILabel"]
+- ["So6UIViewC", ""]
+- !private ["So6UIViewC", "addSubview"]
+- !private ["So6UIViewC", "bottomAnchor"]
+- !private ["So6UIViewC", "fatalError"]
+- !private ["So6UIViewC", "heightAnchor"]
+- ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "leadingAnchor"]
+- !private ["So6UIViewC", "topAnchor"]
+- !private ["So6UIViewC", "trailingAnchor"]
+- !private ["So6UIViewC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "zero"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSLayoutConstraint"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "activate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addSubview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bottomAnchor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "constraint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fatalError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "heightAnchor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isActive"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "leadingAnchor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "topAnchor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "trailingAnchor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSLayoutConstraint"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "activate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addSubview"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bottomAnchor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "constraint"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fatalError"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "heightAnchor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isActive"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "leadingAnchor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "topAnchor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "trailingAnchor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s21_ObjectiveCBridgeableP", "zero"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "NSLayoutConstraint"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "addSubview"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "bottomAnchor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "fatalError"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "heightAnchor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "leadingAnchor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "topAnchor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "trailingAnchor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "translatesAutoresizingMaskIntoConstraints"]
+depends-nominal:
+- !private "7SwiftUI10AnimatableP"
+- "SK"
+- "5iChat14ButtonFormViewC"
+- "So15CALayerDelegateP"
+- !private "So6CGRectV"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- "s25LosslessStringConvertibleP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So14NSLayoutAnchorC"
+- !private "So18NSLayoutConstraintC"
+- !private "So17NSLayoutDimensionC"
+- !private "So19NSLayoutXAxisAnchorC"
+- !private "So19NSLayoutYAxisAnchorC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "ST"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So8UIButtonC"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So32UIContextMenuInteractionDelegateP"
+- "So9UIControlC"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- !private "So7UILabelC"
+- "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftUI.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/MessageKit/MessageKit.framework/Modules/MessageKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/MapKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/DeveloperToolsSupport.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/InputBarAccessoryView/InputBarAccessoryView.framework/Modules/InputBarAccessoryView.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+GIF.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImage-umbrella.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FirebaseStorage-umbrella.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FirebaseFirestore-umbrella.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FirebaseInstallations-umbrella.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/MessageKit/MessageKit.framework/Headers/MessageKit-umbrella.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/InputBarAccessoryView/InputBarAccessoryView.framework/Headers/InputBarAccessoryView-umbrella.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+ExtendedCacheData.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+Metadata.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRSnapshotMetadata.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRCollectionReference.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRDocumentReference.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRFirestoreSource.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+ForceDecode.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImage.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImage.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRDocumentChange.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIButton+WebCache.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSButton+WebCache.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIView+WebCache.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+WebCache.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageView+WebCache.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+HighlightedWebCache.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCache.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDDiskCache.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDMemoryCache.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageFrame.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDefine.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCacheDefine.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSData+ImageContentType.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRFirestore.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FirebaseFirestore.h"
+- "/Users/alexandr/Desktop/iChat/Pods/Firebase/CoreOnly/Sources/Firebase.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRFieldValue.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCacheConfig.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderConfig.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRWriteBatch.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRFieldPath.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthCredential.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+Transform.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRVersion.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactorSession.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageOperation.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIView+WebCacheOperation.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderOperation.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRListenerRegistration.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRTransaction.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageTransition.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactorAssertion.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneMultiFactorAssertion.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactorInfo.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneMultiFactorInfo.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageRep.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRTimestamp.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageLoader.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloader.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFederatedAuthProvider.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGameCenterAuthProvider.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageHEICCoder.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageGIFCoder.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageAPNGCoder.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageIOCoder.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageAWebPCoder.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageIOAnimatedCoder.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCoder.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageManager.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCachesManager.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageLoadersManager.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCodersManager.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImagePrefetcher.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderResponseModifier.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderRequestModifier.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageTransformer.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCoderHelper.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDGraphicsImageRenderer.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCacheKeyFilter.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactorResolver.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImagePlayer.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCacheSerializer.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageError.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageOptionsProcessor.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageIndicator.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneMultiFactorGenerator.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactor.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderDecryptor.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageGraphics.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRFirestoreSettings.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthSettings.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FIRInstallations.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FirebaseInstallations.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRFirestoreErrors.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FIRInstallationsErrors.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCompat.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/MessageKit/MessageKit.framework/Headers/MessageKit-Swift.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/InputBarAccessoryView/InputBarAccessoryView.framework/Headers/InputBarAccessoryView-Swift.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthTokenResult.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FIRInstallationsAuthTokenResult.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageListResult.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FIRAnalytics+Consent.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRGeoPoint.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRDocumentSnapshot.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRQuerySnapshot.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MemoryCacheCost.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageView.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRQuery.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSImage+Compatibility.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/alexandr/Desktop/iChat/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Modules/module.modulemap"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Modules/module.modulemap"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Modules/module.modulemap"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/MessageKit/MessageKit.framework/Modules/module.modulemap"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/InputBarAccessoryView/InputBarAccessoryView.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "1a652de12a931fc4bcd3720c8ab74b3a"

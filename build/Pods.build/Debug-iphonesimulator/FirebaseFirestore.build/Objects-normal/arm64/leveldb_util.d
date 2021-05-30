@@ -1,0 +1,23 @@
+dependencies: \
+  /Users/alexandr/Desktop/iChat/Pods/FirebaseFirestore/Firestore/core/src/local/leveldb_util.cc \
+  /Users/alexandr/Desktop/iChat/Pods/FirebaseFirestore/Firestore/core/src/local/leveldb_util.h \
+  /Users/alexandr/Desktop/iChat/Pods/FirebaseFirestore/Firestore/core/src/util/status_fwd.h \
+  /Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/abseil/absl.framework/Headers/strings/string_view.h \
+  /Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/abseil/absl.framework/Headers/base/config.h \
+  /Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/abseil/absl.framework/Headers/base/options.h \
+  /Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/abseil/absl.framework/Headers/base/policy_checks.h \
+  /Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/abseil/absl.framework/Headers/base/internal/throw_delegate.h \
+  /Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/abseil/absl.framework/Headers/base/macros.h \
+  /Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/abseil/absl.framework/Headers/base/attributes.h \
+  /Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/abseil/absl.framework/Headers/base/optimization.h \
+  /Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/abseil/absl.framework/Headers/base/port.h \
+  /Users/alexandr/Desktop/iChat/Pods/leveldb-library/include/leveldb/slice.h \
+  /Users/alexandr/Desktop/iChat/Pods/leveldb-library/include/leveldb/export.h \
+  /Users/alexandr/Desktop/iChat/Pods/leveldb-library/include/leveldb/status.h \
+  /Users/alexandr/Desktop/iChat/Pods/FirebaseFirestore/Firestore/core/include/firebase/firestore/firestore_errors.h \
+  /Users/alexandr/Desktop/iChat/Pods/FirebaseFirestore/Firestore/core/src/util/status.h \
+  /Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/abseil/absl.framework/Headers/strings/str_cat.h \
+  /Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/abseil/absl.framework/Headers/strings/numbers.h \
+  /Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/abseil/absl.framework/Headers/base/internal/bits.h \
+  /Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/abseil/absl.framework/Headers/numeric/int128.h \
+  /Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/abseil/absl.framework/Headers/numeric/int128_have_intrinsic.inc

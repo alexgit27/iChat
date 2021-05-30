@@ -1,0 +1,1607 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "InsertableTextField"
+provides-nominal:
+- "5iChat19InsertableTextFieldC"
+provides-member:
+- ["5iChat19InsertableTextFieldC", ""]
+provides-dynamic-lookup:
+- "editingRect"
+- "leftViewRect"
+- "placeholderRect"
+- "rightViewRect"
+- "textRect"
+depends-top-level:
+- !private "+="
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "CGRect"
+- !private "FloatLiteralType"
+- "InsertableTextField"
+- !private "IntegerLiteralType"
+- "NSCoder"
+- !private "StringLiteralType"
+- !private "UIButton"
+- !private "UIFont"
+- !private "UIImage"
+- !private "UIImageView"
+- "UITextField"
+- !private "backgroundColor"
+- !private "borderStyle"
+- !private "clearButtonMode"
+- !private "fatalError"
+- !private "font"
+- !private "layer"
+- !private "leftView"
+- !private "leftViewMode"
+- !private "placeholder"
+- !private "rightView"
+- !private "rightViewMode"
+depends-member:
+- !private ["7SwiftUI10AnimatableP", "init"]
+- !private ["7SwiftUI10AnimatableP", "insetBy"]
+- !private ["7SwiftUI10AnimatableP", "origin"]
+- !private ["7SwiftUI10AnimatableP", "x"]
+- !private ["So17UITextBorderStyleV", "none"]
+- !private ["So12UIButtonTypeV", "system"]
+- !private ["So7CALayerC", "cornerRadius"]
+- !private ["So7CALayerC", "masksToBounds"]
+- ["So15CALayerDelegateP", "CGRect"]
+- ["So15CALayerDelegateP", "NSCoder"]
+- !private ["So15CALayerDelegateP", "UIButton"]
+- !private ["So15CALayerDelegateP", "UIFont"]
+- !private ["So15CALayerDelegateP", "UIImage"]
+- !private ["So15CALayerDelegateP", "UIImageView"]
+- ["So15CALayerDelegateP", ""]
+- ["So15CALayerDelegateP", "applyGradients"]
+- !private ["So15CALayerDelegateP", "backgroundColor"]
+- !private ["So15CALayerDelegateP", "borderStyle"]
+- !private ["So15CALayerDelegateP", "clearButtonMode"]
+- ["So15CALayerDelegateP", "editingRect"]
+- ["So15CALayerDelegateP", "editingRectForBounds"]
+- !private ["So15CALayerDelegateP", "fatalError"]
+- !private ["So15CALayerDelegateP", "font"]
+- !private ["So15CALayerDelegateP", "frame"]
+- ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "layer"]
+- !private ["So15CALayerDelegateP", "leftView"]
+- !private ["So15CALayerDelegateP", "leftViewMode"]
+- ["So15CALayerDelegateP", "leftViewRect"]
+- ["So15CALayerDelegateP", "leftViewRectForBounds"]
+- !private ["So15CALayerDelegateP", "placeholder"]
+- ["So15CALayerDelegateP", "placeholderRect"]
+- ["So15CALayerDelegateP", "placeholderRectForBounds"]
+- !private ["So15CALayerDelegateP", "rightView"]
+- !private ["So15CALayerDelegateP", "rightViewMode"]
+- ["So15CALayerDelegateP", "rightViewRect"]
+- ["So15CALayerDelegateP", "rightViewRectForBounds"]
+- !private ["So15CALayerDelegateP", "setImage"]
+- ["So15CALayerDelegateP", "setupColor"]
+- ["So15CALayerDelegateP", "textRect"]
+- ["So15CALayerDelegateP", "textRectForBounds"]
+- !private ["So13CAMediaTimingP", "cornerRadius"]
+- !private ["So13CAMediaTimingP", "masksToBounds"]
+- !private ["So7CGPointV", "x"]
+- !private ["So6CGRectV", "init"]
+- !private ["So6CGRectV", "insetBy"]
+- !private ["So6CGRectV", "origin"]
+- !private ["s7CVarArgP", "CGRect"]
+- !private ["s7CVarArgP", "UIButton"]
+- !private ["s7CVarArgP", "UIFont"]
+- !private ["s7CVarArgP", "UIImage"]
+- !private ["s7CVarArgP", "UIImageView"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "applyGradients"]
+- !private ["s7CVarArgP", "backgroundColor"]
+- !private ["s7CVarArgP", "borderStyle"]
+- !private ["s7CVarArgP", "clearButtonMode"]
+- !private ["s7CVarArgP", "cornerRadius"]
+- !private ["s7CVarArgP", "fatalError"]
+- !private ["s7CVarArgP", "font"]
+- !private ["s7CVarArgP", "frame"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "layer"]
+- !private ["s7CVarArgP", "leftView"]
+- !private ["s7CVarArgP", "leftViewMode"]
+- !private ["s7CVarArgP", "leftViewRect"]
+- !private ["s7CVarArgP", "lightGray"]
+- !private ["s7CVarArgP", "masksToBounds"]
+- !private ["s7CVarArgP", "placeholder"]
+- !private ["s7CVarArgP", "rightView"]
+- !private ["s7CVarArgP", "rightViewMode"]
+- !private ["s7CVarArgP", "rightViewRect"]
+- !private ["s7CVarArgP", "setImage"]
+- !private ["s7CVarArgP", "setupColor"]
+- !private ["s7CVarArgP", "systemFont"]
+- !private ["s7CVarArgP", "white"]
+- !private ["s28CustomDebugStringConvertibleP", "CGRect"]
+- !private ["s28CustomDebugStringConvertibleP", "UIButton"]
+- !private ["s28CustomDebugStringConvertibleP", "UIFont"]
+- !private ["s28CustomDebugStringConvertibleP", "UIImage"]
+- !private ["s28CustomDebugStringConvertibleP", "UIImageView"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "applyGradients"]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundColor"]
+- !private ["s28CustomDebugStringConvertibleP", "borderStyle"]
+- !private ["s28CustomDebugStringConvertibleP", "clearButtonMode"]
+- !private ["s28CustomDebugStringConvertibleP", "cornerRadius"]
+- !private ["s28CustomDebugStringConvertibleP", "fatalError"]
+- !private ["s28CustomDebugStringConvertibleP", "font"]
+- !private ["s28CustomDebugStringConvertibleP", "frame"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "insetBy"]
+- !private ["s28CustomDebugStringConvertibleP", "layer"]
+- !private ["s28CustomDebugStringConvertibleP", "leftView"]
+- !private ["s28CustomDebugStringConvertibleP", "leftViewMode"]
+- !private ["s28CustomDebugStringConvertibleP", "leftViewRect"]
+- !private ["s28CustomDebugStringConvertibleP", "lightGray"]
+- !private ["s28CustomDebugStringConvertibleP", "masksToBounds"]
+- !private ["s28CustomDebugStringConvertibleP", "origin"]
+- !private ["s28CustomDebugStringConvertibleP", "placeholder"]
+- !private ["s28CustomDebugStringConvertibleP", "rightView"]
+- !private ["s28CustomDebugStringConvertibleP", "rightViewMode"]
+- !private ["s28CustomDebugStringConvertibleP", "rightViewRect"]
+- !private ["s28CustomDebugStringConvertibleP", "setImage"]
+- !private ["s28CustomDebugStringConvertibleP", "setupColor"]
+- !private ["s28CustomDebugStringConvertibleP", "systemFont"]
+- !private ["s28CustomDebugStringConvertibleP", "white"]
+- !private ["s28CustomDebugStringConvertibleP", "x"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "insetBy"]
+- !private ["s17CustomReflectableP", "origin"]
+- !private ["s17CustomReflectableP", "white"]
+- !private ["s17CustomReflectableP", "x"]
+- !private ["s23CustomStringConvertibleP", "CGRect"]
+- !private ["s23CustomStringConvertibleP", "UIButton"]
+- !private ["s23CustomStringConvertibleP", "UIFont"]
+- !private ["s23CustomStringConvertibleP", "UIImage"]
+- !private ["s23CustomStringConvertibleP", "UIImageView"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "applyGradients"]
+- !private ["s23CustomStringConvertibleP", "backgroundColor"]
+- !private ["s23CustomStringConvertibleP", "borderStyle"]
+- !private ["s23CustomStringConvertibleP", "clearButtonMode"]
+- !private ["s23CustomStringConvertibleP", "cornerRadius"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- !private ["s23CustomStringConvertibleP", "font"]
+- !private ["s23CustomStringConvertibleP", "frame"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "layer"]
+- !private ["s23CustomStringConvertibleP", "leftView"]
+- !private ["s23CustomStringConvertibleP", "leftViewMode"]
+- !private ["s23CustomStringConvertibleP", "leftViewRect"]
+- !private ["s23CustomStringConvertibleP", "lightGray"]
+- !private ["s23CustomStringConvertibleP", "masksToBounds"]
+- !private ["s23CustomStringConvertibleP", "placeholder"]
+- !private ["s23CustomStringConvertibleP", "rightView"]
+- !private ["s23CustomStringConvertibleP", "rightViewMode"]
+- !private ["s23CustomStringConvertibleP", "rightViewRect"]
+- !private ["s23CustomStringConvertibleP", "setImage"]
+- !private ["s23CustomStringConvertibleP", "setupColor"]
+- !private ["s23CustomStringConvertibleP", "systemFont"]
+- !private ["s23CustomStringConvertibleP", "white"]
+- !private ["Se", "init"]
+- !private ["Se", "insetBy"]
+- !private ["Se", "origin"]
+- !private ["Se", "white"]
+- !private ["Se", "x"]
+- !private ["SE", "init"]
+- !private ["SE", "insetBy"]
+- !private ["SE", "origin"]
+- !private ["SE", "white"]
+- !private ["SE", "x"]
+- !private ["SQ", "CGRect"]
+- !private ["SQ", "UIButton"]
+- !private ["SQ", "UIFont"]
+- !private ["SQ", "UIImage"]
+- !private ["SQ", "UIImageView"]
+- ["SQ", ""]
+- !private ["SQ", "always"]
+- !private ["SQ", "applyGradients"]
+- !private ["SQ", "backgroundColor"]
+- !private ["SQ", "borderStyle"]
+- !private ["SQ", "clearButtonMode"]
+- !private ["SQ", "cornerRadius"]
+- !private ["SQ", "fatalError"]
+- !private ["SQ", "font"]
+- !private ["SQ", "frame"]
+- !private ["SQ", "init"]
+- !private ["SQ", "insetBy"]
+- !private ["SQ", "layer"]
+- !private ["SQ", "leftView"]
+- !private ["SQ", "leftViewMode"]
+- !private ["SQ", "leftViewRect"]
+- !private ["SQ", "lightGray"]
+- !private ["SQ", "masksToBounds"]
+- !private ["SQ", "none"]
+- !private ["SQ", "normal"]
+- !private ["SQ", "origin"]
+- !private ["SQ", "placeholder"]
+- !private ["SQ", "rightView"]
+- !private ["SQ", "rightViewMode"]
+- !private ["SQ", "rightViewRect"]
+- !private ["SQ", "setImage"]
+- !private ["SQ", "setupColor"]
+- !private ["SQ", "system"]
+- !private ["SQ", "systemFont"]
+- !private ["SQ", "whileEditing"]
+- !private ["SQ", "white"]
+- !private ["SQ", "x"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "normal"]
+- !private ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "white"]
+- !private ["7SwiftUI7GestureP", "white"]
+- !private ["SH", "CGRect"]
+- !private ["SH", "UIButton"]
+- !private ["SH", "UIFont"]
+- !private ["SH", "UIImage"]
+- !private ["SH", "UIImageView"]
+- ["SH", ""]
+- !private ["SH", "always"]
+- !private ["SH", "applyGradients"]
+- !private ["SH", "backgroundColor"]
+- !private ["SH", "borderStyle"]
+- !private ["SH", "clearButtonMode"]
+- !private ["SH", "cornerRadius"]
+- !private ["SH", "fatalError"]
+- !private ["SH", "font"]
+- !private ["SH", "frame"]
+- !private ["SH", "init"]
+- !private ["SH", "layer"]
+- !private ["SH", "leftView"]
+- !private ["SH", "leftViewMode"]
+- !private ["SH", "leftViewRect"]
+- !private ["SH", "lightGray"]
+- !private ["SH", "masksToBounds"]
+- !private ["SH", "none"]
+- !private ["SH", "placeholder"]
+- !private ["SH", "rightView"]
+- !private ["SH", "rightViewMode"]
+- !private ["SH", "rightViewRect"]
+- !private ["SH", "setImage"]
+- !private ["SH", "setupColor"]
+- !private ["SH", "system"]
+- !private ["SH", "systemFont"]
+- !private ["SH", "whileEditing"]
+- !private ["SH", "white"]
+- ["5iChat19InsertableTextFieldC", "CGRect"]
+- ["5iChat19InsertableTextFieldC", "NSCoder"]
+- !private ["5iChat19InsertableTextFieldC", "UIButton"]
+- !private ["5iChat19InsertableTextFieldC", "UIFont"]
+- !private ["5iChat19InsertableTextFieldC", "UIImage"]
+- !private ["5iChat19InsertableTextFieldC", "UIImageView"]
+- ["5iChat19InsertableTextFieldC", ""]
+- !private ["5iChat19InsertableTextFieldC", "backgroundColor"]
+- !private ["5iChat19InsertableTextFieldC", "borderStyle"]
+- !private ["5iChat19InsertableTextFieldC", "clearButtonMode"]
+- ["5iChat19InsertableTextFieldC", "deinit"]
+- ["5iChat19InsertableTextFieldC", "editingRect"]
+- !private ["5iChat19InsertableTextFieldC", "fatalError"]
+- !private ["5iChat19InsertableTextFieldC", "font"]
+- ["5iChat19InsertableTextFieldC", "init"]
+- !private ["5iChat19InsertableTextFieldC", "layer"]
+- !private ["5iChat19InsertableTextFieldC", "leftView"]
+- !private ["5iChat19InsertableTextFieldC", "leftViewMode"]
+- ["5iChat19InsertableTextFieldC", "leftViewRect"]
+- !private ["5iChat19InsertableTextFieldC", "placeholder"]
+- ["5iChat19InsertableTextFieldC", "placeholderRect"]
+- !private ["5iChat19InsertableTextFieldC", "rightView"]
+- !private ["5iChat19InsertableTextFieldC", "rightViewMode"]
+- ["5iChat19InsertableTextFieldC", "rightViewRect"]
+- ["5iChat19InsertableTextFieldC", "textRect"]
+- ["So8NSCodingP", "CGRect"]
+- ["So8NSCodingP", "NSCoder"]
+- !private ["So8NSCodingP", "UIButton"]
+- !private ["So8NSCodingP", "UIFont"]
+- !private ["So8NSCodingP", "UIImage"]
+- !private ["So8NSCodingP", "UIImageView"]
+- ["So8NSCodingP", ""]
+- ["So8NSCodingP", "applyGradients"]
+- !private ["So8NSCodingP", "backgroundColor"]
+- !private ["So8NSCodingP", "borderStyle"]
+- !private ["So8NSCodingP", "clearButtonMode"]
+- !private ["So8NSCodingP", "cornerRadius"]
+- ["So8NSCodingP", "editingRect"]
+- ["So8NSCodingP", "editingRectForBounds"]
+- !private ["So8NSCodingP", "fatalError"]
+- !private ["So8NSCodingP", "font"]
+- !private ["So8NSCodingP", "frame"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "layer"]
+- !private ["So8NSCodingP", "leftView"]
+- !private ["So8NSCodingP", "leftViewMode"]
+- ["So8NSCodingP", "leftViewRect"]
+- ["So8NSCodingP", "leftViewRectForBounds"]
+- !private ["So8NSCodingP", "lightGray"]
+- !private ["So8NSCodingP", "masksToBounds"]
+- !private ["So8NSCodingP", "placeholder"]
+- ["So8NSCodingP", "placeholderRect"]
+- ["So8NSCodingP", "placeholderRectForBounds"]
+- !private ["So8NSCodingP", "rightView"]
+- !private ["So8NSCodingP", "rightViewMode"]
+- ["So8NSCodingP", "rightViewRect"]
+- ["So8NSCodingP", "rightViewRectForBounds"]
+- !private ["So8NSCodingP", "setImage"]
+- ["So8NSCodingP", "setupColor"]
+- ["So8NSCodingP", "textRect"]
+- ["So8NSCodingP", "textRectForBounds"]
+- !private ["So8NSCodingP", "white"]
+- !private ["So9NSCopyingP", "lightGray"]
+- !private ["So9NSCopyingP", "systemFont"]
+- !private ["So9NSCopyingP", "white"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "lightGray"]
+- !private ["So21NSItemProviderReadingP", "white"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "lightGray"]
+- !private ["So21NSItemProviderWritingP", "white"]
+- ["So8NSObjectC", "CGRect"]
+- ["So8NSObjectC", "NSCoder"]
+- !private ["So8NSObjectC", "UIButton"]
+- !private ["So8NSObjectC", "UIFont"]
+- !private ["So8NSObjectC", "UIImage"]
+- !private ["So8NSObjectC", "UIImageView"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "applyGradients"]
+- !private ["So8NSObjectC", "backgroundColor"]
+- !private ["So8NSObjectC", "borderStyle"]
+- !private ["So8NSObjectC", "clearButtonMode"]
+- !private ["So8NSObjectC", "cornerRadius"]
+- ["So8NSObjectC", "editingRect"]
+- ["So8NSObjectC", "editingRectForBounds"]
+- !private ["So8NSObjectC", "fatalError"]
+- !private ["So8NSObjectC", "font"]
+- !private ["So8NSObjectC", "frame"]
+- !private ["So8NSObjectC", "imageNamed"]
+- !private ["So8NSObjectC", "imageWithCGImage"]
+- !private ["So8NSObjectC", "imageWithCIImage"]
+- !private ["So8NSObjectC", "imageWithContentsOfFile"]
+- !private ["So8NSObjectC", "imageWithData"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "jpegData"]
+- !private ["So8NSObjectC", "layer"]
+- !private ["So8NSObjectC", "leftView"]
+- !private ["So8NSObjectC", "leftViewMode"]
+- ["So8NSObjectC", "leftViewRect"]
+- ["So8NSObjectC", "leftViewRectForBounds"]
+- !private ["So8NSObjectC", "lightGray"]
+- !private ["So8NSObjectC", "masksToBounds"]
+- !private ["So8NSObjectC", "placeholder"]
+- ["So8NSObjectC", "placeholderRect"]
+- ["So8NSObjectC", "placeholderRectForBounds"]
+- !private ["So8NSObjectC", "pngData"]
+- !private ["So8NSObjectC", "rightView"]
+- !private ["So8NSObjectC", "rightViewMode"]
+- ["So8NSObjectC", "rightViewRect"]
+- ["So8NSObjectC", "rightViewRectForBounds"]
+- !private ["So8NSObjectC", "setImage"]
+- !private ["So8NSObjectC", "setupColor"]
+- !private ["So8NSObjectC", "systemFont"]
+- !private ["So8NSObjectC", "systemFontOfSize"]
+- !private ["So8NSObjectC", "systemImageNamed"]
+- ["So8NSObjectC", "textRect"]
+- ["So8NSObjectC", "textRectForBounds"]
+- !private ["So8NSObjectC", "white"]
+- !private ["So8NSObjectP", "CGRect"]
+- !private ["So8NSObjectP", "UIButton"]
+- !private ["So8NSObjectP", "UIFont"]
+- !private ["So8NSObjectP", "UIImage"]
+- !private ["So8NSObjectP", "UIImageView"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "applyGradients"]
+- !private ["So8NSObjectP", "backgroundColor"]
+- !private ["So8NSObjectP", "borderStyle"]
+- !private ["So8NSObjectP", "clearButtonMode"]
+- !private ["So8NSObjectP", "cornerRadius"]
+- ["So8NSObjectP", "editingRect"]
+- ["So8NSObjectP", "editingRectForBounds"]
+- !private ["So8NSObjectP", "fatalError"]
+- !private ["So8NSObjectP", "font"]
+- !private ["So8NSObjectP", "frame"]
+- !private ["So8NSObjectP", "imageNamed"]
+- !private ["So8NSObjectP", "imageWithCGImage"]
+- !private ["So8NSObjectP", "imageWithCIImage"]
+- !private ["So8NSObjectP", "imageWithContentsOfFile"]
+- !private ["So8NSObjectP", "imageWithData"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "jpegData"]
+- !private ["So8NSObjectP", "layer"]
+- !private ["So8NSObjectP", "leftView"]
+- !private ["So8NSObjectP", "leftViewMode"]
+- ["So8NSObjectP", "leftViewRect"]
+- ["So8NSObjectP", "leftViewRectForBounds"]
+- !private ["So8NSObjectP", "lightGray"]
+- !private ["So8NSObjectP", "masksToBounds"]
+- !private ["So8NSObjectP", "placeholder"]
+- ["So8NSObjectP", "placeholderRect"]
+- ["So8NSObjectP", "placeholderRectForBounds"]
+- !private ["So8NSObjectP", "pngData"]
+- !private ["So8NSObjectP", "rightView"]
+- !private ["So8NSObjectP", "rightViewMode"]
+- ["So8NSObjectP", "rightViewRect"]
+- ["So8NSObjectP", "rightViewRectForBounds"]
+- !private ["So8NSObjectP", "setImage"]
+- ["So8NSObjectP", "setupColor"]
+- !private ["So8NSObjectP", "systemFont"]
+- !private ["So8NSObjectP", "systemFontOfSize"]
+- !private ["So8NSObjectP", "systemImageNamed"]
+- ["So8NSObjectP", "textRect"]
+- ["So8NSObjectP", "textRectForBounds"]
+- !private ["So8NSObjectP", "white"]
+- !private ["So14NSSecureCodingP", "cornerRadius"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "lightGray"]
+- !private ["So14NSSecureCodingP", "masksToBounds"]
+- !private ["So14NSSecureCodingP", "white"]
+- !private ["s9OptionSetP", "normal"]
+- !private ["Sq", "white"]
+- !private ["SY", ""]
+- !private ["SY", "always"]
+- !private ["SY", "none"]
+- !private ["SY", "normal"]
+- !private ["SY", "system"]
+- !private ["SY", "whileEditing"]
+- !private ["s10SetAlgebraP", ""]
+- !private ["s10SetAlgebraP", "normal"]
+- !private ["So14UIControlStateV", "normal"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "applyGradients"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "setImage"]
+- ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "setupColor"]
+- ["So29UIAccessibilityIdentificationP", "CGRect"]
+- ["So29UIAccessibilityIdentificationP", "NSCoder"]
+- !private ["So29UIAccessibilityIdentificationP", "UIButton"]
+- !private ["So29UIAccessibilityIdentificationP", "UIFont"]
+- !private ["So29UIAccessibilityIdentificationP", "UIImage"]
+- !private ["So29UIAccessibilityIdentificationP", "UIImageView"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- ["So29UIAccessibilityIdentificationP", "applyGradients"]
+- !private ["So29UIAccessibilityIdentificationP", "backgroundColor"]
+- !private ["So29UIAccessibilityIdentificationP", "borderStyle"]
+- !private ["So29UIAccessibilityIdentificationP", "clearButtonMode"]
+- ["So29UIAccessibilityIdentificationP", "editingRect"]
+- ["So29UIAccessibilityIdentificationP", "editingRectForBounds"]
+- !private ["So29UIAccessibilityIdentificationP", "fatalError"]
+- !private ["So29UIAccessibilityIdentificationP", "font"]
+- !private ["So29UIAccessibilityIdentificationP", "frame"]
+- ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "layer"]
+- !private ["So29UIAccessibilityIdentificationP", "leftView"]
+- !private ["So29UIAccessibilityIdentificationP", "leftViewMode"]
+- ["So29UIAccessibilityIdentificationP", "leftViewRect"]
+- ["So29UIAccessibilityIdentificationP", "leftViewRectForBounds"]
+- !private ["So29UIAccessibilityIdentificationP", "placeholder"]
+- ["So29UIAccessibilityIdentificationP", "placeholderRect"]
+- ["So29UIAccessibilityIdentificationP", "placeholderRectForBounds"]
+- !private ["So29UIAccessibilityIdentificationP", "rightView"]
+- !private ["So29UIAccessibilityIdentificationP", "rightViewMode"]
+- ["So29UIAccessibilityIdentificationP", "rightViewRect"]
+- ["So29UIAccessibilityIdentificationP", "rightViewRectForBounds"]
+- !private ["So29UIAccessibilityIdentificationP", "setImage"]
+- ["So29UIAccessibilityIdentificationP", "setupColor"]
+- ["So29UIAccessibilityIdentificationP", "textRect"]
+- ["So29UIAccessibilityIdentificationP", "textRectForBounds"]
+- ["So12UIAppearanceP", "CGRect"]
+- ["So12UIAppearanceP", "NSCoder"]
+- !private ["So12UIAppearanceP", "UIButton"]
+- !private ["So12UIAppearanceP", "UIFont"]
+- !private ["So12UIAppearanceP", "UIImage"]
+- !private ["So12UIAppearanceP", "UIImageView"]
+- ["So12UIAppearanceP", ""]
+- ["So12UIAppearanceP", "applyGradients"]
+- !private ["So12UIAppearanceP", "backgroundColor"]
+- !private ["So12UIAppearanceP", "borderStyle"]
+- !private ["So12UIAppearanceP", "clearButtonMode"]
+- ["So12UIAppearanceP", "editingRect"]
+- ["So12UIAppearanceP", "editingRectForBounds"]
+- !private ["So12UIAppearanceP", "fatalError"]
+- !private ["So12UIAppearanceP", "font"]
+- !private ["So12UIAppearanceP", "frame"]
+- ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "layer"]
+- !private ["So12UIAppearanceP", "leftView"]
+- !private ["So12UIAppearanceP", "leftViewMode"]
+- ["So12UIAppearanceP", "leftViewRect"]
+- ["So12UIAppearanceP", "leftViewRectForBounds"]
+- !private ["So12UIAppearanceP", "placeholder"]
+- ["So12UIAppearanceP", "placeholderRect"]
+- ["So12UIAppearanceP", "placeholderRectForBounds"]
+- !private ["So12UIAppearanceP", "rightView"]
+- !private ["So12UIAppearanceP", "rightViewMode"]
+- ["So12UIAppearanceP", "rightViewRect"]
+- ["So12UIAppearanceP", "rightViewRectForBounds"]
+- !private ["So12UIAppearanceP", "setImage"]
+- ["So12UIAppearanceP", "setupColor"]
+- ["So12UIAppearanceP", "textRect"]
+- ["So12UIAppearanceP", "textRectForBounds"]
+- ["So21UIAppearanceContainerP", "CGRect"]
+- ["So21UIAppearanceContainerP", "NSCoder"]
+- !private ["So21UIAppearanceContainerP", "UIButton"]
+- !private ["So21UIAppearanceContainerP", "UIFont"]
+- !private ["So21UIAppearanceContainerP", "UIImage"]
+- !private ["So21UIAppearanceContainerP", "UIImageView"]
+- ["So21UIAppearanceContainerP", ""]
+- ["So21UIAppearanceContainerP", "applyGradients"]
+- !private ["So21UIAppearanceContainerP", "backgroundColor"]
+- !private ["So21UIAppearanceContainerP", "borderStyle"]
+- !private ["So21UIAppearanceContainerP", "clearButtonMode"]
+- ["So21UIAppearanceContainerP", "editingRect"]
+- ["So21UIAppearanceContainerP", "editingRectForBounds"]
+- !private ["So21UIAppearanceContainerP", "fatalError"]
+- !private ["So21UIAppearanceContainerP", "font"]
+- !private ["So21UIAppearanceContainerP", "frame"]
+- ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "layer"]
+- !private ["So21UIAppearanceContainerP", "leftView"]
+- !private ["So21UIAppearanceContainerP", "leftViewMode"]
+- ["So21UIAppearanceContainerP", "leftViewRect"]
+- ["So21UIAppearanceContainerP", "leftViewRectForBounds"]
+- !private ["So21UIAppearanceContainerP", "placeholder"]
+- ["So21UIAppearanceContainerP", "placeholderRect"]
+- ["So21UIAppearanceContainerP", "placeholderRectForBounds"]
+- !private ["So21UIAppearanceContainerP", "rightView"]
+- !private ["So21UIAppearanceContainerP", "rightViewMode"]
+- ["So21UIAppearanceContainerP", "rightViewRect"]
+- ["So21UIAppearanceContainerP", "rightViewRectForBounds"]
+- !private ["So21UIAppearanceContainerP", "setImage"]
+- ["So21UIAppearanceContainerP", "setupColor"]
+- ["So21UIAppearanceContainerP", "textRect"]
+- ["So21UIAppearanceContainerP", "textRectForBounds"]
+- !private ["So8UIButtonC", "applyGradients"]
+- !private ["So8UIButtonC", "init"]
+- !private ["So8UIButtonC", "setImage"]
+- !private ["So7UIColorC", "lightGray"]
+- !private ["So7UIColorC", "white"]
+- ["So30UIContentSizeCategoryAdjustingP", "CGRect"]
+- ["So30UIContentSizeCategoryAdjustingP", "NSCoder"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "UIButton"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "UIFont"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "UIImage"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "UIImageView"]
+- ["So30UIContentSizeCategoryAdjustingP", ""]
+- !private ["So30UIContentSizeCategoryAdjustingP", "backgroundColor"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "borderStyle"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "clearButtonMode"]
+- ["So30UIContentSizeCategoryAdjustingP", "editingRect"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "fatalError"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "font"]
+- ["So30UIContentSizeCategoryAdjustingP", "init"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "layer"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "leftView"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "leftViewMode"]
+- ["So30UIContentSizeCategoryAdjustingP", "leftViewRect"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "placeholder"]
+- ["So30UIContentSizeCategoryAdjustingP", "placeholderRect"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "rightView"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "rightViewMode"]
+- ["So30UIContentSizeCategoryAdjustingP", "rightViewRect"]
+- ["So30UIContentSizeCategoryAdjustingP", "textRect"]
+- ["So32UIContextMenuInteractionDelegateP", "CGRect"]
+- ["So32UIContextMenuInteractionDelegateP", "NSCoder"]
+- !private ["So32UIContextMenuInteractionDelegateP", "UIButton"]
+- !private ["So32UIContextMenuInteractionDelegateP", "UIFont"]
+- !private ["So32UIContextMenuInteractionDelegateP", "UIImage"]
+- !private ["So32UIContextMenuInteractionDelegateP", "UIImageView"]
+- ["So32UIContextMenuInteractionDelegateP", ""]
+- !private ["So32UIContextMenuInteractionDelegateP", "applyGradients"]
+- !private ["So32UIContextMenuInteractionDelegateP", "backgroundColor"]
+- !private ["So32UIContextMenuInteractionDelegateP", "borderStyle"]
+- !private ["So32UIContextMenuInteractionDelegateP", "clearButtonMode"]
+- ["So32UIContextMenuInteractionDelegateP", "editingRect"]
+- ["So32UIContextMenuInteractionDelegateP", "editingRectForBounds"]
+- !private ["So32UIContextMenuInteractionDelegateP", "fatalError"]
+- !private ["So32UIContextMenuInteractionDelegateP", "font"]
+- ["So32UIContextMenuInteractionDelegateP", "init"]
+- !private ["So32UIContextMenuInteractionDelegateP", "layer"]
+- !private ["So32UIContextMenuInteractionDelegateP", "leftView"]
+- !private ["So32UIContextMenuInteractionDelegateP", "leftViewMode"]
+- ["So32UIContextMenuInteractionDelegateP", "leftViewRect"]
+- ["So32UIContextMenuInteractionDelegateP", "leftViewRectForBounds"]
+- !private ["So32UIContextMenuInteractionDelegateP", "placeholder"]
+- ["So32UIContextMenuInteractionDelegateP", "placeholderRect"]
+- ["So32UIContextMenuInteractionDelegateP", "placeholderRectForBounds"]
+- !private ["So32UIContextMenuInteractionDelegateP", "rightView"]
+- !private ["So32UIContextMenuInteractionDelegateP", "rightViewMode"]
+- ["So32UIContextMenuInteractionDelegateP", "rightViewRect"]
+- ["So32UIContextMenuInteractionDelegateP", "rightViewRectForBounds"]
+- !private ["So32UIContextMenuInteractionDelegateP", "setImage"]
+- ["So32UIContextMenuInteractionDelegateP", "textRect"]
+- ["So32UIContextMenuInteractionDelegateP", "textRectForBounds"]
+- ["So9UIControlC", "CGRect"]
+- ["So9UIControlC", "NSCoder"]
+- !private ["So9UIControlC", "UIButton"]
+- !private ["So9UIControlC", "UIFont"]
+- !private ["So9UIControlC", "UIImage"]
+- !private ["So9UIControlC", "UIImageView"]
+- ["So9UIControlC", ""]
+- !private ["So9UIControlC", "applyGradients"]
+- !private ["So9UIControlC", "backgroundColor"]
+- !private ["So9UIControlC", "borderStyle"]
+- !private ["So9UIControlC", "clearButtonMode"]
+- ["So9UIControlC", "editingRect"]
+- ["So9UIControlC", "editingRectForBounds"]
+- !private ["So9UIControlC", "fatalError"]
+- !private ["So9UIControlC", "font"]
+- ["So9UIControlC", "init"]
+- !private ["So9UIControlC", "layer"]
+- !private ["So9UIControlC", "leftView"]
+- !private ["So9UIControlC", "leftViewMode"]
+- ["So9UIControlC", "leftViewRect"]
+- ["So9UIControlC", "leftViewRectForBounds"]
+- !private ["So9UIControlC", "placeholder"]
+- ["So9UIControlC", "placeholderRect"]
+- ["So9UIControlC", "placeholderRectForBounds"]
+- !private ["So9UIControlC", "rightView"]
+- !private ["So9UIControlC", "rightViewMode"]
+- ["So9UIControlC", "rightViewRect"]
+- ["So9UIControlC", "rightViewRectForBounds"]
+- !private ["So9UIControlC", "setImage"]
+- ["So9UIControlC", "textRect"]
+- ["So9UIControlC", "textRectForBounds"]
+- ["So17UICoordinateSpaceP", "CGRect"]
+- ["So17UICoordinateSpaceP", "NSCoder"]
+- !private ["So17UICoordinateSpaceP", "UIButton"]
+- !private ["So17UICoordinateSpaceP", "UIFont"]
+- !private ["So17UICoordinateSpaceP", "UIImage"]
+- !private ["So17UICoordinateSpaceP", "UIImageView"]
+- ["So17UICoordinateSpaceP", ""]
+- ["So17UICoordinateSpaceP", "applyGradients"]
+- !private ["So17UICoordinateSpaceP", "backgroundColor"]
+- !private ["So17UICoordinateSpaceP", "borderStyle"]
+- !private ["So17UICoordinateSpaceP", "clearButtonMode"]
+- ["So17UICoordinateSpaceP", "editingRect"]
+- ["So17UICoordinateSpaceP", "editingRectForBounds"]
+- !private ["So17UICoordinateSpaceP", "fatalError"]
+- !private ["So17UICoordinateSpaceP", "font"]
+- !private ["So17UICoordinateSpaceP", "frame"]
+- ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "layer"]
+- !private ["So17UICoordinateSpaceP", "leftView"]
+- !private ["So17UICoordinateSpaceP", "leftViewMode"]
+- ["So17UICoordinateSpaceP", "leftViewRect"]
+- ["So17UICoordinateSpaceP", "leftViewRectForBounds"]
+- !private ["So17UICoordinateSpaceP", "placeholder"]
+- ["So17UICoordinateSpaceP", "placeholderRect"]
+- ["So17UICoordinateSpaceP", "placeholderRectForBounds"]
+- !private ["So17UICoordinateSpaceP", "rightView"]
+- !private ["So17UICoordinateSpaceP", "rightViewMode"]
+- ["So17UICoordinateSpaceP", "rightViewRect"]
+- ["So17UICoordinateSpaceP", "rightViewRectForBounds"]
+- !private ["So17UICoordinateSpaceP", "setImage"]
+- ["So17UICoordinateSpaceP", "setupColor"]
+- ["So17UICoordinateSpaceP", "textRect"]
+- ["So17UICoordinateSpaceP", "textRectForBounds"]
+- ["So13UIDynamicItemP", "CGRect"]
+- ["So13UIDynamicItemP", "NSCoder"]
+- !private ["So13UIDynamicItemP", "UIButton"]
+- !private ["So13UIDynamicItemP", "UIFont"]
+- !private ["So13UIDynamicItemP", "UIImage"]
+- !private ["So13UIDynamicItemP", "UIImageView"]
+- ["So13UIDynamicItemP", ""]
+- ["So13UIDynamicItemP", "applyGradients"]
+- !private ["So13UIDynamicItemP", "backgroundColor"]
+- !private ["So13UIDynamicItemP", "borderStyle"]
+- !private ["So13UIDynamicItemP", "clearButtonMode"]
+- ["So13UIDynamicItemP", "editingRect"]
+- ["So13UIDynamicItemP", "editingRectForBounds"]
+- !private ["So13UIDynamicItemP", "fatalError"]
+- !private ["So13UIDynamicItemP", "font"]
+- !private ["So13UIDynamicItemP", "frame"]
+- ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "layer"]
+- !private ["So13UIDynamicItemP", "leftView"]
+- !private ["So13UIDynamicItemP", "leftViewMode"]
+- ["So13UIDynamicItemP", "leftViewRect"]
+- ["So13UIDynamicItemP", "leftViewRectForBounds"]
+- !private ["So13UIDynamicItemP", "placeholder"]
+- ["So13UIDynamicItemP", "placeholderRect"]
+- ["So13UIDynamicItemP", "placeholderRectForBounds"]
+- !private ["So13UIDynamicItemP", "rightView"]
+- !private ["So13UIDynamicItemP", "rightViewMode"]
+- ["So13UIDynamicItemP", "rightViewRect"]
+- ["So13UIDynamicItemP", "rightViewRectForBounds"]
+- !private ["So13UIDynamicItemP", "setImage"]
+- ["So13UIDynamicItemP", "setupColor"]
+- ["So13UIDynamicItemP", "textRect"]
+- ["So13UIDynamicItemP", "textRectForBounds"]
+- ["So18UIFocusEnvironmentP", "CGRect"]
+- ["So18UIFocusEnvironmentP", "NSCoder"]
+- !private ["So18UIFocusEnvironmentP", "UIButton"]
+- !private ["So18UIFocusEnvironmentP", "UIFont"]
+- !private ["So18UIFocusEnvironmentP", "UIImage"]
+- !private ["So18UIFocusEnvironmentP", "UIImageView"]
+- ["So18UIFocusEnvironmentP", ""]
+- ["So18UIFocusEnvironmentP", "applyGradients"]
+- !private ["So18UIFocusEnvironmentP", "backgroundColor"]
+- !private ["So18UIFocusEnvironmentP", "borderStyle"]
+- !private ["So18UIFocusEnvironmentP", "clearButtonMode"]
+- ["So18UIFocusEnvironmentP", "editingRect"]
+- ["So18UIFocusEnvironmentP", "editingRectForBounds"]
+- !private ["So18UIFocusEnvironmentP", "fatalError"]
+- !private ["So18UIFocusEnvironmentP", "font"]
+- !private ["So18UIFocusEnvironmentP", "frame"]
+- ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "layer"]
+- !private ["So18UIFocusEnvironmentP", "leftView"]
+- !private ["So18UIFocusEnvironmentP", "leftViewMode"]
+- ["So18UIFocusEnvironmentP", "leftViewRect"]
+- ["So18UIFocusEnvironmentP", "leftViewRectForBounds"]
+- !private ["So18UIFocusEnvironmentP", "placeholder"]
+- ["So18UIFocusEnvironmentP", "placeholderRect"]
+- ["So18UIFocusEnvironmentP", "placeholderRectForBounds"]
+- !private ["So18UIFocusEnvironmentP", "rightView"]
+- !private ["So18UIFocusEnvironmentP", "rightViewMode"]
+- ["So18UIFocusEnvironmentP", "rightViewRect"]
+- ["So18UIFocusEnvironmentP", "rightViewRectForBounds"]
+- !private ["So18UIFocusEnvironmentP", "setImage"]
+- ["So18UIFocusEnvironmentP", "setupColor"]
+- ["So18UIFocusEnvironmentP", "textRect"]
+- ["So18UIFocusEnvironmentP", "textRectForBounds"]
+- ["So11UIFocusItemP", "CGRect"]
+- ["So11UIFocusItemP", "NSCoder"]
+- !private ["So11UIFocusItemP", "UIButton"]
+- !private ["So11UIFocusItemP", "UIFont"]
+- !private ["So11UIFocusItemP", "UIImage"]
+- !private ["So11UIFocusItemP", "UIImageView"]
+- ["So11UIFocusItemP", ""]
+- ["So11UIFocusItemP", "applyGradients"]
+- !private ["So11UIFocusItemP", "backgroundColor"]
+- !private ["So11UIFocusItemP", "borderStyle"]
+- !private ["So11UIFocusItemP", "clearButtonMode"]
+- ["So11UIFocusItemP", "editingRect"]
+- ["So11UIFocusItemP", "editingRectForBounds"]
+- !private ["So11UIFocusItemP", "fatalError"]
+- !private ["So11UIFocusItemP", "font"]
+- !private ["So11UIFocusItemP", "frame"]
+- ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "layer"]
+- !private ["So11UIFocusItemP", "leftView"]
+- !private ["So11UIFocusItemP", "leftViewMode"]
+- ["So11UIFocusItemP", "leftViewRect"]
+- ["So11UIFocusItemP", "leftViewRectForBounds"]
+- !private ["So11UIFocusItemP", "placeholder"]
+- ["So11UIFocusItemP", "placeholderRect"]
+- ["So11UIFocusItemP", "placeholderRectForBounds"]
+- !private ["So11UIFocusItemP", "rightView"]
+- !private ["So11UIFocusItemP", "rightViewMode"]
+- ["So11UIFocusItemP", "rightViewRect"]
+- ["So11UIFocusItemP", "rightViewRectForBounds"]
+- !private ["So11UIFocusItemP", "setImage"]
+- ["So11UIFocusItemP", "setupColor"]
+- ["So11UIFocusItemP", "textRect"]
+- ["So11UIFocusItemP", "textRectForBounds"]
+- ["So20UIFocusItemContainerP", "CGRect"]
+- ["So20UIFocusItemContainerP", "NSCoder"]
+- !private ["So20UIFocusItemContainerP", "UIButton"]
+- !private ["So20UIFocusItemContainerP", "UIFont"]
+- !private ["So20UIFocusItemContainerP", "UIImage"]
+- !private ["So20UIFocusItemContainerP", "UIImageView"]
+- ["So20UIFocusItemContainerP", ""]
+- ["So20UIFocusItemContainerP", "applyGradients"]
+- !private ["So20UIFocusItemContainerP", "backgroundColor"]
+- !private ["So20UIFocusItemContainerP", "borderStyle"]
+- !private ["So20UIFocusItemContainerP", "clearButtonMode"]
+- ["So20UIFocusItemContainerP", "editingRect"]
+- ["So20UIFocusItemContainerP", "editingRectForBounds"]
+- !private ["So20UIFocusItemContainerP", "fatalError"]
+- !private ["So20UIFocusItemContainerP", "font"]
+- !private ["So20UIFocusItemContainerP", "frame"]
+- ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "layer"]
+- !private ["So20UIFocusItemContainerP", "leftView"]
+- !private ["So20UIFocusItemContainerP", "leftViewMode"]
+- ["So20UIFocusItemContainerP", "leftViewRect"]
+- ["So20UIFocusItemContainerP", "leftViewRectForBounds"]
+- !private ["So20UIFocusItemContainerP", "placeholder"]
+- ["So20UIFocusItemContainerP", "placeholderRect"]
+- ["So20UIFocusItemContainerP", "placeholderRectForBounds"]
+- !private ["So20UIFocusItemContainerP", "rightView"]
+- !private ["So20UIFocusItemContainerP", "rightViewMode"]
+- ["So20UIFocusItemContainerP", "rightViewRect"]
+- ["So20UIFocusItemContainerP", "rightViewRectForBounds"]
+- !private ["So20UIFocusItemContainerP", "setImage"]
+- ["So20UIFocusItemContainerP", "setupColor"]
+- ["So20UIFocusItemContainerP", "textRect"]
+- ["So20UIFocusItemContainerP", "textRectForBounds"]
+- !private ["So6UIFontC", "systemFont"]
+- !private ["So7UIImageC", "init"]
+- !private ["So11UIImageViewC", "init"]
+- !private ["So11UIImageViewC", "setupColor"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
+- ["So10UIKeyInputP", "CGRect"]
+- ["So10UIKeyInputP", "NSCoder"]
+- !private ["So10UIKeyInputP", "UIButton"]
+- !private ["So10UIKeyInputP", "UIFont"]
+- !private ["So10UIKeyInputP", "UIImage"]
+- !private ["So10UIKeyInputP", "UIImageView"]
+- ["So10UIKeyInputP", ""]
+- !private ["So10UIKeyInputP", "backgroundColor"]
+- !private ["So10UIKeyInputP", "borderStyle"]
+- !private ["So10UIKeyInputP", "clearButtonMode"]
+- ["So10UIKeyInputP", "editingRect"]
+- !private ["So10UIKeyInputP", "fatalError"]
+- !private ["So10UIKeyInputP", "font"]
+- ["So10UIKeyInputP", "init"]
+- !private ["So10UIKeyInputP", "layer"]
+- !private ["So10UIKeyInputP", "leftView"]
+- !private ["So10UIKeyInputP", "leftViewMode"]
+- ["So10UIKeyInputP", "leftViewRect"]
+- !private ["So10UIKeyInputP", "placeholder"]
+- ["So10UIKeyInputP", "placeholderRect"]
+- !private ["So10UIKeyInputP", "rightView"]
+- !private ["So10UIKeyInputP", "rightViewMode"]
+- ["So10UIKeyInputP", "rightViewRect"]
+- ["So10UIKeyInputP", "textRect"]
+- ["So24UILargeContentViewerItemP", "CGRect"]
+- ["So24UILargeContentViewerItemP", "NSCoder"]
+- !private ["So24UILargeContentViewerItemP", "UIButton"]
+- !private ["So24UILargeContentViewerItemP", "UIFont"]
+- !private ["So24UILargeContentViewerItemP", "UIImage"]
+- !private ["So24UILargeContentViewerItemP", "UIImageView"]
+- ["So24UILargeContentViewerItemP", ""]
+- ["So24UILargeContentViewerItemP", "applyGradients"]
+- !private ["So24UILargeContentViewerItemP", "backgroundColor"]
+- !private ["So24UILargeContentViewerItemP", "borderStyle"]
+- !private ["So24UILargeContentViewerItemP", "clearButtonMode"]
+- ["So24UILargeContentViewerItemP", "editingRect"]
+- ["So24UILargeContentViewerItemP", "editingRectForBounds"]
+- !private ["So24UILargeContentViewerItemP", "fatalError"]
+- !private ["So24UILargeContentViewerItemP", "font"]
+- !private ["So24UILargeContentViewerItemP", "frame"]
+- ["So24UILargeContentViewerItemP", "init"]
+- !private ["So24UILargeContentViewerItemP", "layer"]
+- !private ["So24UILargeContentViewerItemP", "leftView"]
+- !private ["So24UILargeContentViewerItemP", "leftViewMode"]
+- ["So24UILargeContentViewerItemP", "leftViewRect"]
+- ["So24UILargeContentViewerItemP", "leftViewRectForBounds"]
+- !private ["So24UILargeContentViewerItemP", "placeholder"]
+- ["So24UILargeContentViewerItemP", "placeholderRect"]
+- ["So24UILargeContentViewerItemP", "placeholderRectForBounds"]
+- !private ["So24UILargeContentViewerItemP", "rightView"]
+- !private ["So24UILargeContentViewerItemP", "rightViewMode"]
+- ["So24UILargeContentViewerItemP", "rightViewRect"]
+- ["So24UILargeContentViewerItemP", "rightViewRectForBounds"]
+- !private ["So24UILargeContentViewerItemP", "setImage"]
+- ["So24UILargeContentViewerItemP", "setupColor"]
+- ["So24UILargeContentViewerItemP", "textRect"]
+- ["So24UILargeContentViewerItemP", "textRectForBounds"]
+- !private ["So30UIPasteConfigurationSupportingP", "CGRect"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIButton"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIFont"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIImage"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIImageView"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So30UIPasteConfigurationSupportingP", "applyGradients"]
+- !private ["So30UIPasteConfigurationSupportingP", "backgroundColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "borderStyle"]
+- !private ["So30UIPasteConfigurationSupportingP", "clearButtonMode"]
+- ["So30UIPasteConfigurationSupportingP", "editingRect"]
+- ["So30UIPasteConfigurationSupportingP", "editingRectForBounds"]
+- !private ["So30UIPasteConfigurationSupportingP", "fatalError"]
+- !private ["So30UIPasteConfigurationSupportingP", "font"]
+- !private ["So30UIPasteConfigurationSupportingP", "frame"]
+- ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "layer"]
+- !private ["So30UIPasteConfigurationSupportingP", "leftView"]
+- !private ["So30UIPasteConfigurationSupportingP", "leftViewMode"]
+- ["So30UIPasteConfigurationSupportingP", "leftViewRect"]
+- ["So30UIPasteConfigurationSupportingP", "leftViewRectForBounds"]
+- !private ["So30UIPasteConfigurationSupportingP", "placeholder"]
+- ["So30UIPasteConfigurationSupportingP", "placeholderRect"]
+- ["So30UIPasteConfigurationSupportingP", "placeholderRectForBounds"]
+- !private ["So30UIPasteConfigurationSupportingP", "rightView"]
+- !private ["So30UIPasteConfigurationSupportingP", "rightViewMode"]
+- ["So30UIPasteConfigurationSupportingP", "rightViewRect"]
+- ["So30UIPasteConfigurationSupportingP", "rightViewRectForBounds"]
+- !private ["So30UIPasteConfigurationSupportingP", "setImage"]
+- ["So30UIPasteConfigurationSupportingP", "setupColor"]
+- ["So30UIPasteConfigurationSupportingP", "textRect"]
+- ["So30UIPasteConfigurationSupportingP", "textRectForBounds"]
+- ["So11UIResponderC", "CGRect"]
+- ["So11UIResponderC", "NSCoder"]
+- !private ["So11UIResponderC", "UIButton"]
+- !private ["So11UIResponderC", "UIFont"]
+- !private ["So11UIResponderC", "UIImage"]
+- !private ["So11UIResponderC", "UIImageView"]
+- ["So11UIResponderC", ""]
+- !private ["So11UIResponderC", "applyGradients"]
+- !private ["So11UIResponderC", "backgroundColor"]
+- !private ["So11UIResponderC", "borderStyle"]
+- !private ["So11UIResponderC", "clearButtonMode"]
+- ["So11UIResponderC", "editingRect"]
+- ["So11UIResponderC", "editingRectForBounds"]
+- !private ["So11UIResponderC", "fatalError"]
+- !private ["So11UIResponderC", "font"]
+- !private ["So11UIResponderC", "frame"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "layer"]
+- !private ["So11UIResponderC", "leftView"]
+- !private ["So11UIResponderC", "leftViewMode"]
+- ["So11UIResponderC", "leftViewRect"]
+- ["So11UIResponderC", "leftViewRectForBounds"]
+- !private ["So11UIResponderC", "placeholder"]
+- ["So11UIResponderC", "placeholderRect"]
+- ["So11UIResponderC", "placeholderRectForBounds"]
+- !private ["So11UIResponderC", "rightView"]
+- !private ["So11UIResponderC", "rightViewMode"]
+- ["So11UIResponderC", "rightViewRect"]
+- ["So11UIResponderC", "rightViewRectForBounds"]
+- !private ["So11UIResponderC", "setImage"]
+- !private ["So11UIResponderC", "setupColor"]
+- ["So11UIResponderC", "textRect"]
+- ["So11UIResponderC", "textRectForBounds"]
+- !private ["So30UIResponderStandardEditActionsP", "CGRect"]
+- !private ["So30UIResponderStandardEditActionsP", "UIButton"]
+- !private ["So30UIResponderStandardEditActionsP", "UIFont"]
+- !private ["So30UIResponderStandardEditActionsP", "UIImage"]
+- !private ["So30UIResponderStandardEditActionsP", "UIImageView"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- ["So30UIResponderStandardEditActionsP", "applyGradients"]
+- !private ["So30UIResponderStandardEditActionsP", "backgroundColor"]
+- !private ["So30UIResponderStandardEditActionsP", "borderStyle"]
+- !private ["So30UIResponderStandardEditActionsP", "clearButtonMode"]
+- ["So30UIResponderStandardEditActionsP", "editingRect"]
+- ["So30UIResponderStandardEditActionsP", "editingRectForBounds"]
+- !private ["So30UIResponderStandardEditActionsP", "fatalError"]
+- !private ["So30UIResponderStandardEditActionsP", "font"]
+- !private ["So30UIResponderStandardEditActionsP", "frame"]
+- ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "layer"]
+- !private ["So30UIResponderStandardEditActionsP", "leftView"]
+- !private ["So30UIResponderStandardEditActionsP", "leftViewMode"]
+- ["So30UIResponderStandardEditActionsP", "leftViewRect"]
+- ["So30UIResponderStandardEditActionsP", "leftViewRectForBounds"]
+- !private ["So30UIResponderStandardEditActionsP", "placeholder"]
+- ["So30UIResponderStandardEditActionsP", "placeholderRect"]
+- ["So30UIResponderStandardEditActionsP", "placeholderRectForBounds"]
+- !private ["So30UIResponderStandardEditActionsP", "rightView"]
+- !private ["So30UIResponderStandardEditActionsP", "rightViewMode"]
+- ["So30UIResponderStandardEditActionsP", "rightViewRect"]
+- ["So30UIResponderStandardEditActionsP", "rightViewRectForBounds"]
+- !private ["So30UIResponderStandardEditActionsP", "setImage"]
+- ["So30UIResponderStandardEditActionsP", "setupColor"]
+- ["So30UIResponderStandardEditActionsP", "textRect"]
+- ["So30UIResponderStandardEditActionsP", "textRectForBounds"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "applyGradients"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "init"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "setImage"]
+- ["So15UITextDraggableP", "CGRect"]
+- ["So15UITextDraggableP", "NSCoder"]
+- !private ["So15UITextDraggableP", "UIButton"]
+- !private ["So15UITextDraggableP", "UIFont"]
+- !private ["So15UITextDraggableP", "UIImage"]
+- !private ["So15UITextDraggableP", "UIImageView"]
+- ["So15UITextDraggableP", ""]
+- !private ["So15UITextDraggableP", "backgroundColor"]
+- !private ["So15UITextDraggableP", "borderStyle"]
+- !private ["So15UITextDraggableP", "clearButtonMode"]
+- ["So15UITextDraggableP", "editingRect"]
+- !private ["So15UITextDraggableP", "fatalError"]
+- !private ["So15UITextDraggableP", "font"]
+- ["So15UITextDraggableP", "init"]
+- !private ["So15UITextDraggableP", "layer"]
+- !private ["So15UITextDraggableP", "leftView"]
+- !private ["So15UITextDraggableP", "leftViewMode"]
+- ["So15UITextDraggableP", "leftViewRect"]
+- !private ["So15UITextDraggableP", "placeholder"]
+- ["So15UITextDraggableP", "placeholderRect"]
+- !private ["So15UITextDraggableP", "rightView"]
+- !private ["So15UITextDraggableP", "rightViewMode"]
+- ["So15UITextDraggableP", "rightViewRect"]
+- ["So15UITextDraggableP", "textRect"]
+- ["So15UITextDroppableP", "CGRect"]
+- ["So15UITextDroppableP", "NSCoder"]
+- !private ["So15UITextDroppableP", "UIButton"]
+- !private ["So15UITextDroppableP", "UIFont"]
+- !private ["So15UITextDroppableP", "UIImage"]
+- !private ["So15UITextDroppableP", "UIImageView"]
+- ["So15UITextDroppableP", ""]
+- !private ["So15UITextDroppableP", "backgroundColor"]
+- !private ["So15UITextDroppableP", "borderStyle"]
+- !private ["So15UITextDroppableP", "clearButtonMode"]
+- ["So15UITextDroppableP", "editingRect"]
+- !private ["So15UITextDroppableP", "fatalError"]
+- !private ["So15UITextDroppableP", "font"]
+- ["So15UITextDroppableP", "init"]
+- !private ["So15UITextDroppableP", "layer"]
+- !private ["So15UITextDroppableP", "leftView"]
+- !private ["So15UITextDroppableP", "leftViewMode"]
+- ["So15UITextDroppableP", "leftViewRect"]
+- !private ["So15UITextDroppableP", "placeholder"]
+- ["So15UITextDroppableP", "placeholderRect"]
+- !private ["So15UITextDroppableP", "rightView"]
+- !private ["So15UITextDroppableP", "rightViewMode"]
+- ["So15UITextDroppableP", "rightViewRect"]
+- ["So15UITextDroppableP", "textRect"]
+- ["So11UITextFieldC", "CGRect"]
+- ["So11UITextFieldC", "NSCoder"]
+- !private ["So11UITextFieldC", "UIButton"]
+- !private ["So11UITextFieldC", "UIFont"]
+- !private ["So11UITextFieldC", "UIImage"]
+- !private ["So11UITextFieldC", "UIImageView"]
+- ["So11UITextFieldC", ""]
+- !private ["So11UITextFieldC", "backgroundColor"]
+- !private ["So11UITextFieldC", "borderStyle"]
+- !private ["So11UITextFieldC", "clearButtonMode"]
+- ["So11UITextFieldC", "editingRect"]
+- !private ["So11UITextFieldC", "fatalError"]
+- !private ["So11UITextFieldC", "font"]
+- ["So11UITextFieldC", "init"]
+- !private ["So11UITextFieldC", "layer"]
+- !private ["So11UITextFieldC", "leftView"]
+- !private ["So11UITextFieldC", "leftViewMode"]
+- ["So11UITextFieldC", "leftViewRect"]
+- !private ["So11UITextFieldC", "placeholder"]
+- ["So11UITextFieldC", "placeholderRect"]
+- !private ["So11UITextFieldC", "rightView"]
+- !private ["So11UITextFieldC", "rightViewMode"]
+- ["So11UITextFieldC", "rightViewRect"]
+- ["So11UITextFieldC", "textRect"]
+- ["So11UITextInputP", "CGRect"]
+- ["So11UITextInputP", "NSCoder"]
+- !private ["So11UITextInputP", "UIButton"]
+- !private ["So11UITextInputP", "UIFont"]
+- !private ["So11UITextInputP", "UIImage"]
+- !private ["So11UITextInputP", "UIImageView"]
+- ["So11UITextInputP", ""]
+- !private ["So11UITextInputP", "backgroundColor"]
+- !private ["So11UITextInputP", "borderStyle"]
+- !private ["So11UITextInputP", "clearButtonMode"]
+- ["So11UITextInputP", "editingRect"]
+- !private ["So11UITextInputP", "fatalError"]
+- !private ["So11UITextInputP", "font"]
+- ["So11UITextInputP", "init"]
+- !private ["So11UITextInputP", "layer"]
+- !private ["So11UITextInputP", "leftView"]
+- !private ["So11UITextInputP", "leftViewMode"]
+- ["So11UITextInputP", "leftViewRect"]
+- !private ["So11UITextInputP", "placeholder"]
+- ["So11UITextInputP", "placeholderRect"]
+- !private ["So11UITextInputP", "rightView"]
+- !private ["So11UITextInputP", "rightViewMode"]
+- ["So11UITextInputP", "rightViewRect"]
+- ["So11UITextInputP", "textRect"]
+- ["So17UITextInputTraitsP", "CGRect"]
+- ["So17UITextInputTraitsP", "NSCoder"]
+- !private ["So17UITextInputTraitsP", "UIButton"]
+- !private ["So17UITextInputTraitsP", "UIFont"]
+- !private ["So17UITextInputTraitsP", "UIImage"]
+- !private ["So17UITextInputTraitsP", "UIImageView"]
+- ["So17UITextInputTraitsP", ""]
+- !private ["So17UITextInputTraitsP", "backgroundColor"]
+- !private ["So17UITextInputTraitsP", "borderStyle"]
+- !private ["So17UITextInputTraitsP", "clearButtonMode"]
+- ["So17UITextInputTraitsP", "editingRect"]
+- !private ["So17UITextInputTraitsP", "fatalError"]
+- !private ["So17UITextInputTraitsP", "font"]
+- ["So17UITextInputTraitsP", "init"]
+- !private ["So17UITextInputTraitsP", "layer"]
+- !private ["So17UITextInputTraitsP", "leftView"]
+- !private ["So17UITextInputTraitsP", "leftViewMode"]
+- ["So17UITextInputTraitsP", "leftViewRect"]
+- !private ["So17UITextInputTraitsP", "placeholder"]
+- ["So17UITextInputTraitsP", "placeholderRect"]
+- !private ["So17UITextInputTraitsP", "rightView"]
+- !private ["So17UITextInputTraitsP", "rightViewMode"]
+- ["So17UITextInputTraitsP", "rightViewRect"]
+- ["So17UITextInputTraitsP", "textRect"]
+- ["So34UITextPasteConfigurationSupportingP", "CGRect"]
+- ["So34UITextPasteConfigurationSupportingP", "NSCoder"]
+- !private ["So34UITextPasteConfigurationSupportingP", "UIButton"]
+- !private ["So34UITextPasteConfigurationSupportingP", "UIFont"]
+- !private ["So34UITextPasteConfigurationSupportingP", "UIImage"]
+- !private ["So34UITextPasteConfigurationSupportingP", "UIImageView"]
+- ["So34UITextPasteConfigurationSupportingP", ""]
+- !private ["So34UITextPasteConfigurationSupportingP", "backgroundColor"]
+- !private ["So34UITextPasteConfigurationSupportingP", "borderStyle"]
+- !private ["So34UITextPasteConfigurationSupportingP", "clearButtonMode"]
+- ["So34UITextPasteConfigurationSupportingP", "editingRect"]
+- !private ["So34UITextPasteConfigurationSupportingP", "fatalError"]
+- !private ["So34UITextPasteConfigurationSupportingP", "font"]
+- ["So34UITextPasteConfigurationSupportingP", "init"]
+- !private ["So34UITextPasteConfigurationSupportingP", "layer"]
+- !private ["So34UITextPasteConfigurationSupportingP", "leftView"]
+- !private ["So34UITextPasteConfigurationSupportingP", "leftViewMode"]
+- ["So34UITextPasteConfigurationSupportingP", "leftViewRect"]
+- !private ["So34UITextPasteConfigurationSupportingP", "placeholder"]
+- ["So34UITextPasteConfigurationSupportingP", "placeholderRect"]
+- !private ["So34UITextPasteConfigurationSupportingP", "rightView"]
+- !private ["So34UITextPasteConfigurationSupportingP", "rightViewMode"]
+- ["So34UITextPasteConfigurationSupportingP", "rightViewRect"]
+- ["So34UITextPasteConfigurationSupportingP", "textRect"]
+- ["So18UITraitEnvironmentP", "CGRect"]
+- ["So18UITraitEnvironmentP", "NSCoder"]
+- !private ["So18UITraitEnvironmentP", "UIButton"]
+- !private ["So18UITraitEnvironmentP", "UIFont"]
+- !private ["So18UITraitEnvironmentP", "UIImage"]
+- !private ["So18UITraitEnvironmentP", "UIImageView"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So18UITraitEnvironmentP", "applyGradients"]
+- !private ["So18UITraitEnvironmentP", "backgroundColor"]
+- !private ["So18UITraitEnvironmentP", "borderStyle"]
+- !private ["So18UITraitEnvironmentP", "clearButtonMode"]
+- ["So18UITraitEnvironmentP", "editingRect"]
+- ["So18UITraitEnvironmentP", "editingRectForBounds"]
+- !private ["So18UITraitEnvironmentP", "fatalError"]
+- !private ["So18UITraitEnvironmentP", "font"]
+- !private ["So18UITraitEnvironmentP", "frame"]
+- ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "layer"]
+- !private ["So18UITraitEnvironmentP", "leftView"]
+- !private ["So18UITraitEnvironmentP", "leftViewMode"]
+- ["So18UITraitEnvironmentP", "leftViewRect"]
+- ["So18UITraitEnvironmentP", "leftViewRectForBounds"]
+- !private ["So18UITraitEnvironmentP", "placeholder"]
+- ["So18UITraitEnvironmentP", "placeholderRect"]
+- ["So18UITraitEnvironmentP", "placeholderRectForBounds"]
+- !private ["So18UITraitEnvironmentP", "rightView"]
+- !private ["So18UITraitEnvironmentP", "rightViewMode"]
+- ["So18UITraitEnvironmentP", "rightViewRect"]
+- ["So18UITraitEnvironmentP", "rightViewRectForBounds"]
+- !private ["So18UITraitEnvironmentP", "setImage"]
+- ["So18UITraitEnvironmentP", "setupColor"]
+- ["So18UITraitEnvironmentP", "textRect"]
+- ["So18UITraitEnvironmentP", "textRectForBounds"]
+- !private ["So23UIUserActivityRestoringP", "CGRect"]
+- !private ["So23UIUserActivityRestoringP", "UIButton"]
+- !private ["So23UIUserActivityRestoringP", "UIFont"]
+- !private ["So23UIUserActivityRestoringP", "UIImage"]
+- !private ["So23UIUserActivityRestoringP", "UIImageView"]
+- ["So23UIUserActivityRestoringP", ""]
+- ["So23UIUserActivityRestoringP", "applyGradients"]
+- !private ["So23UIUserActivityRestoringP", "backgroundColor"]
+- !private ["So23UIUserActivityRestoringP", "borderStyle"]
+- !private ["So23UIUserActivityRestoringP", "clearButtonMode"]
+- ["So23UIUserActivityRestoringP", "editingRect"]
+- ["So23UIUserActivityRestoringP", "editingRectForBounds"]
+- !private ["So23UIUserActivityRestoringP", "fatalError"]
+- !private ["So23UIUserActivityRestoringP", "font"]
+- !private ["So23UIUserActivityRestoringP", "frame"]
+- ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "layer"]
+- !private ["So23UIUserActivityRestoringP", "leftView"]
+- !private ["So23UIUserActivityRestoringP", "leftViewMode"]
+- ["So23UIUserActivityRestoringP", "leftViewRect"]
+- ["So23UIUserActivityRestoringP", "leftViewRectForBounds"]
+- !private ["So23UIUserActivityRestoringP", "placeholder"]
+- ["So23UIUserActivityRestoringP", "placeholderRect"]
+- ["So23UIUserActivityRestoringP", "placeholderRectForBounds"]
+- !private ["So23UIUserActivityRestoringP", "rightView"]
+- !private ["So23UIUserActivityRestoringP", "rightViewMode"]
+- ["So23UIUserActivityRestoringP", "rightViewRect"]
+- ["So23UIUserActivityRestoringP", "rightViewRectForBounds"]
+- !private ["So23UIUserActivityRestoringP", "setImage"]
+- ["So23UIUserActivityRestoringP", "setupColor"]
+- ["So23UIUserActivityRestoringP", "textRect"]
+- ["So23UIUserActivityRestoringP", "textRectForBounds"]
+- ["So6UIViewC", "CGRect"]
+- ["So6UIViewC", "NSCoder"]
+- !private ["So6UIViewC", "UIButton"]
+- !private ["So6UIViewC", "UIFont"]
+- !private ["So6UIViewC", "UIImage"]
+- !private ["So6UIViewC", "UIImageView"]
+- ["So6UIViewC", ""]
+- !private ["So6UIViewC", "applyGradients"]
+- !private ["So6UIViewC", "backgroundColor"]
+- !private ["So6UIViewC", "borderStyle"]
+- !private ["So6UIViewC", "clearButtonMode"]
+- ["So6UIViewC", "editingRect"]
+- ["So6UIViewC", "editingRectForBounds"]
+- !private ["So6UIViewC", "fatalError"]
+- !private ["So6UIViewC", "font"]
+- !private ["So6UIViewC", "frame"]
+- ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "layer"]
+- !private ["So6UIViewC", "leftView"]
+- !private ["So6UIViewC", "leftViewMode"]
+- ["So6UIViewC", "leftViewRect"]
+- ["So6UIViewC", "leftViewRectForBounds"]
+- !private ["So6UIViewC", "placeholder"]
+- ["So6UIViewC", "placeholderRect"]
+- ["So6UIViewC", "placeholderRectForBounds"]
+- !private ["So6UIViewC", "rightView"]
+- !private ["So6UIViewC", "rightViewMode"]
+- ["So6UIViewC", "rightViewRect"]
+- ["So6UIViewC", "rightViewRectForBounds"]
+- !private ["So6UIViewC", "setImage"]
+- !private ["So6UIViewC", "setupColor"]
+- ["So6UIViewC", "textRect"]
+- ["So6UIViewC", "textRectForBounds"]
+- !private ["7SwiftUI4ViewP", "white"]
+- !private ["So19UITextFieldViewModeV", "always"]
+- !private ["So19UITextFieldViewModeV", "whileEditing"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "insetBy"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "origin"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "x"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "lightGray"]
+- !private ["s26_ExpressibleByColorLiteralP", "white"]
+- !private ["s26_ExpressibleByImageLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGRect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIButton"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIFont"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImageView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "applyGradients"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "borderStyle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "clearButtonMode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cornerRadius"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fatalError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "font"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "layer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "leftView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "leftViewMode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "leftViewRect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lightGray"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "masksToBounds"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "placeholder"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rightView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rightViewMode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rightViewRect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setupColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "systemFont"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "white"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CGRect"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIButton"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIFont"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIImage"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIImageView"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "applyGradients"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "backgroundColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "borderStyle"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "clearButtonMode"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cornerRadius"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fatalError"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "font"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "frame"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "layer"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "leftView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "leftViewMode"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "leftViewRect"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "lightGray"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "masksToBounds"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "placeholder"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "rightView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "rightViewMode"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "rightViewRect"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setImage"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setupColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "systemFont"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "white"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "insetBy"]
+- !private ["s21_ObjectiveCBridgeableP", "origin"]
+- !private ["s21_ObjectiveCBridgeableP", "white"]
+- !private ["s21_ObjectiveCBridgeableP", "x"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "CGRect"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "UIButton"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "UIFont"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "UIImage"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "UIImageView"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "applyGradients"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "backgroundColor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "borderStyle"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "clearButtonMode"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "fatalError"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "font"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "frame"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "layer"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "leftView"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "leftViewMode"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "leftViewRect"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "placeholder"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "rightView"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "rightViewMode"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "rightViewRect"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "setImage"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "setupColor"]
+depends-nominal:
+- !private "7SwiftUI10AnimatableP"
+- !private "So17UITextBorderStyleV"
+- !private "So12UIButtonTypeV"
+- !private "So7CALayerC"
+- "So15CALayerDelegateP"
+- !private "So13CAMediaTimingP"
+- !private "So7CGPointV"
+- !private "So6CGRectV"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "7SwiftUI7GestureP"
+- "SH"
+- "5iChat19InsertableTextFieldC"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "s9OptionSetP"
+- !private "Sq"
+- !private "SY"
+- !private "s10SetAlgebraP"
+- !private "So14UIControlStateV"
+- "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So8UIButtonC"
+- !private "So7UIColorC"
+- "So30UIContentSizeCategoryAdjustingP"
+- "So32UIContextMenuInteractionDelegateP"
+- "So9UIControlC"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- !private "So6UIFontC"
+- !private "So7UIImageC"
+- !private "So11UIImageViewC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- "So10UIKeyInputP"
+- "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So15UITextDraggableP"
+- "So15UITextDroppableP"
+- "So11UITextFieldC"
+- "So11UITextInputP"
+- "So17UITextInputTraitsP"
+- "So34UITextPasteConfigurationSupportingP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- !private "7SwiftUI4ViewP"
+- !private "So19UITextFieldViewModeV"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftUI.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/MessageKit/MessageKit.framework/Modules/MessageKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/MapKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/DeveloperToolsSupport.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/InputBarAccessoryView/InputBarAccessoryView.framework/Modules/InputBarAccessoryView.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+GIF.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImage-umbrella.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FirebaseStorage-umbrella.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FirebaseFirestore-umbrella.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FirebaseInstallations-umbrella.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/MessageKit/MessageKit.framework/Headers/MessageKit-umbrella.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/InputBarAccessoryView/InputBarAccessoryView.framework/Headers/InputBarAccessoryView-umbrella.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+ExtendedCacheData.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+Metadata.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRSnapshotMetadata.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRCollectionReference.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRDocumentReference.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRFirestoreSource.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+ForceDecode.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImage.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImage.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRDocumentChange.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIButton+WebCache.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSButton+WebCache.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIView+WebCache.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+WebCache.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageView+WebCache.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+HighlightedWebCache.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCache.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDDiskCache.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDMemoryCache.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageFrame.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDefine.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCacheDefine.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSData+ImageContentType.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRFirestore.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FirebaseFirestore.h"
+- "/Users/alexandr/Desktop/iChat/Pods/Firebase/CoreOnly/Sources/Firebase.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRFieldValue.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCacheConfig.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderConfig.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRWriteBatch.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRFieldPath.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthCredential.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+Transform.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRVersion.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactorSession.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageOperation.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIView+WebCacheOperation.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderOperation.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRListenerRegistration.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRTransaction.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageTransition.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactorAssertion.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneMultiFactorAssertion.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactorInfo.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneMultiFactorInfo.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageRep.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRTimestamp.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageLoader.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloader.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFederatedAuthProvider.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGameCenterAuthProvider.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageHEICCoder.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageGIFCoder.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageAPNGCoder.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageIOCoder.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageAWebPCoder.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageIOAnimatedCoder.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCoder.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageManager.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCachesManager.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageLoadersManager.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCodersManager.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImagePrefetcher.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderResponseModifier.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderRequestModifier.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageTransformer.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCoderHelper.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDGraphicsImageRenderer.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCacheKeyFilter.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactorResolver.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImagePlayer.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCacheSerializer.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageError.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageOptionsProcessor.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageIndicator.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneMultiFactorGenerator.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactor.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderDecryptor.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageGraphics.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRFirestoreSettings.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthSettings.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FIRInstallations.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FirebaseInstallations.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRFirestoreErrors.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FIRInstallationsErrors.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCompat.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/MessageKit/MessageKit.framework/Headers/MessageKit-Swift.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/InputBarAccessoryView/InputBarAccessoryView.framework/Headers/InputBarAccessoryView-Swift.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthTokenResult.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FIRInstallationsAuthTokenResult.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageListResult.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FIRAnalytics+Consent.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRGeoPoint.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRDocumentSnapshot.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRQuerySnapshot.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MemoryCacheCost.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageView.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRQuery.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSImage+Compatibility.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/alexandr/Desktop/iChat/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Modules/module.modulemap"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Modules/module.modulemap"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Modules/module.modulemap"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/MessageKit/MessageKit.framework/Modules/module.modulemap"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/InputBarAccessoryView/InputBarAccessoryView.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "5dd2dd0e08acc79feca5cf678f09c2e5"

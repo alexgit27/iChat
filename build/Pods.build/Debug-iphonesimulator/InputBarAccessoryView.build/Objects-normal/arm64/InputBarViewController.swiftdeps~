@@ -1,0 +1,581 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "InputBarViewController"
+provides-nominal:
+- "21InputBarAccessoryView0abD10ControllerC"
+provides-member:
+- ["21InputBarAccessoryView0abD10ControllerC", ""]
+provides-dynamic-lookup:
+- "canBecomeFirstResponder"
+- "inputAccessoryView"
+- "inputBar"
+- "isInputBarHidden"
+- "isInputBarHiddenDidChange"
+- "resignFirstResponder"
+- "viewDidLoad"
+depends-top-level:
+- !private "!"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CGSize"
+- "InputBarAccessoryView"
+- "InputBarAccessoryViewDelegate"
+- "InputBarViewController"
+- "String"
+- "TernaryPrecedence"
+- "UISwipeGestureRecognizer"
+- "UIView"
+- "UIViewController"
+- !private "becomeFirstResponder"
+- !private "inputBar"
+- !private "isFirstResponder"
+- !private "isInputBarHidden"
+- !private "isInputBarHiddenDidChange"
+- !private "resignFirstResponder"
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- ["SK", ""]
+- !private ["So15CALayerDelegateP", "delegate"]
+- ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "inputTextView"]
+- !private ["So15CALayerDelegateP", "resignFirstResponder"]
+- ["s7CVarArgP", "InputBarAccessoryView"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "becomeFirstResponder"]
+- !private ["s7CVarArgP", "delegate"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "inputBar"]
+- !private ["s7CVarArgP", "inputTextView"]
+- !private ["s7CVarArgP", "isFirstResponder"]
+- !private ["s7CVarArgP", "isInputBarHidden"]
+- !private ["s7CVarArgP", "isInputBarHiddenDidChange"]
+- !private ["s7CVarArgP", "resignFirstResponder"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["Sl", ""]
+- ["SL", ""]
+- ["s28CustomDebugStringConvertibleP", "InputBarAccessoryView"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "becomeFirstResponder"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "inputBar"]
+- !private ["s28CustomDebugStringConvertibleP", "inputTextView"]
+- !private ["s28CustomDebugStringConvertibleP", "isFirstResponder"]
+- !private ["s28CustomDebugStringConvertibleP", "isInputBarHidden"]
+- !private ["s28CustomDebugStringConvertibleP", "isInputBarHiddenDidChange"]
+- !private ["s28CustomDebugStringConvertibleP", "resignFirstResponder"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- ["s23CustomStringConvertibleP", "InputBarAccessoryView"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "becomeFirstResponder"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "inputBar"]
+- !private ["s23CustomStringConvertibleP", "inputTextView"]
+- !private ["s23CustomStringConvertibleP", "isFirstResponder"]
+- !private ["s23CustomStringConvertibleP", "isInputBarHidden"]
+- !private ["s23CustomStringConvertibleP", "isInputBarHiddenDidChange"]
+- !private ["s23CustomStringConvertibleP", "resignFirstResponder"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- ["SQ", "InputBarAccessoryView"]
+- ["SQ", ""]
+- !private ["SQ", "becomeFirstResponder"]
+- !private ["SQ", "delegate"]
+- ["SQ", "init"]
+- ["SQ", "inputBar"]
+- !private ["SQ", "inputTextView"]
+- !private ["SQ", "isFirstResponder"]
+- !private ["SQ", "isInputBarHidden"]
+- !private ["SQ", "isInputBarHiddenDidChange"]
+- !private ["SQ", "resignFirstResponder"]
+- !private ["SQ", "viewDidLoad"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s25ExpressibleByFloatLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["SF", ""]
+- ["SH", "InputBarAccessoryView"]
+- ["SH", ""]
+- !private ["SH", "becomeFirstResponder"]
+- !private ["SH", "delegate"]
+- ["SH", "init"]
+- ["SH", "inputBar"]
+- !private ["SH", "inputTextView"]
+- !private ["SH", "isFirstResponder"]
+- !private ["SH", "isInputBarHidden"]
+- !private ["SH", "isInputBarHiddenDidChange"]
+- !private ["SH", "resignFirstResponder"]
+- !private ["SH", "viewDidLoad"]
+- ["21InputBarAccessoryViewAAC", ""]
+- !private ["21InputBarAccessoryViewAAC", "delegate"]
+- ["21InputBarAccessoryViewAAC", "init"]
+- !private ["21InputBarAccessoryViewAAC", "inputTextView"]
+- ["21InputBarAccessoryView0abcD8DelegateP", "InputBarAccessoryView"]
+- ["21InputBarAccessoryView0abcD8DelegateP", ""]
+- !private ["21InputBarAccessoryView0abcD8DelegateP", "becomeFirstResponder"]
+- ["21InputBarAccessoryView0abcD8DelegateP", "inputBar"]
+- !private ["21InputBarAccessoryView0abcD8DelegateP", "isFirstResponder"]
+- !private ["21InputBarAccessoryView0abcD8DelegateP", "isInputBarHidden"]
+- !private ["21InputBarAccessoryView0abcD8DelegateP", "isInputBarHiddenDidChange"]
+- !private ["21InputBarAccessoryView0abcD8DelegateP", "resignFirstResponder"]
+- !private ["21InputBarAccessoryView0abcD8DelegateP", "viewDidLoad"]
+- ["21InputBarAccessoryView0abD10ControllerC", "Bool"]
+- ["21InputBarAccessoryView0abD10ControllerC", "CGSize"]
+- ["21InputBarAccessoryView0abD10ControllerC", "InputBarAccessoryView"]
+- ["21InputBarAccessoryView0abD10ControllerC", "String"]
+- ["21InputBarAccessoryView0abD10ControllerC", "UISwipeGestureRecognizer"]
+- ["21InputBarAccessoryView0abD10ControllerC", "UIView"]
+- ["21InputBarAccessoryView0abD10ControllerC", ""]
+- !private ["21InputBarAccessoryView0abD10ControllerC", "becomeFirstResponder"]
+- ["21InputBarAccessoryView0abD10ControllerC", "canBecomeFirstResponder"]
+- ["21InputBarAccessoryView0abD10ControllerC", "deinit"]
+- ["21InputBarAccessoryView0abD10ControllerC", "init"]
+- ["21InputBarAccessoryView0abD10ControllerC", "inputAccessoryView"]
+- ["21InputBarAccessoryView0abD10ControllerC", "inputBar"]
+- !private ["21InputBarAccessoryView0abD10ControllerC", "isFirstResponder"]
+- ["21InputBarAccessoryView0abD10ControllerC", "isInputBarHidden"]
+- ["21InputBarAccessoryView0abD10ControllerC", "isInputBarHiddenDidChange"]
+- ["21InputBarAccessoryView0abD10ControllerC", "resignFirstResponder"]
+- ["21InputBarAccessoryView0abD10ControllerC", "viewDidLoad"]
+- !private ["21InputBarAccessoryView0a4TextD0C", "resignFirstResponder"]
+- ["s25LosslessStringConvertibleP", ""]
+- ["So8NSCodingP", "Bool"]
+- ["So8NSCodingP", "CGSize"]
+- ["So8NSCodingP", "InputBarAccessoryView"]
+- ["So8NSCodingP", "String"]
+- ["So8NSCodingP", "UISwipeGestureRecognizer"]
+- ["So8NSCodingP", "UIView"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "becomeFirstResponder"]
+- ["So8NSCodingP", "canBecomeFirstResponder"]
+- !private ["So8NSCodingP", "delegate"]
+- ["So8NSCodingP", "init"]
+- ["So8NSCodingP", "inputAccessoryView"]
+- ["So8NSCodingP", "inputBar"]
+- !private ["So8NSCodingP", "inputTextView"]
+- !private ["So8NSCodingP", "isFirstResponder"]
+- ["So8NSCodingP", "isInputBarHidden"]
+- ["So8NSCodingP", "isInputBarHiddenDidChange"]
+- ["So8NSCodingP", "resignFirstResponder"]
+- ["So8NSCodingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", "Bool"]
+- ["So26NSExtensionRequestHandlingP", "CGSize"]
+- ["So26NSExtensionRequestHandlingP", "InputBarAccessoryView"]
+- ["So26NSExtensionRequestHandlingP", "String"]
+- ["So26NSExtensionRequestHandlingP", "UISwipeGestureRecognizer"]
+- ["So26NSExtensionRequestHandlingP", "UIView"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "becomeFirstResponder"]
+- ["So26NSExtensionRequestHandlingP", "canBecomeFirstResponder"]
+- ["So26NSExtensionRequestHandlingP", "init"]
+- ["So26NSExtensionRequestHandlingP", "inputAccessoryView"]
+- ["So26NSExtensionRequestHandlingP", "inputBar"]
+- !private ["So26NSExtensionRequestHandlingP", "isFirstResponder"]
+- ["So26NSExtensionRequestHandlingP", "isInputBarHidden"]
+- ["So26NSExtensionRequestHandlingP", "isInputBarHiddenDidChange"]
+- ["So26NSExtensionRequestHandlingP", "resignFirstResponder"]
+- ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "CGSize"]
+- ["So8NSObjectC", "InputBarAccessoryView"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UISwipeGestureRecognizer"]
+- ["So8NSObjectC", "UIView"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "becomeFirstResponder"]
+- ["So8NSObjectC", "canBecomeFirstResponder"]
+- !private ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "inputAccessoryView"]
+- ["So8NSObjectC", "inputBar"]
+- !private ["So8NSObjectC", "inputTextView"]
+- !private ["So8NSObjectC", "isFirstResponder"]
+- ["So8NSObjectC", "isInputBarHidden"]
+- ["So8NSObjectC", "isInputBarHiddenDidChange"]
+- ["So8NSObjectC", "resignFirstResponder"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectP", "InputBarAccessoryView"]
+- ["So8NSObjectP", "String"]
+- ["So8NSObjectP", "UISwipeGestureRecognizer"]
+- ["So8NSObjectP", "UIView"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "becomeFirstResponder"]
+- ["So8NSObjectP", "canBecomeFirstResponder"]
+- !private ["So8NSObjectP", "delegate"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "inputAccessoryView"]
+- ["So8NSObjectP", "inputBar"]
+- !private ["So8NSObjectP", "inputTextView"]
+- !private ["So8NSObjectP", "isFirstResponder"]
+- ["So8NSObjectP", "isInputBarHidden"]
+- ["So8NSObjectP", "isInputBarHiddenDidChange"]
+- ["So8NSObjectP", "resignFirstResponder"]
+- ["So8NSObjectP", "viewDidLoad"]
+- !private ["Sj", ""]
+- ["ST", ""]
+- !private ["s13SignedNumericP", ""]
+- !private ["Sx", ""]
+- ["s16TextOutputStreamP", ""]
+- ["s20TextOutputStreamableP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "delegate"]
+- ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "inputTextView"]
+- !private ["So29UIAccessibilityIdentificationP", "resignFirstResponder"]
+- !private ["So12UIAppearanceP", "delegate"]
+- ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "inputTextView"]
+- !private ["So12UIAppearanceP", "resignFirstResponder"]
+- ["So21UIAppearanceContainerP", "Bool"]
+- ["So21UIAppearanceContainerP", "CGSize"]
+- ["So21UIAppearanceContainerP", "InputBarAccessoryView"]
+- ["So21UIAppearanceContainerP", "String"]
+- ["So21UIAppearanceContainerP", "UISwipeGestureRecognizer"]
+- ["So21UIAppearanceContainerP", "UIView"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "becomeFirstResponder"]
+- ["So21UIAppearanceContainerP", "canBecomeFirstResponder"]
+- !private ["So21UIAppearanceContainerP", "delegate"]
+- ["So21UIAppearanceContainerP", "init"]
+- ["So21UIAppearanceContainerP", "inputAccessoryView"]
+- ["So21UIAppearanceContainerP", "inputBar"]
+- !private ["So21UIAppearanceContainerP", "inputTextView"]
+- !private ["So21UIAppearanceContainerP", "isFirstResponder"]
+- ["So21UIAppearanceContainerP", "isInputBarHidden"]
+- ["So21UIAppearanceContainerP", "isInputBarHiddenDidChange"]
+- ["So21UIAppearanceContainerP", "resignFirstResponder"]
+- ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", "Bool"]
+- ["So18UIContentContainerP", "CGSize"]
+- ["So18UIContentContainerP", "InputBarAccessoryView"]
+- ["So18UIContentContainerP", "String"]
+- ["So18UIContentContainerP", "UISwipeGestureRecognizer"]
+- ["So18UIContentContainerP", "UIView"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "becomeFirstResponder"]
+- ["So18UIContentContainerP", "canBecomeFirstResponder"]
+- ["So18UIContentContainerP", "init"]
+- ["So18UIContentContainerP", "inputAccessoryView"]
+- ["So18UIContentContainerP", "inputBar"]
+- !private ["So18UIContentContainerP", "isFirstResponder"]
+- ["So18UIContentContainerP", "isInputBarHidden"]
+- ["So18UIContentContainerP", "isInputBarHiddenDidChange"]
+- ["So18UIContentContainerP", "resignFirstResponder"]
+- ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "resignFirstResponder"]
+- !private ["So17UICoordinateSpaceP", "delegate"]
+- ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "inputTextView"]
+- !private ["So17UICoordinateSpaceP", "resignFirstResponder"]
+- !private ["So13UIDynamicItemP", "delegate"]
+- ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "inputTextView"]
+- !private ["So13UIDynamicItemP", "resignFirstResponder"]
+- ["So18UIFocusEnvironmentP", "Bool"]
+- ["So18UIFocusEnvironmentP", "CGSize"]
+- ["So18UIFocusEnvironmentP", "InputBarAccessoryView"]
+- ["So18UIFocusEnvironmentP", "String"]
+- ["So18UIFocusEnvironmentP", "UISwipeGestureRecognizer"]
+- ["So18UIFocusEnvironmentP", "UIView"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "becomeFirstResponder"]
+- ["So18UIFocusEnvironmentP", "canBecomeFirstResponder"]
+- !private ["So18UIFocusEnvironmentP", "delegate"]
+- ["So18UIFocusEnvironmentP", "init"]
+- ["So18UIFocusEnvironmentP", "inputAccessoryView"]
+- ["So18UIFocusEnvironmentP", "inputBar"]
+- !private ["So18UIFocusEnvironmentP", "inputTextView"]
+- !private ["So18UIFocusEnvironmentP", "isFirstResponder"]
+- ["So18UIFocusEnvironmentP", "isInputBarHidden"]
+- ["So18UIFocusEnvironmentP", "isInputBarHiddenDidChange"]
+- ["So18UIFocusEnvironmentP", "resignFirstResponder"]
+- ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "delegate"]
+- ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "inputTextView"]
+- !private ["So11UIFocusItemP", "resignFirstResponder"]
+- !private ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "delegate"]
+- ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "inputTextView"]
+- !private ["So20UIFocusItemContainerP", "resignFirstResponder"]
+- !private ["So30UIFocusItemScrollableContainerP", "resignFirstResponder"]
+- !private ["So10UIKeyInputP", ""]
+- !private ["So10UIKeyInputP", "resignFirstResponder"]
+- !private ["So24UILargeContentViewerItemP", "delegate"]
+- ["So24UILargeContentViewerItemP", "init"]
+- !private ["So24UILargeContentViewerItemP", "inputTextView"]
+- !private ["So24UILargeContentViewerItemP", "resignFirstResponder"]
+- ["So30UIPasteConfigurationSupportingP", "InputBarAccessoryView"]
+- ["So30UIPasteConfigurationSupportingP", "String"]
+- ["So30UIPasteConfigurationSupportingP", "UISwipeGestureRecognizer"]
+- ["So30UIPasteConfigurationSupportingP", "UIView"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "becomeFirstResponder"]
+- ["So30UIPasteConfigurationSupportingP", "canBecomeFirstResponder"]
+- !private ["So30UIPasteConfigurationSupportingP", "delegate"]
+- ["So30UIPasteConfigurationSupportingP", "init"]
+- ["So30UIPasteConfigurationSupportingP", "inputAccessoryView"]
+- ["So30UIPasteConfigurationSupportingP", "inputBar"]
+- !private ["So30UIPasteConfigurationSupportingP", "inputTextView"]
+- !private ["So30UIPasteConfigurationSupportingP", "isFirstResponder"]
+- ["So30UIPasteConfigurationSupportingP", "isInputBarHidden"]
+- ["So30UIPasteConfigurationSupportingP", "isInputBarHiddenDidChange"]
+- ["So30UIPasteConfigurationSupportingP", "resignFirstResponder"]
+- ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "CGSize"]
+- ["So11UIResponderC", "InputBarAccessoryView"]
+- ["So11UIResponderC", "String"]
+- ["So11UIResponderC", "UISwipeGestureRecognizer"]
+- ["So11UIResponderC", "UIView"]
+- ["So11UIResponderC", ""]
+- !private ["So11UIResponderC", "becomeFirstResponder"]
+- ["So11UIResponderC", "canBecomeFirstResponder"]
+- !private ["So11UIResponderC", "delegate"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "inputAccessoryView"]
+- ["So11UIResponderC", "inputBar"]
+- !private ["So11UIResponderC", "inputTextView"]
+- !private ["So11UIResponderC", "isFirstResponder"]
+- ["So11UIResponderC", "isInputBarHidden"]
+- ["So11UIResponderC", "isInputBarHiddenDidChange"]
+- ["So11UIResponderC", "resignFirstResponder"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", "InputBarAccessoryView"]
+- ["So30UIResponderStandardEditActionsP", "String"]
+- ["So30UIResponderStandardEditActionsP", "UISwipeGestureRecognizer"]
+- ["So30UIResponderStandardEditActionsP", "UIView"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "becomeFirstResponder"]
+- ["So30UIResponderStandardEditActionsP", "canBecomeFirstResponder"]
+- !private ["So30UIResponderStandardEditActionsP", "delegate"]
+- ["So30UIResponderStandardEditActionsP", "init"]
+- ["So30UIResponderStandardEditActionsP", "inputAccessoryView"]
+- ["So30UIResponderStandardEditActionsP", "inputBar"]
+- !private ["So30UIResponderStandardEditActionsP", "inputTextView"]
+- !private ["So30UIResponderStandardEditActionsP", "isFirstResponder"]
+- ["So30UIResponderStandardEditActionsP", "isInputBarHidden"]
+- ["So30UIResponderStandardEditActionsP", "isInputBarHiddenDidChange"]
+- ["So30UIResponderStandardEditActionsP", "resignFirstResponder"]
+- ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So12UIScrollViewC", ""]
+- !private ["So12UIScrollViewC", "resignFirstResponder"]
+- ["So16UIStateRestoringP", "Bool"]
+- ["So16UIStateRestoringP", "CGSize"]
+- ["So16UIStateRestoringP", "InputBarAccessoryView"]
+- ["So16UIStateRestoringP", "String"]
+- ["So16UIStateRestoringP", "UISwipeGestureRecognizer"]
+- ["So16UIStateRestoringP", "UIView"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "becomeFirstResponder"]
+- ["So16UIStateRestoringP", "canBecomeFirstResponder"]
+- ["So16UIStateRestoringP", "init"]
+- ["So16UIStateRestoringP", "inputAccessoryView"]
+- ["So16UIStateRestoringP", "inputBar"]
+- !private ["So16UIStateRestoringP", "isFirstResponder"]
+- ["So16UIStateRestoringP", "isInputBarHidden"]
+- ["So16UIStateRestoringP", "isInputBarHiddenDidChange"]
+- ["So16UIStateRestoringP", "resignFirstResponder"]
+- ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So15UITextDraggableP", "resignFirstResponder"]
+- !private ["So15UITextDroppableP", "resignFirstResponder"]
+- !private ["So11UITextInputP", ""]
+- !private ["So11UITextInputP", "resignFirstResponder"]
+- !private ["So17UITextInputTraitsP", ""]
+- !private ["So17UITextInputTraitsP", "resignFirstResponder"]
+- !private ["So34UITextPasteConfigurationSupportingP", ""]
+- !private ["So34UITextPasteConfigurationSupportingP", "resignFirstResponder"]
+- ["So10UITextViewC", ""]
+- !private ["So10UITextViewC", "resignFirstResponder"]
+- ["So18UITraitEnvironmentP", "Bool"]
+- ["So18UITraitEnvironmentP", "CGSize"]
+- ["So18UITraitEnvironmentP", "InputBarAccessoryView"]
+- ["So18UITraitEnvironmentP", "String"]
+- ["So18UITraitEnvironmentP", "UISwipeGestureRecognizer"]
+- ["So18UITraitEnvironmentP", "UIView"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "becomeFirstResponder"]
+- ["So18UITraitEnvironmentP", "canBecomeFirstResponder"]
+- !private ["So18UITraitEnvironmentP", "delegate"]
+- ["So18UITraitEnvironmentP", "init"]
+- ["So18UITraitEnvironmentP", "inputAccessoryView"]
+- ["So18UITraitEnvironmentP", "inputBar"]
+- !private ["So18UITraitEnvironmentP", "inputTextView"]
+- !private ["So18UITraitEnvironmentP", "isFirstResponder"]
+- ["So18UITraitEnvironmentP", "isInputBarHidden"]
+- ["So18UITraitEnvironmentP", "isInputBarHiddenDidChange"]
+- ["So18UITraitEnvironmentP", "resignFirstResponder"]
+- ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So23UIUserActivityRestoringP", "InputBarAccessoryView"]
+- ["So23UIUserActivityRestoringP", "String"]
+- ["So23UIUserActivityRestoringP", "UISwipeGestureRecognizer"]
+- ["So23UIUserActivityRestoringP", "UIView"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "becomeFirstResponder"]
+- ["So23UIUserActivityRestoringP", "canBecomeFirstResponder"]
+- !private ["So23UIUserActivityRestoringP", "delegate"]
+- ["So23UIUserActivityRestoringP", "init"]
+- ["So23UIUserActivityRestoringP", "inputAccessoryView"]
+- ["So23UIUserActivityRestoringP", "inputBar"]
+- !private ["So23UIUserActivityRestoringP", "inputTextView"]
+- !private ["So23UIUserActivityRestoringP", "isFirstResponder"]
+- ["So23UIUserActivityRestoringP", "isInputBarHidden"]
+- ["So23UIUserActivityRestoringP", "isInputBarHiddenDidChange"]
+- ["So23UIUserActivityRestoringP", "resignFirstResponder"]
+- ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- ["So6UIViewC", ""]
+- !private ["So6UIViewC", "delegate"]
+- ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "inputTextView"]
+- !private ["So6UIViewC", "resignFirstResponder"]
+- ["So16UIViewControllerC", "Bool"]
+- ["So16UIViewControllerC", "CGSize"]
+- ["So16UIViewControllerC", "InputBarAccessoryView"]
+- ["So16UIViewControllerC", "String"]
+- ["So16UIViewControllerC", "UISwipeGestureRecognizer"]
+- ["So16UIViewControllerC", "UIView"]
+- ["So16UIViewControllerC", ""]
+- !private ["So16UIViewControllerC", "becomeFirstResponder"]
+- ["So16UIViewControllerC", "canBecomeFirstResponder"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "inputAccessoryView"]
+- ["So16UIViewControllerC", "inputBar"]
+- !private ["So16UIViewControllerC", "isFirstResponder"]
+- ["So16UIViewControllerC", "isInputBarHidden"]
+- ["So16UIViewControllerC", "isInputBarHiddenDidChange"]
+- ["So16UIViewControllerC", "resignFirstResponder"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- ["10Foundation27_KeyValueCodingAndObservingP", "InputBarAccessoryView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "becomeFirstResponder"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "inputBar"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "inputTextView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isFirstResponder"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isInputBarHidden"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isInputBarHiddenDidChange"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resignFirstResponder"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "InputBarAccessoryView"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "becomeFirstResponder"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "delegate"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "inputBar"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "inputTextView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isFirstResponder"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isInputBarHidden"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isInputBarHiddenDidChange"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "resignFirstResponder"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "delegate"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "inputTextView"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "resignFirstResponder"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- "SK"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SF"
+- "SH"
+- "21InputBarAccessoryViewAAC"
+- "21InputBarAccessoryView0abcD8DelegateP"
+- "21InputBarAccessoryView0abD10ControllerC"
+- !private "21InputBarAccessoryView0a4TextD0C"
+- "s25LosslessStringConvertibleP"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sj"
+- "ST"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- !private "So30UIFocusItemScrollableContainerP"
+- !private "So10UIKeyInputP"
+- "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So12UIScrollViewC"
+- "So16UIStateRestoringP"
+- !private "So15UITextDraggableP"
+- !private "So15UITextDroppableP"
+- !private "So11UITextInputP"
+- !private "So17UITextInputTraitsP"
+- !private "So34UITextPasteConfigurationSupportingP"
+- "So10UITextViewC"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "So16UIViewControllerC"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Users/alexandr/Desktop/iChat/Pods/Target Support Files/InputBarAccessoryView/InputBarAccessoryView-umbrella.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/alexandr/Desktop/iChat/build/Pods.build/Debug-iphonesimulator/InputBarAccessoryView.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "125ad121ac9907c9c7c8d766af87217f"

@@ -1,0 +1,20 @@
+dependencies: \
+  /Users/alexandr/Desktop/iChat/Pods/FirebaseFirestore/Firestore/core/src/auth/empty_credentials_provider.cc \
+  /Users/alexandr/Desktop/iChat/Pods/FirebaseFirestore/Firestore/core/src/auth/empty_credentials_provider.h \
+  /Users/alexandr/Desktop/iChat/Pods/FirebaseFirestore/Firestore/core/src/auth/credentials_provider.h \
+  /Users/alexandr/Desktop/iChat/Pods/FirebaseFirestore/Firestore/core/include/firebase/firestore/firestore_errors.h \
+  /Users/alexandr/Desktop/iChat/Pods/FirebaseFirestore/Firestore/core/src/auth/token.h \
+  /Users/alexandr/Desktop/iChat/Pods/FirebaseFirestore/Firestore/core/src/auth/user.h \
+  /Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/abseil/absl.framework/Headers/strings/string_view.h \
+  /Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/abseil/absl.framework/Headers/base/config.h \
+  /Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/abseil/absl.framework/Headers/base/options.h \
+  /Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/abseil/absl.framework/Headers/base/policy_checks.h \
+  /Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/abseil/absl.framework/Headers/base/internal/throw_delegate.h \
+  /Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/abseil/absl.framework/Headers/base/macros.h \
+  /Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/abseil/absl.framework/Headers/base/attributes.h \
+  /Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/abseil/absl.framework/Headers/base/optimization.h \
+  /Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/abseil/absl.framework/Headers/base/port.h \
+  /Users/alexandr/Desktop/iChat/Pods/FirebaseFirestore/Firestore/core/src/util/statusor.h \
+  /Users/alexandr/Desktop/iChat/Pods/FirebaseFirestore/Firestore/core/src/util/status.h \
+  /Users/alexandr/Desktop/iChat/Pods/FirebaseFirestore/Firestore/core/src/util/status_fwd.h \
+  /Users/alexandr/Desktop/iChat/Pods/FirebaseFirestore/Firestore/core/src/util/statusor_internals.h

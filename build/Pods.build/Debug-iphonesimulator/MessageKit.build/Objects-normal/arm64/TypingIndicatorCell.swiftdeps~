@@ -1,0 +1,597 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TypingIndicatorCell"
+provides-nominal:
+- "10MessageKit19TypingIndicatorCellC"
+provides-member:
+- ["10MessageKit19TypingIndicatorCellC", ""]
+provides-dynamic-lookup:
+- "insets"
+- "layoutSubviews"
+- "prepareForReuse"
+- "setupSubviews"
+- "typingBubble"
+depends-top-level:
+- "AssignmentPrecedence"
+- "CGRect"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "MessageCollectionViewCell"
+- "NSCoder"
+- "TypingBubble"
+- "TypingIndicatorCell"
+- "UIEdgeInsets"
+- !private "addSubview"
+- !private "bounds"
+- !private "insets"
+- !private "setupSubviews"
+- !private "typingBubble"
+depends-member:
+- ["So15CALayerDelegateP", "TypingBubble"]
+- ["So15CALayerDelegateP", "UIEdgeInsets"]
+- ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "addSubview"]
+- !private ["So15CALayerDelegateP", "bounds"]
+- !private ["So15CALayerDelegateP", "frame"]
+- ["So15CALayerDelegateP", "handleTapGesture"]
+- ["So15CALayerDelegateP", "init"]
+- ["So15CALayerDelegateP", "insets"]
+- !private ["So15CALayerDelegateP", "isAnimating"]
+- ["So15CALayerDelegateP", "layoutSubviews"]
+- ["So15CALayerDelegateP", "prepareForReuse"]
+- ["So15CALayerDelegateP", "setupSubviews"]
+- !private ["So15CALayerDelegateP", "stopAnimating"]
+- ["So15CALayerDelegateP", "typingBubble"]
+- !private ["So6CGRectV", "inset"]
+- ["s7CVarArgP", "TypingBubble"]
+- ["s7CVarArgP", "UIEdgeInsets"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addSubview"]
+- !private ["s7CVarArgP", "bounds"]
+- !private ["s7CVarArgP", "frame"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "insets"]
+- !private ["s7CVarArgP", "isAnimating"]
+- !private ["s7CVarArgP", "layoutSubviews"]
+- !private ["s7CVarArgP", "prepareForReuse"]
+- !private ["s7CVarArgP", "setupSubviews"]
+- !private ["s7CVarArgP", "stopAnimating"]
+- !private ["s7CVarArgP", "typingBubble"]
+- ["s28CustomDebugStringConvertibleP", "TypingBubble"]
+- ["s28CustomDebugStringConvertibleP", "UIEdgeInsets"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addSubview"]
+- !private ["s28CustomDebugStringConvertibleP", "bounds"]
+- !private ["s28CustomDebugStringConvertibleP", "frame"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "inset"]
+- !private ["s28CustomDebugStringConvertibleP", "insets"]
+- !private ["s28CustomDebugStringConvertibleP", "isAnimating"]
+- !private ["s28CustomDebugStringConvertibleP", "layoutSubviews"]
+- !private ["s28CustomDebugStringConvertibleP", "prepareForReuse"]
+- !private ["s28CustomDebugStringConvertibleP", "setupSubviews"]
+- !private ["s28CustomDebugStringConvertibleP", "stopAnimating"]
+- !private ["s28CustomDebugStringConvertibleP", "typingBubble"]
+- !private ["s17CustomReflectableP", "inset"]
+- ["s23CustomStringConvertibleP", "TypingBubble"]
+- ["s23CustomStringConvertibleP", "UIEdgeInsets"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addSubview"]
+- !private ["s23CustomStringConvertibleP", "bounds"]
+- !private ["s23CustomStringConvertibleP", "frame"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "insets"]
+- !private ["s23CustomStringConvertibleP", "isAnimating"]
+- !private ["s23CustomStringConvertibleP", "layoutSubviews"]
+- !private ["s23CustomStringConvertibleP", "prepareForReuse"]
+- !private ["s23CustomStringConvertibleP", "setupSubviews"]
+- !private ["s23CustomStringConvertibleP", "stopAnimating"]
+- !private ["s23CustomStringConvertibleP", "typingBubble"]
+- ["Se", "init"]
+- !private ["Se", "inset"]
+- ["SE", "init"]
+- !private ["SE", "inset"]
+- ["SQ", "TypingBubble"]
+- ["SQ", "UIEdgeInsets"]
+- ["SQ", ""]
+- !private ["SQ", "addSubview"]
+- !private ["SQ", "bounds"]
+- !private ["SQ", "frame"]
+- ["SQ", "init"]
+- !private ["SQ", "inset"]
+- !private ["SQ", "insets"]
+- !private ["SQ", "isAnimating"]
+- !private ["SQ", "layoutSubviews"]
+- !private ["SQ", "prepareForReuse"]
+- !private ["SQ", "setupSubviews"]
+- !private ["SQ", "stopAnimating"]
+- !private ["SQ", "typingBubble"]
+- ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
+- ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["SH", "TypingBubble"]
+- ["SH", "UIEdgeInsets"]
+- ["SH", ""]
+- !private ["SH", "addSubview"]
+- !private ["SH", "bounds"]
+- !private ["SH", "frame"]
+- ["SH", "init"]
+- !private ["SH", "insets"]
+- !private ["SH", "isAnimating"]
+- !private ["SH", "layoutSubviews"]
+- !private ["SH", "prepareForReuse"]
+- !private ["SH", "setupSubviews"]
+- !private ["SH", "stopAnimating"]
+- !private ["SH", "typingBubble"]
+- ["10MessageKit0A18CollectionViewCellC", "CGRect"]
+- ["10MessageKit0A18CollectionViewCellC", "NSCoder"]
+- ["10MessageKit0A18CollectionViewCellC", "TypingBubble"]
+- ["10MessageKit0A18CollectionViewCellC", "UIEdgeInsets"]
+- ["10MessageKit0A18CollectionViewCellC", ""]
+- !private ["10MessageKit0A18CollectionViewCellC", "addSubview"]
+- !private ["10MessageKit0A18CollectionViewCellC", "bounds"]
+- ["10MessageKit0A18CollectionViewCellC", "init"]
+- ["10MessageKit0A18CollectionViewCellC", "insets"]
+- ["10MessageKit0A18CollectionViewCellC", "layoutSubviews"]
+- ["10MessageKit0A18CollectionViewCellC", "prepareForReuse"]
+- ["10MessageKit0A18CollectionViewCellC", "setupSubviews"]
+- ["10MessageKit0A18CollectionViewCellC", "typingBubble"]
+- ["So8NSCodingP", "TypingBubble"]
+- ["So8NSCodingP", "UIEdgeInsets"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addSubview"]
+- !private ["So8NSCodingP", "bounds"]
+- !private ["So8NSCodingP", "frame"]
+- ["So8NSCodingP", "handleTapGesture"]
+- ["So8NSCodingP", "init"]
+- ["So8NSCodingP", "insets"]
+- !private ["So8NSCodingP", "isAnimating"]
+- ["So8NSCodingP", "layoutSubviews"]
+- ["So8NSCodingP", "prepareForReuse"]
+- ["So8NSCodingP", "setupSubviews"]
+- !private ["So8NSCodingP", "stopAnimating"]
+- ["So8NSCodingP", "typingBubble"]
+- ["So8NSObjectC", "CGRect"]
+- ["So8NSObjectC", "NSCoder"]
+- ["So8NSObjectC", "TypingBubble"]
+- ["So8NSObjectC", "UIEdgeInsets"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "addSubview"]
+- !private ["So8NSObjectC", "bounds"]
+- !private ["So8NSObjectC", "frame"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "insets"]
+- !private ["So8NSObjectC", "isAnimating"]
+- ["So8NSObjectC", "layoutSubviews"]
+- ["So8NSObjectC", "prepareForReuse"]
+- ["So8NSObjectC", "setupSubviews"]
+- !private ["So8NSObjectC", "stopAnimating"]
+- ["So8NSObjectC", "typingBubble"]
+- ["So8NSObjectP", "TypingBubble"]
+- ["So8NSObjectP", "UIEdgeInsets"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "addSubview"]
+- !private ["So8NSObjectP", "bounds"]
+- !private ["So8NSObjectP", "frame"]
+- ["So8NSObjectP", "handleTapGesture"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "insets"]
+- !private ["So8NSObjectP", "isAnimating"]
+- ["So8NSObjectP", "layoutSubviews"]
+- ["So8NSObjectP", "prepareForReuse"]
+- ["So8NSObjectP", "setupSubviews"]
+- !private ["So8NSObjectP", "stopAnimating"]
+- ["So8NSObjectP", "typingBubble"]
+- ["10MessageKit12TypingBubbleC", ""]
+- !private ["10MessageKit12TypingBubbleC", "frame"]
+- ["10MessageKit12TypingBubbleC", "init"]
+- !private ["10MessageKit12TypingBubbleC", "isAnimating"]
+- !private ["10MessageKit12TypingBubbleC", "stopAnimating"]
+- ["10MessageKit19TypingIndicatorCellC", "CGRect"]
+- ["10MessageKit19TypingIndicatorCellC", "NSCoder"]
+- ["10MessageKit19TypingIndicatorCellC", "TypingBubble"]
+- ["10MessageKit19TypingIndicatorCellC", "UIEdgeInsets"]
+- ["10MessageKit19TypingIndicatorCellC", ""]
+- !private ["10MessageKit19TypingIndicatorCellC", "addSubview"]
+- !private ["10MessageKit19TypingIndicatorCellC", "bounds"]
+- ["10MessageKit19TypingIndicatorCellC", "deinit"]
+- ["10MessageKit19TypingIndicatorCellC", "init"]
+- ["10MessageKit19TypingIndicatorCellC", "insets"]
+- ["10MessageKit19TypingIndicatorCellC", "layoutSubviews"]
+- ["10MessageKit19TypingIndicatorCellC", "prepareForReuse"]
+- ["10MessageKit19TypingIndicatorCellC", "setupSubviews"]
+- ["10MessageKit19TypingIndicatorCellC", "typingBubble"]
+- ["So29UIAccessibilityIdentificationP", "TypingBubble"]
+- ["So29UIAccessibilityIdentificationP", "UIEdgeInsets"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "addSubview"]
+- !private ["So29UIAccessibilityIdentificationP", "bounds"]
+- !private ["So29UIAccessibilityIdentificationP", "frame"]
+- ["So29UIAccessibilityIdentificationP", "handleTapGesture"]
+- ["So29UIAccessibilityIdentificationP", "init"]
+- ["So29UIAccessibilityIdentificationP", "insets"]
+- !private ["So29UIAccessibilityIdentificationP", "isAnimating"]
+- ["So29UIAccessibilityIdentificationP", "layoutSubviews"]
+- ["So29UIAccessibilityIdentificationP", "prepareForReuse"]
+- ["So29UIAccessibilityIdentificationP", "setupSubviews"]
+- !private ["So29UIAccessibilityIdentificationP", "stopAnimating"]
+- ["So29UIAccessibilityIdentificationP", "typingBubble"]
+- ["So12UIAppearanceP", "TypingBubble"]
+- ["So12UIAppearanceP", "UIEdgeInsets"]
+- ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "addSubview"]
+- !private ["So12UIAppearanceP", "bounds"]
+- !private ["So12UIAppearanceP", "frame"]
+- ["So12UIAppearanceP", "handleTapGesture"]
+- ["So12UIAppearanceP", "init"]
+- ["So12UIAppearanceP", "insets"]
+- !private ["So12UIAppearanceP", "isAnimating"]
+- ["So12UIAppearanceP", "layoutSubviews"]
+- ["So12UIAppearanceP", "prepareForReuse"]
+- ["So12UIAppearanceP", "setupSubviews"]
+- !private ["So12UIAppearanceP", "stopAnimating"]
+- ["So12UIAppearanceP", "typingBubble"]
+- ["So21UIAppearanceContainerP", "TypingBubble"]
+- ["So21UIAppearanceContainerP", "UIEdgeInsets"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "addSubview"]
+- !private ["So21UIAppearanceContainerP", "bounds"]
+- !private ["So21UIAppearanceContainerP", "frame"]
+- ["So21UIAppearanceContainerP", "handleTapGesture"]
+- ["So21UIAppearanceContainerP", "init"]
+- ["So21UIAppearanceContainerP", "insets"]
+- !private ["So21UIAppearanceContainerP", "isAnimating"]
+- ["So21UIAppearanceContainerP", "layoutSubviews"]
+- ["So21UIAppearanceContainerP", "prepareForReuse"]
+- ["So21UIAppearanceContainerP", "setupSubviews"]
+- !private ["So21UIAppearanceContainerP", "stopAnimating"]
+- ["So21UIAppearanceContainerP", "typingBubble"]
+- ["So24UICollectionReusableViewC", "CGRect"]
+- ["So24UICollectionReusableViewC", "NSCoder"]
+- ["So24UICollectionReusableViewC", "TypingBubble"]
+- ["So24UICollectionReusableViewC", "UIEdgeInsets"]
+- ["So24UICollectionReusableViewC", ""]
+- !private ["So24UICollectionReusableViewC", "addSubview"]
+- !private ["So24UICollectionReusableViewC", "bounds"]
+- ["So24UICollectionReusableViewC", "init"]
+- ["So24UICollectionReusableViewC", "insets"]
+- ["So24UICollectionReusableViewC", "layoutSubviews"]
+- ["So24UICollectionReusableViewC", "prepareForReuse"]
+- ["So24UICollectionReusableViewC", "setupSubviews"]
+- ["So24UICollectionReusableViewC", "typingBubble"]
+- ["So20UICollectionViewCellC", "CGRect"]
+- ["So20UICollectionViewCellC", "NSCoder"]
+- ["So20UICollectionViewCellC", "TypingBubble"]
+- ["So20UICollectionViewCellC", "UIEdgeInsets"]
+- ["So20UICollectionViewCellC", ""]
+- !private ["So20UICollectionViewCellC", "addSubview"]
+- !private ["So20UICollectionViewCellC", "bounds"]
+- ["So20UICollectionViewCellC", "init"]
+- ["So20UICollectionViewCellC", "insets"]
+- ["So20UICollectionViewCellC", "layoutSubviews"]
+- ["So20UICollectionViewCellC", "prepareForReuse"]
+- ["So20UICollectionViewCellC", "setupSubviews"]
+- ["So20UICollectionViewCellC", "typingBubble"]
+- ["So17UICoordinateSpaceP", "TypingBubble"]
+- ["So17UICoordinateSpaceP", "UIEdgeInsets"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "addSubview"]
+- !private ["So17UICoordinateSpaceP", "bounds"]
+- !private ["So17UICoordinateSpaceP", "frame"]
+- ["So17UICoordinateSpaceP", "handleTapGesture"]
+- ["So17UICoordinateSpaceP", "init"]
+- ["So17UICoordinateSpaceP", "insets"]
+- !private ["So17UICoordinateSpaceP", "isAnimating"]
+- ["So17UICoordinateSpaceP", "layoutSubviews"]
+- ["So17UICoordinateSpaceP", "prepareForReuse"]
+- ["So17UICoordinateSpaceP", "setupSubviews"]
+- !private ["So17UICoordinateSpaceP", "stopAnimating"]
+- ["So17UICoordinateSpaceP", "typingBubble"]
+- ["So13UIDynamicItemP", "TypingBubble"]
+- ["So13UIDynamicItemP", "UIEdgeInsets"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "addSubview"]
+- !private ["So13UIDynamicItemP", "bounds"]
+- !private ["So13UIDynamicItemP", "frame"]
+- ["So13UIDynamicItemP", "handleTapGesture"]
+- ["So13UIDynamicItemP", "init"]
+- ["So13UIDynamicItemP", "insets"]
+- !private ["So13UIDynamicItemP", "isAnimating"]
+- ["So13UIDynamicItemP", "layoutSubviews"]
+- ["So13UIDynamicItemP", "prepareForReuse"]
+- ["So13UIDynamicItemP", "setupSubviews"]
+- !private ["So13UIDynamicItemP", "stopAnimating"]
+- ["So13UIDynamicItemP", "typingBubble"]
+- ["So12UIEdgeInsetsV", "init"]
+- ["So18UIFocusEnvironmentP", "TypingBubble"]
+- ["So18UIFocusEnvironmentP", "UIEdgeInsets"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "addSubview"]
+- !private ["So18UIFocusEnvironmentP", "bounds"]
+- !private ["So18UIFocusEnvironmentP", "frame"]
+- ["So18UIFocusEnvironmentP", "handleTapGesture"]
+- ["So18UIFocusEnvironmentP", "init"]
+- ["So18UIFocusEnvironmentP", "insets"]
+- !private ["So18UIFocusEnvironmentP", "isAnimating"]
+- ["So18UIFocusEnvironmentP", "layoutSubviews"]
+- ["So18UIFocusEnvironmentP", "prepareForReuse"]
+- ["So18UIFocusEnvironmentP", "setupSubviews"]
+- !private ["So18UIFocusEnvironmentP", "stopAnimating"]
+- ["So18UIFocusEnvironmentP", "typingBubble"]
+- ["So11UIFocusItemP", "TypingBubble"]
+- ["So11UIFocusItemP", "UIEdgeInsets"]
+- ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "addSubview"]
+- !private ["So11UIFocusItemP", "bounds"]
+- !private ["So11UIFocusItemP", "frame"]
+- ["So11UIFocusItemP", "handleTapGesture"]
+- ["So11UIFocusItemP", "init"]
+- ["So11UIFocusItemP", "insets"]
+- !private ["So11UIFocusItemP", "isAnimating"]
+- ["So11UIFocusItemP", "layoutSubviews"]
+- ["So11UIFocusItemP", "prepareForReuse"]
+- ["So11UIFocusItemP", "setupSubviews"]
+- !private ["So11UIFocusItemP", "stopAnimating"]
+- ["So11UIFocusItemP", "typingBubble"]
+- ["So20UIFocusItemContainerP", "TypingBubble"]
+- ["So20UIFocusItemContainerP", "UIEdgeInsets"]
+- ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "addSubview"]
+- !private ["So20UIFocusItemContainerP", "bounds"]
+- !private ["So20UIFocusItemContainerP", "frame"]
+- ["So20UIFocusItemContainerP", "handleTapGesture"]
+- ["So20UIFocusItemContainerP", "init"]
+- ["So20UIFocusItemContainerP", "insets"]
+- !private ["So20UIFocusItemContainerP", "isAnimating"]
+- ["So20UIFocusItemContainerP", "layoutSubviews"]
+- ["So20UIFocusItemContainerP", "prepareForReuse"]
+- ["So20UIFocusItemContainerP", "setupSubviews"]
+- !private ["So20UIFocusItemContainerP", "stopAnimating"]
+- ["So20UIFocusItemContainerP", "typingBubble"]
+- ["So24UILargeContentViewerItemP", "TypingBubble"]
+- ["So24UILargeContentViewerItemP", "UIEdgeInsets"]
+- ["So24UILargeContentViewerItemP", ""]
+- !private ["So24UILargeContentViewerItemP", "addSubview"]
+- !private ["So24UILargeContentViewerItemP", "bounds"]
+- !private ["So24UILargeContentViewerItemP", "frame"]
+- ["So24UILargeContentViewerItemP", "handleTapGesture"]
+- ["So24UILargeContentViewerItemP", "init"]
+- ["So24UILargeContentViewerItemP", "insets"]
+- !private ["So24UILargeContentViewerItemP", "isAnimating"]
+- ["So24UILargeContentViewerItemP", "layoutSubviews"]
+- ["So24UILargeContentViewerItemP", "prepareForReuse"]
+- ["So24UILargeContentViewerItemP", "setupSubviews"]
+- !private ["So24UILargeContentViewerItemP", "stopAnimating"]
+- ["So24UILargeContentViewerItemP", "typingBubble"]
+- ["So30UIPasteConfigurationSupportingP", "TypingBubble"]
+- ["So30UIPasteConfigurationSupportingP", "UIEdgeInsets"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "addSubview"]
+- !private ["So30UIPasteConfigurationSupportingP", "bounds"]
+- !private ["So30UIPasteConfigurationSupportingP", "frame"]
+- ["So30UIPasteConfigurationSupportingP", "handleTapGesture"]
+- ["So30UIPasteConfigurationSupportingP", "init"]
+- ["So30UIPasteConfigurationSupportingP", "insets"]
+- !private ["So30UIPasteConfigurationSupportingP", "isAnimating"]
+- ["So30UIPasteConfigurationSupportingP", "layoutSubviews"]
+- ["So30UIPasteConfigurationSupportingP", "prepareForReuse"]
+- ["So30UIPasteConfigurationSupportingP", "setupSubviews"]
+- !private ["So30UIPasteConfigurationSupportingP", "stopAnimating"]
+- ["So30UIPasteConfigurationSupportingP", "typingBubble"]
+- ["So11UIResponderC", "CGRect"]
+- ["So11UIResponderC", "NSCoder"]
+- ["So11UIResponderC", "TypingBubble"]
+- ["So11UIResponderC", "UIEdgeInsets"]
+- ["So11UIResponderC", ""]
+- !private ["So11UIResponderC", "addSubview"]
+- !private ["So11UIResponderC", "bounds"]
+- !private ["So11UIResponderC", "frame"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "insets"]
+- !private ["So11UIResponderC", "isAnimating"]
+- ["So11UIResponderC", "layoutSubviews"]
+- ["So11UIResponderC", "prepareForReuse"]
+- ["So11UIResponderC", "setupSubviews"]
+- !private ["So11UIResponderC", "stopAnimating"]
+- ["So11UIResponderC", "typingBubble"]
+- ["So30UIResponderStandardEditActionsP", "TypingBubble"]
+- ["So30UIResponderStandardEditActionsP", "UIEdgeInsets"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "addSubview"]
+- !private ["So30UIResponderStandardEditActionsP", "bounds"]
+- !private ["So30UIResponderStandardEditActionsP", "frame"]
+- ["So30UIResponderStandardEditActionsP", "handleTapGesture"]
+- ["So30UIResponderStandardEditActionsP", "init"]
+- ["So30UIResponderStandardEditActionsP", "insets"]
+- !private ["So30UIResponderStandardEditActionsP", "isAnimating"]
+- ["So30UIResponderStandardEditActionsP", "layoutSubviews"]
+- ["So30UIResponderStandardEditActionsP", "prepareForReuse"]
+- ["So30UIResponderStandardEditActionsP", "setupSubviews"]
+- !private ["So30UIResponderStandardEditActionsP", "stopAnimating"]
+- ["So30UIResponderStandardEditActionsP", "typingBubble"]
+- ["So18UITraitEnvironmentP", "TypingBubble"]
+- ["So18UITraitEnvironmentP", "UIEdgeInsets"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "addSubview"]
+- !private ["So18UITraitEnvironmentP", "bounds"]
+- !private ["So18UITraitEnvironmentP", "frame"]
+- ["So18UITraitEnvironmentP", "handleTapGesture"]
+- ["So18UITraitEnvironmentP", "init"]
+- ["So18UITraitEnvironmentP", "insets"]
+- !private ["So18UITraitEnvironmentP", "isAnimating"]
+- ["So18UITraitEnvironmentP", "layoutSubviews"]
+- ["So18UITraitEnvironmentP", "prepareForReuse"]
+- ["So18UITraitEnvironmentP", "setupSubviews"]
+- !private ["So18UITraitEnvironmentP", "stopAnimating"]
+- ["So18UITraitEnvironmentP", "typingBubble"]
+- ["So23UIUserActivityRestoringP", "TypingBubble"]
+- ["So23UIUserActivityRestoringP", "UIEdgeInsets"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "addSubview"]
+- !private ["So23UIUserActivityRestoringP", "bounds"]
+- !private ["So23UIUserActivityRestoringP", "frame"]
+- ["So23UIUserActivityRestoringP", "handleTapGesture"]
+- ["So23UIUserActivityRestoringP", "init"]
+- ["So23UIUserActivityRestoringP", "insets"]
+- !private ["So23UIUserActivityRestoringP", "isAnimating"]
+- ["So23UIUserActivityRestoringP", "layoutSubviews"]
+- ["So23UIUserActivityRestoringP", "prepareForReuse"]
+- ["So23UIUserActivityRestoringP", "setupSubviews"]
+- !private ["So23UIUserActivityRestoringP", "stopAnimating"]
+- ["So23UIUserActivityRestoringP", "typingBubble"]
+- ["So6UIViewC", "CGRect"]
+- ["So6UIViewC", "NSCoder"]
+- ["So6UIViewC", "TypingBubble"]
+- ["So6UIViewC", "UIEdgeInsets"]
+- ["So6UIViewC", ""]
+- !private ["So6UIViewC", "addSubview"]
+- !private ["So6UIViewC", "bounds"]
+- !private ["So6UIViewC", "frame"]
+- ["So6UIViewC", "init"]
+- ["So6UIViewC", "insets"]
+- !private ["So6UIViewC", "isAnimating"]
+- ["So6UIViewC", "layoutSubviews"]
+- ["So6UIViewC", "prepareForReuse"]
+- ["So6UIViewC", "setupSubviews"]
+- !private ["So6UIViewC", "stopAnimating"]
+- ["So6UIViewC", "typingBubble"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "inset"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "TypingBubble"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UIEdgeInsets"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addSubview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bounds"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "insets"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isAnimating"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "layoutSubviews"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "prepareForReuse"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setupSubviews"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stopAnimating"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "typingBubble"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "TypingBubble"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIEdgeInsets"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addSubview"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bounds"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "frame"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "insets"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isAnimating"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "layoutSubviews"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "prepareForReuse"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setupSubviews"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "stopAnimating"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "typingBubble"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "inset"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "TypingBubble"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "UIEdgeInsets"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "addSubview"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "bounds"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "frame"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "insets"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "isAnimating"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "layoutSubviews"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "prepareForReuse"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "setupSubviews"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "stopAnimating"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "typingBubble"]
+depends-nominal:
+- "So15CALayerDelegateP"
+- !private "So6CGRectV"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- "SQ"
+- "s27ExpressibleByIntegerLiteralP"
+- "SH"
+- "10MessageKit0A18CollectionViewCellC"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "10MessageKit12TypingBubbleC"
+- "10MessageKit19TypingIndicatorCellC"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So24UICollectionReusableViewC"
+- "So20UICollectionViewCellC"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So12UIEdgeInsetsV"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/MapKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/InputBarAccessoryView/InputBarAccessoryView.framework/Modules/InputBarAccessoryView.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Users/alexandr/Desktop/iChat/Pods/Target Support Files/MessageKit/MessageKit-umbrella.h"
+- "/Users/alexandr/Desktop/iChat/Pods/Target Support Files/InputBarAccessoryView/InputBarAccessoryView-umbrella.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/InputBarAccessoryView/InputBarAccessoryView.framework/Headers/InputBarAccessoryView-Swift.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/alexandr/Desktop/iChat/build/Pods.build/Debug-iphonesimulator/MessageKit.build/unextended-module.modulemap"
+- "/Users/alexandr/Desktop/iChat/build/Pods.build/Debug-iphonesimulator/InputBarAccessoryView.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "459bed225ae99c12ef64f8fa376f6639"

@@ -1,0 +1,504 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TextMessageSizeCalculator"
+provides-nominal:
+- "10MessageKit04TextA14SizeCalculatorC"
+provides-member:
+- ["10MessageKit04TextA14SizeCalculatorC", ""]
+provides-dynamic-lookup:
+- "configure"
+- "incomingMessageLabelInsets"
+- "messageContainerMaxWidth"
+- "messageContainerSize"
+- "messageLabelFont"
+- "messageLabelInsets"
+- "outgoingMessageLabelInsets"
+depends-top-level:
+- !private "!"
+- !private "+="
+- !private "-"
+- "AssignmentPrecedence"
+- "CGFloat"
+- "CGSize"
+- "CastingPrecedence"
+- !private "Dictionary"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "MessageSizeCalculator"
+- "MessageType"
+- "MessagesCollectionViewLayoutAttributes"
+- "NSAttributedString"
+- !private "StringLiteralType"
+- "TernaryPrecedence"
+- "TextMessageSizeCalculator"
+- "UICollectionViewLayoutAttributes"
+- "UIEdgeInsets"
+- "UIFont"
+- !private "fatalError"
+- !private "incomingMessageLabelInsets"
+- !private "labelSize"
+- !private "messageContainerMaxWidth"
+- !private "messageLabelFont"
+- !private "messageLabelInsets"
+- !private "messagesLayout"
+- !private "outgoingMessageLabelInsets"
+depends-member:
+- ["s18AdditiveArithmeticP", ""]
+- ["SK", ""]
+- !private ["SK", "isEmpty"]
+- !private ["So6CGSizeV", "height"]
+- !private ["So6CGSizeV", "width"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "attribute"]
+- !private ["s7CVarArgP", "indexPath"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "messageLabelFont"]
+- !private ["s7CVarArgP", "messageLabelInsets"]
+- !private ["s7CVarArgP", "messagesCollectionView"]
+- !private ["s7CVarArgP", "messagesDataSource"]
+- ["s7CVarArgP", "preferredFont"]
+- !private ["s7CVarArgP", "string"]
+- ["10MessageKit18CellSizeCalculatorC", "CGFloat"]
+- ["10MessageKit18CellSizeCalculatorC", "CGSize"]
+- ["10MessageKit18CellSizeCalculatorC", "MessageType"]
+- !private ["10MessageKit18CellSizeCalculatorC", "MessagesCollectionViewLayoutAttributes"]
+- !private ["10MessageKit18CellSizeCalculatorC", "NSAttributedString"]
+- ["10MessageKit18CellSizeCalculatorC", "UICollectionViewLayoutAttributes"]
+- ["10MessageKit18CellSizeCalculatorC", "UIEdgeInsets"]
+- ["10MessageKit18CellSizeCalculatorC", "UIFont"]
+- ["10MessageKit18CellSizeCalculatorC", ""]
+- ["10MessageKit18CellSizeCalculatorC", "configure"]
+- !private ["10MessageKit18CellSizeCalculatorC", "fatalError"]
+- ["10MessageKit18CellSizeCalculatorC", "incomingMessageLabelInsets"]
+- !private ["10MessageKit18CellSizeCalculatorC", "labelSize"]
+- ["10MessageKit18CellSizeCalculatorC", "messageContainerMaxWidth"]
+- ["10MessageKit18CellSizeCalculatorC", "messageContainerSize"]
+- ["10MessageKit18CellSizeCalculatorC", "messageLabelFont"]
+- ["10MessageKit18CellSizeCalculatorC", "messageLabelInsets"]
+- !private ["10MessageKit18CellSizeCalculatorC", "messagesLayout"]
+- ["10MessageKit18CellSizeCalculatorC", "outgoingMessageLabelInsets"]
+- ["Sl", ""]
+- !private ["Sl", "isEmpty"]
+- ["SL", ""]
+- !private ["SL", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "attribute"]
+- !private ["s28CustomDebugStringConvertibleP", "height"]
+- !private ["s28CustomDebugStringConvertibleP", "indexPath"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "messageLabelFont"]
+- !private ["s28CustomDebugStringConvertibleP", "messageLabelInsets"]
+- !private ["s28CustomDebugStringConvertibleP", "messagesCollectionView"]
+- !private ["s28CustomDebugStringConvertibleP", "messagesDataSource"]
+- ["s28CustomDebugStringConvertibleP", "preferredFont"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- !private ["s28CustomDebugStringConvertibleP", "width"]
+- !private ["s17CustomReflectableP", "height"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "width"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "attribute"]
+- !private ["s23CustomStringConvertibleP", "indexPath"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "messageLabelFont"]
+- !private ["s23CustomStringConvertibleP", "messageLabelInsets"]
+- !private ["s23CustomStringConvertibleP", "messagesCollectionView"]
+- !private ["s23CustomStringConvertibleP", "messagesDataSource"]
+- ["s23CustomStringConvertibleP", "preferredFont"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["Se", "height"]
+- !private ["Se", "horizontal"]
+- ["Se", "init"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "vertical"]
+- !private ["Se", "width"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "height"]
+- !private ["SE", "horizontal"]
+- ["SE", "init"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "vertical"]
+- !private ["SE", "width"]
+- ["SQ", ""]
+- !private ["SQ", "attribute"]
+- ["SQ", "body"]
+- !private ["SQ", "font"]
+- !private ["SQ", "height"]
+- !private ["SQ", "horizontal"]
+- !private ["SQ", "indexPath"]
+- ["SQ", "init"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "messageLabelFont"]
+- !private ["SQ", "messageLabelInsets"]
+- !private ["SQ", "messagesCollectionView"]
+- !private ["SQ", "messagesDataSource"]
+- ["SQ", "preferredFont"]
+- !private ["SQ", "string"]
+- !private ["SQ", "vertical"]
+- !private ["SQ", "width"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isEmpty"]
+- ["s25ExpressibleByFloatLiteralP", ""]
+- ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
+- ["s27ExpressibleByIntegerLiteralP", ""]
+- ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "isEmpty"]
+- ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "isEmpty"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isEmpty"]
+- ["SF", ""]
+- ["SH", ""]
+- !private ["SH", "attribute"]
+- ["SH", "body"]
+- !private ["SH", "font"]
+- !private ["SH", "indexPath"]
+- !private ["SH", "init"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "messageLabelFont"]
+- !private ["SH", "messageLabelInsets"]
+- !private ["SH", "messagesCollectionView"]
+- !private ["SH", "messagesDataSource"]
+- ["SH", "preferredFont"]
+- !private ["SH", "string"]
+- !private ["So21NSAttributedStringKeya", "font"]
+- ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "isEmpty"]
+- ["10MessageKit0A4KindO", "attributedText"]
+- ["10MessageKit0A4KindO", "emoji"]
+- ["10MessageKit0A4KindO", "text"]
+- ["10MessageKit0A14SizeCalculatorC", "CGFloat"]
+- ["10MessageKit0A14SizeCalculatorC", "CGSize"]
+- ["10MessageKit0A14SizeCalculatorC", "MessageType"]
+- !private ["10MessageKit0A14SizeCalculatorC", "MessagesCollectionViewLayoutAttributes"]
+- !private ["10MessageKit0A14SizeCalculatorC", "NSAttributedString"]
+- ["10MessageKit0A14SizeCalculatorC", "UICollectionViewLayoutAttributes"]
+- ["10MessageKit0A14SizeCalculatorC", "UIEdgeInsets"]
+- ["10MessageKit0A14SizeCalculatorC", "UIFont"]
+- ["10MessageKit0A14SizeCalculatorC", ""]
+- ["10MessageKit0A14SizeCalculatorC", "configure"]
+- !private ["10MessageKit0A14SizeCalculatorC", "fatalError"]
+- ["10MessageKit0A14SizeCalculatorC", "incomingMessageLabelInsets"]
+- ["10MessageKit0A14SizeCalculatorC", "init"]
+- !private ["10MessageKit0A14SizeCalculatorC", "labelSize"]
+- ["10MessageKit0A14SizeCalculatorC", "messageContainerMaxWidth"]
+- ["10MessageKit0A14SizeCalculatorC", "messageContainerSize"]
+- ["10MessageKit0A14SizeCalculatorC", "messageLabelFont"]
+- ["10MessageKit0A14SizeCalculatorC", "messageLabelInsets"]
+- !private ["10MessageKit0A14SizeCalculatorC", "messagesLayout"]
+- ["10MessageKit0A14SizeCalculatorC", "outgoingMessageLabelInsets"]
+- !private ["10MessageKit0A4TypeP", "kind"]
+- !private ["10MessageKit32MessagesCollectionViewFlowLayoutC", "messagesCollectionView"]
+- !private ["10MessageKit32MessagesCollectionViewFlowLayoutC", "messagesDataSource"]
+- !private ["10MessageKit38MessagesCollectionViewLayoutAttributesC", "indexPath"]
+- !private ["10MessageKit38MessagesCollectionViewLayoutAttributesC", "messageLabelFont"]
+- !private ["10MessageKit38MessagesCollectionViewLayoutAttributesC", "messageLabelInsets"]
+- !private ["10MessageKit18MessagesDataSourceP", "isFromCurrentSender"]
+- !private ["10MessageKit18MessagesDataSourceP", "messageForItem"]
+- !private ["s10MirrorPathP", "isEmpty"]
+- !private ["So18NSAttributedStringC", "attribute"]
+- !private ["So18NSAttributedStringC", "init"]
+- !private ["So18NSAttributedStringC", "string"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "attribute"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isEmpty"]
+- !private ["So8NSCodingP", "messagesCollectionView"]
+- !private ["So8NSCodingP", "messagesDataSource"]
+- !private ["So8NSCodingP", "string"]
+- !private ["So9NSCopyingP", "attribute"]
+- !private ["So9NSCopyingP", "indexPath"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "isEmpty"]
+- !private ["So9NSCopyingP", "messageLabelFont"]
+- !private ["So9NSCopyingP", "messageLabelInsets"]
+- ["So9NSCopyingP", "preferredFont"]
+- !private ["So9NSCopyingP", "string"]
+- !private ["So21NSItemProviderReadingP", "attribute"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "isEmpty"]
+- !private ["So21NSItemProviderReadingP", "string"]
+- !private ["So21NSItemProviderWritingP", "attribute"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "isEmpty"]
+- !private ["So21NSItemProviderWritingP", "string"]
+- !private ["So16NSMutableCopyingP", "attribute"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "isEmpty"]
+- !private ["So16NSMutableCopyingP", "string"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "attribute"]
+- !private ["So8NSObjectC", "attributedStringWithAttachment"]
+- !private ["So8NSObjectC", "indexPath"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isEmpty"]
+- !private ["So8NSObjectC", "messageLabelFont"]
+- !private ["So8NSObjectC", "messageLabelInsets"]
+- !private ["So8NSObjectC", "messagesCollectionView"]
+- !private ["So8NSObjectC", "messagesDataSource"]
+- ["So8NSObjectC", "preferredFont"]
+- ["So8NSObjectC", "preferredFontForTextStyle"]
+- !private ["So8NSObjectC", "string"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "attribute"]
+- !private ["So8NSObjectP", "attributedStringWithAttachment"]
+- !private ["So8NSObjectP", "indexPath"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isEmpty"]
+- !private ["So8NSObjectP", "messageLabelFont"]
+- !private ["So8NSObjectP", "messageLabelInsets"]
+- !private ["So8NSObjectP", "messagesCollectionView"]
+- !private ["So8NSObjectP", "messagesDataSource"]
+- ["So8NSObjectP", "preferredFont"]
+- ["So8NSObjectP", "preferredFontForTextStyle"]
+- !private ["So8NSObjectP", "string"]
+- !private ["So14NSSecureCodingP", "attribute"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "isEmpty"]
+- !private ["So14NSSecureCodingP", "string"]
+- !private ["So8NSStringC", "isEmpty"]
+- ["Sj", ""]
+- !private ["Sm", "isEmpty"]
+- ["SY", ""]
+- ["SY", "body"]
+- !private ["SY", "font"]
+- ["ST", ""]
+- !private ["ST", "isEmpty"]
+- ["s13SignedNumericP", ""]
+- ["Sx", ""]
+- !private ["SS", "isEmpty"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["Sy", "isEmpty"]
+- ["10MessageKit04TextA14SizeCalculatorC", "CGFloat"]
+- ["10MessageKit04TextA14SizeCalculatorC", "CGSize"]
+- ["10MessageKit04TextA14SizeCalculatorC", "MessageType"]
+- !private ["10MessageKit04TextA14SizeCalculatorC", "MessagesCollectionViewLayoutAttributes"]
+- !private ["10MessageKit04TextA14SizeCalculatorC", "NSAttributedString"]
+- ["10MessageKit04TextA14SizeCalculatorC", "UICollectionViewLayoutAttributes"]
+- ["10MessageKit04TextA14SizeCalculatorC", "UIEdgeInsets"]
+- ["10MessageKit04TextA14SizeCalculatorC", "UIFont"]
+- ["10MessageKit04TextA14SizeCalculatorC", "configure"]
+- ["10MessageKit04TextA14SizeCalculatorC", "deinit"]
+- !private ["10MessageKit04TextA14SizeCalculatorC", "fatalError"]
+- ["10MessageKit04TextA14SizeCalculatorC", "incomingMessageLabelInsets"]
+- ["10MessageKit04TextA14SizeCalculatorC", "init"]
+- !private ["10MessageKit04TextA14SizeCalculatorC", "labelSize"]
+- ["10MessageKit04TextA14SizeCalculatorC", "messageContainerMaxWidth"]
+- ["10MessageKit04TextA14SizeCalculatorC", "messageContainerSize"]
+- ["10MessageKit04TextA14SizeCalculatorC", "messageLabelFont"]
+- ["10MessageKit04TextA14SizeCalculatorC", "messageLabelInsets"]
+- !private ["10MessageKit04TextA14SizeCalculatorC", "messagesLayout"]
+- ["10MessageKit04TextA14SizeCalculatorC", "outgoingMessageLabelInsets"]
+- ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "isEmpty"]
+- ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "isEmpty"]
+- ["So15UIFontTextStylea", "body"]
+- ["So26UICollectionViewFlowLayoutC", ""]
+- !private ["So26UICollectionViewFlowLayoutC", "messagesCollectionView"]
+- !private ["So26UICollectionViewFlowLayoutC", "messagesDataSource"]
+- ["So22UICollectionViewLayoutC", ""]
+- !private ["So22UICollectionViewLayoutC", "messagesCollectionView"]
+- !private ["So22UICollectionViewLayoutC", "messagesDataSource"]
+- ["So32UICollectionViewLayoutAttributesC", ""]
+- !private ["So32UICollectionViewLayoutAttributesC", "indexPath"]
+- !private ["So32UICollectionViewLayoutAttributesC", "messageLabelFont"]
+- !private ["So32UICollectionViewLayoutAttributesC", "messageLabelInsets"]
+- !private ["So13UIDynamicItemP", "indexPath"]
+- !private ["So13UIDynamicItemP", "messageLabelFont"]
+- !private ["So13UIDynamicItemP", "messageLabelInsets"]
+- !private ["So12UIEdgeInsetsV", "horizontal"]
+- ["So12UIEdgeInsetsV", "init"]
+- !private ["So12UIEdgeInsetsV", "vertical"]
+- ["So6UIFontC", "preferredFont"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "height"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "isEmpty"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "width"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "isEmpty"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "isEmpty"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isEmpty"]
+- !private ["s19_HasContiguousBytesP", "isEmpty"]
+- ["s35_HasCustomAnyHashableRepresentationP", ""]
+- ["s35_HasCustomAnyHashableRepresentationP", "body"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "font"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "attribute"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "indexPath"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isEmpty"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "messageLabelFont"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "messageLabelInsets"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "messagesCollectionView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "messagesDataSource"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "preferredFont"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "string"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "attribute"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "indexPath"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isEmpty"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "messageLabelFont"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "messageLabelInsets"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "messagesCollectionView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "messagesDataSource"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "preferredFont"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "string"]
+- !private ["s21_ObjectiveCBridgeableP", "_ObjectiveCType"]
+- !private ["s21_ObjectiveCBridgeableP", "_bridgeToObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_conditionallyBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_forceBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_unconditionallyBridgeFromObjectiveC"]
+- ["s21_ObjectiveCBridgeableP", "body"]
+- !private ["s21_ObjectiveCBridgeableP", "font"]
+- !private ["s21_ObjectiveCBridgeableP", "height"]
+- !private ["s21_ObjectiveCBridgeableP", "horizontal"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "vertical"]
+- !private ["s21_ObjectiveCBridgeableP", "width"]
+- ["s20_SwiftNewtypeWrapperP", "body"]
+- !private ["s20_SwiftNewtypeWrapperP", "font"]
+depends-nominal:
+- "s18AdditiveArithmeticP"
+- "SK"
+- !private "So6CGSizeV"
+- "s7CVarArgP"
+- "10MessageKit18CellSizeCalculatorC"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "s26DefaultStringInterpolationV"
+- "SE"
+- "SQ"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SF"
+- "SH"
+- !private "So21NSAttributedStringKeya"
+- "s25LosslessStringConvertibleP"
+- "10MessageKit0A4KindO"
+- "10MessageKit0A14SizeCalculatorC"
+- !private "10MessageKit0A4TypeP"
+- !private "10MessageKit32MessagesCollectionViewFlowLayoutC"
+- !private "10MessageKit38MessagesCollectionViewLayoutAttributesC"
+- !private "10MessageKit18MessagesDataSourceP"
+- !private "s10MirrorPathP"
+- !private "So18NSAttributedStringC"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "Sj"
+- !private "Sm"
+- "SY"
+- "ST"
+- "s13SignedNumericP"
+- "Sx"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- "10MessageKit04TextA14SizeCalculatorC"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "So15UIFontTextStylea"
+- "So26UICollectionViewFlowLayoutC"
+- "So22UICollectionViewLayoutC"
+- "So32UICollectionViewLayoutAttributesC"
+- !private "So13UIDynamicItemP"
+- "So12UIEdgeInsetsV"
+- "So6UIFontC"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+- "s20_SwiftNewtypeWrapperP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/MapKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/InputBarAccessoryView/InputBarAccessoryView.framework/Modules/InputBarAccessoryView.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Users/alexandr/Desktop/iChat/Pods/Target Support Files/MessageKit/MessageKit-umbrella.h"
+- "/Users/alexandr/Desktop/iChat/Pods/Target Support Files/InputBarAccessoryView/InputBarAccessoryView-umbrella.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/InputBarAccessoryView/InputBarAccessoryView.framework/Headers/InputBarAccessoryView-Swift.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/alexandr/Desktop/iChat/build/Pods.build/Debug-iphonesimulator/MessageKit.build/unextended-module.modulemap"
+- "/Users/alexandr/Desktop/iChat/build/Pods.build/Debug-iphonesimulator/InputBarAccessoryView.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "693faf77f88f6d0fa62decb911bd5c9f"

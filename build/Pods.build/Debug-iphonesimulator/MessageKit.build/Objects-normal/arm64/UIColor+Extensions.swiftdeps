@@ -1,0 +1,328 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["So7UIColorC", ""]
+- ["So7UIColorC", "incomingMessageBackground"]
+- ["So7UIColorC", "outgoingMessageBackground"]
+- ["So7UIColorC", "incomingMessageLabel"]
+- ["So7UIColorC", "outgoingMessageLabel"]
+- ["So7UIColorC", "incomingAudioMessageTint"]
+- ["So7UIColorC", "outgoingAudioMessageTint"]
+- ["So7UIColorC", "collectionViewBackground"]
+- ["So7UIColorC", "typingIndicatorDot"]
+- ["So7UIColorC", "label"]
+- ["So7UIColorC", "avatarViewBackground"]
+provides-dynamic-lookup:
+- "avatarViewBackground"
+- "collectionViewBackground"
+- "colorFromAssetBundle"
+- "incomingAudioMessageTint"
+- "incomingMessageBackground"
+- "incomingMessageLabel"
+- "label"
+- "outgoingAudioMessageTint"
+- "outgoingMessageBackground"
+- "outgoingMessageLabel"
+- "typingIndicatorDot"
+depends-top-level:
+- !private "Bundle"
+- !private "MessageKitError"
+- "String"
+- !private "StringLiteralType"
+- "UIColor"
+- !private "colorFromAssetBundle"
+- !private "fatalError"
+depends-member:
+- !private ["So8NSBundleC", "messageKitAssetBundle"]
+- !private ["s7CVarArgP", "Bundle"]
+- !private ["s7CVarArgP", "MessageKitError"]
+- !private ["s7CVarArgP", "UIColor"]
+- !private ["s7CVarArgP", "colorFromAssetBundle"]
+- !private ["s7CVarArgP", "fatalError"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "messageKitAssetBundle"]
+- !private ["s28CustomDebugStringConvertibleP", "Bundle"]
+- !private ["s28CustomDebugStringConvertibleP", "MessageKitError"]
+- !private ["s28CustomDebugStringConvertibleP", "UIColor"]
+- !private ["s28CustomDebugStringConvertibleP", "colorFromAssetBundle"]
+- !private ["s28CustomDebugStringConvertibleP", "fatalError"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "messageKitAssetBundle"]
+- !private ["s23CustomStringConvertibleP", "Bundle"]
+- !private ["s23CustomStringConvertibleP", "MessageKitError"]
+- !private ["s23CustomStringConvertibleP", "UIColor"]
+- !private ["s23CustomStringConvertibleP", "colorFromAssetBundle"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "messageKitAssetBundle"]
+- !private ["SQ", "Bundle"]
+- !private ["SQ", "MessageKitError"]
+- !private ["SQ", "UIColor"]
+- !private ["SQ", ""]
+- !private ["SQ", "colorFromAssetBundle"]
+- !private ["SQ", "fatalError"]
+- !private ["SQ", "init"]
+- !private ["SQ", "messageKitAssetBundle"]
+- !private ["SH", "Bundle"]
+- !private ["SH", "MessageKitError"]
+- !private ["SH", "UIColor"]
+- !private ["SH", "colorFromAssetBundle"]
+- !private ["SH", "fatalError"]
+- !private ["SH", "init"]
+- !private ["SH", "messageKitAssetBundle"]
+- !private ["10MessageKit0aB5ErrorV", "couldNotFindColorAsset"]
+- !private ["So8NSCodingP", "Bundle"]
+- !private ["So8NSCodingP", "MessageKitError"]
+- ["So8NSCodingP", "String"]
+- ["So8NSCodingP", "UIColor"]
+- ["So8NSCodingP", ""]
+- ["So8NSCodingP", "avatarViewBackground"]
+- ["So8NSCodingP", "collectionViewBackground"]
+- ["So8NSCodingP", "colorFromAssetBundle"]
+- !private ["So8NSCodingP", "fatalError"]
+- ["So8NSCodingP", "incomingAudioMessageTint"]
+- ["So8NSCodingP", "incomingMessageBackground"]
+- ["So8NSCodingP", "incomingMessageLabel"]
+- !private ["So8NSCodingP", "init"]
+- ["So8NSCodingP", "label"]
+- ["So8NSCodingP", "outgoingAudioMessageTint"]
+- ["So8NSCodingP", "outgoingMessageBackground"]
+- ["So8NSCodingP", "outgoingMessageLabel"]
+- ["So8NSCodingP", "typingIndicatorDot"]
+- !private ["So9NSCopyingP", "Bundle"]
+- !private ["So9NSCopyingP", "MessageKitError"]
+- ["So9NSCopyingP", "String"]
+- ["So9NSCopyingP", "UIColor"]
+- ["So9NSCopyingP", "avatarViewBackground"]
+- ["So9NSCopyingP", "collectionViewBackground"]
+- ["So9NSCopyingP", "colorFromAssetBundle"]
+- !private ["So9NSCopyingP", "fatalError"]
+- ["So9NSCopyingP", "incomingAudioMessageTint"]
+- ["So9NSCopyingP", "incomingMessageBackground"]
+- ["So9NSCopyingP", "incomingMessageLabel"]
+- !private ["So9NSCopyingP", "init"]
+- ["So9NSCopyingP", "label"]
+- ["So9NSCopyingP", "outgoingAudioMessageTint"]
+- ["So9NSCopyingP", "outgoingMessageBackground"]
+- ["So9NSCopyingP", "outgoingMessageLabel"]
+- ["So9NSCopyingP", "typingIndicatorDot"]
+- !private ["So21NSItemProviderReadingP", "Bundle"]
+- !private ["So21NSItemProviderReadingP", "MessageKitError"]
+- ["So21NSItemProviderReadingP", "String"]
+- ["So21NSItemProviderReadingP", "UIColor"]
+- ["So21NSItemProviderReadingP", "avatarViewBackground"]
+- ["So21NSItemProviderReadingP", "collectionViewBackground"]
+- ["So21NSItemProviderReadingP", "colorFromAssetBundle"]
+- !private ["So21NSItemProviderReadingP", "fatalError"]
+- ["So21NSItemProviderReadingP", "incomingAudioMessageTint"]
+- ["So21NSItemProviderReadingP", "incomingMessageBackground"]
+- ["So21NSItemProviderReadingP", "incomingMessageLabel"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderReadingP", "label"]
+- ["So21NSItemProviderReadingP", "outgoingAudioMessageTint"]
+- ["So21NSItemProviderReadingP", "outgoingMessageBackground"]
+- ["So21NSItemProviderReadingP", "outgoingMessageLabel"]
+- ["So21NSItemProviderReadingP", "typingIndicatorDot"]
+- !private ["So21NSItemProviderWritingP", "Bundle"]
+- !private ["So21NSItemProviderWritingP", "MessageKitError"]
+- ["So21NSItemProviderWritingP", "String"]
+- ["So21NSItemProviderWritingP", "UIColor"]
+- ["So21NSItemProviderWritingP", "avatarViewBackground"]
+- ["So21NSItemProviderWritingP", "collectionViewBackground"]
+- ["So21NSItemProviderWritingP", "colorFromAssetBundle"]
+- !private ["So21NSItemProviderWritingP", "fatalError"]
+- ["So21NSItemProviderWritingP", "incomingAudioMessageTint"]
+- ["So21NSItemProviderWritingP", "incomingMessageBackground"]
+- ["So21NSItemProviderWritingP", "incomingMessageLabel"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- ["So21NSItemProviderWritingP", "label"]
+- ["So21NSItemProviderWritingP", "outgoingAudioMessageTint"]
+- ["So21NSItemProviderWritingP", "outgoingMessageBackground"]
+- ["So21NSItemProviderWritingP", "outgoingMessageLabel"]
+- ["So21NSItemProviderWritingP", "typingIndicatorDot"]
+- !private ["So8NSObjectC", "Bundle"]
+- !private ["So8NSObjectC", "MessageKitError"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UIColor"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "avatarViewBackground"]
+- ["So8NSObjectC", "collectionViewBackground"]
+- ["So8NSObjectC", "colorFromAssetBundle"]
+- !private ["So8NSObjectC", "colorNamed"]
+- !private ["So8NSObjectC", "colorWithCGColor"]
+- !private ["So8NSObjectC", "colorWithCIColor"]
+- !private ["So8NSObjectC", "colorWithDisplayP3Red"]
+- !private ["So8NSObjectC", "colorWithDynamicProvider"]
+- !private ["So8NSObjectC", "colorWithHue"]
+- !private ["So8NSObjectC", "colorWithPatternImage"]
+- !private ["So8NSObjectC", "colorWithRed"]
+- !private ["So8NSObjectC", "colorWithWhite"]
+- !private ["So8NSObjectC", "fatalError"]
+- ["So8NSObjectC", "incomingAudioMessageTint"]
+- ["So8NSObjectC", "incomingMessageBackground"]
+- ["So8NSObjectC", "incomingMessageLabel"]
+- !private ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "label"]
+- !private ["So8NSObjectC", "messageKitAssetBundle"]
+- ["So8NSObjectC", "outgoingAudioMessageTint"]
+- ["So8NSObjectC", "outgoingMessageBackground"]
+- ["So8NSObjectC", "outgoingMessageLabel"]
+- ["So8NSObjectC", "typingIndicatorDot"]
+- !private ["So8NSObjectP", "Bundle"]
+- !private ["So8NSObjectP", "MessageKitError"]
+- ["So8NSObjectP", "String"]
+- !private ["So8NSObjectP", "UIColor"]
+- !private ["So8NSObjectP", ""]
+- ["So8NSObjectP", "avatarViewBackground"]
+- ["So8NSObjectP", "collectionViewBackground"]
+- ["So8NSObjectP", "colorFromAssetBundle"]
+- !private ["So8NSObjectP", "colorNamed"]
+- !private ["So8NSObjectP", "colorWithCGColor"]
+- !private ["So8NSObjectP", "colorWithCIColor"]
+- !private ["So8NSObjectP", "colorWithDisplayP3Red"]
+- !private ["So8NSObjectP", "colorWithDynamicProvider"]
+- !private ["So8NSObjectP", "colorWithHue"]
+- !private ["So8NSObjectP", "colorWithPatternImage"]
+- !private ["So8NSObjectP", "colorWithRed"]
+- !private ["So8NSObjectP", "colorWithWhite"]
+- !private ["So8NSObjectP", "fatalError"]
+- ["So8NSObjectP", "incomingAudioMessageTint"]
+- ["So8NSObjectP", "incomingMessageBackground"]
+- ["So8NSObjectP", "incomingMessageLabel"]
+- !private ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "label"]
+- !private ["So8NSObjectP", "messageKitAssetBundle"]
+- ["So8NSObjectP", "outgoingAudioMessageTint"]
+- ["So8NSObjectP", "outgoingMessageBackground"]
+- ["So8NSObjectP", "outgoingMessageLabel"]
+- ["So8NSObjectP", "typingIndicatorDot"]
+- !private ["So14NSSecureCodingP", "Bundle"]
+- !private ["So14NSSecureCodingP", "MessageKitError"]
+- ["So14NSSecureCodingP", "String"]
+- ["So14NSSecureCodingP", "UIColor"]
+- ["So14NSSecureCodingP", "avatarViewBackground"]
+- ["So14NSSecureCodingP", "collectionViewBackground"]
+- ["So14NSSecureCodingP", "colorFromAssetBundle"]
+- !private ["So14NSSecureCodingP", "fatalError"]
+- ["So14NSSecureCodingP", "incomingAudioMessageTint"]
+- ["So14NSSecureCodingP", "incomingMessageBackground"]
+- ["So14NSSecureCodingP", "incomingMessageLabel"]
+- !private ["So14NSSecureCodingP", "init"]
+- ["So14NSSecureCodingP", "label"]
+- ["So14NSSecureCodingP", "outgoingAudioMessageTint"]
+- ["So14NSSecureCodingP", "outgoingMessageBackground"]
+- ["So14NSSecureCodingP", "outgoingMessageLabel"]
+- ["So14NSSecureCodingP", "typingIndicatorDot"]
+- !private ["So7UIColorC", "Bundle"]
+- !private ["So7UIColorC", "MessageKitError"]
+- ["So7UIColorC", "String"]
+- ["So7UIColorC", "UIColor"]
+- ["So7UIColorC", ""]
+- ["So7UIColorC", "avatarViewBackground"]
+- ["So7UIColorC", "collectionViewBackground"]
+- !private ["So7UIColorC", "colorFromAssetBundle"]
+- !private ["So7UIColorC", "fatalError"]
+- ["So7UIColorC", "incomingAudioMessageTint"]
+- ["So7UIColorC", "incomingMessageBackground"]
+- ["So7UIColorC", "incomingMessageLabel"]
+- !private ["So7UIColorC", "init"]
+- ["So7UIColorC", "label"]
+- ["So7UIColorC", "outgoingAudioMessageTint"]
+- ["So7UIColorC", "outgoingMessageBackground"]
+- ["So7UIColorC", "outgoingMessageLabel"]
+- ["So7UIColorC", "typingIndicatorDot"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "Bundle"]
+- !private ["s26_ExpressibleByColorLiteralP", "MessageKitError"]
+- !private ["s26_ExpressibleByColorLiteralP", "UIColor"]
+- !private ["s26_ExpressibleByColorLiteralP", "colorFromAssetBundle"]
+- !private ["s26_ExpressibleByColorLiteralP", "fatalError"]
+- !private ["s26_ExpressibleByColorLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Bundle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MessageKitError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "colorFromAssetBundle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fatalError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "messageKitAssetBundle"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Bundle"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "MessageKitError"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "colorFromAssetBundle"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fatalError"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "messageKitAssetBundle"]
+depends-nominal:
+- !private "So8NSBundleC"
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "SQ"
+- !private "SH"
+- !private "10MessageKit0aB5ErrorV"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So14NSSecureCodingP"
+- "So7UIColorC"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/MapKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/InputBarAccessoryView/InputBarAccessoryView.framework/Modules/InputBarAccessoryView.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Users/alexandr/Desktop/iChat/Pods/Target Support Files/MessageKit/MessageKit-umbrella.h"
+- "/Users/alexandr/Desktop/iChat/Pods/Target Support Files/InputBarAccessoryView/InputBarAccessoryView-umbrella.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/InputBarAccessoryView/InputBarAccessoryView.framework/Headers/InputBarAccessoryView-Swift.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/alexandr/Desktop/iChat/build/Pods.build/Debug-iphonesimulator/MessageKit.build/unextended-module.modulemap"
+- "/Users/alexandr/Desktop/iChat/build/Pods.build/Debug-iphonesimulator/InputBarAccessoryView.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "81f268114e636047ab8cdb2097899b46"

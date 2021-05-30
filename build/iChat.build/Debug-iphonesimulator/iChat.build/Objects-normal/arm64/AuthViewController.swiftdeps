@@ -1,0 +1,1808 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AuthViewController"
+- "AuthViewControllerProvider"
+provides-nominal:
+- "5iChat18AuthViewControllerC"
+- "5iChat26AuthViewControllerProviderV"
+- "5iChat26AuthViewControllerProviderV09ContainerC0V"
+provides-member:
+- ["5iChat18AuthViewControllerC", ""]
+- ["5iChat26AuthViewControllerProviderV", ""]
+- ["5iChat26AuthViewControllerProviderV09ContainerC0V", ""]
+provides-dynamic-lookup:
+- "alreadyOnboardLabel"
+- "emailButton"
+- "emailButtonTapped"
+- "emailLabel"
+- "googleButton"
+- "googleLabel"
+- "loginButton"
+- "loginButtonTapped"
+- "loginVC"
+- "logoImageView"
+- "setupConstraints"
+- "signUpVC"
+- "toLoginVC"
+- "toSignUpVC"
+- "viewDidLoad"
+depends-top-level:
+- !private "Array"
+- "AssignmentPrecedence"
+- "AuthNavigatingDelegate"
+- "AuthViewController"
+- "AuthViewControllerProvider"
+- "BooleanLiteralType"
+- !private "ButtonFormView"
+- !private "ContainerView"
+- "Context"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "LoginViewController"
+- !private "NSLayoutConstraint"
+- "PreviewProvider"
+- "SignUpViewController"
+- "StringLiteralType"
+- "UIButton"
+- "UIImageView"
+- "UILabel"
+- !private "UIStackView"
+- "UIViewController"
+- "UIViewControllerRepresentable"
+- "UIViewControllerRepresentableContext"
+- "View"
+- "_ImageLiteralType"
+- !private "alreadyOnboardLabel"
+- !private "emailButton"
+- !private "emailButtonTapped"
+- !private "emailLabel"
+- !private "googleButton"
+- !private "googleLabel"
+- !private "loginButton"
+- !private "loginButtonTapped"
+- !private "loginVC"
+- !private "logoImageView"
+- !private "present"
+- !private "print"
+- !private "setupConstraints"
+- !private "signUpVC"
+- !private "view"
+- !private "viewController"
+depends-member:
+- ["7SwiftUI10AnimatableP", ""]
+- !private ["5iChat22AuthNavigatingDelegateP", "ButtonFormView"]
+- ["5iChat22AuthNavigatingDelegateP", "LoginViewController"]
+- !private ["5iChat22AuthNavigatingDelegateP", "NSLayoutConstraint"]
+- ["5iChat22AuthNavigatingDelegateP", "SignUpViewController"]
+- ["5iChat22AuthNavigatingDelegateP", "UIButton"]
+- ["5iChat22AuthNavigatingDelegateP", "UIImageView"]
+- ["5iChat22AuthNavigatingDelegateP", "UILabel"]
+- !private ["5iChat22AuthNavigatingDelegateP", "UIStackView"]
+- ["5iChat22AuthNavigatingDelegateP", ""]
+- !private ["5iChat22AuthNavigatingDelegateP", "alreadyOnboardLabel"]
+- !private ["5iChat22AuthNavigatingDelegateP", "emailButton"]
+- !private ["5iChat22AuthNavigatingDelegateP", "emailButtonTapped"]
+- !private ["5iChat22AuthNavigatingDelegateP", "emailLabel"]
+- !private ["5iChat22AuthNavigatingDelegateP", "googleButton"]
+- !private ["5iChat22AuthNavigatingDelegateP", "googleLabel"]
+- ["5iChat22AuthNavigatingDelegateP", "init"]
+- !private ["5iChat22AuthNavigatingDelegateP", "loginButton"]
+- !private ["5iChat22AuthNavigatingDelegateP", "loginButtonTapped"]
+- !private ["5iChat22AuthNavigatingDelegateP", "loginVC"]
+- !private ["5iChat22AuthNavigatingDelegateP", "logoImageView"]
+- !private ["5iChat22AuthNavigatingDelegateP", "present"]
+- !private ["5iChat22AuthNavigatingDelegateP", "print"]
+- !private ["5iChat22AuthNavigatingDelegateP", "setupConstraints"]
+- !private ["5iChat22AuthNavigatingDelegateP", "signUpVC"]
+- ["5iChat22AuthNavigatingDelegateP", "toLoginVC"]
+- ["5iChat22AuthNavigatingDelegateP", "toSignUpVC"]
+- !private ["5iChat22AuthNavigatingDelegateP", "view"]
+- !private ["5iChat18AuthViewControllerC", "ButtonFormView"]
+- ["5iChat18AuthViewControllerC", "LoginViewController"]
+- !private ["5iChat18AuthViewControllerC", "NSLayoutConstraint"]
+- ["5iChat18AuthViewControllerC", "SignUpViewController"]
+- ["5iChat18AuthViewControllerC", "UIButton"]
+- ["5iChat18AuthViewControllerC", "UIImageView"]
+- ["5iChat18AuthViewControllerC", "UILabel"]
+- !private ["5iChat18AuthViewControllerC", "UIStackView"]
+- ["5iChat18AuthViewControllerC", ""]
+- ["5iChat18AuthViewControllerC", "alreadyOnboardLabel"]
+- ["5iChat18AuthViewControllerC", "deinit"]
+- ["5iChat18AuthViewControllerC", "emailButton"]
+- !private ["5iChat18AuthViewControllerC", "emailButtonTapped"]
+- ["5iChat18AuthViewControllerC", "emailLabel"]
+- ["5iChat18AuthViewControllerC", "googleButton"]
+- ["5iChat18AuthViewControllerC", "googleLabel"]
+- ["5iChat18AuthViewControllerC", "init"]
+- ["5iChat18AuthViewControllerC", "loginButton"]
+- !private ["5iChat18AuthViewControllerC", "loginButtonTapped"]
+- ["5iChat18AuthViewControllerC", "loginVC"]
+- ["5iChat18AuthViewControllerC", "logoImageView"]
+- !private ["5iChat18AuthViewControllerC", "present"]
+- !private ["5iChat18AuthViewControllerC", "print"]
+- !private ["5iChat18AuthViewControllerC", "setupConstraints"]
+- ["5iChat18AuthViewControllerC", "signUpVC"]
+- ["5iChat18AuthViewControllerC", "toLoginVC"]
+- ["5iChat18AuthViewControllerC", "toSignUpVC"]
+- !private ["5iChat18AuthViewControllerC", "view"]
+- ["5iChat18AuthViewControllerC", "viewDidLoad"]
+- ["5iChat26AuthViewControllerProviderV", "AuthViewController"]
+- ["5iChat26AuthViewControllerProviderV", "AuthViewControllerProvider"]
+- ["5iChat26AuthViewControllerProviderV", "ContainerView"]
+- ["5iChat26AuthViewControllerProviderV", "Context"]
+- ["5iChat26AuthViewControllerProviderV", "Default_Previews"]
+- ["5iChat26AuthViewControllerProviderV", "Previews"]
+- ["5iChat26AuthViewControllerProviderV", "UIViewControllerRepresentable"]
+- ["5iChat26AuthViewControllerProviderV", "UIViewControllerRepresentableContext"]
+- ["5iChat26AuthViewControllerProviderV", "View"]
+- ["5iChat26AuthViewControllerProviderV", ""]
+- ["5iChat26AuthViewControllerProviderV", "_Default_Previews"]
+- ["5iChat26AuthViewControllerProviderV", "_platform"]
+- ["5iChat26AuthViewControllerProviderV", "_previews"]
+- ["5iChat26AuthViewControllerProviderV", "init"]
+- ["5iChat26AuthViewControllerProviderV", "platform"]
+- ["5iChat26AuthViewControllerProviderV", "previews"]
+- !private ["5iChat26AuthViewControllerProviderV", "viewController"]
+- !private ["So22UILayoutConstraintAxisV", "vertical"]
+- ["SK", ""]
+- !private ["5iChat14ButtonFormViewC", ""]
+- !private ["5iChat14ButtonFormViewC", "init"]
+- ["So15CALayerDelegateP", "__buttonWithType"]
+- !private ["So15CALayerDelegateP", "addSubview"]
+- !private ["So15CALayerDelegateP", "addTarget"]
+- !private ["So15CALayerDelegateP", "backgroundColor"]
+- !private ["So15CALayerDelegateP", "bottomAnchor"]
+- ["So15CALayerDelegateP", "buttonWithType"]
+- !private ["So15CALayerDelegateP", "centerXAnchor"]
+- ["So15CALayerDelegateP", "customizeGoogleButton"]
+- ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "leadingAnchor"]
+- !private ["So15CALayerDelegateP", "topAnchor"]
+- !private ["So15CALayerDelegateP", "trailingAnchor"]
+- !private ["So15CALayerDelegateP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s7CVarArgP", "ButtonFormView"]
+- ["s7CVarArgP", "LoginViewController"]
+- !private ["s7CVarArgP", "NSLayoutConstraint"]
+- ["s7CVarArgP", "SignUpViewController"]
+- ["s7CVarArgP", "UIButton"]
+- ["s7CVarArgP", "UIImageView"]
+- ["s7CVarArgP", "UILabel"]
+- !private ["s7CVarArgP", "UIStackView"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "activate"]
+- !private ["s7CVarArgP", "addSubview"]
+- !private ["s7CVarArgP", "addTarget"]
+- !private ["s7CVarArgP", "alreadyOnboardLabel"]
+- !private ["s7CVarArgP", "backgroundColor"]
+- ["s7CVarArgP", "black"]
+- !private ["s7CVarArgP", "bottomAnchor"]
+- ["s7CVarArgP", "buttonDark"]
+- ["s7CVarArgP", "buttonRed"]
+- !private ["s7CVarArgP", "centerXAnchor"]
+- !private ["s7CVarArgP", "constraint"]
+- !private ["s7CVarArgP", "customizeGoogleButton"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "emailButton"]
+- !private ["s7CVarArgP", "emailButtonTapped"]
+- !private ["s7CVarArgP", "emailLabel"]
+- !private ["s7CVarArgP", "googleButton"]
+- !private ["s7CVarArgP", "googleLabel"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "leadingAnchor"]
+- !private ["s7CVarArgP", "loginButton"]
+- !private ["s7CVarArgP", "loginButtonTapped"]
+- !private ["s7CVarArgP", "loginVC"]
+- !private ["s7CVarArgP", "logoImageView"]
+- !private ["s7CVarArgP", "present"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "setupConstraints"]
+- !private ["s7CVarArgP", "signUpVC"]
+- ["s7CVarArgP", "toLoginVC"]
+- ["s7CVarArgP", "toSignUpVC"]
+- !private ["s7CVarArgP", "topAnchor"]
+- !private ["s7CVarArgP", "trailingAnchor"]
+- !private ["s7CVarArgP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s7CVarArgP", "view"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["s7CVarArgP", "white"]
+- ["Sl", ""]
+- ["SL", ""]
+- ["5iChat26AuthViewControllerProviderV09ContainerC0V", "AuthViewController"]
+- ["5iChat26AuthViewControllerProviderV09ContainerC0V", "AuthViewControllerProvider"]
+- ["5iChat26AuthViewControllerProviderV09ContainerC0V", "Body"]
+- ["5iChat26AuthViewControllerProviderV09ContainerC0V", "Context"]
+- ["5iChat26AuthViewControllerProviderV09ContainerC0V", "Coordinator"]
+- ["5iChat26AuthViewControllerProviderV09ContainerC0V", "Default_Body"]
+- ["5iChat26AuthViewControllerProviderV09ContainerC0V", "Default_Coordinator"]
+- ["5iChat26AuthViewControllerProviderV09ContainerC0V", "Default_UIViewControllerType"]
+- ["5iChat26AuthViewControllerProviderV09ContainerC0V", "UIViewControllerRepresentableContext"]
+- ["5iChat26AuthViewControllerProviderV09ContainerC0V", "UIViewControllerType"]
+- ["5iChat26AuthViewControllerProviderV09ContainerC0V", ""]
+- ["5iChat26AuthViewControllerProviderV09ContainerC0V", "_Default_Body"]
+- ["5iChat26AuthViewControllerProviderV09ContainerC0V", "_Default_Coordinator"]
+- ["5iChat26AuthViewControllerProviderV09ContainerC0V", "_Default_UIViewControllerType"]
+- ["5iChat26AuthViewControllerProviderV09ContainerC0V", "_identifiedViewTree"]
+- ["5iChat26AuthViewControllerProviderV09ContainerC0V", "_makeView"]
+- ["5iChat26AuthViewControllerProviderV09ContainerC0V", "_makeViewList"]
+- ["5iChat26AuthViewControllerProviderV09ContainerC0V", "_viewListCount"]
+- ["5iChat26AuthViewControllerProviderV09ContainerC0V", "body"]
+- ["5iChat26AuthViewControllerProviderV09ContainerC0V", "dismantleUIViewController"]
+- !private ["5iChat26AuthViewControllerProviderV09ContainerC0V", "edgesIgnoringSafeArea"]
+- ["5iChat26AuthViewControllerProviderV09ContainerC0V", "init"]
+- ["5iChat26AuthViewControllerProviderV09ContainerC0V", "makeCoordinator"]
+- ["5iChat26AuthViewControllerProviderV09ContainerC0V", "makeUIViewController"]
+- ["5iChat26AuthViewControllerProviderV09ContainerC0V", "updateUIViewController"]
+- ["5iChat26AuthViewControllerProviderV09ContainerC0V", "viewController"]
+- ["So17UIViewContentModeV", "scaleAspectFit"]
+- !private ["s28CustomDebugStringConvertibleP", "ButtonFormView"]
+- ["s28CustomDebugStringConvertibleP", "LoginViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "NSLayoutConstraint"]
+- ["s28CustomDebugStringConvertibleP", "SignUpViewController"]
+- ["s28CustomDebugStringConvertibleP", "UIButton"]
+- ["s28CustomDebugStringConvertibleP", "UIImageView"]
+- ["s28CustomDebugStringConvertibleP", "UILabel"]
+- !private ["s28CustomDebugStringConvertibleP", "UIStackView"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "activate"]
+- !private ["s28CustomDebugStringConvertibleP", "addSubview"]
+- !private ["s28CustomDebugStringConvertibleP", "addTarget"]
+- !private ["s28CustomDebugStringConvertibleP", "alreadyOnboardLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundColor"]
+- ["s28CustomDebugStringConvertibleP", "black"]
+- !private ["s28CustomDebugStringConvertibleP", "bottomAnchor"]
+- ["s28CustomDebugStringConvertibleP", "buttonDark"]
+- ["s28CustomDebugStringConvertibleP", "buttonRed"]
+- !private ["s28CustomDebugStringConvertibleP", "centerXAnchor"]
+- !private ["s28CustomDebugStringConvertibleP", "constraint"]
+- !private ["s28CustomDebugStringConvertibleP", "customizeGoogleButton"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "emailButton"]
+- !private ["s28CustomDebugStringConvertibleP", "emailButtonTapped"]
+- !private ["s28CustomDebugStringConvertibleP", "emailLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "googleButton"]
+- !private ["s28CustomDebugStringConvertibleP", "googleLabel"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "leadingAnchor"]
+- !private ["s28CustomDebugStringConvertibleP", "loginButton"]
+- !private ["s28CustomDebugStringConvertibleP", "loginButtonTapped"]
+- !private ["s28CustomDebugStringConvertibleP", "loginVC"]
+- !private ["s28CustomDebugStringConvertibleP", "logoImageView"]
+- !private ["s28CustomDebugStringConvertibleP", "present"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "setupConstraints"]
+- !private ["s28CustomDebugStringConvertibleP", "signUpVC"]
+- ["s28CustomDebugStringConvertibleP", "toLoginVC"]
+- ["s28CustomDebugStringConvertibleP", "toSignUpVC"]
+- !private ["s28CustomDebugStringConvertibleP", "topAnchor"]
+- !private ["s28CustomDebugStringConvertibleP", "trailingAnchor"]
+- !private ["s28CustomDebugStringConvertibleP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- ["s28CustomDebugStringConvertibleP", "white"]
+- !private ["s17CustomReflectableP", "addSubview"]
+- !private ["s17CustomReflectableP", "backgroundColor"]
+- !private ["s17CustomReflectableP", "bottomAnchor"]
+- !private ["s17CustomReflectableP", "centerXAnchor"]
+- !private ["s17CustomReflectableP", "leadingAnchor"]
+- !private ["s17CustomReflectableP", "topAnchor"]
+- !private ["s17CustomReflectableP", "trailingAnchor"]
+- !private ["s17CustomReflectableP", "white"]
+- !private ["s23CustomStringConvertibleP", "ButtonFormView"]
+- ["s23CustomStringConvertibleP", "LoginViewController"]
+- !private ["s23CustomStringConvertibleP", "NSLayoutConstraint"]
+- ["s23CustomStringConvertibleP", "SignUpViewController"]
+- ["s23CustomStringConvertibleP", "UIButton"]
+- ["s23CustomStringConvertibleP", "UIImageView"]
+- ["s23CustomStringConvertibleP", "UILabel"]
+- !private ["s23CustomStringConvertibleP", "UIStackView"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "activate"]
+- !private ["s23CustomStringConvertibleP", "addSubview"]
+- !private ["s23CustomStringConvertibleP", "addTarget"]
+- !private ["s23CustomStringConvertibleP", "alreadyOnboardLabel"]
+- !private ["s23CustomStringConvertibleP", "backgroundColor"]
+- ["s23CustomStringConvertibleP", "black"]
+- !private ["s23CustomStringConvertibleP", "bottomAnchor"]
+- ["s23CustomStringConvertibleP", "buttonDark"]
+- ["s23CustomStringConvertibleP", "buttonRed"]
+- !private ["s23CustomStringConvertibleP", "centerXAnchor"]
+- !private ["s23CustomStringConvertibleP", "constraint"]
+- !private ["s23CustomStringConvertibleP", "customizeGoogleButton"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "emailButton"]
+- !private ["s23CustomStringConvertibleP", "emailButtonTapped"]
+- !private ["s23CustomStringConvertibleP", "emailLabel"]
+- !private ["s23CustomStringConvertibleP", "googleButton"]
+- !private ["s23CustomStringConvertibleP", "googleLabel"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "leadingAnchor"]
+- !private ["s23CustomStringConvertibleP", "loginButton"]
+- !private ["s23CustomStringConvertibleP", "loginButtonTapped"]
+- !private ["s23CustomStringConvertibleP", "loginVC"]
+- !private ["s23CustomStringConvertibleP", "logoImageView"]
+- !private ["s23CustomStringConvertibleP", "present"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "setupConstraints"]
+- !private ["s23CustomStringConvertibleP", "signUpVC"]
+- ["s23CustomStringConvertibleP", "toLoginVC"]
+- ["s23CustomStringConvertibleP", "toSignUpVC"]
+- !private ["s23CustomStringConvertibleP", "topAnchor"]
+- !private ["s23CustomStringConvertibleP", "trailingAnchor"]
+- !private ["s23CustomStringConvertibleP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- ["s23CustomStringConvertibleP", "white"]
+- !private ["Se", "addSubview"]
+- !private ["Se", "backgroundColor"]
+- !private ["Se", "bottomAnchor"]
+- !private ["Se", "centerXAnchor"]
+- !private ["Se", "leadingAnchor"]
+- !private ["Se", "topAnchor"]
+- !private ["Se", "trailingAnchor"]
+- !private ["Se", "white"]
+- !private ["SE", "addSubview"]
+- !private ["SE", "backgroundColor"]
+- !private ["SE", "bottomAnchor"]
+- !private ["SE", "centerXAnchor"]
+- !private ["SE", "leadingAnchor"]
+- !private ["SE", "topAnchor"]
+- !private ["SE", "trailingAnchor"]
+- !private ["SE", "white"]
+- !private ["SQ", "ButtonFormView"]
+- ["SQ", "LoginViewController"]
+- !private ["SQ", "NSLayoutConstraint"]
+- ["SQ", "SignUpViewController"]
+- ["SQ", "UIButton"]
+- ["SQ", "UIImageView"]
+- ["SQ", "UILabel"]
+- !private ["SQ", "UIStackView"]
+- ["SQ", ""]
+- !private ["SQ", "activate"]
+- !private ["SQ", "addSubview"]
+- !private ["SQ", "addTarget"]
+- !private ["SQ", "all"]
+- !private ["SQ", "alreadyOnboardLabel"]
+- !private ["SQ", "backgroundColor"]
+- ["SQ", "black"]
+- !private ["SQ", "bottomAnchor"]
+- ["SQ", "buttonDark"]
+- ["SQ", "buttonRed"]
+- !private ["SQ", "centerXAnchor"]
+- !private ["SQ", "constraint"]
+- !private ["SQ", "customizeGoogleButton"]
+- !private ["SQ", "delegate"]
+- !private ["SQ", "emailButton"]
+- !private ["SQ", "emailButtonTapped"]
+- !private ["SQ", "emailLabel"]
+- !private ["SQ", "googleButton"]
+- !private ["SQ", "googleLabel"]
+- ["SQ", "init"]
+- !private ["SQ", "leadingAnchor"]
+- !private ["SQ", "loginButton"]
+- !private ["SQ", "loginButtonTapped"]
+- !private ["SQ", "loginVC"]
+- !private ["SQ", "logoImageView"]
+- !private ["SQ", "present"]
+- !private ["SQ", "print"]
+- ["SQ", "scaleAspectFit"]
+- !private ["SQ", "setupConstraints"]
+- !private ["SQ", "signUpVC"]
+- ["SQ", "toLoginVC"]
+- ["SQ", "toSignUpVC"]
+- !private ["SQ", "topAnchor"]
+- !private ["SQ", "touchUpInside"]
+- !private ["SQ", "trailingAnchor"]
+- !private ["SQ", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["SQ", "vertical"]
+- !private ["SQ", "view"]
+- !private ["SQ", "viewDidLoad"]
+- ["SQ", "white"]
+- !private ["So15UIControlEventsV", "touchUpInside"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "all"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "touchUpInside"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "addSubview"]
+- !private ["s23ExpressibleByNilLiteralP", "backgroundColor"]
+- !private ["s23ExpressibleByNilLiteralP", "bottomAnchor"]
+- !private ["s23ExpressibleByNilLiteralP", "centerXAnchor"]
+- !private ["s23ExpressibleByNilLiteralP", "leadingAnchor"]
+- !private ["s23ExpressibleByNilLiteralP", "topAnchor"]
+- !private ["s23ExpressibleByNilLiteralP", "trailingAnchor"]
+- !private ["s23ExpressibleByNilLiteralP", "white"]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["7SwiftUI7GestureP", "addSubview"]
+- !private ["7SwiftUI7GestureP", "backgroundColor"]
+- !private ["7SwiftUI7GestureP", "bottomAnchor"]
+- !private ["7SwiftUI7GestureP", "centerXAnchor"]
+- !private ["7SwiftUI7GestureP", "leadingAnchor"]
+- !private ["7SwiftUI7GestureP", "topAnchor"]
+- !private ["7SwiftUI7GestureP", "trailingAnchor"]
+- !private ["7SwiftUI7GestureP", "white"]
+- !private ["SH", "ButtonFormView"]
+- ["SH", "LoginViewController"]
+- !private ["SH", "NSLayoutConstraint"]
+- ["SH", "SignUpViewController"]
+- ["SH", "UIButton"]
+- ["SH", "UIImageView"]
+- ["SH", "UILabel"]
+- !private ["SH", "UIStackView"]
+- ["SH", ""]
+- !private ["SH", "activate"]
+- !private ["SH", "addSubview"]
+- !private ["SH", "addTarget"]
+- !private ["SH", "alreadyOnboardLabel"]
+- !private ["SH", "backgroundColor"]
+- ["SH", "black"]
+- !private ["SH", "bottomAnchor"]
+- ["SH", "buttonDark"]
+- ["SH", "buttonRed"]
+- !private ["SH", "centerXAnchor"]
+- !private ["SH", "constraint"]
+- !private ["SH", "customizeGoogleButton"]
+- !private ["SH", "delegate"]
+- !private ["SH", "emailButton"]
+- !private ["SH", "emailButtonTapped"]
+- !private ["SH", "emailLabel"]
+- !private ["SH", "googleButton"]
+- !private ["SH", "googleLabel"]
+- ["SH", "init"]
+- !private ["SH", "leadingAnchor"]
+- !private ["SH", "loginButton"]
+- !private ["SH", "loginButtonTapped"]
+- !private ["SH", "loginVC"]
+- !private ["SH", "logoImageView"]
+- !private ["SH", "present"]
+- !private ["SH", "print"]
+- ["SH", "scaleAspectFit"]
+- !private ["SH", "setupConstraints"]
+- !private ["SH", "signUpVC"]
+- ["SH", "toLoginVC"]
+- ["SH", "toSignUpVC"]
+- !private ["SH", "topAnchor"]
+- !private ["SH", "trailingAnchor"]
+- !private ["SH", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["SH", "vertical"]
+- !private ["SH", "view"]
+- !private ["SH", "viewDidLoad"]
+- ["SH", "white"]
+- ["5iChat19LoginViewControllerC", ""]
+- !private ["5iChat19LoginViewControllerC", "delegate"]
+- ["5iChat19LoginViewControllerC", "init"]
+- ["s25LosslessStringConvertibleP", ""]
+- !private ["So8NSCodingP", "ButtonFormView"]
+- ["So8NSCodingP", "LoginViewController"]
+- !private ["So8NSCodingP", "NSLayoutConstraint"]
+- ["So8NSCodingP", "SignUpViewController"]
+- ["So8NSCodingP", "UIButton"]
+- ["So8NSCodingP", "UIImageView"]
+- ["So8NSCodingP", "UILabel"]
+- !private ["So8NSCodingP", "UIStackView"]
+- ["So8NSCodingP", ""]
+- ["So8NSCodingP", "__buttonWithType"]
+- !private ["So8NSCodingP", "addSubview"]
+- !private ["So8NSCodingP", "addTarget"]
+- ["So8NSCodingP", "alreadyOnboardLabel"]
+- !private ["So8NSCodingP", "backgroundColor"]
+- ["So8NSCodingP", "black"]
+- !private ["So8NSCodingP", "bottomAnchor"]
+- ["So8NSCodingP", "buttonDark"]
+- ["So8NSCodingP", "buttonRed"]
+- ["So8NSCodingP", "buttonWithType"]
+- !private ["So8NSCodingP", "centerXAnchor"]
+- !private ["So8NSCodingP", "constraint"]
+- !private ["So8NSCodingP", "constraintEqualToSystemSpacingAfter"]
+- !private ["So8NSCodingP", "constraintEqualToSystemSpacingAfterAnchor"]
+- !private ["So8NSCodingP", "constraintEqualToSystemSpacingBelow"]
+- !private ["So8NSCodingP", "constraintEqualToSystemSpacingBelowAnchor"]
+- !private ["So8NSCodingP", "constraintGreaterThanOrEqualToSystemSpacingAfter"]
+- !private ["So8NSCodingP", "constraintGreaterThanOrEqualToSystemSpacingAfterAnchor"]
+- !private ["So8NSCodingP", "constraintGreaterThanOrEqualToSystemSpacingBelow"]
+- !private ["So8NSCodingP", "constraintGreaterThanOrEqualToSystemSpacingBelowAnchor"]
+- !private ["So8NSCodingP", "constraintLessThanOrEqualToSystemSpacingAfter"]
+- !private ["So8NSCodingP", "constraintLessThanOrEqualToSystemSpacingAfterAnchor"]
+- !private ["So8NSCodingP", "constraintLessThanOrEqualToSystemSpacingBelow"]
+- !private ["So8NSCodingP", "constraintLessThanOrEqualToSystemSpacingBelowAnchor"]
+- ["So8NSCodingP", "customizeGoogleButton"]
+- !private ["So8NSCodingP", "delegate"]
+- ["So8NSCodingP", "emailButton"]
+- ["So8NSCodingP", "emailButtonTapped"]
+- ["So8NSCodingP", "emailLabel"]
+- ["So8NSCodingP", "googleButton"]
+- ["So8NSCodingP", "googleLabel"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "leadingAnchor"]
+- ["So8NSCodingP", "loginButton"]
+- ["So8NSCodingP", "loginButtonTapped"]
+- ["So8NSCodingP", "loginVC"]
+- ["So8NSCodingP", "logoImageView"]
+- !private ["So8NSCodingP", "present"]
+- !private ["So8NSCodingP", "print"]
+- ["So8NSCodingP", "setupConstraints"]
+- ["So8NSCodingP", "signUpVC"]
+- ["So8NSCodingP", "toLoginVC"]
+- ["So8NSCodingP", "toSignUpVC"]
+- !private ["So8NSCodingP", "topAnchor"]
+- !private ["So8NSCodingP", "trailingAnchor"]
+- !private ["So8NSCodingP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So8NSCodingP", "view"]
+- ["So8NSCodingP", "viewDidLoad"]
+- ["So8NSCodingP", "white"]
+- ["So9NSCopyingP", "black"]
+- ["So9NSCopyingP", "buttonDark"]
+- ["So9NSCopyingP", "buttonRed"]
+- !private ["So9NSCopyingP", "constraint"]
+- !private ["So9NSCopyingP", "constraintEqualToSystemSpacingAfter"]
+- !private ["So9NSCopyingP", "constraintEqualToSystemSpacingAfterAnchor"]
+- !private ["So9NSCopyingP", "constraintEqualToSystemSpacingBelow"]
+- !private ["So9NSCopyingP", "constraintEqualToSystemSpacingBelowAnchor"]
+- !private ["So9NSCopyingP", "constraintGreaterThanOrEqualToSystemSpacingAfter"]
+- !private ["So9NSCopyingP", "constraintGreaterThanOrEqualToSystemSpacingAfterAnchor"]
+- !private ["So9NSCopyingP", "constraintGreaterThanOrEqualToSystemSpacingBelow"]
+- !private ["So9NSCopyingP", "constraintGreaterThanOrEqualToSystemSpacingBelowAnchor"]
+- !private ["So9NSCopyingP", "constraintLessThanOrEqualToSystemSpacingAfter"]
+- !private ["So9NSCopyingP", "constraintLessThanOrEqualToSystemSpacingAfterAnchor"]
+- !private ["So9NSCopyingP", "constraintLessThanOrEqualToSystemSpacingBelow"]
+- !private ["So9NSCopyingP", "constraintLessThanOrEqualToSystemSpacingBelowAnchor"]
+- ["So9NSCopyingP", "white"]
+- !private ["So26NSExtensionRequestHandlingP", "ButtonFormView"]
+- ["So26NSExtensionRequestHandlingP", "LoginViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "NSLayoutConstraint"]
+- ["So26NSExtensionRequestHandlingP", "SignUpViewController"]
+- ["So26NSExtensionRequestHandlingP", "UIButton"]
+- ["So26NSExtensionRequestHandlingP", "UIImageView"]
+- ["So26NSExtensionRequestHandlingP", "UILabel"]
+- !private ["So26NSExtensionRequestHandlingP", "UIStackView"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- ["So26NSExtensionRequestHandlingP", "alreadyOnboardLabel"]
+- !private ["So26NSExtensionRequestHandlingP", "delegate"]
+- ["So26NSExtensionRequestHandlingP", "emailButton"]
+- ["So26NSExtensionRequestHandlingP", "emailButtonTapped"]
+- ["So26NSExtensionRequestHandlingP", "emailLabel"]
+- ["So26NSExtensionRequestHandlingP", "googleButton"]
+- ["So26NSExtensionRequestHandlingP", "googleLabel"]
+- ["So26NSExtensionRequestHandlingP", "init"]
+- ["So26NSExtensionRequestHandlingP", "loginButton"]
+- ["So26NSExtensionRequestHandlingP", "loginButtonTapped"]
+- ["So26NSExtensionRequestHandlingP", "loginVC"]
+- ["So26NSExtensionRequestHandlingP", "logoImageView"]
+- !private ["So26NSExtensionRequestHandlingP", "present"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
+- ["So26NSExtensionRequestHandlingP", "setupConstraints"]
+- ["So26NSExtensionRequestHandlingP", "signUpVC"]
+- ["So26NSExtensionRequestHandlingP", "toLoginVC"]
+- ["So26NSExtensionRequestHandlingP", "toSignUpVC"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So21NSItemProviderReadingP", "black"]
+- ["So21NSItemProviderReadingP", "buttonDark"]
+- ["So21NSItemProviderReadingP", "buttonRed"]
+- ["So21NSItemProviderReadingP", "white"]
+- ["So21NSItemProviderWritingP", "black"]
+- ["So21NSItemProviderWritingP", "buttonDark"]
+- ["So21NSItemProviderWritingP", "buttonRed"]
+- ["So21NSItemProviderWritingP", "white"]
+- ["So14NSLayoutAnchorC", ""]
+- !private ["So14NSLayoutAnchorC", "constraint"]
+- !private ["So14NSLayoutAnchorC", "constraintEqualToSystemSpacingAfter"]
+- !private ["So14NSLayoutAnchorC", "constraintEqualToSystemSpacingAfterAnchor"]
+- !private ["So14NSLayoutAnchorC", "constraintEqualToSystemSpacingBelow"]
+- !private ["So14NSLayoutAnchorC", "constraintEqualToSystemSpacingBelowAnchor"]
+- !private ["So14NSLayoutAnchorC", "constraintGreaterThanOrEqualToSystemSpacingAfter"]
+- !private ["So14NSLayoutAnchorC", "constraintGreaterThanOrEqualToSystemSpacingAfterAnchor"]
+- !private ["So14NSLayoutAnchorC", "constraintGreaterThanOrEqualToSystemSpacingBelow"]
+- !private ["So14NSLayoutAnchorC", "constraintGreaterThanOrEqualToSystemSpacingBelowAnchor"]
+- !private ["So14NSLayoutAnchorC", "constraintLessThanOrEqualToSystemSpacingAfter"]
+- !private ["So14NSLayoutAnchorC", "constraintLessThanOrEqualToSystemSpacingAfterAnchor"]
+- !private ["So14NSLayoutAnchorC", "constraintLessThanOrEqualToSystemSpacingBelow"]
+- !private ["So14NSLayoutAnchorC", "constraintLessThanOrEqualToSystemSpacingBelowAnchor"]
+- !private ["So18NSLayoutConstraintC", "activate"]
+- !private ["So19NSLayoutXAxisAnchorC", "constraint"]
+- !private ["So19NSLayoutYAxisAnchorC", "constraint"]
+- !private ["So8NSObjectC", "ButtonFormView"]
+- ["So8NSObjectC", "LoginViewController"]
+- !private ["So8NSObjectC", "NSLayoutConstraint"]
+- ["So8NSObjectC", "SignUpViewController"]
+- ["So8NSObjectC", "UIButton"]
+- ["So8NSObjectC", "UIImageView"]
+- ["So8NSObjectC", "UILabel"]
+- !private ["So8NSObjectC", "UIStackView"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "__buttonWithType"]
+- !private ["So8NSObjectC", "activate"]
+- !private ["So8NSObjectC", "activateConstraints"]
+- !private ["So8NSObjectC", "addSubview"]
+- !private ["So8NSObjectC", "addTarget"]
+- ["So8NSObjectC", "alreadyOnboardLabel"]
+- !private ["So8NSObjectC", "backgroundColor"]
+- ["So8NSObjectC", "black"]
+- !private ["So8NSObjectC", "bottomAnchor"]
+- ["So8NSObjectC", "buttonDark"]
+- ["So8NSObjectC", "buttonRed"]
+- ["So8NSObjectC", "buttonWithType"]
+- !private ["So8NSObjectC", "centerXAnchor"]
+- !private ["So8NSObjectC", "constraint"]
+- !private ["So8NSObjectC", "constraintEqualToAnchor"]
+- !private ["So8NSObjectC", "constraintEqualToSystemSpacingAfter"]
+- !private ["So8NSObjectC", "constraintEqualToSystemSpacingAfterAnchor"]
+- !private ["So8NSObjectC", "constraintEqualToSystemSpacingBelow"]
+- !private ["So8NSObjectC", "constraintEqualToSystemSpacingBelowAnchor"]
+- !private ["So8NSObjectC", "constraintGreaterThanOrEqualToAnchor"]
+- !private ["So8NSObjectC", "constraintGreaterThanOrEqualToSystemSpacingAfter"]
+- !private ["So8NSObjectC", "constraintGreaterThanOrEqualToSystemSpacingAfterAnchor"]
+- !private ["So8NSObjectC", "constraintGreaterThanOrEqualToSystemSpacingBelow"]
+- !private ["So8NSObjectC", "constraintGreaterThanOrEqualToSystemSpacingBelowAnchor"]
+- !private ["So8NSObjectC", "constraintLessThanOrEqualToAnchor"]
+- !private ["So8NSObjectC", "constraintLessThanOrEqualToSystemSpacingAfter"]
+- !private ["So8NSObjectC", "constraintLessThanOrEqualToSystemSpacingAfterAnchor"]
+- !private ["So8NSObjectC", "constraintLessThanOrEqualToSystemSpacingBelow"]
+- !private ["So8NSObjectC", "constraintLessThanOrEqualToSystemSpacingBelowAnchor"]
+- !private ["So8NSObjectC", "customizeGoogleButton"]
+- !private ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "emailButton"]
+- ["So8NSObjectC", "emailButtonTapped"]
+- ["So8NSObjectC", "emailLabel"]
+- ["So8NSObjectC", "googleButton"]
+- ["So8NSObjectC", "googleLabel"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "leadingAnchor"]
+- ["So8NSObjectC", "loginButton"]
+- ["So8NSObjectC", "loginButtonTapped"]
+- ["So8NSObjectC", "loginVC"]
+- ["So8NSObjectC", "logoImageView"]
+- !private ["So8NSObjectC", "present"]
+- !private ["So8NSObjectC", "presentViewController"]
+- !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "setupConstraints"]
+- ["So8NSObjectC", "signUpVC"]
+- ["So8NSObjectC", "toLoginVC"]
+- ["So8NSObjectC", "toSignUpVC"]
+- !private ["So8NSObjectC", "topAnchor"]
+- !private ["So8NSObjectC", "trailingAnchor"]
+- !private ["So8NSObjectC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So8NSObjectC", "view"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectC", "white"]
+- !private ["So8NSObjectP", "ButtonFormView"]
+- ["So8NSObjectP", "LoginViewController"]
+- !private ["So8NSObjectP", "NSLayoutConstraint"]
+- ["So8NSObjectP", "SignUpViewController"]
+- ["So8NSObjectP", "UIButton"]
+- ["So8NSObjectP", "UIImageView"]
+- ["So8NSObjectP", "UILabel"]
+- !private ["So8NSObjectP", "UIStackView"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "__buttonWithType"]
+- !private ["So8NSObjectP", "activate"]
+- !private ["So8NSObjectP", "activateConstraints"]
+- !private ["So8NSObjectP", "addSubview"]
+- !private ["So8NSObjectP", "addTarget"]
+- ["So8NSObjectP", "alreadyOnboardLabel"]
+- !private ["So8NSObjectP", "backgroundColor"]
+- ["So8NSObjectP", "black"]
+- !private ["So8NSObjectP", "bottomAnchor"]
+- ["So8NSObjectP", "buttonDark"]
+- ["So8NSObjectP", "buttonRed"]
+- ["So8NSObjectP", "buttonWithType"]
+- !private ["So8NSObjectP", "centerXAnchor"]
+- !private ["So8NSObjectP", "constraint"]
+- !private ["So8NSObjectP", "constraintEqualToAnchor"]
+- !private ["So8NSObjectP", "constraintEqualToSystemSpacingAfter"]
+- !private ["So8NSObjectP", "constraintEqualToSystemSpacingAfterAnchor"]
+- !private ["So8NSObjectP", "constraintEqualToSystemSpacingBelow"]
+- !private ["So8NSObjectP", "constraintEqualToSystemSpacingBelowAnchor"]
+- !private ["So8NSObjectP", "constraintGreaterThanOrEqualToAnchor"]
+- !private ["So8NSObjectP", "constraintGreaterThanOrEqualToSystemSpacingAfter"]
+- !private ["So8NSObjectP", "constraintGreaterThanOrEqualToSystemSpacingAfterAnchor"]
+- !private ["So8NSObjectP", "constraintGreaterThanOrEqualToSystemSpacingBelow"]
+- !private ["So8NSObjectP", "constraintGreaterThanOrEqualToSystemSpacingBelowAnchor"]
+- !private ["So8NSObjectP", "constraintLessThanOrEqualToAnchor"]
+- !private ["So8NSObjectP", "constraintLessThanOrEqualToSystemSpacingAfter"]
+- !private ["So8NSObjectP", "constraintLessThanOrEqualToSystemSpacingAfterAnchor"]
+- !private ["So8NSObjectP", "constraintLessThanOrEqualToSystemSpacingBelow"]
+- !private ["So8NSObjectP", "constraintLessThanOrEqualToSystemSpacingBelowAnchor"]
+- ["So8NSObjectP", "customizeGoogleButton"]
+- !private ["So8NSObjectP", "delegate"]
+- ["So8NSObjectP", "emailButton"]
+- ["So8NSObjectP", "emailButtonTapped"]
+- ["So8NSObjectP", "emailLabel"]
+- ["So8NSObjectP", "googleButton"]
+- ["So8NSObjectP", "googleLabel"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "leadingAnchor"]
+- ["So8NSObjectP", "loginButton"]
+- ["So8NSObjectP", "loginButtonTapped"]
+- ["So8NSObjectP", "loginVC"]
+- ["So8NSObjectP", "logoImageView"]
+- !private ["So8NSObjectP", "present"]
+- !private ["So8NSObjectP", "presentViewController"]
+- !private ["So8NSObjectP", "print"]
+- ["So8NSObjectP", "setupConstraints"]
+- ["So8NSObjectP", "signUpVC"]
+- ["So8NSObjectP", "toLoginVC"]
+- ["So8NSObjectP", "toSignUpVC"]
+- !private ["So8NSObjectP", "topAnchor"]
+- !private ["So8NSObjectP", "trailingAnchor"]
+- !private ["So8NSObjectP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So8NSObjectP", "view"]
+- ["So8NSObjectP", "viewDidLoad"]
+- ["So8NSObjectP", "white"]
+- ["So14NSSecureCodingP", "black"]
+- ["So14NSSecureCodingP", "buttonDark"]
+- ["So14NSSecureCodingP", "buttonRed"]
+- ["So14NSSecureCodingP", "white"]
+- !private ["s9OptionSetP", "all"]
+- !private ["s9OptionSetP", "touchUpInside"]
+- !private ["Sq", "addSubview"]
+- !private ["Sq", "backgroundColor"]
+- !private ["Sq", "bottomAnchor"]
+- !private ["Sq", "centerXAnchor"]
+- !private ["Sq", "leadingAnchor"]
+- !private ["Sq", "topAnchor"]
+- !private ["Sq", "trailingAnchor"]
+- !private ["Sq", "white"]
+- ["7SwiftUI15PreviewProviderP", "AuthViewController"]
+- ["7SwiftUI15PreviewProviderP", "ContainerView"]
+- ["7SwiftUI15PreviewProviderP", "Default_Previews"]
+- ["7SwiftUI15PreviewProviderP", "Previews"]
+- ["7SwiftUI15PreviewProviderP", "UIViewControllerRepresentable"]
+- ["7SwiftUI15PreviewProviderP", ""]
+- ["7SwiftUI15PreviewProviderP", "_Default_Previews"]
+- ["7SwiftUI15PreviewProviderP", "_platform"]
+- ["7SwiftUI15PreviewProviderP", "_previews"]
+- ["7SwiftUI15PreviewProviderP", "platform"]
+- ["7SwiftUI15PreviewProviderP", "previews"]
+- !private ["7SwiftUI15PreviewProviderP", "viewController"]
+- !private ["SY", ""]
+- !private ["SY", "all"]
+- ["SY", "scaleAspectFit"]
+- !private ["SY", "touchUpInside"]
+- !private ["SY", "vertical"]
+- ["ST", ""]
+- !private ["7SwiftUI4EdgeO3SetV", "all"]
+- !private ["s10SetAlgebraP", ""]
+- !private ["s10SetAlgebraP", "all"]
+- !private ["s10SetAlgebraP", "touchUpInside"]
+- ["5iChat20SignUpViewControllerC", ""]
+- !private ["5iChat20SignUpViewControllerC", "delegate"]
+- ["5iChat20SignUpViewControllerC", "init"]
+- ["s16TextOutputStreamP", ""]
+- ["s20TextOutputStreamableP", ""]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "addTarget"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "bottomAnchor"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "centerXAnchor"]
+- ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "customizeGoogleButton"]
+- ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "topAnchor"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So29UIAccessibilityIdentificationP", "__buttonWithType"]
+- !private ["So29UIAccessibilityIdentificationP", "addSubview"]
+- !private ["So29UIAccessibilityIdentificationP", "addTarget"]
+- !private ["So29UIAccessibilityIdentificationP", "backgroundColor"]
+- !private ["So29UIAccessibilityIdentificationP", "bottomAnchor"]
+- ["So29UIAccessibilityIdentificationP", "buttonWithType"]
+- !private ["So29UIAccessibilityIdentificationP", "centerXAnchor"]
+- ["So29UIAccessibilityIdentificationP", "customizeGoogleButton"]
+- ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "leadingAnchor"]
+- !private ["So29UIAccessibilityIdentificationP", "topAnchor"]
+- !private ["So29UIAccessibilityIdentificationP", "trailingAnchor"]
+- !private ["So29UIAccessibilityIdentificationP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So12UIAppearanceP", "__buttonWithType"]
+- !private ["So12UIAppearanceP", "addSubview"]
+- !private ["So12UIAppearanceP", "addTarget"]
+- !private ["So12UIAppearanceP", "backgroundColor"]
+- !private ["So12UIAppearanceP", "bottomAnchor"]
+- ["So12UIAppearanceP", "buttonWithType"]
+- !private ["So12UIAppearanceP", "centerXAnchor"]
+- ["So12UIAppearanceP", "customizeGoogleButton"]
+- ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "leadingAnchor"]
+- !private ["So12UIAppearanceP", "topAnchor"]
+- !private ["So12UIAppearanceP", "trailingAnchor"]
+- !private ["So12UIAppearanceP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So21UIAppearanceContainerP", "ButtonFormView"]
+- ["So21UIAppearanceContainerP", "LoginViewController"]
+- !private ["So21UIAppearanceContainerP", "NSLayoutConstraint"]
+- ["So21UIAppearanceContainerP", "SignUpViewController"]
+- ["So21UIAppearanceContainerP", "UIButton"]
+- ["So21UIAppearanceContainerP", "UIImageView"]
+- ["So21UIAppearanceContainerP", "UILabel"]
+- !private ["So21UIAppearanceContainerP", "UIStackView"]
+- ["So21UIAppearanceContainerP", ""]
+- ["So21UIAppearanceContainerP", "__buttonWithType"]
+- !private ["So21UIAppearanceContainerP", "addSubview"]
+- !private ["So21UIAppearanceContainerP", "addTarget"]
+- ["So21UIAppearanceContainerP", "alreadyOnboardLabel"]
+- !private ["So21UIAppearanceContainerP", "backgroundColor"]
+- !private ["So21UIAppearanceContainerP", "bottomAnchor"]
+- ["So21UIAppearanceContainerP", "buttonWithType"]
+- !private ["So21UIAppearanceContainerP", "centerXAnchor"]
+- ["So21UIAppearanceContainerP", "customizeGoogleButton"]
+- !private ["So21UIAppearanceContainerP", "delegate"]
+- ["So21UIAppearanceContainerP", "emailButton"]
+- ["So21UIAppearanceContainerP", "emailButtonTapped"]
+- ["So21UIAppearanceContainerP", "emailLabel"]
+- ["So21UIAppearanceContainerP", "googleButton"]
+- ["So21UIAppearanceContainerP", "googleLabel"]
+- ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "leadingAnchor"]
+- ["So21UIAppearanceContainerP", "loginButton"]
+- ["So21UIAppearanceContainerP", "loginButtonTapped"]
+- ["So21UIAppearanceContainerP", "loginVC"]
+- ["So21UIAppearanceContainerP", "logoImageView"]
+- !private ["So21UIAppearanceContainerP", "present"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- ["So21UIAppearanceContainerP", "setupConstraints"]
+- ["So21UIAppearanceContainerP", "signUpVC"]
+- ["So21UIAppearanceContainerP", "toLoginVC"]
+- ["So21UIAppearanceContainerP", "toSignUpVC"]
+- !private ["So21UIAppearanceContainerP", "topAnchor"]
+- !private ["So21UIAppearanceContainerP", "trailingAnchor"]
+- !private ["So21UIAppearanceContainerP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So8UIButtonC", "addTarget"]
+- !private ["So8UIButtonC", "customizeGoogleButton"]
+- ["So8UIButtonC", "init"]
+- ["So7UIColorC", "black"]
+- ["So7UIColorC", "buttonDark"]
+- ["So7UIColorC", "buttonRed"]
+- ["So7UIColorC", "white"]
+- !private ["So18UIContentContainerP", "ButtonFormView"]
+- ["So18UIContentContainerP", "LoginViewController"]
+- !private ["So18UIContentContainerP", "NSLayoutConstraint"]
+- ["So18UIContentContainerP", "SignUpViewController"]
+- ["So18UIContentContainerP", "UIButton"]
+- ["So18UIContentContainerP", "UIImageView"]
+- ["So18UIContentContainerP", "UILabel"]
+- !private ["So18UIContentContainerP", "UIStackView"]
+- ["So18UIContentContainerP", ""]
+- ["So18UIContentContainerP", "alreadyOnboardLabel"]
+- !private ["So18UIContentContainerP", "delegate"]
+- ["So18UIContentContainerP", "emailButton"]
+- ["So18UIContentContainerP", "emailButtonTapped"]
+- ["So18UIContentContainerP", "emailLabel"]
+- ["So18UIContentContainerP", "googleButton"]
+- ["So18UIContentContainerP", "googleLabel"]
+- ["So18UIContentContainerP", "init"]
+- ["So18UIContentContainerP", "loginButton"]
+- ["So18UIContentContainerP", "loginButtonTapped"]
+- ["So18UIContentContainerP", "loginVC"]
+- ["So18UIContentContainerP", "logoImageView"]
+- !private ["So18UIContentContainerP", "present"]
+- !private ["So18UIContentContainerP", "print"]
+- ["So18UIContentContainerP", "setupConstraints"]
+- ["So18UIContentContainerP", "signUpVC"]
+- ["So18UIContentContainerP", "toLoginVC"]
+- ["So18UIContentContainerP", "toSignUpVC"]
+- !private ["So18UIContentContainerP", "view"]
+- ["So18UIContentContainerP", "viewDidLoad"]
+- ["So30UIContentSizeCategoryAdjustingP", "init"]
+- ["So32UIContextMenuInteractionDelegateP", "__buttonWithType"]
+- !private ["So32UIContextMenuInteractionDelegateP", "addTarget"]
+- ["So32UIContextMenuInteractionDelegateP", "buttonWithType"]
+- ["So32UIContextMenuInteractionDelegateP", "customizeGoogleButton"]
+- ["So32UIContextMenuInteractionDelegateP", "init"]
+- ["So9UIControlC", ""]
+- ["So9UIControlC", "__buttonWithType"]
+- !private ["So9UIControlC", "addTarget"]
+- ["So9UIControlC", "buttonWithType"]
+- !private ["So9UIControlC", "customizeGoogleButton"]
+- ["So9UIControlC", "init"]
+- ["So17UICoordinateSpaceP", "__buttonWithType"]
+- !private ["So17UICoordinateSpaceP", "addSubview"]
+- !private ["So17UICoordinateSpaceP", "addTarget"]
+- !private ["So17UICoordinateSpaceP", "backgroundColor"]
+- !private ["So17UICoordinateSpaceP", "bottomAnchor"]
+- ["So17UICoordinateSpaceP", "buttonWithType"]
+- !private ["So17UICoordinateSpaceP", "centerXAnchor"]
+- ["So17UICoordinateSpaceP", "customizeGoogleButton"]
+- ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "leadingAnchor"]
+- !private ["So17UICoordinateSpaceP", "topAnchor"]
+- !private ["So17UICoordinateSpaceP", "trailingAnchor"]
+- !private ["So17UICoordinateSpaceP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So13UIDynamicItemP", "__buttonWithType"]
+- !private ["So13UIDynamicItemP", "addSubview"]
+- !private ["So13UIDynamicItemP", "addTarget"]
+- !private ["So13UIDynamicItemP", "backgroundColor"]
+- !private ["So13UIDynamicItemP", "bottomAnchor"]
+- ["So13UIDynamicItemP", "buttonWithType"]
+- !private ["So13UIDynamicItemP", "centerXAnchor"]
+- ["So13UIDynamicItemP", "customizeGoogleButton"]
+- ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "leadingAnchor"]
+- !private ["So13UIDynamicItemP", "topAnchor"]
+- !private ["So13UIDynamicItemP", "trailingAnchor"]
+- !private ["So13UIDynamicItemP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So18UIFocusEnvironmentP", "ButtonFormView"]
+- ["So18UIFocusEnvironmentP", "LoginViewController"]
+- !private ["So18UIFocusEnvironmentP", "NSLayoutConstraint"]
+- ["So18UIFocusEnvironmentP", "SignUpViewController"]
+- ["So18UIFocusEnvironmentP", "UIButton"]
+- ["So18UIFocusEnvironmentP", "UIImageView"]
+- ["So18UIFocusEnvironmentP", "UILabel"]
+- !private ["So18UIFocusEnvironmentP", "UIStackView"]
+- ["So18UIFocusEnvironmentP", ""]
+- ["So18UIFocusEnvironmentP", "__buttonWithType"]
+- !private ["So18UIFocusEnvironmentP", "addSubview"]
+- !private ["So18UIFocusEnvironmentP", "addTarget"]
+- ["So18UIFocusEnvironmentP", "alreadyOnboardLabel"]
+- !private ["So18UIFocusEnvironmentP", "backgroundColor"]
+- !private ["So18UIFocusEnvironmentP", "bottomAnchor"]
+- ["So18UIFocusEnvironmentP", "buttonWithType"]
+- !private ["So18UIFocusEnvironmentP", "centerXAnchor"]
+- ["So18UIFocusEnvironmentP", "customizeGoogleButton"]
+- !private ["So18UIFocusEnvironmentP", "delegate"]
+- ["So18UIFocusEnvironmentP", "emailButton"]
+- ["So18UIFocusEnvironmentP", "emailButtonTapped"]
+- ["So18UIFocusEnvironmentP", "emailLabel"]
+- ["So18UIFocusEnvironmentP", "googleButton"]
+- ["So18UIFocusEnvironmentP", "googleLabel"]
+- ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "leadingAnchor"]
+- ["So18UIFocusEnvironmentP", "loginButton"]
+- ["So18UIFocusEnvironmentP", "loginButtonTapped"]
+- ["So18UIFocusEnvironmentP", "loginVC"]
+- ["So18UIFocusEnvironmentP", "logoImageView"]
+- !private ["So18UIFocusEnvironmentP", "present"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- ["So18UIFocusEnvironmentP", "setupConstraints"]
+- ["So18UIFocusEnvironmentP", "signUpVC"]
+- ["So18UIFocusEnvironmentP", "toLoginVC"]
+- ["So18UIFocusEnvironmentP", "toSignUpVC"]
+- !private ["So18UIFocusEnvironmentP", "topAnchor"]
+- !private ["So18UIFocusEnvironmentP", "trailingAnchor"]
+- !private ["So18UIFocusEnvironmentP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So11UIFocusItemP", "__buttonWithType"]
+- !private ["So11UIFocusItemP", "addSubview"]
+- !private ["So11UIFocusItemP", "addTarget"]
+- !private ["So11UIFocusItemP", "backgroundColor"]
+- !private ["So11UIFocusItemP", "bottomAnchor"]
+- ["So11UIFocusItemP", "buttonWithType"]
+- !private ["So11UIFocusItemP", "centerXAnchor"]
+- ["So11UIFocusItemP", "customizeGoogleButton"]
+- ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "leadingAnchor"]
+- !private ["So11UIFocusItemP", "topAnchor"]
+- !private ["So11UIFocusItemP", "trailingAnchor"]
+- !private ["So11UIFocusItemP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So20UIFocusItemContainerP", "__buttonWithType"]
+- !private ["So20UIFocusItemContainerP", "addSubview"]
+- !private ["So20UIFocusItemContainerP", "addTarget"]
+- !private ["So20UIFocusItemContainerP", "backgroundColor"]
+- !private ["So20UIFocusItemContainerP", "bottomAnchor"]
+- ["So20UIFocusItemContainerP", "buttonWithType"]
+- !private ["So20UIFocusItemContainerP", "centerXAnchor"]
+- ["So20UIFocusItemContainerP", "customizeGoogleButton"]
+- ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "leadingAnchor"]
+- !private ["So20UIFocusItemContainerP", "topAnchor"]
+- !private ["So20UIFocusItemContainerP", "trailingAnchor"]
+- !private ["So20UIFocusItemContainerP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So11UIImageViewC", "bottomAnchor"]
+- !private ["So11UIImageViewC", "centerXAnchor"]
+- ["So11UIImageViewC", "init"]
+- !private ["So11UIImageViewC", "topAnchor"]
+- !private ["So11UIImageViewC", "translatesAutoresizingMaskIntoConstraints"]
+- ["So7UILabelC", "init"]
+- ["So24UILargeContentViewerItemP", "__buttonWithType"]
+- !private ["So24UILargeContentViewerItemP", "addSubview"]
+- !private ["So24UILargeContentViewerItemP", "addTarget"]
+- !private ["So24UILargeContentViewerItemP", "backgroundColor"]
+- !private ["So24UILargeContentViewerItemP", "bottomAnchor"]
+- ["So24UILargeContentViewerItemP", "buttonWithType"]
+- !private ["So24UILargeContentViewerItemP", "centerXAnchor"]
+- ["So24UILargeContentViewerItemP", "customizeGoogleButton"]
+- ["So24UILargeContentViewerItemP", "init"]
+- !private ["So24UILargeContentViewerItemP", "leadingAnchor"]
+- !private ["So24UILargeContentViewerItemP", "topAnchor"]
+- !private ["So24UILargeContentViewerItemP", "trailingAnchor"]
+- !private ["So24UILargeContentViewerItemP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So30UIPasteConfigurationSupportingP", "ButtonFormView"]
+- ["So30UIPasteConfigurationSupportingP", "LoginViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "NSLayoutConstraint"]
+- ["So30UIPasteConfigurationSupportingP", "SignUpViewController"]
+- ["So30UIPasteConfigurationSupportingP", "UIButton"]
+- ["So30UIPasteConfigurationSupportingP", "UIImageView"]
+- ["So30UIPasteConfigurationSupportingP", "UILabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIStackView"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So30UIPasteConfigurationSupportingP", "__buttonWithType"]
+- !private ["So30UIPasteConfigurationSupportingP", "addSubview"]
+- !private ["So30UIPasteConfigurationSupportingP", "addTarget"]
+- ["So30UIPasteConfigurationSupportingP", "alreadyOnboardLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "backgroundColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "bottomAnchor"]
+- ["So30UIPasteConfigurationSupportingP", "buttonWithType"]
+- !private ["So30UIPasteConfigurationSupportingP", "centerXAnchor"]
+- ["So30UIPasteConfigurationSupportingP", "customizeGoogleButton"]
+- !private ["So30UIPasteConfigurationSupportingP", "delegate"]
+- ["So30UIPasteConfigurationSupportingP", "emailButton"]
+- ["So30UIPasteConfigurationSupportingP", "emailButtonTapped"]
+- ["So30UIPasteConfigurationSupportingP", "emailLabel"]
+- ["So30UIPasteConfigurationSupportingP", "googleButton"]
+- ["So30UIPasteConfigurationSupportingP", "googleLabel"]
+- ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "leadingAnchor"]
+- ["So30UIPasteConfigurationSupportingP", "loginButton"]
+- ["So30UIPasteConfigurationSupportingP", "loginButtonTapped"]
+- ["So30UIPasteConfigurationSupportingP", "loginVC"]
+- ["So30UIPasteConfigurationSupportingP", "logoImageView"]
+- !private ["So30UIPasteConfigurationSupportingP", "present"]
+- !private ["So30UIPasteConfigurationSupportingP", "presentViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- ["So30UIPasteConfigurationSupportingP", "setupConstraints"]
+- ["So30UIPasteConfigurationSupportingP", "signUpVC"]
+- ["So30UIPasteConfigurationSupportingP", "toLoginVC"]
+- ["So30UIPasteConfigurationSupportingP", "toSignUpVC"]
+- !private ["So30UIPasteConfigurationSupportingP", "topAnchor"]
+- !private ["So30UIPasteConfigurationSupportingP", "trailingAnchor"]
+- !private ["So30UIPasteConfigurationSupportingP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So11UIResponderC", "ButtonFormView"]
+- ["So11UIResponderC", "LoginViewController"]
+- !private ["So11UIResponderC", "NSLayoutConstraint"]
+- ["So11UIResponderC", "SignUpViewController"]
+- ["So11UIResponderC", "UIButton"]
+- ["So11UIResponderC", "UIImageView"]
+- ["So11UIResponderC", "UILabel"]
+- !private ["So11UIResponderC", "UIStackView"]
+- ["So11UIResponderC", ""]
+- ["So11UIResponderC", "__buttonWithType"]
+- !private ["So11UIResponderC", "addSubview"]
+- !private ["So11UIResponderC", "addTarget"]
+- ["So11UIResponderC", "alreadyOnboardLabel"]
+- !private ["So11UIResponderC", "backgroundColor"]
+- !private ["So11UIResponderC", "bottomAnchor"]
+- ["So11UIResponderC", "buttonWithType"]
+- !private ["So11UIResponderC", "centerXAnchor"]
+- !private ["So11UIResponderC", "customizeGoogleButton"]
+- !private ["So11UIResponderC", "delegate"]
+- ["So11UIResponderC", "emailButton"]
+- ["So11UIResponderC", "emailButtonTapped"]
+- ["So11UIResponderC", "emailLabel"]
+- ["So11UIResponderC", "googleButton"]
+- ["So11UIResponderC", "googleLabel"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "leadingAnchor"]
+- ["So11UIResponderC", "loginButton"]
+- ["So11UIResponderC", "loginButtonTapped"]
+- ["So11UIResponderC", "loginVC"]
+- ["So11UIResponderC", "logoImageView"]
+- !private ["So11UIResponderC", "present"]
+- !private ["So11UIResponderC", "presentViewController"]
+- !private ["So11UIResponderC", "print"]
+- ["So11UIResponderC", "setupConstraints"]
+- ["So11UIResponderC", "signUpVC"]
+- ["So11UIResponderC", "toLoginVC"]
+- ["So11UIResponderC", "toSignUpVC"]
+- !private ["So11UIResponderC", "topAnchor"]
+- !private ["So11UIResponderC", "trailingAnchor"]
+- !private ["So11UIResponderC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So11UIResponderC", "view"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "ButtonFormView"]
+- ["So30UIResponderStandardEditActionsP", "LoginViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "NSLayoutConstraint"]
+- ["So30UIResponderStandardEditActionsP", "SignUpViewController"]
+- ["So30UIResponderStandardEditActionsP", "UIButton"]
+- ["So30UIResponderStandardEditActionsP", "UIImageView"]
+- ["So30UIResponderStandardEditActionsP", "UILabel"]
+- !private ["So30UIResponderStandardEditActionsP", "UIStackView"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- ["So30UIResponderStandardEditActionsP", "__buttonWithType"]
+- !private ["So30UIResponderStandardEditActionsP", "addSubview"]
+- !private ["So30UIResponderStandardEditActionsP", "addTarget"]
+- ["So30UIResponderStandardEditActionsP", "alreadyOnboardLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "backgroundColor"]
+- !private ["So30UIResponderStandardEditActionsP", "bottomAnchor"]
+- ["So30UIResponderStandardEditActionsP", "buttonWithType"]
+- !private ["So30UIResponderStandardEditActionsP", "centerXAnchor"]
+- ["So30UIResponderStandardEditActionsP", "customizeGoogleButton"]
+- !private ["So30UIResponderStandardEditActionsP", "delegate"]
+- ["So30UIResponderStandardEditActionsP", "emailButton"]
+- ["So30UIResponderStandardEditActionsP", "emailButtonTapped"]
+- ["So30UIResponderStandardEditActionsP", "emailLabel"]
+- ["So30UIResponderStandardEditActionsP", "googleButton"]
+- ["So30UIResponderStandardEditActionsP", "googleLabel"]
+- ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "leadingAnchor"]
+- ["So30UIResponderStandardEditActionsP", "loginButton"]
+- ["So30UIResponderStandardEditActionsP", "loginButtonTapped"]
+- ["So30UIResponderStandardEditActionsP", "loginVC"]
+- ["So30UIResponderStandardEditActionsP", "logoImageView"]
+- !private ["So30UIResponderStandardEditActionsP", "present"]
+- !private ["So30UIResponderStandardEditActionsP", "presentViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- ["So30UIResponderStandardEditActionsP", "setupConstraints"]
+- ["So30UIResponderStandardEditActionsP", "signUpVC"]
+- ["So30UIResponderStandardEditActionsP", "toLoginVC"]
+- ["So30UIResponderStandardEditActionsP", "toSignUpVC"]
+- !private ["So30UIResponderStandardEditActionsP", "topAnchor"]
+- !private ["So30UIResponderStandardEditActionsP", "trailingAnchor"]
+- !private ["So30UIResponderStandardEditActionsP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "addTarget"]
+- ["So35UISpringLoadedInteractionSupportingP", "customizeGoogleButton"]
+- ["So35UISpringLoadedInteractionSupportingP", "init"]
+- !private ["So11UIStackViewC", "bottomAnchor"]
+- !private ["So11UIStackViewC", "init"]
+- !private ["So11UIStackViewC", "leadingAnchor"]
+- !private ["So11UIStackViewC", "topAnchor"]
+- !private ["So11UIStackViewC", "trailingAnchor"]
+- !private ["So11UIStackViewC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So16UIStateRestoringP", "ButtonFormView"]
+- ["So16UIStateRestoringP", "LoginViewController"]
+- !private ["So16UIStateRestoringP", "NSLayoutConstraint"]
+- ["So16UIStateRestoringP", "SignUpViewController"]
+- ["So16UIStateRestoringP", "UIButton"]
+- ["So16UIStateRestoringP", "UIImageView"]
+- ["So16UIStateRestoringP", "UILabel"]
+- !private ["So16UIStateRestoringP", "UIStackView"]
+- ["So16UIStateRestoringP", ""]
+- ["So16UIStateRestoringP", "alreadyOnboardLabel"]
+- !private ["So16UIStateRestoringP", "delegate"]
+- ["So16UIStateRestoringP", "emailButton"]
+- ["So16UIStateRestoringP", "emailButtonTapped"]
+- ["So16UIStateRestoringP", "emailLabel"]
+- ["So16UIStateRestoringP", "googleButton"]
+- ["So16UIStateRestoringP", "googleLabel"]
+- ["So16UIStateRestoringP", "init"]
+- ["So16UIStateRestoringP", "loginButton"]
+- ["So16UIStateRestoringP", "loginButtonTapped"]
+- ["So16UIStateRestoringP", "loginVC"]
+- ["So16UIStateRestoringP", "logoImageView"]
+- !private ["So16UIStateRestoringP", "present"]
+- !private ["So16UIStateRestoringP", "print"]
+- ["So16UIStateRestoringP", "setupConstraints"]
+- ["So16UIStateRestoringP", "signUpVC"]
+- ["So16UIStateRestoringP", "toLoginVC"]
+- ["So16UIStateRestoringP", "toSignUpVC"]
+- !private ["So16UIStateRestoringP", "view"]
+- ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So19UITextFieldDelegateP", "delegate"]
+- ["So19UITextFieldDelegateP", "init"]
+- !private ["So18UITraitEnvironmentP", "ButtonFormView"]
+- ["So18UITraitEnvironmentP", "LoginViewController"]
+- !private ["So18UITraitEnvironmentP", "NSLayoutConstraint"]
+- ["So18UITraitEnvironmentP", "SignUpViewController"]
+- ["So18UITraitEnvironmentP", "UIButton"]
+- ["So18UITraitEnvironmentP", "UIImageView"]
+- ["So18UITraitEnvironmentP", "UILabel"]
+- !private ["So18UITraitEnvironmentP", "UIStackView"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So18UITraitEnvironmentP", "__buttonWithType"]
+- !private ["So18UITraitEnvironmentP", "addSubview"]
+- !private ["So18UITraitEnvironmentP", "addTarget"]
+- ["So18UITraitEnvironmentP", "alreadyOnboardLabel"]
+- !private ["So18UITraitEnvironmentP", "backgroundColor"]
+- !private ["So18UITraitEnvironmentP", "bottomAnchor"]
+- ["So18UITraitEnvironmentP", "buttonWithType"]
+- !private ["So18UITraitEnvironmentP", "centerXAnchor"]
+- ["So18UITraitEnvironmentP", "customizeGoogleButton"]
+- !private ["So18UITraitEnvironmentP", "delegate"]
+- ["So18UITraitEnvironmentP", "emailButton"]
+- ["So18UITraitEnvironmentP", "emailButtonTapped"]
+- ["So18UITraitEnvironmentP", "emailLabel"]
+- ["So18UITraitEnvironmentP", "googleButton"]
+- ["So18UITraitEnvironmentP", "googleLabel"]
+- ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "leadingAnchor"]
+- ["So18UITraitEnvironmentP", "loginButton"]
+- ["So18UITraitEnvironmentP", "loginButtonTapped"]
+- ["So18UITraitEnvironmentP", "loginVC"]
+- ["So18UITraitEnvironmentP", "logoImageView"]
+- !private ["So18UITraitEnvironmentP", "present"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- ["So18UITraitEnvironmentP", "setupConstraints"]
+- ["So18UITraitEnvironmentP", "signUpVC"]
+- ["So18UITraitEnvironmentP", "toLoginVC"]
+- ["So18UITraitEnvironmentP", "toSignUpVC"]
+- !private ["So18UITraitEnvironmentP", "topAnchor"]
+- !private ["So18UITraitEnvironmentP", "trailingAnchor"]
+- !private ["So18UITraitEnvironmentP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "ButtonFormView"]
+- ["So23UIUserActivityRestoringP", "LoginViewController"]
+- !private ["So23UIUserActivityRestoringP", "NSLayoutConstraint"]
+- ["So23UIUserActivityRestoringP", "SignUpViewController"]
+- ["So23UIUserActivityRestoringP", "UIButton"]
+- ["So23UIUserActivityRestoringP", "UIImageView"]
+- ["So23UIUserActivityRestoringP", "UILabel"]
+- !private ["So23UIUserActivityRestoringP", "UIStackView"]
+- ["So23UIUserActivityRestoringP", ""]
+- ["So23UIUserActivityRestoringP", "__buttonWithType"]
+- !private ["So23UIUserActivityRestoringP", "addSubview"]
+- !private ["So23UIUserActivityRestoringP", "addTarget"]
+- ["So23UIUserActivityRestoringP", "alreadyOnboardLabel"]
+- !private ["So23UIUserActivityRestoringP", "backgroundColor"]
+- !private ["So23UIUserActivityRestoringP", "bottomAnchor"]
+- ["So23UIUserActivityRestoringP", "buttonWithType"]
+- !private ["So23UIUserActivityRestoringP", "centerXAnchor"]
+- ["So23UIUserActivityRestoringP", "customizeGoogleButton"]
+- !private ["So23UIUserActivityRestoringP", "delegate"]
+- ["So23UIUserActivityRestoringP", "emailButton"]
+- ["So23UIUserActivityRestoringP", "emailButtonTapped"]
+- ["So23UIUserActivityRestoringP", "emailLabel"]
+- ["So23UIUserActivityRestoringP", "googleButton"]
+- ["So23UIUserActivityRestoringP", "googleLabel"]
+- ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "leadingAnchor"]
+- ["So23UIUserActivityRestoringP", "loginButton"]
+- ["So23UIUserActivityRestoringP", "loginButtonTapped"]
+- ["So23UIUserActivityRestoringP", "loginVC"]
+- ["So23UIUserActivityRestoringP", "logoImageView"]
+- !private ["So23UIUserActivityRestoringP", "present"]
+- !private ["So23UIUserActivityRestoringP", "presentViewController"]
+- !private ["So23UIUserActivityRestoringP", "print"]
+- ["So23UIUserActivityRestoringP", "setupConstraints"]
+- ["So23UIUserActivityRestoringP", "signUpVC"]
+- ["So23UIUserActivityRestoringP", "toLoginVC"]
+- ["So23UIUserActivityRestoringP", "toSignUpVC"]
+- !private ["So23UIUserActivityRestoringP", "topAnchor"]
+- !private ["So23UIUserActivityRestoringP", "trailingAnchor"]
+- !private ["So23UIUserActivityRestoringP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So23UIUserActivityRestoringP", "view"]
+- ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- ["So6UIViewC", ""]
+- ["So6UIViewC", "__buttonWithType"]
+- !private ["So6UIViewC", "addSubview"]
+- !private ["So6UIViewC", "addTarget"]
+- !private ["So6UIViewC", "backgroundColor"]
+- !private ["So6UIViewC", "bottomAnchor"]
+- ["So6UIViewC", "buttonWithType"]
+- !private ["So6UIViewC", "centerXAnchor"]
+- !private ["So6UIViewC", "customizeGoogleButton"]
+- ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "leadingAnchor"]
+- !private ["So6UIViewC", "topAnchor"]
+- !private ["So6UIViewC", "trailingAnchor"]
+- !private ["So6UIViewC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So16UIViewControllerC", "ButtonFormView"]
+- ["So16UIViewControllerC", "LoginViewController"]
+- !private ["So16UIViewControllerC", "NSLayoutConstraint"]
+- ["So16UIViewControllerC", "SignUpViewController"]
+- ["So16UIViewControllerC", "UIButton"]
+- ["So16UIViewControllerC", "UIImageView"]
+- ["So16UIViewControllerC", "UILabel"]
+- !private ["So16UIViewControllerC", "UIStackView"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "alreadyOnboardLabel"]
+- !private ["So16UIViewControllerC", "delegate"]
+- ["So16UIViewControllerC", "emailButton"]
+- ["So16UIViewControllerC", "emailButtonTapped"]
+- ["So16UIViewControllerC", "emailLabel"]
+- ["So16UIViewControllerC", "googleButton"]
+- ["So16UIViewControllerC", "googleLabel"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "loginButton"]
+- ["So16UIViewControllerC", "loginButtonTapped"]
+- ["So16UIViewControllerC", "loginVC"]
+- ["So16UIViewControllerC", "logoImageView"]
+- !private ["So16UIViewControllerC", "present"]
+- !private ["So16UIViewControllerC", "print"]
+- ["So16UIViewControllerC", "setupConstraints"]
+- ["So16UIViewControllerC", "signUpVC"]
+- ["So16UIViewControllerC", "toLoginVC"]
+- ["So16UIViewControllerC", "toSignUpVC"]
+- !private ["So16UIViewControllerC", "view"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["7SwiftUI29UIViewControllerRepresentableP", "AuthViewController"]
+- ["7SwiftUI29UIViewControllerRepresentableP", "Body"]
+- ["7SwiftUI29UIViewControllerRepresentableP", "Context"]
+- ["7SwiftUI29UIViewControllerRepresentableP", "Coordinator"]
+- ["7SwiftUI29UIViewControllerRepresentableP", "Default_Body"]
+- ["7SwiftUI29UIViewControllerRepresentableP", "Default_Coordinator"]
+- ["7SwiftUI29UIViewControllerRepresentableP", "Default_UIViewControllerType"]
+- ["7SwiftUI29UIViewControllerRepresentableP", "UIViewControllerType"]
+- ["7SwiftUI29UIViewControllerRepresentableP", ""]
+- ["7SwiftUI29UIViewControllerRepresentableP", "_Default_Body"]
+- ["7SwiftUI29UIViewControllerRepresentableP", "_Default_Coordinator"]
+- ["7SwiftUI29UIViewControllerRepresentableP", "_Default_UIViewControllerType"]
+- ["7SwiftUI29UIViewControllerRepresentableP", "_identifiedViewTree"]
+- ["7SwiftUI29UIViewControllerRepresentableP", "_makeView"]
+- ["7SwiftUI29UIViewControllerRepresentableP", "_makeViewList"]
+- ["7SwiftUI29UIViewControllerRepresentableP", "_viewListCount"]
+- ["7SwiftUI29UIViewControllerRepresentableP", "body"]
+- ["7SwiftUI29UIViewControllerRepresentableP", "dismantleUIViewController"]
+- !private ["7SwiftUI29UIViewControllerRepresentableP", "edgesIgnoringSafeArea"]
+- !private ["7SwiftUI29UIViewControllerRepresentableP", "init"]
+- ["7SwiftUI29UIViewControllerRepresentableP", "makeCoordinator"]
+- ["7SwiftUI29UIViewControllerRepresentableP", "makeUIViewController"]
+- ["7SwiftUI29UIViewControllerRepresentableP", "updateUIViewController"]
+- !private ["7SwiftUI29UIViewControllerRepresentableP", "viewController"]
+- ["7SwiftUI4ViewP", "AuthViewController"]
+- ["7SwiftUI4ViewP", "Body"]
+- ["7SwiftUI4ViewP", "Context"]
+- ["7SwiftUI4ViewP", "Coordinator"]
+- ["7SwiftUI4ViewP", "Default_Body"]
+- ["7SwiftUI4ViewP", "Default_Coordinator"]
+- ["7SwiftUI4ViewP", "Default_UIViewControllerType"]
+- ["7SwiftUI4ViewP", "UIViewControllerType"]
+- ["7SwiftUI4ViewP", ""]
+- ["7SwiftUI4ViewP", "_Default_Body"]
+- ["7SwiftUI4ViewP", "_Default_Coordinator"]
+- ["7SwiftUI4ViewP", "_Default_UIViewControllerType"]
+- ["7SwiftUI4ViewP", "_identifiedViewTree"]
+- ["7SwiftUI4ViewP", "_makeView"]
+- ["7SwiftUI4ViewP", "_makeViewList"]
+- ["7SwiftUI4ViewP", "_viewListCount"]
+- !private ["7SwiftUI4ViewP", "addSubview"]
+- !private ["7SwiftUI4ViewP", "backgroundColor"]
+- ["7SwiftUI4ViewP", "body"]
+- !private ["7SwiftUI4ViewP", "bottomAnchor"]
+- !private ["7SwiftUI4ViewP", "centerXAnchor"]
+- ["7SwiftUI4ViewP", "dismantleUIViewController"]
+- !private ["7SwiftUI4ViewP", "edgesIgnoringSafeArea"]
+- !private ["7SwiftUI4ViewP", "init"]
+- !private ["7SwiftUI4ViewP", "leadingAnchor"]
+- ["7SwiftUI4ViewP", "makeCoordinator"]
+- ["7SwiftUI4ViewP", "makeUIViewController"]
+- !private ["7SwiftUI4ViewP", "topAnchor"]
+- !private ["7SwiftUI4ViewP", "trailingAnchor"]
+- ["7SwiftUI4ViewP", "updateUIViewController"]
+- !private ["7SwiftUI4ViewP", "viewController"]
+- !private ["7SwiftUI4ViewP", "white"]
+- !private ["7SwiftUI11ViewBuilderV", "buildBlock"]
+- !private ["7SwiftUI11ViewBuilderV", "buildExpression"]
+- !private ["7SwiftUI11ViewBuilderV", "buildFinalResult"]
+- !private ["7SwiftUI11ViewBuilderV", "buildIf"]
+- !private ["7SwiftUI11ViewBuilderV", "buildOptional"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- ["s26_ExpressibleByColorLiteralP", "black"]
+- ["s26_ExpressibleByColorLiteralP", "buttonDark"]
+- ["s26_ExpressibleByColorLiteralP", "buttonRed"]
+- ["s26_ExpressibleByColorLiteralP", "white"]
+- ["s26_ExpressibleByImageLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ButtonFormView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "LoginViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSLayoutConstraint"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "SignUpViewController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UIButton"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UIImageView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UILabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIStackView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "activate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addSubview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addTarget"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "alreadyOnboardLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundColor"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "black"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bottomAnchor"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "buttonDark"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "buttonRed"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "centerXAnchor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "constraint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "customizeGoogleButton"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "emailButton"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "emailButtonTapped"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "emailLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "googleButton"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "googleLabel"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "leadingAnchor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "loginButton"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "loginButtonTapped"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "loginVC"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "logoImageView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "present"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setupConstraints"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "signUpVC"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "toLoginVC"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "toSignUpVC"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "topAnchor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "trailingAnchor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "white"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ButtonFormView"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "LoginViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSLayoutConstraint"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "SignUpViewController"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIButton"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIImageView"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UILabel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIStackView"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "activate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addSubview"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addTarget"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "alreadyOnboardLabel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "backgroundColor"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "black"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bottomAnchor"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "buttonDark"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "buttonRed"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "centerXAnchor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "constraint"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "customizeGoogleButton"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "delegate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "emailButton"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "emailButtonTapped"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "emailLabel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "googleButton"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "googleLabel"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "leadingAnchor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "loginButton"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "loginButtonTapped"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "loginVC"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "logoImageView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "present"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "print"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setupConstraints"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "signUpVC"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "toLoginVC"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "toSignUpVC"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "topAnchor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "trailingAnchor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "view"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "white"]
+- !private ["s21_ObjectiveCBridgeableP", "addSubview"]
+- !private ["s21_ObjectiveCBridgeableP", "backgroundColor"]
+- !private ["s21_ObjectiveCBridgeableP", "bottomAnchor"]
+- !private ["s21_ObjectiveCBridgeableP", "centerXAnchor"]
+- !private ["s21_ObjectiveCBridgeableP", "leadingAnchor"]
+- !private ["s21_ObjectiveCBridgeableP", "topAnchor"]
+- !private ["s21_ObjectiveCBridgeableP", "trailingAnchor"]
+- !private ["s21_ObjectiveCBridgeableP", "white"]
+- ["7SwiftUI16_PreviewProviderP", "AuthViewController"]
+- ["7SwiftUI16_PreviewProviderP", "ContainerView"]
+- ["7SwiftUI16_PreviewProviderP", "Default_Previews"]
+- ["7SwiftUI16_PreviewProviderP", "Previews"]
+- ["7SwiftUI16_PreviewProviderP", "UIViewControllerRepresentable"]
+- ["7SwiftUI16_PreviewProviderP", ""]
+- ["7SwiftUI16_PreviewProviderP", "_Default_Previews"]
+- ["7SwiftUI16_PreviewProviderP", "_platform"]
+- ["7SwiftUI16_PreviewProviderP", "_previews"]
+- ["7SwiftUI16_PreviewProviderP", "platform"]
+- ["7SwiftUI16_PreviewProviderP", "previews"]
+- !private ["7SwiftUI16_PreviewProviderP", "viewController"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "addSubview"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "addTarget"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "backgroundColor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "bottomAnchor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "centerXAnchor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "customizeGoogleButton"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "leadingAnchor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "topAnchor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "trailingAnchor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "translatesAutoresizingMaskIntoConstraints"]
+depends-nominal:
+- "7SwiftUI10AnimatableP"
+- "5iChat22AuthNavigatingDelegateP"
+- "5iChat18AuthViewControllerC"
+- "5iChat26AuthViewControllerProviderV"
+- !private "So22UILayoutConstraintAxisV"
+- "SK"
+- !private "5iChat14ButtonFormViewC"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "5iChat26AuthViewControllerProviderV09ContainerC0V"
+- "So17UIViewContentModeV"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "So15UIControlEventsV"
+- !private "s25ExpressibleByArrayLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "7SwiftUI7GestureP"
+- "SH"
+- "5iChat19LoginViewControllerC"
+- "s25LosslessStringConvertibleP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So14NSLayoutAnchorC"
+- !private "So18NSLayoutConstraintC"
+- !private "So19NSLayoutXAxisAnchorC"
+- !private "So19NSLayoutYAxisAnchorC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So14NSSecureCodingP"
+- !private "s9OptionSetP"
+- !private "Sq"
+- "7SwiftUI15PreviewProviderP"
+- "SY"
+- "ST"
+- !private "7SwiftUI4EdgeO3SetV"
+- !private "s10SetAlgebraP"
+- "5iChat20SignUpViewControllerC"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So8UIButtonC"
+- "So7UIColorC"
+- "So18UIContentContainerP"
+- "So30UIContentSizeCategoryAdjustingP"
+- "So32UIContextMenuInteractionDelegateP"
+- "So9UIControlC"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So11UIImageViewC"
+- "So7UILabelC"
+- "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So35UISpringLoadedInteractionSupportingP"
+- !private "So11UIStackViewC"
+- "So16UIStateRestoringP"
+- "So19UITextFieldDelegateP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "So16UIViewControllerC"
+- "7SwiftUI29UIViewControllerRepresentableP"
+- "7SwiftUI4ViewP"
+- !private "7SwiftUI11ViewBuilderV"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s26_ExpressibleByColorLiteralP"
+- "s26_ExpressibleByImageLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- "7SwiftUI16_PreviewProviderP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftUI.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/MessageKit/MessageKit.framework/Modules/MessageKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/MapKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/DeveloperToolsSupport.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/InputBarAccessoryView/InputBarAccessoryView.framework/Modules/InputBarAccessoryView.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+GIF.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImage-umbrella.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FirebaseStorage-umbrella.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FirebaseFirestore-umbrella.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FirebaseInstallations-umbrella.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/MessageKit/MessageKit.framework/Headers/MessageKit-umbrella.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/InputBarAccessoryView/InputBarAccessoryView.framework/Headers/InputBarAccessoryView-umbrella.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+ExtendedCacheData.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+Metadata.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRSnapshotMetadata.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRCollectionReference.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRDocumentReference.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRFirestoreSource.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+ForceDecode.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImage.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImage.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRDocumentChange.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIButton+WebCache.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSButton+WebCache.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIView+WebCache.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+WebCache.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageView+WebCache.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+HighlightedWebCache.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCache.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDDiskCache.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDMemoryCache.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageFrame.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDefine.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCacheDefine.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSData+ImageContentType.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRFirestore.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FirebaseFirestore.h"
+- "/Users/alexandr/Desktop/iChat/Pods/Firebase/CoreOnly/Sources/Firebase.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRFieldValue.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCacheConfig.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderConfig.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRWriteBatch.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRFieldPath.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthCredential.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+Transform.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRVersion.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactorSession.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageOperation.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIView+WebCacheOperation.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderOperation.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRListenerRegistration.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRTransaction.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageTransition.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactorAssertion.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneMultiFactorAssertion.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactorInfo.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneMultiFactorInfo.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageRep.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRTimestamp.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageLoader.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloader.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFederatedAuthProvider.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGameCenterAuthProvider.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageHEICCoder.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageGIFCoder.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageAPNGCoder.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageIOCoder.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageAWebPCoder.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageIOAnimatedCoder.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCoder.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageManager.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCachesManager.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageLoadersManager.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCodersManager.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImagePrefetcher.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderResponseModifier.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderRequestModifier.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageTransformer.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCoderHelper.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDGraphicsImageRenderer.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCacheKeyFilter.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactorResolver.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImagePlayer.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCacheSerializer.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageError.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageOptionsProcessor.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageIndicator.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneMultiFactorGenerator.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactor.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderDecryptor.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageGraphics.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRFirestoreSettings.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthSettings.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FIRInstallations.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FirebaseInstallations.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRFirestoreErrors.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FIRInstallationsErrors.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCompat.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/MessageKit/MessageKit.framework/Headers/MessageKit-Swift.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/InputBarAccessoryView/InputBarAccessoryView.framework/Headers/InputBarAccessoryView-Swift.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthTokenResult.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FIRInstallationsAuthTokenResult.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageListResult.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FIRAnalytics+Consent.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRGeoPoint.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRDocumentSnapshot.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRQuerySnapshot.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MemoryCacheCost.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageView.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRQuery.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSImage+Compatibility.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/alexandr/Desktop/iChat/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Modules/module.modulemap"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Modules/module.modulemap"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Modules/module.modulemap"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/MessageKit/MessageKit.framework/Modules/module.modulemap"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/InputBarAccessoryView/InputBarAccessoryView.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "c61fb25a187b49efb36f885222a5fa94"

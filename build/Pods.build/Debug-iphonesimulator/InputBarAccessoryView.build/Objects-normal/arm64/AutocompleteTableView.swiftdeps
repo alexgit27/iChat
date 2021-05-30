@@ -1,0 +1,549 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AutocompleteTableView"
+provides-nominal:
+- "21InputBarAccessoryView017AutocompleteTableD0C"
+provides-member:
+- ["21InputBarAccessoryView017AutocompleteTableD0C", ""]
+provides-dynamic-lookup:
+- "intrinsicContentSize"
+- "maxVisibleRows"
+depends-top-level:
+- !private "*"
+- !private "<"
+- "AutocompleteTableView"
+- !private "CGFloat"
+- "CGSize"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "TernaryPrecedence"
+- "UITableView"
+- !private "invalidateIntrinsicContentSize"
+- !private "maxVisibleRows"
+- !private "numberOfRows"
+- !private "rowHeight"
+depends-member:
+- ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["21InputBarAccessoryView017AutocompleteTableD0C", "CGFloat"]
+- ["21InputBarAccessoryView017AutocompleteTableD0C", "CGSize"]
+- ["21InputBarAccessoryView017AutocompleteTableD0C", ""]
+- ["21InputBarAccessoryView017AutocompleteTableD0C", "deinit"]
+- ["21InputBarAccessoryView017AutocompleteTableD0C", "init"]
+- ["21InputBarAccessoryView017AutocompleteTableD0C", "intrinsicContentSize"]
+- !private ["21InputBarAccessoryView017AutocompleteTableD0C", "invalidateIntrinsicContentSize"]
+- ["21InputBarAccessoryView017AutocompleteTableD0C", "maxVisibleRows"]
+- !private ["21InputBarAccessoryView017AutocompleteTableD0C", "numberOfRows"]
+- !private ["21InputBarAccessoryView017AutocompleteTableD0C", "rowHeight"]
+- ["SK", ""]
+- !private ["SB", "binade"]
+- !private ["SB", "exponentBitCount"]
+- !private ["SB", "exponentBitPattern"]
+- !private ["SB", "init"]
+- !private ["SB", "isTotallyOrdered"]
+- !private ["SB", "radix"]
+- !private ["SB", "significandBitCount"]
+- !private ["SB", "significandBitPattern"]
+- !private ["SB", "significandWidth"]
+- !private ["So15CALayerDelegateP", "CGFloat"]
+- ["So15CALayerDelegateP", "CGSize"]
+- ["So15CALayerDelegateP", ""]
+- ["So15CALayerDelegateP", "init"]
+- ["So15CALayerDelegateP", "intrinsicContentSize"]
+- !private ["So15CALayerDelegateP", "invalidateIntrinsicContentSize"]
+- ["So15CALayerDelegateP", "maxVisibleRows"]
+- !private ["So15CALayerDelegateP", "numberOfRows"]
+- !private ["So15CALayerDelegateP", "numberOfRowsInSection"]
+- !private ["So15CALayerDelegateP", "rowHeight"]
+- !private ["12CoreGraphics7CGFloatV", "init"]
+- !private ["So6CGSizeV", "init"]
+- !private ["So6CGSizeV", "width"]
+- !private ["s7CVarArgP", "CGFloat"]
+- !private ["s7CVarArgP", "CGSize"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "intrinsicContentSize"]
+- !private ["s7CVarArgP", "invalidateIntrinsicContentSize"]
+- !private ["s7CVarArgP", "maxVisibleRows"]
+- !private ["s7CVarArgP", "numberOfRows"]
+- !private ["s7CVarArgP", "rowHeight"]
+- ["Sl", ""]
+- ["SL", ""]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "CGFloat"]
+- !private ["s28CustomDebugStringConvertibleP", "CGSize"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "intrinsicContentSize"]
+- !private ["s28CustomDebugStringConvertibleP", "invalidateIntrinsicContentSize"]
+- !private ["s28CustomDebugStringConvertibleP", "maxVisibleRows"]
+- !private ["s28CustomDebugStringConvertibleP", "numberOfRows"]
+- !private ["s28CustomDebugStringConvertibleP", "rowHeight"]
+- !private ["s28CustomDebugStringConvertibleP", "width"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "width"]
+- !private ["s23CustomStringConvertibleP", "CGFloat"]
+- !private ["s23CustomStringConvertibleP", "CGSize"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "intrinsicContentSize"]
+- !private ["s23CustomStringConvertibleP", "invalidateIntrinsicContentSize"]
+- !private ["s23CustomStringConvertibleP", "maxVisibleRows"]
+- !private ["s23CustomStringConvertibleP", "numberOfRows"]
+- !private ["s23CustomStringConvertibleP", "rowHeight"]
+- !private ["Se", "init"]
+- !private ["Se", "width"]
+- !private ["SE", "init"]
+- !private ["SE", "width"]
+- !private ["SQ", "CGFloat"]
+- !private ["SQ", "CGSize"]
+- ["SQ", ""]
+- !private ["SQ", "init"]
+- !private ["SQ", "intrinsicContentSize"]
+- !private ["SQ", "invalidateIntrinsicContentSize"]
+- !private ["SQ", "maxVisibleRows"]
+- !private ["SQ", "numberOfRows"]
+- !private ["SQ", "rowHeight"]
+- !private ["SQ", "width"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- ["s25ExpressibleByFloatLiteralP", ""]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["SF", "*"]
+- !private ["SF", "*="]
+- !private ["SF", "+"]
+- !private ["SF", "+="]
+- !private ["SF", "-"]
+- !private ["SF", "-="]
+- !private ["SF", "/"]
+- !private ["SF", "/="]
+- ["SF", ""]
+- !private ["SF", "addProduct"]
+- !private ["SF", "addingProduct"]
+- !private ["SF", "exponent"]
+- !private ["SF", "floatingPointClass"]
+- !private ["SF", "formRemainder"]
+- !private ["SF", "formSquareRoot"]
+- !private ["SF", "formTruncatingRemainder"]
+- !private ["SF", "greatestFiniteMagnitude"]
+- !private ["SF", "infinity"]
+- !private ["SF", "init"]
+- !private ["SF", "isCanonical"]
+- !private ["SF", "isEqual"]
+- !private ["SF", "isFinite"]
+- !private ["SF", "isInfinite"]
+- !private ["SF", "isLess"]
+- !private ["SF", "isLessThanOrEqualTo"]
+- !private ["SF", "isNaN"]
+- !private ["SF", "isNormal"]
+- !private ["SF", "isSignalingNaN"]
+- !private ["SF", "isSubnormal"]
+- !private ["SF", "isTotallyOrdered"]
+- !private ["SF", "isZero"]
+- !private ["SF", "leastNonzeroMagnitude"]
+- !private ["SF", "leastNormalMagnitude"]
+- !private ["SF", "maximum"]
+- !private ["SF", "maximumMagnitude"]
+- !private ["SF", "minimum"]
+- !private ["SF", "minimumMagnitude"]
+- !private ["SF", "nan"]
+- !private ["SF", "negate"]
+- !private ["SF", "nextDown"]
+- !private ["SF", "nextUp"]
+- !private ["SF", "pi"]
+- !private ["SF", "radix"]
+- !private ["SF", "remainder"]
+- !private ["SF", "round"]
+- !private ["SF", "rounded"]
+- !private ["SF", "sign"]
+- !private ["SF", "signalingNaN"]
+- !private ["SF", "significand"]
+- !private ["SF", "squareRoot"]
+- !private ["SF", "truncatingRemainder"]
+- !private ["SF", "ulp"]
+- !private ["SF", "ulpOfOne"]
+- !private ["SH", "CGFloat"]
+- !private ["SH", "CGSize"]
+- ["SH", ""]
+- !private ["SH", "init"]
+- !private ["SH", "intrinsicContentSize"]
+- !private ["SH", "invalidateIntrinsicContentSize"]
+- !private ["SH", "maxVisibleRows"]
+- !private ["SH", "numberOfRows"]
+- !private ["SH", "rowHeight"]
+- ["s25LosslessStringConvertibleP", ""]
+- !private ["So8NSCodingP", "CGFloat"]
+- ["So8NSCodingP", "CGSize"]
+- ["So8NSCodingP", ""]
+- ["So8NSCodingP", "init"]
+- ["So8NSCodingP", "intrinsicContentSize"]
+- !private ["So8NSCodingP", "invalidateIntrinsicContentSize"]
+- ["So8NSCodingP", "maxVisibleRows"]
+- !private ["So8NSCodingP", "numberOfRows"]
+- !private ["So8NSCodingP", "numberOfRowsInSection"]
+- !private ["So8NSCodingP", "rowHeight"]
+- !private ["So8NSObjectC", "CGFloat"]
+- ["So8NSObjectC", "CGSize"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "intrinsicContentSize"]
+- !private ["So8NSObjectC", "invalidateIntrinsicContentSize"]
+- ["So8NSObjectC", "maxVisibleRows"]
+- !private ["So8NSObjectC", "numberOfRows"]
+- !private ["So8NSObjectC", "numberOfRowsInSection"]
+- !private ["So8NSObjectC", "rowHeight"]
+- !private ["So8NSObjectP", "CGFloat"]
+- ["So8NSObjectP", "CGSize"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "intrinsicContentSize"]
+- !private ["So8NSObjectP", "invalidateIntrinsicContentSize"]
+- ["So8NSObjectP", "maxVisibleRows"]
+- !private ["So8NSObjectP", "numberOfRows"]
+- !private ["So8NSObjectP", "numberOfRowsInSection"]
+- !private ["So8NSObjectP", "rowHeight"]
+- !private ["Sj", "*"]
+- !private ["Sj", "*="]
+- ["Sj", ""]
+- !private ["Sj", "init"]
+- !private ["Sj", "magnitude"]
+- ["ST", ""]
+- !private ["s13SignedNumericP", "-"]
+- ["s13SignedNumericP", ""]
+- !private ["s13SignedNumericP", "init"]
+- ["Sx", ""]
+- !private ["Sx", "init"]
+- ["s16TextOutputStreamP", ""]
+- ["s20TextOutputStreamableP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "CGFloat"]
+- ["So29UIAccessibilityIdentificationP", "CGSize"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- ["So29UIAccessibilityIdentificationP", "init"]
+- ["So29UIAccessibilityIdentificationP", "intrinsicContentSize"]
+- !private ["So29UIAccessibilityIdentificationP", "invalidateIntrinsicContentSize"]
+- ["So29UIAccessibilityIdentificationP", "maxVisibleRows"]
+- !private ["So29UIAccessibilityIdentificationP", "numberOfRows"]
+- !private ["So29UIAccessibilityIdentificationP", "numberOfRowsInSection"]
+- !private ["So29UIAccessibilityIdentificationP", "rowHeight"]
+- !private ["So12UIAppearanceP", "CGFloat"]
+- ["So12UIAppearanceP", "CGSize"]
+- ["So12UIAppearanceP", ""]
+- ["So12UIAppearanceP", "init"]
+- ["So12UIAppearanceP", "intrinsicContentSize"]
+- !private ["So12UIAppearanceP", "invalidateIntrinsicContentSize"]
+- ["So12UIAppearanceP", "maxVisibleRows"]
+- !private ["So12UIAppearanceP", "numberOfRows"]
+- !private ["So12UIAppearanceP", "numberOfRowsInSection"]
+- !private ["So12UIAppearanceP", "rowHeight"]
+- !private ["So21UIAppearanceContainerP", "CGFloat"]
+- ["So21UIAppearanceContainerP", "CGSize"]
+- ["So21UIAppearanceContainerP", ""]
+- ["So21UIAppearanceContainerP", "init"]
+- ["So21UIAppearanceContainerP", "intrinsicContentSize"]
+- !private ["So21UIAppearanceContainerP", "invalidateIntrinsicContentSize"]
+- ["So21UIAppearanceContainerP", "maxVisibleRows"]
+- !private ["So21UIAppearanceContainerP", "numberOfRows"]
+- !private ["So21UIAppearanceContainerP", "numberOfRowsInSection"]
+- !private ["So21UIAppearanceContainerP", "rowHeight"]
+- !private ["So17UICoordinateSpaceP", "CGFloat"]
+- ["So17UICoordinateSpaceP", "CGSize"]
+- ["So17UICoordinateSpaceP", ""]
+- ["So17UICoordinateSpaceP", "init"]
+- ["So17UICoordinateSpaceP", "intrinsicContentSize"]
+- !private ["So17UICoordinateSpaceP", "invalidateIntrinsicContentSize"]
+- ["So17UICoordinateSpaceP", "maxVisibleRows"]
+- !private ["So17UICoordinateSpaceP", "numberOfRows"]
+- !private ["So17UICoordinateSpaceP", "numberOfRowsInSection"]
+- !private ["So17UICoordinateSpaceP", "rowHeight"]
+- !private ["So23UIDataSourceTranslatingP", "CGFloat"]
+- ["So23UIDataSourceTranslatingP", "CGSize"]
+- ["So23UIDataSourceTranslatingP", ""]
+- ["So23UIDataSourceTranslatingP", "init"]
+- ["So23UIDataSourceTranslatingP", "intrinsicContentSize"]
+- !private ["So23UIDataSourceTranslatingP", "invalidateIntrinsicContentSize"]
+- ["So23UIDataSourceTranslatingP", "maxVisibleRows"]
+- !private ["So23UIDataSourceTranslatingP", "numberOfRows"]
+- !private ["So23UIDataSourceTranslatingP", "rowHeight"]
+- !private ["So13UIDynamicItemP", "CGFloat"]
+- ["So13UIDynamicItemP", "CGSize"]
+- ["So13UIDynamicItemP", ""]
+- ["So13UIDynamicItemP", "init"]
+- ["So13UIDynamicItemP", "intrinsicContentSize"]
+- !private ["So13UIDynamicItemP", "invalidateIntrinsicContentSize"]
+- ["So13UIDynamicItemP", "maxVisibleRows"]
+- !private ["So13UIDynamicItemP", "numberOfRows"]
+- !private ["So13UIDynamicItemP", "numberOfRowsInSection"]
+- !private ["So13UIDynamicItemP", "rowHeight"]
+- !private ["So18UIFocusEnvironmentP", "CGFloat"]
+- ["So18UIFocusEnvironmentP", "CGSize"]
+- ["So18UIFocusEnvironmentP", ""]
+- ["So18UIFocusEnvironmentP", "init"]
+- ["So18UIFocusEnvironmentP", "intrinsicContentSize"]
+- !private ["So18UIFocusEnvironmentP", "invalidateIntrinsicContentSize"]
+- ["So18UIFocusEnvironmentP", "maxVisibleRows"]
+- !private ["So18UIFocusEnvironmentP", "numberOfRows"]
+- !private ["So18UIFocusEnvironmentP", "numberOfRowsInSection"]
+- !private ["So18UIFocusEnvironmentP", "rowHeight"]
+- !private ["So11UIFocusItemP", "CGFloat"]
+- ["So11UIFocusItemP", "CGSize"]
+- ["So11UIFocusItemP", ""]
+- ["So11UIFocusItemP", "init"]
+- ["So11UIFocusItemP", "intrinsicContentSize"]
+- !private ["So11UIFocusItemP", "invalidateIntrinsicContentSize"]
+- ["So11UIFocusItemP", "maxVisibleRows"]
+- !private ["So11UIFocusItemP", "numberOfRows"]
+- !private ["So11UIFocusItemP", "numberOfRowsInSection"]
+- !private ["So11UIFocusItemP", "rowHeight"]
+- !private ["So20UIFocusItemContainerP", "CGFloat"]
+- ["So20UIFocusItemContainerP", "CGSize"]
+- ["So20UIFocusItemContainerP", ""]
+- ["So20UIFocusItemContainerP", "init"]
+- ["So20UIFocusItemContainerP", "intrinsicContentSize"]
+- !private ["So20UIFocusItemContainerP", "invalidateIntrinsicContentSize"]
+- ["So20UIFocusItemContainerP", "maxVisibleRows"]
+- !private ["So20UIFocusItemContainerP", "numberOfRows"]
+- !private ["So20UIFocusItemContainerP", "numberOfRowsInSection"]
+- !private ["So20UIFocusItemContainerP", "rowHeight"]
+- !private ["So30UIFocusItemScrollableContainerP", "CGFloat"]
+- ["So30UIFocusItemScrollableContainerP", "CGSize"]
+- ["So30UIFocusItemScrollableContainerP", ""]
+- ["So30UIFocusItemScrollableContainerP", "init"]
+- ["So30UIFocusItemScrollableContainerP", "intrinsicContentSize"]
+- !private ["So30UIFocusItemScrollableContainerP", "invalidateIntrinsicContentSize"]
+- ["So30UIFocusItemScrollableContainerP", "maxVisibleRows"]
+- !private ["So30UIFocusItemScrollableContainerP", "numberOfRows"]
+- !private ["So30UIFocusItemScrollableContainerP", "numberOfRowsInSection"]
+- !private ["So30UIFocusItemScrollableContainerP", "rowHeight"]
+- !private ["So24UILargeContentViewerItemP", "CGFloat"]
+- ["So24UILargeContentViewerItemP", "CGSize"]
+- ["So24UILargeContentViewerItemP", ""]
+- ["So24UILargeContentViewerItemP", "init"]
+- ["So24UILargeContentViewerItemP", "intrinsicContentSize"]
+- !private ["So24UILargeContentViewerItemP", "invalidateIntrinsicContentSize"]
+- ["So24UILargeContentViewerItemP", "maxVisibleRows"]
+- !private ["So24UILargeContentViewerItemP", "numberOfRows"]
+- !private ["So24UILargeContentViewerItemP", "numberOfRowsInSection"]
+- !private ["So24UILargeContentViewerItemP", "rowHeight"]
+- !private ["So30UIPasteConfigurationSupportingP", "CGFloat"]
+- ["So30UIPasteConfigurationSupportingP", "CGSize"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So30UIPasteConfigurationSupportingP", "init"]
+- ["So30UIPasteConfigurationSupportingP", "intrinsicContentSize"]
+- !private ["So30UIPasteConfigurationSupportingP", "invalidateIntrinsicContentSize"]
+- ["So30UIPasteConfigurationSupportingP", "maxVisibleRows"]
+- !private ["So30UIPasteConfigurationSupportingP", "numberOfRows"]
+- !private ["So30UIPasteConfigurationSupportingP", "numberOfRowsInSection"]
+- !private ["So30UIPasteConfigurationSupportingP", "rowHeight"]
+- !private ["So11UIResponderC", "CGFloat"]
+- ["So11UIResponderC", "CGSize"]
+- ["So11UIResponderC", ""]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "intrinsicContentSize"]
+- !private ["So11UIResponderC", "invalidateIntrinsicContentSize"]
+- ["So11UIResponderC", "maxVisibleRows"]
+- !private ["So11UIResponderC", "numberOfRows"]
+- !private ["So11UIResponderC", "numberOfRowsInSection"]
+- !private ["So11UIResponderC", "rowHeight"]
+- !private ["So30UIResponderStandardEditActionsP", "CGFloat"]
+- ["So30UIResponderStandardEditActionsP", "CGSize"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- ["So30UIResponderStandardEditActionsP", "init"]
+- ["So30UIResponderStandardEditActionsP", "intrinsicContentSize"]
+- !private ["So30UIResponderStandardEditActionsP", "invalidateIntrinsicContentSize"]
+- ["So30UIResponderStandardEditActionsP", "maxVisibleRows"]
+- !private ["So30UIResponderStandardEditActionsP", "numberOfRows"]
+- !private ["So30UIResponderStandardEditActionsP", "numberOfRowsInSection"]
+- !private ["So30UIResponderStandardEditActionsP", "rowHeight"]
+- !private ["So12UIScrollViewC", "CGFloat"]
+- ["So12UIScrollViewC", "CGSize"]
+- ["So12UIScrollViewC", ""]
+- ["So12UIScrollViewC", "init"]
+- ["So12UIScrollViewC", "intrinsicContentSize"]
+- !private ["So12UIScrollViewC", "invalidateIntrinsicContentSize"]
+- ["So12UIScrollViewC", "maxVisibleRows"]
+- !private ["So12UIScrollViewC", "numberOfRows"]
+- !private ["So12UIScrollViewC", "numberOfRowsInSection"]
+- !private ["So12UIScrollViewC", "rowHeight"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "CGFloat"]
+- ["So35UISpringLoadedInteractionSupportingP", "CGSize"]
+- ["So35UISpringLoadedInteractionSupportingP", ""]
+- ["So35UISpringLoadedInteractionSupportingP", "init"]
+- ["So35UISpringLoadedInteractionSupportingP", "intrinsicContentSize"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "invalidateIntrinsicContentSize"]
+- ["So35UISpringLoadedInteractionSupportingP", "maxVisibleRows"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "numberOfRows"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "rowHeight"]
+- !private ["So11UITableViewC", "CGFloat"]
+- ["So11UITableViewC", "CGSize"]
+- ["So11UITableViewC", ""]
+- ["So11UITableViewC", "init"]
+- ["So11UITableViewC", "intrinsicContentSize"]
+- !private ["So11UITableViewC", "invalidateIntrinsicContentSize"]
+- ["So11UITableViewC", "maxVisibleRows"]
+- !private ["So11UITableViewC", "numberOfRows"]
+- !private ["So11UITableViewC", "rowHeight"]
+- !private ["So18UITraitEnvironmentP", "CGFloat"]
+- ["So18UITraitEnvironmentP", "CGSize"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So18UITraitEnvironmentP", "init"]
+- ["So18UITraitEnvironmentP", "intrinsicContentSize"]
+- !private ["So18UITraitEnvironmentP", "invalidateIntrinsicContentSize"]
+- ["So18UITraitEnvironmentP", "maxVisibleRows"]
+- !private ["So18UITraitEnvironmentP", "numberOfRows"]
+- !private ["So18UITraitEnvironmentP", "numberOfRowsInSection"]
+- !private ["So18UITraitEnvironmentP", "rowHeight"]
+- !private ["So23UIUserActivityRestoringP", "CGFloat"]
+- ["So23UIUserActivityRestoringP", "CGSize"]
+- ["So23UIUserActivityRestoringP", ""]
+- ["So23UIUserActivityRestoringP", "init"]
+- ["So23UIUserActivityRestoringP", "intrinsicContentSize"]
+- !private ["So23UIUserActivityRestoringP", "invalidateIntrinsicContentSize"]
+- ["So23UIUserActivityRestoringP", "maxVisibleRows"]
+- !private ["So23UIUserActivityRestoringP", "numberOfRows"]
+- !private ["So23UIUserActivityRestoringP", "numberOfRowsInSection"]
+- !private ["So23UIUserActivityRestoringP", "rowHeight"]
+- !private ["So6UIViewC", "CGFloat"]
+- ["So6UIViewC", "CGSize"]
+- ["So6UIViewC", ""]
+- ["So6UIViewC", "init"]
+- ["So6UIViewC", "intrinsicContentSize"]
+- !private ["So6UIViewC", "invalidateIntrinsicContentSize"]
+- ["So6UIViewC", "maxVisibleRows"]
+- !private ["So6UIViewC", "numberOfRows"]
+- !private ["So6UIViewC", "numberOfRowsInSection"]
+- !private ["So6UIViewC", "rowHeight"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "width"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGFloat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGSize"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "intrinsicContentSize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "invalidateIntrinsicContentSize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "maxVisibleRows"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "numberOfRows"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rowHeight"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CGFloat"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CGSize"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "intrinsicContentSize"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "invalidateIntrinsicContentSize"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "maxVisibleRows"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "numberOfRows"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "rowHeight"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "width"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "CGFloat"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "CGSize"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "intrinsicContentSize"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "invalidateIntrinsicContentSize"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "maxVisibleRows"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "numberOfRows"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "rowHeight"]
+depends-nominal:
+- "s18AdditiveArithmeticP"
+- "21InputBarAccessoryView017AutocompleteTableD0C"
+- "SK"
+- !private "SB"
+- "So15CALayerDelegateP"
+- !private "12CoreGraphics7CGFloatV"
+- !private "So6CGSizeV"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SF"
+- "SH"
+- "s25LosslessStringConvertibleP"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "Sj"
+- "ST"
+- "s13SignedNumericP"
+- "Sx"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So17UICoordinateSpaceP"
+- "So23UIDataSourceTranslatingP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So30UIFocusItemScrollableContainerP"
+- "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So12UIScrollViewC"
+- "So35UISpringLoadedInteractionSupportingP"
+- "So11UITableViewC"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Users/alexandr/Desktop/iChat/Pods/Target Support Files/InputBarAccessoryView/InputBarAccessoryView-umbrella.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/alexandr/Desktop/iChat/build/Pods.build/Debug-iphonesimulator/InputBarAccessoryView.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "fd4b96851c48ca5ad4be63058cfb16db"

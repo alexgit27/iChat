@@ -1,0 +1,35 @@
+dependencies: \
+  /Users/alexandr/Desktop/iChat/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/GDTCORFlatFileStorage+Promises.m \
+  /Users/alexandr/Desktop/iChat/build/Pods.build/Debug-iphonesimulator/GoogleDataTransport.build/module.modulemap \
+  /Users/alexandr/Desktop/iChat/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Private/GDTCORFlatFileStorage+Promises.h \
+  /Users/alexandr/Desktop/iChat/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Private/GDTCORFlatFileStorage.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap \
+  /Users/alexandr/Desktop/iChat/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Internal/GDTCORLifecycle.h \
+  /Users/alexandr/Desktop/iChat/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Internal/GDTCORPlatform.h \
+  /Users/alexandr/Desktop/iChat/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Internal/GDTCORStorageEventSelector.h \
+  /Users/alexandr/Desktop/iChat/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Public/GoogleDataTransport/GDTCORTargets.h \
+  /Users/alexandr/Desktop/iChat/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Internal/GDTCORStorageProtocol.h \
+  /Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/PromisesObjC/FBLPromises.framework/Headers/FBLPromises.h \
+  /Users/alexandr/Desktop/iChat/build/Pods.build/Debug-iphonesimulator/PromisesObjC.build/module.modulemap \
+  /Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/PromisesObjC/FBLPromises.framework/Headers/FBLPromise+Wrap.h \
+  /Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/PromisesObjC/FBLPromises.framework/Headers/FBLPromise+Validate.h \
+  /Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/PromisesObjC/FBLPromises.framework/Headers/FBLPromise+Timeout.h \
+  /Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/PromisesObjC/FBLPromises.framework/Headers/FBLPromise+Then.h \
+  /Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/PromisesObjC/FBLPromises.framework/Headers/FBLPromise+Testing.h \
+  /Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/PromisesObjC/FBLPromises.framework/Headers/FBLPromise+Retry.h \
+  /Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/PromisesObjC/FBLPromises.framework/Headers/FBLPromise+Reduce.h \
+  /Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/PromisesObjC/FBLPromises.framework/Headers/FBLPromise+Recover.h \
+  /Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/PromisesObjC/FBLPromises.framework/Headers/FBLPromise+Race.h \
+  /Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/PromisesObjC/FBLPromises.framework/Headers/FBLPromise+Do.h \
+  /Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/PromisesObjC/FBLPromises.framework/Headers/FBLPromise+Delay.h \
+  /Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/PromisesObjC/FBLPromises.framework/Headers/FBLPromise+Catch.h \
+  /Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/PromisesObjC/FBLPromises.framework/Headers/FBLPromise+Await.h \
+  /Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/PromisesObjC/FBLPromises.framework/Headers/FBLPromise+Async.h \
+  /Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/PromisesObjC/FBLPromises.framework/Headers/FBLPromise+Any.h \
+  /Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/PromisesObjC/FBLPromises.framework/Headers/FBLPromise+Always.h \
+  /Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/PromisesObjC/FBLPromises.framework/Headers/FBLPromiseError.h \
+  /Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/PromisesObjC/FBLPromises.framework/Headers/FBLPromise.h \
+  /Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/PromisesObjC/FBLPromises.framework/Headers/FBLPromise+All.h \
+  /Users/alexandr/Desktop/iChat/Pods/Target\ Support\ Files/PromisesObjC/PromisesObjC-umbrella.h \
+  /Users/alexandr/Desktop/iChat/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Private/GDTCORUploadBatch.h

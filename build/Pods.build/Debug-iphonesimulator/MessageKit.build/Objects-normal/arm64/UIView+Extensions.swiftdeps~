@@ -1,0 +1,778 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["So6UIViewC", ""]
+- ["So6UIViewC", "fillSuperview"]
+- ["So6UIViewC", "centerInSuperview"]
+- ["So6UIViewC", "constraint"]
+- ["So6UIViewC", "addConstraints"]
+provides-dynamic-lookup:
+- "addConstraints"
+- "centerInSuperview"
+- "constraint"
+- "fillSuperview"
+depends-top-level:
+- !private "!="
+- !private "-"
+- "=="
+- !private ">"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "CGFloat"
+- "CGSize"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "NSLayoutConstraint"
+- "NSLayoutXAxisAnchor"
+- "NSLayoutYAxisAnchor"
+- !private "StringLiteralType"
+- "UIView"
+- !private "bottomAnchor"
+- !private "centerXAnchor"
+- !private "centerYAnchor"
+- !private "heightAnchor"
+- !private "leftAnchor"
+- !private "rightAnchor"
+- !private "superview"
+- !private "topAnchor"
+- !private "translatesAutoresizingMaskIntoConstraints"
+- !private "widthAnchor"
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["Sa", "append"]
+- !private ["Sa", "init"]
+- !private ["SK", ""]
+- !private ["SK", "append"]
+- !private ["SK", "init"]
+- ["So15CALayerDelegateP", "CGSize"]
+- ["So15CALayerDelegateP", "NSLayoutConstraint"]
+- ["So15CALayerDelegateP", "NSLayoutXAxisAnchor"]
+- ["So15CALayerDelegateP", "NSLayoutYAxisAnchor"]
+- ["So15CALayerDelegateP", "addConstraints"]
+- !private ["So15CALayerDelegateP", "bottomAnchor"]
+- ["So15CALayerDelegateP", "centerInSuperview"]
+- !private ["So15CALayerDelegateP", "centerXAnchor"]
+- !private ["So15CALayerDelegateP", "centerYAnchor"]
+- ["So15CALayerDelegateP", "constraint"]
+- ["So15CALayerDelegateP", "fillSuperview"]
+- !private ["So15CALayerDelegateP", "heightAnchor"]
+- !private ["So15CALayerDelegateP", "leftAnchor"]
+- !private ["So15CALayerDelegateP", "rightAnchor"]
+- !private ["So15CALayerDelegateP", "superview"]
+- !private ["So15CALayerDelegateP", "topAnchor"]
+- !private ["So15CALayerDelegateP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So15CALayerDelegateP", "widthAnchor"]
+- !private ["So6CGSizeV", "height"]
+- !private ["So6CGSizeV", "width"]
+- !private ["s7CVarArgP", "NSLayoutConstraint"]
+- !private ["s7CVarArgP", "activate"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "bottomAnchor"]
+- !private ["s7CVarArgP", "centerXAnchor"]
+- !private ["s7CVarArgP", "centerYAnchor"]
+- !private ["s7CVarArgP", "constraint"]
+- !private ["s7CVarArgP", "heightAnchor"]
+- !private ["s7CVarArgP", "identifier"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "leftAnchor"]
+- !private ["s7CVarArgP", "rightAnchor"]
+- !private ["s7CVarArgP", "superview"]
+- !private ["s7CVarArgP", "topAnchor"]
+- !private ["s7CVarArgP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s7CVarArgP", "widthAnchor"]
+- !private ["Sl", ""]
+- !private ["Sl", "append"]
+- !private ["Sl", "init"]
+- !private ["SL", ""]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "NSLayoutConstraint"]
+- !private ["s28CustomDebugStringConvertibleP", "activate"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "bottomAnchor"]
+- !private ["s28CustomDebugStringConvertibleP", "centerXAnchor"]
+- !private ["s28CustomDebugStringConvertibleP", "centerYAnchor"]
+- !private ["s28CustomDebugStringConvertibleP", "constraint"]
+- !private ["s28CustomDebugStringConvertibleP", "height"]
+- !private ["s28CustomDebugStringConvertibleP", "heightAnchor"]
+- !private ["s28CustomDebugStringConvertibleP", "identifier"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "leftAnchor"]
+- !private ["s28CustomDebugStringConvertibleP", "rightAnchor"]
+- !private ["s28CustomDebugStringConvertibleP", "superview"]
+- !private ["s28CustomDebugStringConvertibleP", "topAnchor"]
+- !private ["s28CustomDebugStringConvertibleP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s28CustomDebugStringConvertibleP", "width"]
+- !private ["s28CustomDebugStringConvertibleP", "widthAnchor"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "height"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "width"]
+- !private ["s23CustomStringConvertibleP", "NSLayoutConstraint"]
+- !private ["s23CustomStringConvertibleP", "activate"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "bottomAnchor"]
+- !private ["s23CustomStringConvertibleP", "centerXAnchor"]
+- !private ["s23CustomStringConvertibleP", "centerYAnchor"]
+- !private ["s23CustomStringConvertibleP", "constraint"]
+- !private ["s23CustomStringConvertibleP", "heightAnchor"]
+- !private ["s23CustomStringConvertibleP", "identifier"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "leftAnchor"]
+- !private ["s23CustomStringConvertibleP", "rightAnchor"]
+- !private ["s23CustomStringConvertibleP", "superview"]
+- !private ["s23CustomStringConvertibleP", "topAnchor"]
+- !private ["s23CustomStringConvertibleP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s23CustomStringConvertibleP", "widthAnchor"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["Se", "append"]
+- !private ["Se", "height"]
+- !private ["Se", "init"]
+- !private ["Se", "width"]
+- !private ["SE", "append"]
+- !private ["SE", "height"]
+- !private ["SE", "init"]
+- !private ["SE", "width"]
+- !private ["SQ", "NSLayoutConstraint"]
+- !private ["SQ", ""]
+- !private ["SQ", "activate"]
+- !private ["SQ", "append"]
+- !private ["SQ", "bottomAnchor"]
+- !private ["SQ", "centerXAnchor"]
+- !private ["SQ", "centerYAnchor"]
+- !private ["SQ", "constraint"]
+- !private ["SQ", "height"]
+- !private ["SQ", "heightAnchor"]
+- !private ["SQ", "identifier"]
+- !private ["SQ", "init"]
+- !private ["SQ", "leftAnchor"]
+- !private ["SQ", "rightAnchor"]
+- !private ["SQ", "superview"]
+- !private ["SQ", "topAnchor"]
+- !private ["SQ", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["SQ", "width"]
+- !private ["SQ", "widthAnchor"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["SH", "NSLayoutConstraint"]
+- !private ["SH", ""]
+- !private ["SH", "activate"]
+- !private ["SH", "append"]
+- !private ["SH", "bottomAnchor"]
+- !private ["SH", "centerXAnchor"]
+- !private ["SH", "centerYAnchor"]
+- !private ["SH", "constraint"]
+- !private ["SH", "heightAnchor"]
+- !private ["SH", "identifier"]
+- !private ["SH", "init"]
+- !private ["SH", "leftAnchor"]
+- !private ["SH", "rightAnchor"]
+- !private ["SH", "superview"]
+- !private ["SH", "topAnchor"]
+- !private ["SH", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["SH", "widthAnchor"]
+- !private ["SM", ""]
+- !private ["SM", "append"]
+- !private ["SM", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- ["So8NSCodingP", "CGSize"]
+- ["So8NSCodingP", "NSLayoutConstraint"]
+- ["So8NSCodingP", "NSLayoutXAxisAnchor"]
+- ["So8NSCodingP", "NSLayoutYAxisAnchor"]
+- ["So8NSCodingP", "addConstraints"]
+- !private ["So8NSCodingP", "bottomAnchor"]
+- ["So8NSCodingP", "centerInSuperview"]
+- !private ["So8NSCodingP", "centerXAnchor"]
+- !private ["So8NSCodingP", "centerYAnchor"]
+- ["So8NSCodingP", "constraint"]
+- !private ["So8NSCodingP", "constraintEqualToSystemSpacingAfter"]
+- !private ["So8NSCodingP", "constraintEqualToSystemSpacingAfterAnchor"]
+- !private ["So8NSCodingP", "constraintEqualToSystemSpacingBelow"]
+- !private ["So8NSCodingP", "constraintEqualToSystemSpacingBelowAnchor"]
+- !private ["So8NSCodingP", "constraintGreaterThanOrEqualToSystemSpacingAfter"]
+- !private ["So8NSCodingP", "constraintGreaterThanOrEqualToSystemSpacingAfterAnchor"]
+- !private ["So8NSCodingP", "constraintGreaterThanOrEqualToSystemSpacingBelow"]
+- !private ["So8NSCodingP", "constraintGreaterThanOrEqualToSystemSpacingBelowAnchor"]
+- !private ["So8NSCodingP", "constraintLessThanOrEqualToSystemSpacingAfter"]
+- !private ["So8NSCodingP", "constraintLessThanOrEqualToSystemSpacingAfterAnchor"]
+- !private ["So8NSCodingP", "constraintLessThanOrEqualToSystemSpacingBelow"]
+- !private ["So8NSCodingP", "constraintLessThanOrEqualToSystemSpacingBelowAnchor"]
+- ["So8NSCodingP", "fillSuperview"]
+- !private ["So8NSCodingP", "heightAnchor"]
+- !private ["So8NSCodingP", "leftAnchor"]
+- !private ["So8NSCodingP", "rightAnchor"]
+- !private ["So8NSCodingP", "superview"]
+- !private ["So8NSCodingP", "topAnchor"]
+- !private ["So8NSCodingP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So8NSCodingP", "widthAnchor"]
+- !private ["So9NSCopyingP", "constraint"]
+- !private ["So9NSCopyingP", "constraintEqualToSystemSpacingAfter"]
+- !private ["So9NSCopyingP", "constraintEqualToSystemSpacingAfterAnchor"]
+- !private ["So9NSCopyingP", "constraintEqualToSystemSpacingBelow"]
+- !private ["So9NSCopyingP", "constraintEqualToSystemSpacingBelowAnchor"]
+- !private ["So9NSCopyingP", "constraintGreaterThanOrEqualToSystemSpacingAfter"]
+- !private ["So9NSCopyingP", "constraintGreaterThanOrEqualToSystemSpacingAfterAnchor"]
+- !private ["So9NSCopyingP", "constraintGreaterThanOrEqualToSystemSpacingBelow"]
+- !private ["So9NSCopyingP", "constraintGreaterThanOrEqualToSystemSpacingBelowAnchor"]
+- !private ["So9NSCopyingP", "constraintLessThanOrEqualToSystemSpacingAfter"]
+- !private ["So9NSCopyingP", "constraintLessThanOrEqualToSystemSpacingAfterAnchor"]
+- !private ["So9NSCopyingP", "constraintLessThanOrEqualToSystemSpacingBelow"]
+- !private ["So9NSCopyingP", "constraintLessThanOrEqualToSystemSpacingBelowAnchor"]
+- ["So14NSLayoutAnchorC", ""]
+- !private ["So14NSLayoutAnchorC", "constraint"]
+- !private ["So14NSLayoutAnchorC", "constraintEqualToSystemSpacingAfter"]
+- !private ["So14NSLayoutAnchorC", "constraintEqualToSystemSpacingAfterAnchor"]
+- !private ["So14NSLayoutAnchorC", "constraintEqualToSystemSpacingBelow"]
+- !private ["So14NSLayoutAnchorC", "constraintEqualToSystemSpacingBelowAnchor"]
+- !private ["So14NSLayoutAnchorC", "constraintGreaterThanOrEqualToSystemSpacingAfter"]
+- !private ["So14NSLayoutAnchorC", "constraintGreaterThanOrEqualToSystemSpacingAfterAnchor"]
+- !private ["So14NSLayoutAnchorC", "constraintGreaterThanOrEqualToSystemSpacingBelow"]
+- !private ["So14NSLayoutAnchorC", "constraintGreaterThanOrEqualToSystemSpacingBelowAnchor"]
+- !private ["So14NSLayoutAnchorC", "constraintLessThanOrEqualToSystemSpacingAfter"]
+- !private ["So14NSLayoutAnchorC", "constraintLessThanOrEqualToSystemSpacingAfterAnchor"]
+- !private ["So14NSLayoutAnchorC", "constraintLessThanOrEqualToSystemSpacingBelow"]
+- !private ["So14NSLayoutAnchorC", "constraintLessThanOrEqualToSystemSpacingBelowAnchor"]
+- !private ["So18NSLayoutConstraintC", "activate"]
+- !private ["So18NSLayoutConstraintC", "identifier"]
+- !private ["So17NSLayoutDimensionC", "constraint"]
+- !private ["So19NSLayoutXAxisAnchorC", "constraint"]
+- !private ["So19NSLayoutYAxisAnchorC", "constraint"]
+- ["So8NSObjectC", "CGFloat"]
+- ["So8NSObjectC", "CGSize"]
+- ["So8NSObjectC", "NSLayoutConstraint"]
+- ["So8NSObjectC", "NSLayoutXAxisAnchor"]
+- ["So8NSObjectC", "NSLayoutYAxisAnchor"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "activate"]
+- !private ["So8NSObjectC", "activateConstraints"]
+- ["So8NSObjectC", "addConstraints"]
+- !private ["So8NSObjectC", "bottomAnchor"]
+- ["So8NSObjectC", "centerInSuperview"]
+- !private ["So8NSObjectC", "centerXAnchor"]
+- !private ["So8NSObjectC", "centerYAnchor"]
+- ["So8NSObjectC", "constraint"]
+- !private ["So8NSObjectC", "constraintEqualToSystemSpacingAfter"]
+- !private ["So8NSObjectC", "constraintEqualToSystemSpacingAfterAnchor"]
+- !private ["So8NSObjectC", "constraintEqualToSystemSpacingBelow"]
+- !private ["So8NSObjectC", "constraintEqualToSystemSpacingBelowAnchor"]
+- !private ["So8NSObjectC", "constraintGreaterThanOrEqualToSystemSpacingAfter"]
+- !private ["So8NSObjectC", "constraintGreaterThanOrEqualToSystemSpacingAfterAnchor"]
+- !private ["So8NSObjectC", "constraintGreaterThanOrEqualToSystemSpacingBelow"]
+- !private ["So8NSObjectC", "constraintGreaterThanOrEqualToSystemSpacingBelowAnchor"]
+- !private ["So8NSObjectC", "constraintLessThanOrEqualToSystemSpacingAfter"]
+- !private ["So8NSObjectC", "constraintLessThanOrEqualToSystemSpacingAfterAnchor"]
+- !private ["So8NSObjectC", "constraintLessThanOrEqualToSystemSpacingBelow"]
+- !private ["So8NSObjectC", "constraintLessThanOrEqualToSystemSpacingBelowAnchor"]
+- ["So8NSObjectC", "fillSuperview"]
+- !private ["So8NSObjectC", "heightAnchor"]
+- !private ["So8NSObjectC", "identifier"]
+- !private ["So8NSObjectC", "leftAnchor"]
+- !private ["So8NSObjectC", "rightAnchor"]
+- !private ["So8NSObjectC", "superview"]
+- !private ["So8NSObjectC", "topAnchor"]
+- !private ["So8NSObjectC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So8NSObjectC", "widthAnchor"]
+- ["So8NSObjectP", "CGSize"]
+- ["So8NSObjectP", "NSLayoutConstraint"]
+- ["So8NSObjectP", "NSLayoutXAxisAnchor"]
+- ["So8NSObjectP", "NSLayoutYAxisAnchor"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "activate"]
+- !private ["So8NSObjectP", "activateConstraints"]
+- ["So8NSObjectP", "addConstraints"]
+- !private ["So8NSObjectP", "bottomAnchor"]
+- ["So8NSObjectP", "centerInSuperview"]
+- !private ["So8NSObjectP", "centerXAnchor"]
+- !private ["So8NSObjectP", "centerYAnchor"]
+- ["So8NSObjectP", "constraint"]
+- !private ["So8NSObjectP", "constraintEqualToSystemSpacingAfter"]
+- !private ["So8NSObjectP", "constraintEqualToSystemSpacingAfterAnchor"]
+- !private ["So8NSObjectP", "constraintEqualToSystemSpacingBelow"]
+- !private ["So8NSObjectP", "constraintEqualToSystemSpacingBelowAnchor"]
+- !private ["So8NSObjectP", "constraintGreaterThanOrEqualToSystemSpacingAfter"]
+- !private ["So8NSObjectP", "constraintGreaterThanOrEqualToSystemSpacingAfterAnchor"]
+- !private ["So8NSObjectP", "constraintGreaterThanOrEqualToSystemSpacingBelow"]
+- !private ["So8NSObjectP", "constraintGreaterThanOrEqualToSystemSpacingBelowAnchor"]
+- !private ["So8NSObjectP", "constraintLessThanOrEqualToSystemSpacingAfter"]
+- !private ["So8NSObjectP", "constraintLessThanOrEqualToSystemSpacingAfterAnchor"]
+- !private ["So8NSObjectP", "constraintLessThanOrEqualToSystemSpacingBelow"]
+- !private ["So8NSObjectP", "constraintLessThanOrEqualToSystemSpacingBelowAnchor"]
+- ["So8NSObjectP", "fillSuperview"]
+- !private ["So8NSObjectP", "heightAnchor"]
+- !private ["So8NSObjectP", "identifier"]
+- !private ["So8NSObjectP", "leftAnchor"]
+- !private ["So8NSObjectP", "rightAnchor"]
+- !private ["So8NSObjectP", "superview"]
+- !private ["So8NSObjectP", "topAnchor"]
+- !private ["So8NSObjectP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So8NSObjectP", "widthAnchor"]
+- !private ["Sj", ""]
+- !private ["Sk", ""]
+- !private ["Sk", "append"]
+- !private ["Sk", "init"]
+- !private ["Sm", ""]
+- !private ["Sm", "append"]
+- !private ["Sm", "init"]
+- !private ["ST", ""]
+- !private ["ST", "append"]
+- !private ["ST", "init"]
+- !private ["s13SignedNumericP", ""]
+- !private ["Sx", ""]
+- ["So29UIAccessibilityIdentificationP", "CGSize"]
+- ["So29UIAccessibilityIdentificationP", "NSLayoutConstraint"]
+- ["So29UIAccessibilityIdentificationP", "NSLayoutXAxisAnchor"]
+- ["So29UIAccessibilityIdentificationP", "NSLayoutYAxisAnchor"]
+- ["So29UIAccessibilityIdentificationP", "addConstraints"]
+- !private ["So29UIAccessibilityIdentificationP", "bottomAnchor"]
+- ["So29UIAccessibilityIdentificationP", "centerInSuperview"]
+- !private ["So29UIAccessibilityIdentificationP", "centerXAnchor"]
+- !private ["So29UIAccessibilityIdentificationP", "centerYAnchor"]
+- ["So29UIAccessibilityIdentificationP", "constraint"]
+- ["So29UIAccessibilityIdentificationP", "fillSuperview"]
+- !private ["So29UIAccessibilityIdentificationP", "heightAnchor"]
+- !private ["So29UIAccessibilityIdentificationP", "leftAnchor"]
+- !private ["So29UIAccessibilityIdentificationP", "rightAnchor"]
+- !private ["So29UIAccessibilityIdentificationP", "superview"]
+- !private ["So29UIAccessibilityIdentificationP", "topAnchor"]
+- !private ["So29UIAccessibilityIdentificationP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So29UIAccessibilityIdentificationP", "widthAnchor"]
+- ["So12UIAppearanceP", "CGSize"]
+- ["So12UIAppearanceP", "NSLayoutConstraint"]
+- ["So12UIAppearanceP", "NSLayoutXAxisAnchor"]
+- ["So12UIAppearanceP", "NSLayoutYAxisAnchor"]
+- ["So12UIAppearanceP", "addConstraints"]
+- !private ["So12UIAppearanceP", "bottomAnchor"]
+- ["So12UIAppearanceP", "centerInSuperview"]
+- !private ["So12UIAppearanceP", "centerXAnchor"]
+- !private ["So12UIAppearanceP", "centerYAnchor"]
+- ["So12UIAppearanceP", "constraint"]
+- ["So12UIAppearanceP", "fillSuperview"]
+- !private ["So12UIAppearanceP", "heightAnchor"]
+- !private ["So12UIAppearanceP", "leftAnchor"]
+- !private ["So12UIAppearanceP", "rightAnchor"]
+- !private ["So12UIAppearanceP", "superview"]
+- !private ["So12UIAppearanceP", "topAnchor"]
+- !private ["So12UIAppearanceP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So12UIAppearanceP", "widthAnchor"]
+- ["So21UIAppearanceContainerP", "CGSize"]
+- ["So21UIAppearanceContainerP", "NSLayoutConstraint"]
+- ["So21UIAppearanceContainerP", "NSLayoutXAxisAnchor"]
+- ["So21UIAppearanceContainerP", "NSLayoutYAxisAnchor"]
+- ["So21UIAppearanceContainerP", "addConstraints"]
+- !private ["So21UIAppearanceContainerP", "bottomAnchor"]
+- ["So21UIAppearanceContainerP", "centerInSuperview"]
+- !private ["So21UIAppearanceContainerP", "centerXAnchor"]
+- !private ["So21UIAppearanceContainerP", "centerYAnchor"]
+- ["So21UIAppearanceContainerP", "constraint"]
+- ["So21UIAppearanceContainerP", "fillSuperview"]
+- !private ["So21UIAppearanceContainerP", "heightAnchor"]
+- !private ["So21UIAppearanceContainerP", "leftAnchor"]
+- !private ["So21UIAppearanceContainerP", "rightAnchor"]
+- !private ["So21UIAppearanceContainerP", "superview"]
+- !private ["So21UIAppearanceContainerP", "topAnchor"]
+- !private ["So21UIAppearanceContainerP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So21UIAppearanceContainerP", "widthAnchor"]
+- ["So17UICoordinateSpaceP", "CGSize"]
+- ["So17UICoordinateSpaceP", "NSLayoutConstraint"]
+- ["So17UICoordinateSpaceP", "NSLayoutXAxisAnchor"]
+- ["So17UICoordinateSpaceP", "NSLayoutYAxisAnchor"]
+- ["So17UICoordinateSpaceP", "addConstraints"]
+- !private ["So17UICoordinateSpaceP", "bottomAnchor"]
+- ["So17UICoordinateSpaceP", "centerInSuperview"]
+- !private ["So17UICoordinateSpaceP", "centerXAnchor"]
+- !private ["So17UICoordinateSpaceP", "centerYAnchor"]
+- ["So17UICoordinateSpaceP", "constraint"]
+- ["So17UICoordinateSpaceP", "fillSuperview"]
+- !private ["So17UICoordinateSpaceP", "heightAnchor"]
+- !private ["So17UICoordinateSpaceP", "leftAnchor"]
+- !private ["So17UICoordinateSpaceP", "rightAnchor"]
+- !private ["So17UICoordinateSpaceP", "superview"]
+- !private ["So17UICoordinateSpaceP", "topAnchor"]
+- !private ["So17UICoordinateSpaceP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So17UICoordinateSpaceP", "widthAnchor"]
+- ["So13UIDynamicItemP", "CGSize"]
+- ["So13UIDynamicItemP", "NSLayoutConstraint"]
+- ["So13UIDynamicItemP", "NSLayoutXAxisAnchor"]
+- ["So13UIDynamicItemP", "NSLayoutYAxisAnchor"]
+- ["So13UIDynamicItemP", "addConstraints"]
+- !private ["So13UIDynamicItemP", "bottomAnchor"]
+- ["So13UIDynamicItemP", "centerInSuperview"]
+- !private ["So13UIDynamicItemP", "centerXAnchor"]
+- !private ["So13UIDynamicItemP", "centerYAnchor"]
+- ["So13UIDynamicItemP", "constraint"]
+- ["So13UIDynamicItemP", "fillSuperview"]
+- !private ["So13UIDynamicItemP", "heightAnchor"]
+- !private ["So13UIDynamicItemP", "leftAnchor"]
+- !private ["So13UIDynamicItemP", "rightAnchor"]
+- !private ["So13UIDynamicItemP", "superview"]
+- !private ["So13UIDynamicItemP", "topAnchor"]
+- !private ["So13UIDynamicItemP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So13UIDynamicItemP", "widthAnchor"]
+- ["So18UIFocusEnvironmentP", "CGSize"]
+- ["So18UIFocusEnvironmentP", "NSLayoutConstraint"]
+- ["So18UIFocusEnvironmentP", "NSLayoutXAxisAnchor"]
+- ["So18UIFocusEnvironmentP", "NSLayoutYAxisAnchor"]
+- ["So18UIFocusEnvironmentP", ""]
+- ["So18UIFocusEnvironmentP", "addConstraints"]
+- !private ["So18UIFocusEnvironmentP", "bottomAnchor"]
+- ["So18UIFocusEnvironmentP", "centerInSuperview"]
+- !private ["So18UIFocusEnvironmentP", "centerXAnchor"]
+- !private ["So18UIFocusEnvironmentP", "centerYAnchor"]
+- ["So18UIFocusEnvironmentP", "constraint"]
+- ["So18UIFocusEnvironmentP", "fillSuperview"]
+- !private ["So18UIFocusEnvironmentP", "heightAnchor"]
+- !private ["So18UIFocusEnvironmentP", "leftAnchor"]
+- !private ["So18UIFocusEnvironmentP", "rightAnchor"]
+- !private ["So18UIFocusEnvironmentP", "superview"]
+- !private ["So18UIFocusEnvironmentP", "topAnchor"]
+- !private ["So18UIFocusEnvironmentP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So18UIFocusEnvironmentP", "widthAnchor"]
+- ["So11UIFocusItemP", "CGSize"]
+- ["So11UIFocusItemP", "NSLayoutConstraint"]
+- ["So11UIFocusItemP", "NSLayoutXAxisAnchor"]
+- ["So11UIFocusItemP", "NSLayoutYAxisAnchor"]
+- ["So11UIFocusItemP", "addConstraints"]
+- !private ["So11UIFocusItemP", "bottomAnchor"]
+- ["So11UIFocusItemP", "centerInSuperview"]
+- !private ["So11UIFocusItemP", "centerXAnchor"]
+- !private ["So11UIFocusItemP", "centerYAnchor"]
+- ["So11UIFocusItemP", "constraint"]
+- ["So11UIFocusItemP", "fillSuperview"]
+- !private ["So11UIFocusItemP", "heightAnchor"]
+- !private ["So11UIFocusItemP", "leftAnchor"]
+- !private ["So11UIFocusItemP", "rightAnchor"]
+- !private ["So11UIFocusItemP", "superview"]
+- !private ["So11UIFocusItemP", "topAnchor"]
+- !private ["So11UIFocusItemP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So11UIFocusItemP", "widthAnchor"]
+- ["So20UIFocusItemContainerP", "CGSize"]
+- ["So20UIFocusItemContainerP", "NSLayoutConstraint"]
+- ["So20UIFocusItemContainerP", "NSLayoutXAxisAnchor"]
+- ["So20UIFocusItemContainerP", "NSLayoutYAxisAnchor"]
+- ["So20UIFocusItemContainerP", "addConstraints"]
+- !private ["So20UIFocusItemContainerP", "bottomAnchor"]
+- ["So20UIFocusItemContainerP", "centerInSuperview"]
+- !private ["So20UIFocusItemContainerP", "centerXAnchor"]
+- !private ["So20UIFocusItemContainerP", "centerYAnchor"]
+- ["So20UIFocusItemContainerP", "constraint"]
+- ["So20UIFocusItemContainerP", "fillSuperview"]
+- !private ["So20UIFocusItemContainerP", "heightAnchor"]
+- !private ["So20UIFocusItemContainerP", "leftAnchor"]
+- !private ["So20UIFocusItemContainerP", "rightAnchor"]
+- !private ["So20UIFocusItemContainerP", "superview"]
+- !private ["So20UIFocusItemContainerP", "topAnchor"]
+- !private ["So20UIFocusItemContainerP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So20UIFocusItemContainerP", "widthAnchor"]
+- ["So24UILargeContentViewerItemP", "CGSize"]
+- ["So24UILargeContentViewerItemP", "NSLayoutConstraint"]
+- ["So24UILargeContentViewerItemP", "NSLayoutXAxisAnchor"]
+- ["So24UILargeContentViewerItemP", "NSLayoutYAxisAnchor"]
+- ["So24UILargeContentViewerItemP", "addConstraints"]
+- !private ["So24UILargeContentViewerItemP", "bottomAnchor"]
+- ["So24UILargeContentViewerItemP", "centerInSuperview"]
+- !private ["So24UILargeContentViewerItemP", "centerXAnchor"]
+- !private ["So24UILargeContentViewerItemP", "centerYAnchor"]
+- ["So24UILargeContentViewerItemP", "constraint"]
+- ["So24UILargeContentViewerItemP", "fillSuperview"]
+- !private ["So24UILargeContentViewerItemP", "heightAnchor"]
+- !private ["So24UILargeContentViewerItemP", "leftAnchor"]
+- !private ["So24UILargeContentViewerItemP", "rightAnchor"]
+- !private ["So24UILargeContentViewerItemP", "superview"]
+- !private ["So24UILargeContentViewerItemP", "topAnchor"]
+- !private ["So24UILargeContentViewerItemP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So24UILargeContentViewerItemP", "widthAnchor"]
+- ["So30UIPasteConfigurationSupportingP", "CGSize"]
+- ["So30UIPasteConfigurationSupportingP", "NSLayoutConstraint"]
+- ["So30UIPasteConfigurationSupportingP", "NSLayoutXAxisAnchor"]
+- ["So30UIPasteConfigurationSupportingP", "NSLayoutYAxisAnchor"]
+- ["So30UIPasteConfigurationSupportingP", "addConstraints"]
+- !private ["So30UIPasteConfigurationSupportingP", "bottomAnchor"]
+- ["So30UIPasteConfigurationSupportingP", "centerInSuperview"]
+- !private ["So30UIPasteConfigurationSupportingP", "centerXAnchor"]
+- !private ["So30UIPasteConfigurationSupportingP", "centerYAnchor"]
+- ["So30UIPasteConfigurationSupportingP", "constraint"]
+- ["So30UIPasteConfigurationSupportingP", "fillSuperview"]
+- !private ["So30UIPasteConfigurationSupportingP", "heightAnchor"]
+- !private ["So30UIPasteConfigurationSupportingP", "leftAnchor"]
+- !private ["So30UIPasteConfigurationSupportingP", "rightAnchor"]
+- !private ["So30UIPasteConfigurationSupportingP", "superview"]
+- !private ["So30UIPasteConfigurationSupportingP", "topAnchor"]
+- !private ["So30UIPasteConfigurationSupportingP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So30UIPasteConfigurationSupportingP", "widthAnchor"]
+- ["So11UIResponderC", "CGFloat"]
+- ["So11UIResponderC", "CGSize"]
+- ["So11UIResponderC", "NSLayoutConstraint"]
+- ["So11UIResponderC", "NSLayoutXAxisAnchor"]
+- ["So11UIResponderC", "NSLayoutYAxisAnchor"]
+- ["So11UIResponderC", ""]
+- ["So11UIResponderC", "addConstraints"]
+- !private ["So11UIResponderC", "bottomAnchor"]
+- ["So11UIResponderC", "centerInSuperview"]
+- !private ["So11UIResponderC", "centerXAnchor"]
+- !private ["So11UIResponderC", "centerYAnchor"]
+- ["So11UIResponderC", "constraint"]
+- ["So11UIResponderC", "fillSuperview"]
+- !private ["So11UIResponderC", "heightAnchor"]
+- !private ["So11UIResponderC", "leftAnchor"]
+- !private ["So11UIResponderC", "rightAnchor"]
+- !private ["So11UIResponderC", "superview"]
+- !private ["So11UIResponderC", "topAnchor"]
+- !private ["So11UIResponderC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So11UIResponderC", "widthAnchor"]
+- ["So30UIResponderStandardEditActionsP", "CGSize"]
+- ["So30UIResponderStandardEditActionsP", "NSLayoutConstraint"]
+- ["So30UIResponderStandardEditActionsP", "NSLayoutXAxisAnchor"]
+- ["So30UIResponderStandardEditActionsP", "NSLayoutYAxisAnchor"]
+- ["So30UIResponderStandardEditActionsP", "addConstraints"]
+- !private ["So30UIResponderStandardEditActionsP", "bottomAnchor"]
+- ["So30UIResponderStandardEditActionsP", "centerInSuperview"]
+- !private ["So30UIResponderStandardEditActionsP", "centerXAnchor"]
+- !private ["So30UIResponderStandardEditActionsP", "centerYAnchor"]
+- ["So30UIResponderStandardEditActionsP", "constraint"]
+- ["So30UIResponderStandardEditActionsP", "fillSuperview"]
+- !private ["So30UIResponderStandardEditActionsP", "heightAnchor"]
+- !private ["So30UIResponderStandardEditActionsP", "leftAnchor"]
+- !private ["So30UIResponderStandardEditActionsP", "rightAnchor"]
+- !private ["So30UIResponderStandardEditActionsP", "superview"]
+- !private ["So30UIResponderStandardEditActionsP", "topAnchor"]
+- !private ["So30UIResponderStandardEditActionsP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So30UIResponderStandardEditActionsP", "widthAnchor"]
+- ["So18UITraitEnvironmentP", "CGSize"]
+- ["So18UITraitEnvironmentP", "NSLayoutConstraint"]
+- ["So18UITraitEnvironmentP", "NSLayoutXAxisAnchor"]
+- ["So18UITraitEnvironmentP", "NSLayoutYAxisAnchor"]
+- ["So18UITraitEnvironmentP", "addConstraints"]
+- !private ["So18UITraitEnvironmentP", "bottomAnchor"]
+- ["So18UITraitEnvironmentP", "centerInSuperview"]
+- !private ["So18UITraitEnvironmentP", "centerXAnchor"]
+- !private ["So18UITraitEnvironmentP", "centerYAnchor"]
+- ["So18UITraitEnvironmentP", "constraint"]
+- ["So18UITraitEnvironmentP", "fillSuperview"]
+- !private ["So18UITraitEnvironmentP", "heightAnchor"]
+- !private ["So18UITraitEnvironmentP", "leftAnchor"]
+- !private ["So18UITraitEnvironmentP", "rightAnchor"]
+- !private ["So18UITraitEnvironmentP", "superview"]
+- !private ["So18UITraitEnvironmentP", "topAnchor"]
+- !private ["So18UITraitEnvironmentP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So18UITraitEnvironmentP", "widthAnchor"]
+- ["So23UIUserActivityRestoringP", "CGSize"]
+- ["So23UIUserActivityRestoringP", "NSLayoutConstraint"]
+- ["So23UIUserActivityRestoringP", "NSLayoutXAxisAnchor"]
+- ["So23UIUserActivityRestoringP", "NSLayoutYAxisAnchor"]
+- ["So23UIUserActivityRestoringP", "addConstraints"]
+- !private ["So23UIUserActivityRestoringP", "bottomAnchor"]
+- ["So23UIUserActivityRestoringP", "centerInSuperview"]
+- !private ["So23UIUserActivityRestoringP", "centerXAnchor"]
+- !private ["So23UIUserActivityRestoringP", "centerYAnchor"]
+- ["So23UIUserActivityRestoringP", "constraint"]
+- ["So23UIUserActivityRestoringP", "fillSuperview"]
+- !private ["So23UIUserActivityRestoringP", "heightAnchor"]
+- !private ["So23UIUserActivityRestoringP", "leftAnchor"]
+- !private ["So23UIUserActivityRestoringP", "rightAnchor"]
+- !private ["So23UIUserActivityRestoringP", "superview"]
+- !private ["So23UIUserActivityRestoringP", "topAnchor"]
+- !private ["So23UIUserActivityRestoringP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So23UIUserActivityRestoringP", "widthAnchor"]
+- ["So6UIViewC", "CGFloat"]
+- ["So6UIViewC", "CGSize"]
+- ["So6UIViewC", "NSLayoutConstraint"]
+- ["So6UIViewC", "NSLayoutXAxisAnchor"]
+- ["So6UIViewC", "NSLayoutYAxisAnchor"]
+- ["So6UIViewC", ""]
+- ["So6UIViewC", "addConstraints"]
+- !private ["So6UIViewC", "bottomAnchor"]
+- ["So6UIViewC", "centerInSuperview"]
+- !private ["So6UIViewC", "centerXAnchor"]
+- !private ["So6UIViewC", "centerYAnchor"]
+- ["So6UIViewC", "constraint"]
+- ["So6UIViewC", "fillSuperview"]
+- !private ["So6UIViewC", "heightAnchor"]
+- !private ["So6UIViewC", "leftAnchor"]
+- !private ["So6UIViewC", "rightAnchor"]
+- !private ["So6UIViewC", "superview"]
+- !private ["So6UIViewC", "topAnchor"]
+- !private ["So6UIViewC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So6UIViewC", "widthAnchor"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "height"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "width"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSLayoutConstraint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "activate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bottomAnchor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "centerXAnchor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "centerYAnchor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "constraint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "heightAnchor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "identifier"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "leftAnchor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rightAnchor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "superview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "topAnchor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "widthAnchor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSLayoutConstraint"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "activate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bottomAnchor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "centerXAnchor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "centerYAnchor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "constraint"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "heightAnchor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "identifier"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "leftAnchor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "rightAnchor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "superview"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "topAnchor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "widthAnchor"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "height"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "width"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "NSLayoutConstraint"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "bottomAnchor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "centerXAnchor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "centerYAnchor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "heightAnchor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "leftAnchor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "rightAnchor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "superview"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "topAnchor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "widthAnchor"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- !private "SK"
+- "So15CALayerDelegateP"
+- !private "So6CGSizeV"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "SH"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So14NSLayoutAnchorC"
+- !private "So18NSLayoutConstraintC"
+- !private "So17NSLayoutDimensionC"
+- !private "So19NSLayoutXAxisAnchorC"
+- !private "So19NSLayoutYAxisAnchorC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sj"
+- !private "Sk"
+- !private "Sm"
+- !private "ST"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/MapKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/InputBarAccessoryView/InputBarAccessoryView.framework/Modules/InputBarAccessoryView.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Users/alexandr/Desktop/iChat/Pods/Target Support Files/MessageKit/MessageKit-umbrella.h"
+- "/Users/alexandr/Desktop/iChat/Pods/Target Support Files/InputBarAccessoryView/InputBarAccessoryView-umbrella.h"
+- "/Users/alexandr/Desktop/iChat/build/Debug-iphonesimulator/InputBarAccessoryView/InputBarAccessoryView.framework/Headers/InputBarAccessoryView-Swift.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/alexandr/Desktop/iChat/build/Pods.build/Debug-iphonesimulator/MessageKit.build/unextended-module.modulemap"
+- "/Users/alexandr/Desktop/iChat/build/Pods.build/Debug-iphonesimulator/InputBarAccessoryView.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "e5d96f0618d7e6b401b085e9975835c0"
