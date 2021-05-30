@@ -146,6 +146,10 @@ extension SignUpViewController {
     }
 }
 
+extension SignUpViewController {
+    
+}
+
 // MARK: - Notification Center
 extension SignUpViewController {
     func keyboardDidShow() {
