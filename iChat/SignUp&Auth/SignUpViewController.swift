@@ -33,6 +33,8 @@ class SignUpViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
       
+        keyboardWillShow()
+        keyboardWillHide()
         configureTF()
       
         view.backgroundColor = .white
@@ -63,7 +65,6 @@ class SignUpViewController: UIViewController {
     }
     
     deinit {
-//        NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardDidShowNotification, object: nil)
         NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillShowNotification, object: nil)
         NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillHideNotification, object: nil)
     }
@@ -71,16 +72,13 @@ class SignUpViewController: UIViewController {
 
 // MARK: - Setup Constraints
 extension SignUpViewController {
-    private func setUpStacks() {
-        
-    }
-    
-    private func setupConstraints(keyboardIsShow: Bool = false, keyboardSize: CGRect? = nil) {
+    private func setupConstraints() {
         let emailStackView = UIStackView(arrangedSubviews: [emailLabel, emailTextField], axis: .vertical, spacing: 0)
         let passwordStackView = UIStackView(arrangedSubviews: [passwordLabel, passwordTextField], axis: .vertical, spacing: 0)
         let confirmPasswordStackView = UIStackView(arrangedSubviews: [confirmPasswordLabel, confirmPasswordTextField], axis: .vertical, spacing: 0)
         signUpButton.heightAnchor.constraint(equalToConstant: 60).isActive = true
         let stackView = UIStackView(arrangedSubviews: [emailStackView, passwordStackView, confirmPasswordStackView, signUpButton], axis: .vertical, spacing: 40)
+        
         if self.view.frame.size.height <=  568 {
             stackView.spacing = 10
         }
@@ -91,94 +89,67 @@ extension SignUpViewController {
         welcomeLabel.translatesAutoresizingMaskIntoConstraints = false
         stackView.translatesAutoresizingMaskIntoConstraints = false
         bottomStackView.translatesAutoresizingMaskIntoConstraints = false
-        //stackView.backgroundColor = .orange
         
         view.addSubview(welcomeLabel)
         view.addSubview(stackView)
         view.addSubview(bottomStackView)
-    
-        if keyboardIsShow {
-            view.addSubview(welcomeLabel)
-            view.addSubview(stackView)
-            view.addSubview(bottomStackView)
-              NSLayoutConstraint.activate([
-            welcomeLabel.topAnchor.constraint(equalTo: view.topAnchor, constant: 0),
+ 
+        NSLayoutConstraint.activate([
+            welcomeLabel.topAnchor.constraint(lessThanOrEqualTo: view.topAnchor, constant: 140),
             welcomeLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor)
         ])
-
+        
         NSLayoutConstraint.activate([
-            stackView.topAnchor.constraint(equalTo: welcomeLabel.bottomAnchor, constant: 20),
+            stackView.topAnchor.constraint(equalTo: welcomeLabel.bottomAnchor, constant: 100),
             stackView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 40),
             stackView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -40)
         ])
 
         NSLayoutConstraint.activate([
-            bottomStackView.topAnchor.constraint(equalTo: stackView.bottomAnchor, constant: 20),
+            bottomStackView.topAnchor.constraint(equalTo: stackView.bottomAnchor, constant: 40),
             bottomStackView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 40),
             bottomStackView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -40),
-          //  bottomStackView.bottomAnchor.constraint(lessThanOrEqualTo: view.bottomAnchor, constant: -20)
+            bottomStackView.bottomAnchor.constraint(lessThanOrEqualTo: view.bottomAnchor, constant: -20)
         ])
-            self.updateViewConstraints()
-        } else {
-            
-            NSLayoutConstraint.activate([
-                welcomeLabel.topAnchor.constraint(lessThanOrEqualTo: view.topAnchor, constant: 160),
-//                welcomeLabel.topAnchor.constraint(lessThanOrEqualTo: view.topAnchor, constant: 20),
-                welcomeLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor)
-            ])
-            
-            NSLayoutConstraint.activate([
-                stackView.topAnchor.constraint(equalTo: welcomeLabel.bottomAnchor, constant: 100),
-//                stackView.topAnchor.constraint(equalTo: welcomeLabel.bottomAnchor, constant: 80),
-//                stackView.topAnchor.constraint(equalTo: welcomeLabel.bottomAnchor, constant: 20),
-                stackView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 40),
-                stackView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -40)
-            ])
-            
-            NSLayoutConstraint.activate([
-                bottomStackView.topAnchor.constraint(equalTo: stackView.bottomAnchor, constant: 30),
-                bottomStackView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 40),
-                bottomStackView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -40),
-                bottomStackView.bottomAnchor.constraint(lessThanOrEqualTo: view.bottomAnchor, constant: -20)
-            ])
-        }
-        
     }
-}
-
-extension SignUpViewController {
-    
 }
 
 // MARK: - Notification Center
 extension SignUpViewController {
-    func keyboardDidShow() {
-//        NotificationCenter.default.addObserver(self, selector: #selector(keyboaedDidShowHandler), name: UIResponder.keyboardDidShowNotification, object: nil)
-        NotificationCenter.default.addObserver(self, selector: #selector(keyboardDidShowHandler), name: UIResponder.keyboardWillShowNotification, object: nil)
+  private  func keyboardWillShow() {
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShowHandler), name: UIResponder.keyboardWillShowNotification, object: nil)
+        
+        let gestureResignFirstResponder = UITapGestureRecognizer(target: self, action: #selector(gestureResignFirstResponderHandler))
+        view.addGestureRecognizer(gestureResignFirstResponder)
     }
     
-    func keyboardWillHide() {
+   private func keyboardWillHide() {
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHideHandler), name: UIResponder.keyboardWillHideNotification, object: nil)
     }
     
-    @objc private func keyboardDidShowHandler(notification: Notification) {
-        guard let userInfo = notification.userInfo else { return }
-        let kbFrameSize = (userInfo[UIResponder.keyboardFrameEndUserInfoKey] as! NSValue).cgRectValue
-//        NSLayoutConstraint.activate([ welcomeLabel.topAnchor.constraint(equalTo: view.topAnchor, constant: -100), welcomeLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor)])
-//        alreadyOnboardLabel.isHidden = true
-        view.frame.origin.y = -(kbFrameSize.height + 110) / 2
-//        view.frame.origin.y = -kbFrameSize.height + 200
-//        view.frame.origin.y = -kbFrameSize.height
-//        NSLayoutConstraint.activate([signUpButton.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -kbFrameSize.height)])
-//        NSLayoutConstraint.activate([alreadyOnboardLabel.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -5)])
-    }
-    
-    @objc private func keyboardWillHideHandler(notification: Notification) {
-        guard let userInfo = notification.userInfo else { return }
-//        let kbFrameSize = (userInfo[UIResponder.keyboardFrameEndUserInfoKey] as! NSValue).cgRectValue
-//        NSLayoutConstraint.activate([signUpButton.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -kbFrameSize.height)])
+    @objc private func gestureResignFirstResponderHandler() {
+        if emailTextField.isFirstResponder {
+            emailTextField.resignFirstResponder()
+        } else if passwordTextField.isFirstResponder {
+            passwordTextField.resignFirstResponder()
+        } else {
+            confirmPasswordTextField.resignFirstResponder()
+        }
         view.frame.origin.y = 0
     }
+    
+    @objc private func keyboardWillShowHandler(notification: Notification) {
+        guard let userInfo = notification.userInfo else { return }
+        let kbFrameSize = (userInfo[UIResponder.keyboardFrameEndUserInfoKey] as! NSValue).cgRectValue
+//            view.frame.origin.y = -kbFrameSize.height / 2
+//        view.frame.origin.y = -(kbFrameSize.height + 120) / 2
+        view.frame.origin.y = -kbFrameSize.height + 90
+    }
+ 
+    @objc private func keyboardWillHideHandler() {
+        view.frame.origin.y = 0
+    }
+    
 }
 
 // MARK: - Setup TextField
@@ -192,17 +163,17 @@ extension SignUpViewController: UITextFieldDelegate {
         passwordTextField.tag = 2
         confirmPasswordTextField.tag = 3
         
-        keyboardDidShow()
+        keyboardWillShow()
         keyboardWillHide()
     }
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         if let nextField = self.view.viewWithTag(textField.tag + 1) as? UITextField {
-                    nextField.becomeFirstResponder()
-                } else {
-                    textField.resignFirstResponder()
-                }
-                return false
+            nextField.becomeFirstResponder()
+        } else {
+            textField.resignFirstResponder()
+        }
+        return false
     }
 }
 
@@ -228,13 +199,13 @@ struct SignUpViewControllerProvider: PreviewProvider {
 }
 
 extension UIViewController {
-    func showAlertController(with title: String, and message: String, functionFrom: String? = nil, completion: @escaping () -> Void = {} ) {
+    func showAlertController(with title: String, and message: String, completion: @escaping () -> Void = {} ) {
         let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
         let okAction = UIAlertAction(title: "OK", style: .default, handler: {_ in
           completion()
         })
         alertController.addAction(okAction)
-        print("\(functionFrom) \(alertController.debugDescription)")
+
         present(alertController, animated: true, completion: nil)
     }
 }

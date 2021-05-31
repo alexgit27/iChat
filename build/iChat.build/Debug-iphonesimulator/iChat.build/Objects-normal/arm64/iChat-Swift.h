@@ -341,6 +341,12 @@ SWIFT_CLASS("_TtC5iChat19LoginViewController")
 
 
 
+@interface LoginViewController (SWIFT_EXTENSION(iChat)) <UITextFieldDelegate>
+- (BOOL)textFieldShouldReturn:(UITextField * _Nonnull)textField SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+
 SWIFT_CLASS("_TtC5iChat20MainTabBarController")
 @interface MainTabBarController : UITabBarController
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
@@ -380,10 +386,16 @@ SWIFT_CLASS("_TtC5iChat20PeopleViewController")
 
 SWIFT_CLASS("_TtC5iChat21ProfileViewController")
 @interface ProfileViewController : UIViewController
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 - (void)viewDidLoad;
 - (void)sendMessage;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
+@end
+
+
+
+@interface ProfileViewController (SWIFT_EXTENSION(iChat)) <UITextFieldDelegate>
+- (BOOL)textFieldShouldReturn:(UITextField * _Nonnull)textField SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
@@ -424,6 +436,12 @@ SWIFT_CLASS("_TtC5iChat26SetupProfileViewController")
 @end
 
 
+@interface SetupProfileViewController (SWIFT_EXTENSION(iChat)) <UITextFieldDelegate>
+- (BOOL)textFieldShouldReturn:(UITextField * _Nonnull)textField SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+
 SWIFT_CLASS("_TtC5iChat20SignUpViewController")
 @interface SignUpViewController : UIViewController
 - (void)viewDidLoad;
@@ -432,7 +450,6 @@ SWIFT_CLASS("_TtC5iChat20SignUpViewController")
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
-
 
 
 

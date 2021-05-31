@@ -44,6 +44,10 @@ class SetupProfileViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        keyboardWillShow()
+        keyboardWillHide()
+        configureTF()
+        
         view.backgroundColor = .white
         setupConstraints()
         
@@ -77,6 +81,11 @@ class SetupProfileViewController: UIViewController {
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
+    
+    deinit {
+        NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillShowNotification, object: nil)
+        NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillHideNotification, object: nil)
+    }
 }
 
 // MARK: - Setup Constraints
@@ -102,7 +111,7 @@ extension SetupProfileViewController {
         
         
         NSLayoutConstraint.activate([
-            welcomeLabel.topAnchor.constraint(lessThanOrEqualTo: view.topAnchor, constant: 160),
+            welcomeLabel.topAnchor.constraint(lessThanOrEqualTo: view.topAnchor, constant: 40),
             welcomeLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor)
         ])
         
@@ -128,6 +137,64 @@ extension SetupProfileViewController: UINavigationControllerDelegate, UIImagePic
         guard let image = info[UIImagePickerController.InfoKey.originalImage] as? UIImage else { return }
         
         fullImageView.circleImageView.image = image
+    }
+}
+
+// MARK: - Notification Center
+extension SetupProfileViewController {
+   private func keyboardWillShow() {
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShowHandler), name: UIResponder.keyboardWillShowNotification, object: nil)
+        let gestureResignFirstResponder = UITapGestureRecognizer(target: self, action: #selector(gestureResignFirstResponderHandler))
+        view.addGestureRecognizer(gestureResignFirstResponder)
+    }
+    
+   private func keyboardWillHide() {
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHideHandler), name: UIResponder.keyboardWillHideNotification, object: nil)
+    }
+    
+    @objc private func gestureResignFirstResponderHandler() {
+        if fullNameTextField.isFirstResponder {
+            fullNameTextField.resignFirstResponder()
+        } else  {
+            aboutMeTextField.resignFirstResponder()
+        }
+        view.frame.origin.y = 0
+    }
+    
+    @objc private func keyboardWillShowHandler(notification: Notification) {
+        guard let userInfo = notification.userInfo else { return }
+        let kbFrameSize = (userInfo[UIResponder.keyboardFrameEndUserInfoKey] as! NSValue).cgRectValue
+            view.frame.origin.y = -kbFrameSize.height + 120
+    }
+    
+    
+    
+    @objc private func keyboardWillHideHandler() {
+        view.frame.origin.y = 0
+    }
+    
+}
+
+// MARK: - Setup TextField
+extension SetupProfileViewController: UITextFieldDelegate {
+    private func configureTF() {
+        fullNameTextField.delegate = self
+        aboutMeTextField.delegate = self
+        
+        fullNameTextField.tag = 1
+        aboutMeTextField.tag = 2
+        
+        keyboardWillShow()
+        keyboardWillHide()
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        if let nextField = self.view.viewWithTag(textField.tag + 1) as? UITextField {
+            nextField.becomeFirstResponder()
+        } else {
+            textField.resignFirstResponder()
+        }
+        return false
     }
 }
 

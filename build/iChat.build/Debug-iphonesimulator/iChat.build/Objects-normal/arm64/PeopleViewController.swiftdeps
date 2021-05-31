@@ -1,17 +1,12 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
 - "PeopleViewController"
-- "PeopleViewControllerProvider"
 provides-nominal:
 - "5iChat20PeopleViewControllerC"
 - "5iChat20PeopleViewControllerC7SectionO"
-- "5iChat28PeopleViewControllerProviderV"
-- "5iChat28PeopleViewControllerProviderV09ContainerC0V"
 provides-member:
 - ["5iChat20PeopleViewControllerC", ""]
 - ["5iChat20PeopleViewControllerC7SectionO", ""]
-- ["5iChat28PeopleViewControllerProviderV", ""]
-- ["5iChat28PeopleViewControllerProviderV09ContainerC0V", ""]
 provides-dynamic-lookup:
 - "collectionView"
 - "createCompositionalLayout"
@@ -41,8 +36,6 @@ depends-top-level:
 - !private "CGFloat"
 - "CaseIterable"
 - !private "CastingPrecedence"
-- !private "ContainerView"
-- "Context"
 - !private "Dictionary"
 - "FirestoreService"
 - "FloatLiteralType"
@@ -52,7 +45,6 @@ depends-top-level:
 - "ListenerRegistration"
 - !private "ListenerService"
 - "MUser"
-- "MainTabBarController"
 - !private "NSAttributedString"
 - "NSCoder"
 - "NSCollectionLayoutBoundarySupplementaryItem"
@@ -63,8 +55,6 @@ depends-top-level:
 - !private "NSDiffableDataSourceSnapshot"
 - !private "NSDirectionalEdgeInsets"
 - "PeopleViewController"
-- "PeopleViewControllerProvider"
-- "PreviewProvider"
 - !private "ProfileViewController"
 - "Section"
 - "SectionHeader"
@@ -87,10 +77,7 @@ depends-top-level:
 - "UISearchBarDelegate"
 - !private "UISearchController"
 - "UIViewController"
-- "UIViewControllerRepresentable"
-- "UIViewControllerRepresentableContext"
 - "UserCell"
-- "View"
 - !private "collectionView"
 - !private "createCompositionalLayout"
 - !private "createDataSource"
@@ -110,11 +97,9 @@ depends-top-level:
 - !private "users"
 - !private "usersListener"
 - !private "view"
-- !private "viewController"
 - !private "~="
 depends-member:
 - !private ["s18AdditiveArithmeticP", ""]
-- ["7SwiftUI10AnimatableP", ""]
 - !private ["Sa", "callAsFunction"]
 - !private ["Sa", "count"]
 - !private ["Sa", "filter"]
@@ -151,6 +136,7 @@ depends-member:
 - !private ["So15CALayerDelegateP", "dequeueReusableSupplementaryViewOfKind"]
 - !private ["So15CALayerDelegateP", "elementKindSectionHeader"]
 - !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "isKeyWindow"]
 - !private ["So15CALayerDelegateP", "register"]
 - !private ["So15CALayerDelegateP", "registerClass"]
 - !private ["So15CALayerDelegateP", "registerNib"]
@@ -218,7 +204,6 @@ depends-member:
 - !private ["s7CVarArgP", "createUsersSection"]
 - !private ["s7CVarArgP", "currentUser"]
 - !private ["s7CVarArgP", "dataSource"]
-- !private ["s7CVarArgP", "debugDescription"]
 - !private ["s7CVarArgP", "delegate"]
 - !private ["s7CVarArgP", "deleteAccount"]
 - !private ["s7CVarArgP", "dequeueReusableSupplementaryView"]
@@ -239,8 +224,8 @@ depends-member:
 - !private ["s7CVarArgP", "interGroupSpacing"]
 - !private ["s7CVarArgP", "interItemSpacing"]
 - !private ["s7CVarArgP", "interSectionSpacing"]
+- !private ["s7CVarArgP", "isKeyWindow"]
 - !private ["s7CVarArgP", "itemIdentifier"]
-- !private ["s7CVarArgP", "keyWindow"]
 - !private ["s7CVarArgP", "label"]
 - !private ["s7CVarArgP", "leftBarButtonItem"]
 - !private ["s7CVarArgP", "mainWhite"]
@@ -303,6 +288,7 @@ depends-member:
 - !private ["s7CVarArgP", "viewDidLoad"]
 - ["s7CVarArgP", "viewForZooming"]
 - ["s7CVarArgP", "viewForZoomingInScrollView"]
+- !private ["s7CVarArgP", "windows"]
 - ["s12CaseIterableP", "=="]
 - ["s12CaseIterableP", "AllCases"]
 - ["s12CaseIterableP", "Default_AllCases"]
@@ -332,32 +318,6 @@ depends-member:
 - !private ["SL", "light"]
 - !private ["SL", "section"]
 - !private ["SL", "uppercased"]
-- ["5iChat28PeopleViewControllerProviderV09ContainerC0V", "Body"]
-- ["5iChat28PeopleViewControllerProviderV09ContainerC0V", "Context"]
-- ["5iChat28PeopleViewControllerProviderV09ContainerC0V", "Coordinator"]
-- ["5iChat28PeopleViewControllerProviderV09ContainerC0V", "Default_Body"]
-- ["5iChat28PeopleViewControllerProviderV09ContainerC0V", "Default_Coordinator"]
-- ["5iChat28PeopleViewControllerProviderV09ContainerC0V", "Default_UIViewControllerType"]
-- ["5iChat28PeopleViewControllerProviderV09ContainerC0V", "MainTabBarController"]
-- ["5iChat28PeopleViewControllerProviderV09ContainerC0V", "PeopleViewControllerProvider"]
-- ["5iChat28PeopleViewControllerProviderV09ContainerC0V", "UIViewControllerRepresentableContext"]
-- ["5iChat28PeopleViewControllerProviderV09ContainerC0V", "UIViewControllerType"]
-- ["5iChat28PeopleViewControllerProviderV09ContainerC0V", ""]
-- ["5iChat28PeopleViewControllerProviderV09ContainerC0V", "_Default_Body"]
-- ["5iChat28PeopleViewControllerProviderV09ContainerC0V", "_Default_Coordinator"]
-- ["5iChat28PeopleViewControllerProviderV09ContainerC0V", "_Default_UIViewControllerType"]
-- ["5iChat28PeopleViewControllerProviderV09ContainerC0V", "_identifiedViewTree"]
-- ["5iChat28PeopleViewControllerProviderV09ContainerC0V", "_makeView"]
-- ["5iChat28PeopleViewControllerProviderV09ContainerC0V", "_makeViewList"]
-- ["5iChat28PeopleViewControllerProviderV09ContainerC0V", "_viewListCount"]
-- ["5iChat28PeopleViewControllerProviderV09ContainerC0V", "body"]
-- ["5iChat28PeopleViewControllerProviderV09ContainerC0V", "dismantleUIViewController"]
-- !private ["5iChat28PeopleViewControllerProviderV09ContainerC0V", "edgesIgnoringSafeArea"]
-- ["5iChat28PeopleViewControllerProviderV09ContainerC0V", "init"]
-- ["5iChat28PeopleViewControllerProviderV09ContainerC0V", "makeCoordinator"]
-- ["5iChat28PeopleViewControllerProviderV09ContainerC0V", "makeUIViewController"]
-- ["5iChat28PeopleViewControllerProviderV09ContainerC0V", "updateUIViewController"]
-- ["5iChat28PeopleViewControllerProviderV09ContainerC0V", "viewController"]
 - !private ["10Foundation15ContiguousBytesP", "callAsFunction"]
 - !private ["10Foundation15ContiguousBytesP", "count"]
 - !private ["10Foundation15ContiguousBytesP", "filter"]
@@ -417,7 +377,6 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "createUsersSection"]
 - !private ["s28CustomDebugStringConvertibleP", "currentUser"]
 - !private ["s28CustomDebugStringConvertibleP", "dataSource"]
-- !private ["s28CustomDebugStringConvertibleP", "debugDescription"]
 - !private ["s28CustomDebugStringConvertibleP", "delegate"]
 - !private ["s28CustomDebugStringConvertibleP", "deleteAccount"]
 - !private ["s28CustomDebugStringConvertibleP", "dequeueReusableSupplementaryView"]
@@ -438,8 +397,8 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "interGroupSpacing"]
 - !private ["s28CustomDebugStringConvertibleP", "interItemSpacing"]
 - !private ["s28CustomDebugStringConvertibleP", "interSectionSpacing"]
+- !private ["s28CustomDebugStringConvertibleP", "isKeyWindow"]
 - !private ["s28CustomDebugStringConvertibleP", "itemIdentifier"]
-- !private ["s28CustomDebugStringConvertibleP", "keyWindow"]
 - !private ["s28CustomDebugStringConvertibleP", "label"]
 - !private ["s28CustomDebugStringConvertibleP", "leftBarButtonItem"]
 - !private ["s28CustomDebugStringConvertibleP", "mainWhite"]
@@ -503,6 +462,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
 - ["s28CustomDebugStringConvertibleP", "viewForZooming"]
 - ["s28CustomDebugStringConvertibleP", "viewForZoomingInScrollView"]
+- !private ["s28CustomDebugStringConvertibleP", "windows"]
 - !private ["s17CustomReflectableP", "addSubview"]
 - !private ["s17CustomReflectableP", "autoresizingMask"]
 - !private ["s17CustomReflectableP", "backgroundColor"]
@@ -579,7 +539,6 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "createUsersSection"]
 - !private ["s23CustomStringConvertibleP", "currentUser"]
 - !private ["s23CustomStringConvertibleP", "dataSource"]
-- !private ["s23CustomStringConvertibleP", "debugDescription"]
 - !private ["s23CustomStringConvertibleP", "delegate"]
 - !private ["s23CustomStringConvertibleP", "deleteAccount"]
 - !private ["s23CustomStringConvertibleP", "dequeueReusableSupplementaryView"]
@@ -600,8 +559,8 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "interGroupSpacing"]
 - !private ["s23CustomStringConvertibleP", "interItemSpacing"]
 - !private ["s23CustomStringConvertibleP", "interSectionSpacing"]
+- !private ["s23CustomStringConvertibleP", "isKeyWindow"]
 - !private ["s23CustomStringConvertibleP", "itemIdentifier"]
-- !private ["s23CustomStringConvertibleP", "keyWindow"]
 - !private ["s23CustomStringConvertibleP", "label"]
 - !private ["s23CustomStringConvertibleP", "leftBarButtonItem"]
 - !private ["s23CustomStringConvertibleP", "mainWhite"]
@@ -665,6 +624,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "viewDidLoad"]
 - ["s23CustomStringConvertibleP", "viewForZooming"]
 - ["s23CustomStringConvertibleP", "viewForZoomingInScrollView"]
+- !private ["s23CustomStringConvertibleP", "windows"]
 - ["10Foundation12DataProtocolP", ""]
 - !private ["10Foundation12DataProtocolP", "callAsFunction"]
 - !private ["10Foundation12DataProtocolP", "count"]
@@ -761,7 +721,6 @@ depends-member:
 - !private ["SQ", "addSubview"]
 - !private ["SQ", "addTextField"]
 - !private ["SQ", "alert"]
-- !private ["SQ", "all"]
 - ["SQ", "allCases"]
 - !private ["SQ", "apply"]
 - !private ["SQ", "auth"]
@@ -785,7 +744,6 @@ depends-member:
 - !private ["SQ", "createUsersSection"]
 - !private ["SQ", "currentUser"]
 - !private ["SQ", "dataSource"]
-- !private ["SQ", "debugDescription"]
 - !private ["SQ", "default"]
 - !private ["SQ", "delegate"]
 - !private ["SQ", "deleteAccount"]
@@ -815,8 +773,8 @@ depends-member:
 - !private ["SQ", "interGroupSpacing"]
 - !private ["SQ", "interItemSpacing"]
 - !private ["SQ", "interSectionSpacing"]
+- !private ["SQ", "isKeyWindow"]
 - !private ["SQ", "itemIdentifier"]
-- !private ["SQ", "keyWindow"]
 - !private ["SQ", "label"]
 - !private ["SQ", "leftBarButtonItem"]
 - !private ["SQ", "light"]
@@ -887,11 +845,11 @@ depends-member:
 - !private ["SQ", "viewDidLoad"]
 - ["SQ", "viewForZooming"]
 - ["SQ", "viewForZoomingInScrollView"]
+- !private ["SQ", "windows"]
 - !private ["s5ErrorP", "localizedDescription"]
 - !private ["s25ExpressibleByArrayLiteralP", "ArrayLiteralElement"]
 - !private ["s25ExpressibleByArrayLiteralP", "Element"]
 - ["s25ExpressibleByArrayLiteralP", ""]
-- !private ["s25ExpressibleByArrayLiteralP", "all"]
 - !private ["s25ExpressibleByArrayLiteralP", "callAsFunction"]
 - !private ["s25ExpressibleByArrayLiteralP", "count"]
 - !private ["s25ExpressibleByArrayLiteralP", "filter"]
@@ -1015,7 +973,6 @@ depends-member:
 - !private ["SH", "createUsersSection"]
 - !private ["SH", "currentUser"]
 - !private ["SH", "dataSource"]
-- !private ["SH", "debugDescription"]
 - !private ["SH", "default"]
 - !private ["SH", "delegate"]
 - !private ["SH", "deleteAccount"]
@@ -1043,8 +1000,8 @@ depends-member:
 - !private ["SH", "interGroupSpacing"]
 - !private ["SH", "interItemSpacing"]
 - !private ["SH", "interSectionSpacing"]
+- !private ["SH", "isKeyWindow"]
 - !private ["SH", "itemIdentifier"]
-- !private ["SH", "keyWindow"]
 - !private ["SH", "label"]
 - !private ["SH", "leftBarButtonItem"]
 - !private ["SH", "light"]
@@ -1114,6 +1071,7 @@ depends-member:
 - !private ["SH", "viewDidLoad"]
 - ["SH", "viewForZooming"]
 - ["SH", "viewForZoomingInScrollView"]
+- !private ["SH", "windows"]
 - !private ["10Foundation9IndexPathV", "section"]
 - !private ["So21NSAttributedStringKeya", "font"]
 - !private ["So23FIRListenerRegistrationP", "remove"]
@@ -1125,8 +1083,6 @@ depends-member:
 - !private ["5iChat5MUserV", "contains"]
 - !private ["5iChat5MUserV", "email"]
 - !private ["5iChat5MUserV", "username"]
-- ["5iChat20MainTabBarControllerC", ""]
-- ["5iChat20MainTabBarControllerC", "init"]
 - !private ["s10MirrorPathP", "uppercased"]
 - ["SM", ""]
 - !private ["SM", "callAsFunction"]
@@ -1202,7 +1158,6 @@ depends-member:
 - ["So8NSCodingP", "createUsersSection"]
 - ["So8NSCodingP", "currentUser"]
 - ["So8NSCodingP", "dataSource"]
-- !private ["So8NSCodingP", "debugDescription"]
 - ["So8NSCodingP", "deinit"]
 - !private ["So8NSCodingP", "delegate"]
 - ["So8NSCodingP", "deleteAccount"]
@@ -1215,6 +1170,7 @@ depends-member:
 - ["So8NSCodingP", "indexPathForPreferredFocusedView"]
 - ["So8NSCodingP", "indexPathForPreferredFocusedViewInCollectionView"]
 - ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isKeyWindow"]
 - !private ["So8NSCodingP", "label"]
 - !private ["So8NSCodingP", "leftBarButtonItem"]
 - !private ["So8NSCodingP", "mainWhite"]
@@ -1375,7 +1331,6 @@ depends-member:
 - ["So26NSExtensionRequestHandlingP", "createUsersSection"]
 - ["So26NSExtensionRequestHandlingP", "currentUser"]
 - ["So26NSExtensionRequestHandlingP", "dataSource"]
-- !private ["So26NSExtensionRequestHandlingP", "debugDescription"]
 - ["So26NSExtensionRequestHandlingP", "deinit"]
 - ["So26NSExtensionRequestHandlingP", "deleteAccount"]
 - !private ["So26NSExtensionRequestHandlingP", "fatalError"]
@@ -1509,7 +1464,6 @@ depends-member:
 - ["So8NSObjectC", "createUsersSection"]
 - ["So8NSObjectC", "currentUser"]
 - ["So8NSObjectC", "dataSource"]
-- !private ["So8NSObjectC", "debugDescription"]
 - !private ["So8NSObjectC", "delegate"]
 - ["So8NSObjectC", "deleteAccount"]
 - !private ["So8NSObjectC", "dequeueReusableSupplementaryView"]
@@ -1539,10 +1493,10 @@ depends-member:
 - !private ["So8NSObjectC", "interGroupSpacing"]
 - !private ["So8NSObjectC", "interItemSpacing"]
 - !private ["So8NSObjectC", "interSectionSpacing"]
+- !private ["So8NSObjectC", "isKeyWindow"]
 - !private ["So8NSObjectC", "itemIdentifier"]
 - !private ["So8NSObjectC", "itemWithLayoutSize"]
 - !private ["So8NSObjectC", "jpegData"]
-- !private ["So8NSObjectC", "keyWindow"]
 - !private ["So8NSObjectC", "label"]
 - !private ["So8NSObjectC", "leftBarButtonItem"]
 - !private ["So8NSObjectC", "mainWhite"]
@@ -1619,6 +1573,7 @@ depends-member:
 - ["So8NSObjectC", "viewDidLoad"]
 - ["So8NSObjectC", "viewForZooming"]
 - ["So8NSObjectC", "viewForZoomingInScrollView"]
+- !private ["So8NSObjectC", "windows"]
 - !private ["So8NSObjectP", "Auth"]
 - !private ["So8NSObjectP", "AuthViewController"]
 - !private ["So8NSObjectP", "Bool"]
@@ -1688,7 +1643,6 @@ depends-member:
 - ["So8NSObjectP", "createUsersSection"]
 - ["So8NSObjectP", "currentUser"]
 - ["So8NSObjectP", "dataSource"]
-- !private ["So8NSObjectP", "debugDescription"]
 - ["So8NSObjectP", "deinit"]
 - !private ["So8NSObjectP", "delegate"]
 - ["So8NSObjectP", "deleteAccount"]
@@ -1719,10 +1673,10 @@ depends-member:
 - !private ["So8NSObjectP", "interGroupSpacing"]
 - !private ["So8NSObjectP", "interItemSpacing"]
 - !private ["So8NSObjectP", "interSectionSpacing"]
+- !private ["So8NSObjectP", "isKeyWindow"]
 - !private ["So8NSObjectP", "itemIdentifier"]
 - !private ["So8NSObjectP", "itemWithLayoutSize"]
 - !private ["So8NSObjectP", "jpegData"]
-- !private ["So8NSObjectP", "keyWindow"]
 - !private ["So8NSObjectP", "label"]
 - !private ["So8NSObjectP", "leftBarButtonItem"]
 - !private ["So8NSObjectP", "mainWhite"]
@@ -1800,6 +1754,7 @@ depends-member:
 - ["So8NSObjectP", "viewDidLoad"]
 - ["So8NSObjectP", "viewForZooming"]
 - ["So8NSObjectP", "viewForZoomingInScrollView"]
+- !private ["So8NSObjectP", "windows"]
 - !private ["So15NSRectAlignmentV", "top"]
 - !private ["So14NSSecureCodingP", "Key"]
 - !private ["So14NSSecureCodingP", "init"]
@@ -1811,7 +1766,6 @@ depends-member:
 - !private ["Sj", ""]
 - !private ["s9OptionSetP", "ArrayLiteralElement"]
 - !private ["s9OptionSetP", "Element"]
-- !private ["s9OptionSetP", "all"]
 - !private ["s9OptionSetP", "flexibleHeight"]
 - !private ["s9OptionSetP", "flexibleWidth"]
 - !private ["s9OptionSetP", "init"]
@@ -1924,35 +1878,6 @@ depends-member:
 - ["5iChat20PeopleViewControllerC", "viewDidLoad"]
 - ["5iChat20PeopleViewControllerC", "viewForZooming"]
 - ["5iChat20PeopleViewControllerC", "viewForZoomingInScrollView"]
-- ["5iChat28PeopleViewControllerProviderV", "ContainerView"]
-- ["5iChat28PeopleViewControllerProviderV", "Context"]
-- ["5iChat28PeopleViewControllerProviderV", "Default_Previews"]
-- ["5iChat28PeopleViewControllerProviderV", "MainTabBarController"]
-- ["5iChat28PeopleViewControllerProviderV", "PeopleViewControllerProvider"]
-- ["5iChat28PeopleViewControllerProviderV", "Previews"]
-- ["5iChat28PeopleViewControllerProviderV", "UIViewControllerRepresentable"]
-- ["5iChat28PeopleViewControllerProviderV", "UIViewControllerRepresentableContext"]
-- ["5iChat28PeopleViewControllerProviderV", "View"]
-- ["5iChat28PeopleViewControllerProviderV", ""]
-- ["5iChat28PeopleViewControllerProviderV", "_Default_Previews"]
-- ["5iChat28PeopleViewControllerProviderV", "_platform"]
-- ["5iChat28PeopleViewControllerProviderV", "_previews"]
-- ["5iChat28PeopleViewControllerProviderV", "init"]
-- ["5iChat28PeopleViewControllerProviderV", "platform"]
-- ["5iChat28PeopleViewControllerProviderV", "previews"]
-- !private ["5iChat28PeopleViewControllerProviderV", "viewController"]
-- ["7SwiftUI15PreviewProviderP", "ContainerView"]
-- ["7SwiftUI15PreviewProviderP", "Default_Previews"]
-- ["7SwiftUI15PreviewProviderP", "MainTabBarController"]
-- ["7SwiftUI15PreviewProviderP", "Previews"]
-- ["7SwiftUI15PreviewProviderP", "UIViewControllerRepresentable"]
-- ["7SwiftUI15PreviewProviderP", ""]
-- ["7SwiftUI15PreviewProviderP", "_Default_Previews"]
-- ["7SwiftUI15PreviewProviderP", "_platform"]
-- ["7SwiftUI15PreviewProviderP", "_previews"]
-- ["7SwiftUI15PreviewProviderP", "platform"]
-- ["7SwiftUI15PreviewProviderP", "previews"]
-- !private ["7SwiftUI15PreviewProviderP", "viewController"]
 - !private ["5iChat21ProfileViewControllerC", ""]
 - !private ["5iChat21ProfileViewControllerC", "init"]
 - ["Sk", ""]
@@ -1981,7 +1906,6 @@ depends-member:
 - ["SY", "_Default_RawValue"]
 - ["SY", "_rawHashValue"]
 - !private ["SY", "alert"]
-- !private ["SY", "all"]
 - ["SY", "allCases"]
 - !private ["SY", "cancel"]
 - !private ["SY", "default"]
@@ -2030,11 +1954,9 @@ depends-member:
 - ["ST", "init"]
 - !private ["ST", "section"]
 - !private ["ST", "uppercased"]
-- !private ["7SwiftUI4EdgeO3SetV", "all"]
 - !private ["s10SetAlgebraP", "ArrayLiteralElement"]
 - !private ["s10SetAlgebraP", "Element"]
 - !private ["s10SetAlgebraP", ""]
-- !private ["s10SetAlgebraP", "all"]
 - !private ["s10SetAlgebraP", "flexibleHeight"]
 - !private ["s10SetAlgebraP", "flexibleWidth"]
 - !private ["s10SetAlgebraP", "init"]
@@ -2069,6 +1991,7 @@ depends-member:
 - !private ["So29UIAccessibilityIdentificationP", "dequeueReusableSupplementaryViewOfKind"]
 - !private ["So29UIAccessibilityIdentificationP", "elementKindSectionHeader"]
 - !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "isKeyWindow"]
 - !private ["So29UIAccessibilityIdentificationP", "register"]
 - !private ["So29UIAccessibilityIdentificationP", "registerClass"]
 - !private ["So29UIAccessibilityIdentificationP", "registerNib"]
@@ -2081,7 +2004,6 @@ depends-member:
 - !private ["So13UIAlertActionC", "init"]
 - !private ["So17UIAlertControllerC", "addAction"]
 - !private ["So17UIAlertControllerC", "addTextField"]
-- !private ["So17UIAlertControllerC", "debugDescription"]
 - !private ["So17UIAlertControllerC", "init"]
 - !private ["So17UIAlertControllerC", "textFields"]
 - !private ["So12UIAppearanceP", ""]
@@ -2096,6 +2018,7 @@ depends-member:
 - !private ["So12UIAppearanceP", "dequeueReusableSupplementaryViewOfKind"]
 - !private ["So12UIAppearanceP", "elementKindSectionHeader"]
 - !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "isKeyWindow"]
 - !private ["So12UIAppearanceP", "register"]
 - !private ["So12UIAppearanceP", "registerClass"]
 - !private ["So12UIAppearanceP", "registerNib"]
@@ -2163,7 +2086,6 @@ depends-member:
 - ["So21UIAppearanceContainerP", "createUsersSection"]
 - ["So21UIAppearanceContainerP", "currentUser"]
 - ["So21UIAppearanceContainerP", "dataSource"]
-- !private ["So21UIAppearanceContainerP", "debugDescription"]
 - ["So21UIAppearanceContainerP", "deinit"]
 - !private ["So21UIAppearanceContainerP", "delegate"]
 - ["So21UIAppearanceContainerP", "deleteAccount"]
@@ -2175,6 +2097,7 @@ depends-member:
 - ["So21UIAppearanceContainerP", "indexPathForPreferredFocusedView"]
 - ["So21UIAppearanceContainerP", "indexPathForPreferredFocusedViewInCollectionView"]
 - ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "isKeyWindow"]
 - !private ["So21UIAppearanceContainerP", "navigationBar"]
 - !private ["So21UIAppearanceContainerP", "navigationController"]
 - !private ["So21UIAppearanceContainerP", "navigationItem"]
@@ -2225,8 +2148,8 @@ depends-member:
 - ["So21UIAppearanceContainerP", "viewDidLoad"]
 - ["So21UIAppearanceContainerP", "viewForZooming"]
 - ["So21UIAppearanceContainerP", "viewForZoomingInScrollView"]
-- !private ["So13UIApplicationC", "keyWindow"]
 - !private ["So13UIApplicationC", "shared"]
+- !private ["So13UIApplicationC", "windows"]
 - !private ["So15UIBarButtonItemC", "init"]
 - !private ["So15UIBarButtonItemC", "setTitleTextAttributes"]
 - !private ["So15UIBarButtonItemC", "tintColor"]
@@ -2493,7 +2416,6 @@ depends-member:
 - ["So18UIContentContainerP", "createUsersSection"]
 - ["So18UIContentContainerP", "currentUser"]
 - ["So18UIContentContainerP", "dataSource"]
-- !private ["So18UIContentContainerP", "debugDescription"]
 - ["So18UIContentContainerP", "deinit"]
 - ["So18UIContentContainerP", "deleteAccount"]
 - !private ["So18UIContentContainerP", "fatalError"]
@@ -2562,6 +2484,7 @@ depends-member:
 - !private ["So17UICoordinateSpaceP", "dequeueReusableSupplementaryViewOfKind"]
 - !private ["So17UICoordinateSpaceP", "elementKindSectionHeader"]
 - !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "isKeyWindow"]
 - !private ["So17UICoordinateSpaceP", "register"]
 - !private ["So17UICoordinateSpaceP", "registerClass"]
 - !private ["So17UICoordinateSpaceP", "registerNib"]
@@ -2588,6 +2511,7 @@ depends-member:
 - !private ["So13UIDynamicItemP", "dequeueReusableSupplementaryViewOfKind"]
 - !private ["So13UIDynamicItemP", "elementKindSectionHeader"]
 - !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "isKeyWindow"]
 - !private ["So13UIDynamicItemP", "register"]
 - !private ["So13UIDynamicItemP", "registerClass"]
 - !private ["So13UIDynamicItemP", "registerNib"]
@@ -2653,7 +2577,6 @@ depends-member:
 - ["So18UIFocusEnvironmentP", "createUsersSection"]
 - ["So18UIFocusEnvironmentP", "currentUser"]
 - ["So18UIFocusEnvironmentP", "dataSource"]
-- !private ["So18UIFocusEnvironmentP", "debugDescription"]
 - ["So18UIFocusEnvironmentP", "deinit"]
 - !private ["So18UIFocusEnvironmentP", "delegate"]
 - ["So18UIFocusEnvironmentP", "deleteAccount"]
@@ -2665,6 +2588,7 @@ depends-member:
 - ["So18UIFocusEnvironmentP", "indexPathForPreferredFocusedView"]
 - ["So18UIFocusEnvironmentP", "indexPathForPreferredFocusedViewInCollectionView"]
 - ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "isKeyWindow"]
 - !private ["So18UIFocusEnvironmentP", "navigationBar"]
 - !private ["So18UIFocusEnvironmentP", "navigationController"]
 - !private ["So18UIFocusEnvironmentP", "navigationItem"]
@@ -2727,6 +2651,7 @@ depends-member:
 - !private ["So11UIFocusItemP", "dequeueReusableSupplementaryViewOfKind"]
 - !private ["So11UIFocusItemP", "elementKindSectionHeader"]
 - !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "isKeyWindow"]
 - !private ["So11UIFocusItemP", "register"]
 - !private ["So11UIFocusItemP", "registerClass"]
 - !private ["So11UIFocusItemP", "registerNib"]
@@ -2746,6 +2671,7 @@ depends-member:
 - !private ["So20UIFocusItemContainerP", "dequeueReusableSupplementaryViewOfKind"]
 - !private ["So20UIFocusItemContainerP", "elementKindSectionHeader"]
 - !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "isKeyWindow"]
 - !private ["So20UIFocusItemContainerP", "register"]
 - !private ["So20UIFocusItemContainerP", "registerClass"]
 - !private ["So20UIFocusItemContainerP", "registerNib"]
@@ -2781,6 +2707,7 @@ depends-member:
 - !private ["So24UILargeContentViewerItemP", "dequeueReusableSupplementaryViewOfKind"]
 - !private ["So24UILargeContentViewerItemP", "elementKindSectionHeader"]
 - !private ["So24UILargeContentViewerItemP", "init"]
+- !private ["So24UILargeContentViewerItemP", "isKeyWindow"]
 - !private ["So24UILargeContentViewerItemP", "register"]
 - !private ["So24UILargeContentViewerItemP", "registerClass"]
 - !private ["So24UILargeContentViewerItemP", "registerNib"]
@@ -2853,7 +2780,6 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "createUsersSection"]
 - ["So30UIPasteConfigurationSupportingP", "currentUser"]
 - ["So30UIPasteConfigurationSupportingP", "dataSource"]
-- !private ["So30UIPasteConfigurationSupportingP", "debugDescription"]
 - ["So30UIPasteConfigurationSupportingP", "deinit"]
 - !private ["So30UIPasteConfigurationSupportingP", "delegate"]
 - ["So30UIPasteConfigurationSupportingP", "deleteAccount"]
@@ -2865,7 +2791,7 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "indexPathForPreferredFocusedView"]
 - ["So30UIPasteConfigurationSupportingP", "indexPathForPreferredFocusedViewInCollectionView"]
 - ["So30UIPasteConfigurationSupportingP", "init"]
-- !private ["So30UIPasteConfigurationSupportingP", "keyWindow"]
+- !private ["So30UIPasteConfigurationSupportingP", "isKeyWindow"]
 - !private ["So30UIPasteConfigurationSupportingP", "navigationBar"]
 - !private ["So30UIPasteConfigurationSupportingP", "navigationController"]
 - !private ["So30UIPasteConfigurationSupportingP", "navigationItem"]
@@ -2918,6 +2844,7 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
 - ["So30UIPasteConfigurationSupportingP", "viewForZooming"]
 - ["So30UIPasteConfigurationSupportingP", "viewForZoomingInScrollView"]
+- !private ["So30UIPasteConfigurationSupportingP", "windows"]
 - !private ["So11UIResponderC", "Auth"]
 - !private ["So11UIResponderC", "AuthViewController"]
 - !private ["So11UIResponderC", "Bool"]
@@ -2976,7 +2903,6 @@ depends-member:
 - ["So11UIResponderC", "createUsersSection"]
 - ["So11UIResponderC", "currentUser"]
 - ["So11UIResponderC", "dataSource"]
-- !private ["So11UIResponderC", "debugDescription"]
 - !private ["So11UIResponderC", "delegate"]
 - ["So11UIResponderC", "deleteAccount"]
 - !private ["So11UIResponderC", "dequeueReusableSupplementaryView"]
@@ -2987,7 +2913,7 @@ depends-member:
 - ["So11UIResponderC", "indexPathForPreferredFocusedView"]
 - ["So11UIResponderC", "indexPathForPreferredFocusedViewInCollectionView"]
 - ["So11UIResponderC", "init"]
-- !private ["So11UIResponderC", "keyWindow"]
+- !private ["So11UIResponderC", "isKeyWindow"]
 - !private ["So11UIResponderC", "navigationBar"]
 - !private ["So11UIResponderC", "navigationController"]
 - !private ["So11UIResponderC", "navigationItem"]
@@ -3040,6 +2966,7 @@ depends-member:
 - ["So11UIResponderC", "viewDidLoad"]
 - ["So11UIResponderC", "viewForZooming"]
 - ["So11UIResponderC", "viewForZoomingInScrollView"]
+- !private ["So11UIResponderC", "windows"]
 - !private ["So30UIResponderStandardEditActionsP", "Auth"]
 - !private ["So30UIResponderStandardEditActionsP", "AuthViewController"]
 - !private ["So30UIResponderStandardEditActionsP", "Bool"]
@@ -3098,7 +3025,6 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "createUsersSection"]
 - ["So30UIResponderStandardEditActionsP", "currentUser"]
 - ["So30UIResponderStandardEditActionsP", "dataSource"]
-- !private ["So30UIResponderStandardEditActionsP", "debugDescription"]
 - ["So30UIResponderStandardEditActionsP", "deinit"]
 - !private ["So30UIResponderStandardEditActionsP", "delegate"]
 - ["So30UIResponderStandardEditActionsP", "deleteAccount"]
@@ -3110,7 +3036,7 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "indexPathForPreferredFocusedView"]
 - ["So30UIResponderStandardEditActionsP", "indexPathForPreferredFocusedViewInCollectionView"]
 - ["So30UIResponderStandardEditActionsP", "init"]
-- !private ["So30UIResponderStandardEditActionsP", "keyWindow"]
+- !private ["So30UIResponderStandardEditActionsP", "isKeyWindow"]
 - !private ["So30UIResponderStandardEditActionsP", "navigationBar"]
 - !private ["So30UIResponderStandardEditActionsP", "navigationController"]
 - !private ["So30UIResponderStandardEditActionsP", "navigationItem"]
@@ -3163,6 +3089,7 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
 - ["So30UIResponderStandardEditActionsP", "viewForZooming"]
 - ["So30UIResponderStandardEditActionsP", "viewForZoomingInScrollView"]
+- !private ["So30UIResponderStandardEditActionsP", "windows"]
 - ["So12UIScrollViewC", ""]
 - !private ["So12UIScrollViewC", "autoresizingMask"]
 - !private ["So12UIScrollViewC", "backgroundColor"]
@@ -3353,7 +3280,6 @@ depends-member:
 - !private ["So35UISpringLoadedInteractionSupportingP", "addTextField"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "autoresizingMask"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "backgroundColor"]
-- !private ["So35UISpringLoadedInteractionSupportingP", "debugDescription"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "delegate"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "dequeueReusableSupplementaryView"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "elementKindSectionHeader"]
@@ -3415,7 +3341,6 @@ depends-member:
 - ["So16UIStateRestoringP", "createUsersSection"]
 - ["So16UIStateRestoringP", "currentUser"]
 - ["So16UIStateRestoringP", "dataSource"]
-- !private ["So16UIStateRestoringP", "debugDescription"]
 - ["So16UIStateRestoringP", "deinit"]
 - ["So16UIStateRestoringP", "deleteAccount"]
 - !private ["So16UIStateRestoringP", "fatalError"]
@@ -3466,12 +3391,10 @@ depends-member:
 - ["So16UIStateRestoringP", "viewDidLoad"]
 - ["So16UIStateRestoringP", "viewForZooming"]
 - ["So16UIStateRestoringP", "viewForZoomingInScrollView"]
-- ["So18UITabBarControllerC", ""]
-- ["So18UITabBarControllerC", "init"]
-- ["So16UITabBarDelegateP", "init"]
 - !private ["So15UITextDraggableP", "text"]
 - !private ["So15UITextDroppableP", "text"]
 - !private ["So11UITextFieldC", "text"]
+- ["So19UITextFieldDelegateP", "init"]
 - !private ["So11UITextInputP", ""]
 - !private ["So11UITextInputP", "text"]
 - !private ["So17UITextInputTraitsP", ""]
@@ -3537,7 +3460,6 @@ depends-member:
 - ["So18UITraitEnvironmentP", "createUsersSection"]
 - ["So18UITraitEnvironmentP", "currentUser"]
 - ["So18UITraitEnvironmentP", "dataSource"]
-- !private ["So18UITraitEnvironmentP", "debugDescription"]
 - ["So18UITraitEnvironmentP", "deinit"]
 - !private ["So18UITraitEnvironmentP", "delegate"]
 - ["So18UITraitEnvironmentP", "deleteAccount"]
@@ -3549,6 +3471,7 @@ depends-member:
 - ["So18UITraitEnvironmentP", "indexPathForPreferredFocusedView"]
 - ["So18UITraitEnvironmentP", "indexPathForPreferredFocusedViewInCollectionView"]
 - ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "isKeyWindow"]
 - !private ["So18UITraitEnvironmentP", "navigationBar"]
 - !private ["So18UITraitEnvironmentP", "navigationController"]
 - !private ["So18UITraitEnvironmentP", "navigationItem"]
@@ -3657,7 +3580,6 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "createUsersSection"]
 - ["So23UIUserActivityRestoringP", "currentUser"]
 - ["So23UIUserActivityRestoringP", "dataSource"]
-- !private ["So23UIUserActivityRestoringP", "debugDescription"]
 - ["So23UIUserActivityRestoringP", "deinit"]
 - !private ["So23UIUserActivityRestoringP", "delegate"]
 - ["So23UIUserActivityRestoringP", "deleteAccount"]
@@ -3669,7 +3591,7 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "indexPathForPreferredFocusedView"]
 - ["So23UIUserActivityRestoringP", "indexPathForPreferredFocusedViewInCollectionView"]
 - ["So23UIUserActivityRestoringP", "init"]
-- !private ["So23UIUserActivityRestoringP", "keyWindow"]
+- !private ["So23UIUserActivityRestoringP", "isKeyWindow"]
 - !private ["So23UIUserActivityRestoringP", "navigationBar"]
 - !private ["So23UIUserActivityRestoringP", "navigationController"]
 - !private ["So23UIUserActivityRestoringP", "navigationItem"]
@@ -3722,6 +3644,7 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "viewDidLoad"]
 - ["So23UIUserActivityRestoringP", "viewForZooming"]
 - ["So23UIUserActivityRestoringP", "viewForZoomingInScrollView"]
+- !private ["So23UIUserActivityRestoringP", "windows"]
 - ["So6UIViewC", ""]
 - !private ["So6UIViewC", "addSubview"]
 - !private ["So6UIViewC", "autoresizingMask"]
@@ -3734,6 +3657,7 @@ depends-member:
 - !private ["So6UIViewC", "dequeueReusableSupplementaryViewOfKind"]
 - !private ["So6UIViewC", "elementKindSectionHeader"]
 - !private ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "isKeyWindow"]
 - !private ["So6UIViewC", "register"]
 - !private ["So6UIViewC", "registerClass"]
 - !private ["So6UIViewC", "registerNib"]
@@ -3794,7 +3718,6 @@ depends-member:
 - ["So16UIViewControllerC", "createUsersSection"]
 - ["So16UIViewControllerC", "currentUser"]
 - ["So16UIViewControllerC", "dataSource"]
-- !private ["So16UIViewControllerC", "debugDescription"]
 - ["So16UIViewControllerC", "deleteAccount"]
 - !private ["So16UIViewControllerC", "fatalError"]
 - !private ["So16UIViewControllerC", "hidesNavigationBarDuringPresentation"]
@@ -3848,79 +3771,27 @@ depends-member:
 - !private ["So37UIViewControllerAnimatedTransitioningP", "init"]
 - !private ["So37UIViewControllerAnimatedTransitioningP", "obscuresBackgroundDuringPresentation"]
 - !private ["So37UIViewControllerAnimatedTransitioningP", "searchBar"]
-- ["7SwiftUI29UIViewControllerRepresentableP", "Body"]
-- ["7SwiftUI29UIViewControllerRepresentableP", "Context"]
-- ["7SwiftUI29UIViewControllerRepresentableP", "Coordinator"]
-- ["7SwiftUI29UIViewControllerRepresentableP", "Default_Body"]
-- ["7SwiftUI29UIViewControllerRepresentableP", "Default_Coordinator"]
-- ["7SwiftUI29UIViewControllerRepresentableP", "Default_UIViewControllerType"]
-- ["7SwiftUI29UIViewControllerRepresentableP", "MainTabBarController"]
-- ["7SwiftUI29UIViewControllerRepresentableP", "UIViewControllerType"]
-- ["7SwiftUI29UIViewControllerRepresentableP", ""]
-- ["7SwiftUI29UIViewControllerRepresentableP", "_Default_Body"]
-- ["7SwiftUI29UIViewControllerRepresentableP", "_Default_Coordinator"]
-- ["7SwiftUI29UIViewControllerRepresentableP", "_Default_UIViewControllerType"]
-- ["7SwiftUI29UIViewControllerRepresentableP", "_identifiedViewTree"]
-- ["7SwiftUI29UIViewControllerRepresentableP", "_makeView"]
-- ["7SwiftUI29UIViewControllerRepresentableP", "_makeViewList"]
-- ["7SwiftUI29UIViewControllerRepresentableP", "_viewListCount"]
-- ["7SwiftUI29UIViewControllerRepresentableP", "body"]
-- ["7SwiftUI29UIViewControllerRepresentableP", "dismantleUIViewController"]
-- !private ["7SwiftUI29UIViewControllerRepresentableP", "edgesIgnoringSafeArea"]
-- !private ["7SwiftUI29UIViewControllerRepresentableP", "init"]
-- ["7SwiftUI29UIViewControllerRepresentableP", "makeCoordinator"]
-- ["7SwiftUI29UIViewControllerRepresentableP", "makeUIViewController"]
-- ["7SwiftUI29UIViewControllerRepresentableP", "updateUIViewController"]
-- !private ["7SwiftUI29UIViewControllerRepresentableP", "viewController"]
 - !private ["So37UIViewControllerTransitioningDelegateP", "hidesNavigationBarDuringPresentation"]
 - !private ["So37UIViewControllerTransitioningDelegateP", "init"]
 - !private ["So37UIViewControllerTransitioningDelegateP", "obscuresBackgroundDuringPresentation"]
 - !private ["So37UIViewControllerTransitioningDelegateP", "searchBar"]
+- !private ["So8UIWindowC", "isKeyWindow"]
 - !private ["So8UIWindowC", "rootViewController"]
 - !private ["5iChat8UserCellC", ""]
 - !private ["5iChat8UserCellC", "reuseId"]
-- ["7SwiftUI4ViewP", "Body"]
-- ["7SwiftUI4ViewP", "Context"]
-- ["7SwiftUI4ViewP", "Coordinator"]
-- ["7SwiftUI4ViewP", "Default_Body"]
-- ["7SwiftUI4ViewP", "Default_Coordinator"]
-- ["7SwiftUI4ViewP", "Default_UIViewControllerType"]
-- ["7SwiftUI4ViewP", "MainTabBarController"]
-- ["7SwiftUI4ViewP", "UIViewControllerType"]
-- ["7SwiftUI4ViewP", ""]
-- ["7SwiftUI4ViewP", "_Default_Body"]
-- ["7SwiftUI4ViewP", "_Default_Coordinator"]
-- ["7SwiftUI4ViewP", "_Default_UIViewControllerType"]
-- ["7SwiftUI4ViewP", "_identifiedViewTree"]
-- ["7SwiftUI4ViewP", "_makeView"]
-- ["7SwiftUI4ViewP", "_makeViewList"]
-- ["7SwiftUI4ViewP", "_viewListCount"]
 - !private ["7SwiftUI4ViewP", "addSubview"]
 - !private ["7SwiftUI4ViewP", "autoresizingMask"]
 - !private ["7SwiftUI4ViewP", "backgroundColor"]
-- ["7SwiftUI4ViewP", "body"]
 - !private ["7SwiftUI4ViewP", "bounds"]
 - !private ["7SwiftUI4ViewP", "delegate"]
-- ["7SwiftUI4ViewP", "dismantleUIViewController"]
-- !private ["7SwiftUI4ViewP", "edgesIgnoringSafeArea"]
 - !private ["7SwiftUI4ViewP", "fixed"]
-- !private ["7SwiftUI4ViewP", "init"]
 - !private ["7SwiftUI4ViewP", "itemIdentifier"]
 - !private ["7SwiftUI4ViewP", "mainWhite"]
-- ["7SwiftUI4ViewP", "makeCoordinator"]
-- ["7SwiftUI4ViewP", "makeUIViewController"]
 - !private ["7SwiftUI4ViewP", "red"]
 - !private ["7SwiftUI4ViewP", "register"]
 - !private ["7SwiftUI4ViewP", "snapshot"]
 - !private ["7SwiftUI4ViewP", "systemFont"]
-- ["7SwiftUI4ViewP", "updateUIViewController"]
 - !private ["7SwiftUI4ViewP", "users"]
-- !private ["7SwiftUI4ViewP", "viewController"]
-- !private ["7SwiftUI11ViewBuilderV", "buildBlock"]
-- !private ["7SwiftUI11ViewBuilderV", "buildExpression"]
-- !private ["7SwiftUI11ViewBuilderV", "buildFinalResult"]
-- !private ["7SwiftUI11ViewBuilderV", "buildIf"]
-- !private ["7SwiftUI11ViewBuilderV", "buildOptional"]
 - !private ["So12UIFontWeighta", "light"]
 - !private ["s14_ArrayProtocolP", "callAsFunction"]
 - !private ["s14_ArrayProtocolP", "count"]
@@ -4013,7 +3884,6 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "createUsersSection"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "currentUser"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "dataSource"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "debugDescription"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "deleteAccount"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "dequeueReusableSupplementaryView"]
@@ -4028,12 +3898,12 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "horizontal"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "indexPathForPreferredFocusedView"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "indexPathForPreferredFocusedViewInCollectionView"]
-- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "interGroupSpacing"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "interItemSpacing"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "interSectionSpacing"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isKeyWindow"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "itemIdentifier"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "keyWindow"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "label"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "leftBarButtonItem"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "mainWhite"]
@@ -4096,6 +3966,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "viewForZooming"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "viewForZoomingInScrollView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "windows"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Auth"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "AuthViewController"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CGFloat"]
@@ -4148,7 +4019,6 @@ depends-member:
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "createUsersSection"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "currentUser"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dataSource"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "debugDescription"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "delegate"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "deleteAccount"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dequeueReusableSupplementaryView"]
@@ -4163,12 +4033,12 @@ depends-member:
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "horizontal"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "indexPathForPreferredFocusedView"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "indexPathForPreferredFocusedViewInCollectionView"]
-- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "interGroupSpacing"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "interItemSpacing"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "interSectionSpacing"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isKeyWindow"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "itemIdentifier"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "keyWindow"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "label"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "leftBarButtonItem"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "mainWhite"]
@@ -4231,6 +4101,7 @@ depends-member:
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewForZooming"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewForZoomingInScrollView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "windows"]
 - !private ["s21_ObjectiveCBridgeableP", ""]
 - !private ["s21_ObjectiveCBridgeableP", "_ObjectiveCType"]
 - !private ["s21_ObjectiveCBridgeableP", "_bridgeToObjectiveC"]
@@ -4262,18 +4133,6 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "systemFont"]
 - !private ["s21_ObjectiveCBridgeableP", "uppercased"]
 - !private ["s21_ObjectiveCBridgeableP", "users"]
-- ["7SwiftUI16_PreviewProviderP", "ContainerView"]
-- ["7SwiftUI16_PreviewProviderP", "Default_Previews"]
-- ["7SwiftUI16_PreviewProviderP", "MainTabBarController"]
-- ["7SwiftUI16_PreviewProviderP", "Previews"]
-- ["7SwiftUI16_PreviewProviderP", "UIViewControllerRepresentable"]
-- ["7SwiftUI16_PreviewProviderP", ""]
-- ["7SwiftUI16_PreviewProviderP", "_Default_Previews"]
-- ["7SwiftUI16_PreviewProviderP", "_platform"]
-- ["7SwiftUI16_PreviewProviderP", "_previews"]
-- ["7SwiftUI16_PreviewProviderP", "platform"]
-- ["7SwiftUI16_PreviewProviderP", "previews"]
-- !private ["7SwiftUI16_PreviewProviderP", "viewController"]
 - !private ["s20_SwiftNewtypeWrapperP", "font"]
 - !private ["s20_SwiftNewtypeWrapperP", "light"]
 - !private ["5UIKit01_A23NumericRawRepresentableP", "light"]
@@ -4288,6 +4147,7 @@ depends-member:
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "dequeueReusableSupplementaryView"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "elementKindSectionHeader"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "isKeyWindow"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "register"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "reuseId"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "rootViewController"]
@@ -4295,7 +4155,6 @@ depends-member:
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "text"]
 depends-nominal:
 - !private "s18AdditiveArithmeticP"
-- "7SwiftUI10AnimatableP"
 - "Sa"
 - !private "So7FIRAuthC"
 - !private "5iChat22AuthNavigatingDelegateP"
@@ -4308,7 +4167,6 @@ depends-nominal:
 - "s12CaseIterableP"
 - "Sl"
 - "SL"
-- "5iChat28PeopleViewControllerProviderV09ContainerC0V"
 - "10Foundation15ContiguousBytesP"
 - "s28CustomDebugStringConvertibleP"
 - "s17CustomReflectableP"
@@ -4338,7 +4196,6 @@ depends-nominal:
 - !private "5iChat15ListenerServiceC"
 - "s25LosslessStringConvertibleP"
 - "5iChat5MUserV"
-- "5iChat20MainTabBarControllerC"
 - !private "s10MirrorPathP"
 - "SM"
 - "10Foundation19MutableDataProtocolP"
@@ -4368,8 +4225,6 @@ depends-nominal:
 - !private "s9OptionSetP"
 - !private "Sq"
 - "5iChat20PeopleViewControllerC"
-- "5iChat28PeopleViewControllerProviderV"
-- "7SwiftUI15PreviewProviderP"
 - !private "5iChat21ProfileViewControllerC"
 - "Sk"
 - "Sm"
@@ -4380,7 +4235,6 @@ depends-nominal:
 - !private "5iChat13SectionHeaderC"
 - !private "5iChat19SelfConfiguringCellP"
 - "ST"
-- !private "7SwiftUI4EdgeO3SetV"
 - !private "s10SetAlgebraP"
 - !private "s13SignedNumericP"
 - !private "So14UIControlStateV"
@@ -4443,11 +4297,10 @@ depends-nominal:
 - !private "So18UISearchControllerC"
 - !private "So35UISpringLoadedInteractionSupportingP"
 - "So16UIStateRestoringP"
-- "So18UITabBarControllerC"
-- "So16UITabBarDelegateP"
 - !private "So15UITextDraggableP"
 - !private "So15UITextDroppableP"
 - !private "So11UITextFieldC"
+- "So19UITextFieldDelegateP"
 - !private "So11UITextInputP"
 - !private "So17UITextInputTraitsP"
 - !private "So34UITextPasteConfigurationSupportingP"
@@ -4456,12 +4309,10 @@ depends-nominal:
 - "So6UIViewC"
 - "So16UIViewControllerC"
 - !private "So37UIViewControllerAnimatedTransitioningP"
-- "7SwiftUI29UIViewControllerRepresentableP"
 - !private "So37UIViewControllerTransitioningDelegateP"
 - !private "So8UIWindowC"
 - !private "5iChat8UserCellC"
-- "7SwiftUI4ViewP"
-- !private "7SwiftUI11ViewBuilderV"
+- !private "7SwiftUI4ViewP"
 - !private "So12UIFontWeighta"
 - "s14_ArrayProtocolP"
 - !private "s30_CustomPlaygroundQuickLookableP"
@@ -4479,7 +4330,6 @@ depends-nominal:
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "10Foundation37_KeyValueCodingAndObservingPublishingP"
 - "s21_ObjectiveCBridgeableP"
-- "7SwiftUI16_PreviewProviderP"
 - !private "s20_SwiftNewtypeWrapperP"
 - !private "5UIKit01_A23NumericRawRepresentableP"
 - !private "So13CKRecordValueP"
@@ -4700,4 +4550,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "45ab97b50a4de73b41c55ffb0afc6cf1"
+interface-hash: "5b8bba9f9014839e9867ecf030f8d30d"

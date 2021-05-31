@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
 options: "7f4930544f1036604d270f1c9ff3c218"
-build_time: [1622458746, 319184000]
+build_time: [1622482329, 234570000]
 inputs:
   "/Users/alexandr/Desktop/iChat/Pods/MessageKit/Sources/Models/AccessoryPosition.swift": [1621871751, 73601281]
   "/Users/alexandr/Desktop/iChat/Pods/MessageKit/Sources/Protocols/AudioItem.swift": [1621871751, 78474391]

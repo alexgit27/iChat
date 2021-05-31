@@ -259,7 +259,6 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "white"]
 - !private ["s17CustomReflectableP", "addSubview"]
 - !private ["s17CustomReflectableP", "backgroundColor"]
-- !private ["s17CustomReflectableP", "bottomAnchor"]
 - !private ["s17CustomReflectableP", "centerXAnchor"]
 - !private ["s17CustomReflectableP", "leadingAnchor"]
 - !private ["s17CustomReflectableP", "topAnchor"]
@@ -307,7 +306,6 @@ depends-member:
 - ["s23CustomStringConvertibleP", "white"]
 - !private ["Se", "addSubview"]
 - !private ["Se", "backgroundColor"]
-- !private ["Se", "bottomAnchor"]
 - !private ["Se", "centerXAnchor"]
 - !private ["Se", "leadingAnchor"]
 - !private ["Se", "topAnchor"]
@@ -315,7 +313,6 @@ depends-member:
 - !private ["Se", "white"]
 - !private ["SE", "addSubview"]
 - !private ["SE", "backgroundColor"]
-- !private ["SE", "bottomAnchor"]
 - !private ["SE", "centerXAnchor"]
 - !private ["SE", "leadingAnchor"]
 - !private ["SE", "topAnchor"]
@@ -375,7 +372,6 @@ depends-member:
 - !private ["s27ExpressibleByIntegerLiteralP", "init"]
 - !private ["s23ExpressibleByNilLiteralP", "addSubview"]
 - !private ["s23ExpressibleByNilLiteralP", "backgroundColor"]
-- !private ["s23ExpressibleByNilLiteralP", "bottomAnchor"]
 - !private ["s23ExpressibleByNilLiteralP", "centerXAnchor"]
 - !private ["s23ExpressibleByNilLiteralP", "leadingAnchor"]
 - !private ["s23ExpressibleByNilLiteralP", "topAnchor"]
@@ -386,7 +382,6 @@ depends-member:
 - ["s33ExpressibleByUnicodeScalarLiteralP", ""]
 - !private ["7SwiftUI7GestureP", "addSubview"]
 - !private ["7SwiftUI7GestureP", "backgroundColor"]
-- !private ["7SwiftUI7GestureP", "bottomAnchor"]
 - !private ["7SwiftUI7GestureP", "centerXAnchor"]
 - !private ["7SwiftUI7GestureP", "leadingAnchor"]
 - !private ["7SwiftUI7GestureP", "topAnchor"]
@@ -681,7 +676,6 @@ depends-member:
 - !private ["s9OptionSetP", "touchUpInside"]
 - !private ["Sq", "addSubview"]
 - !private ["Sq", "backgroundColor"]
-- !private ["Sq", "bottomAnchor"]
 - !private ["Sq", "centerXAnchor"]
 - !private ["Sq", "leadingAnchor"]
 - !private ["Sq", "topAnchor"]
@@ -1041,7 +1035,6 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "addTarget"]
 - ["So35UISpringLoadedInteractionSupportingP", "init"]
-- !private ["So11UIStackViewC", "bottomAnchor"]
 - !private ["So11UIStackViewC", "init"]
 - !private ["So11UIStackViewC", "leadingAnchor"]
 - !private ["So11UIStackViewC", "topAnchor"]
@@ -1232,7 +1225,6 @@ depends-member:
 - !private ["7SwiftUI4ViewP", "addSubview"]
 - !private ["7SwiftUI4ViewP", "backgroundColor"]
 - ["7SwiftUI4ViewP", "body"]
-- !private ["7SwiftUI4ViewP", "bottomAnchor"]
 - !private ["7SwiftUI4ViewP", "centerXAnchor"]
 - ["7SwiftUI4ViewP", "dismantleUIViewController"]
 - !private ["7SwiftUI4ViewP", "edgesIgnoringSafeArea"]
@@ -1252,7 +1244,7 @@ depends-member:
 - !private ["7SwiftUI11ViewBuilderV", "buildOptional"]
 - ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
 - ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
-- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - ["s26_ExpressibleByColorLiteralP", "buttonDark"]
@@ -1341,7 +1333,6 @@ depends-member:
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "white"]
 - !private ["s21_ObjectiveCBridgeableP", "addSubview"]
 - !private ["s21_ObjectiveCBridgeableP", "backgroundColor"]
-- !private ["s21_ObjectiveCBridgeableP", "bottomAnchor"]
 - !private ["s21_ObjectiveCBridgeableP", "centerXAnchor"]
 - !private ["s21_ObjectiveCBridgeableP", "leadingAnchor"]
 - !private ["s21_ObjectiveCBridgeableP", "topAnchor"]
@@ -1457,7 +1448,7 @@ depends-nominal:
 - !private "7SwiftUI11ViewBuilderV"
 - "s35_ExpressibleByBuiltinBooleanLiteralP"
 - "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
-- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
 - "s34_ExpressibleByBuiltinStringLiteralP"
 - "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - "s26_ExpressibleByColorLiteralP"

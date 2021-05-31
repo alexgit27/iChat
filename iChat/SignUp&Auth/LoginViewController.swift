@@ -34,6 +34,10 @@ class LoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        keyboardWillShow()
+        keyboardWillHide()
+        configureTF()
+        
         view.backgroundColor = .white
         setupConstraints()
         
@@ -48,7 +52,7 @@ class LoginViewController: UIViewController {
     AuthService.shared.login(email: emailTextField.text, password: passwordTextField.text) { (result) in
         switch result {
         case .success(let user):
-            self.showAlertController(with: "Success!", and: "You succes sign in!", functionFrom: "loginButtonTapped") {
+//            self.showAlertController(with: "Success!", and: "You succes sign in!") {
                 FirestoreService.shared.getUserData(user: user) { (result) in
                 switch result {
                 case .success(let mUser):
@@ -58,9 +62,10 @@ class LoginViewController: UIViewController {
                 case .failure(_):
                     self.present(SetupProfileViewController(currentUser: user), animated: true, completion: nil)
                 }
-            }}
+//            }
+            }
         case .failure(let error):
-            self.showAlertController(with: "Error!", and: error.localizedDescription, functionFrom: "loginButtonTapped case 2")
+            self.showAlertController(with: "Error!", and: error.localizedDescription)
             }
         }
     }
@@ -70,6 +75,11 @@ class LoginViewController: UIViewController {
             self.delegate?.toSignUpVC()
         })
      }
+    
+    deinit {
+        NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillShowNotification, object: nil)
+        NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillHideNotification, object: nil)
+    }
 }
 
 // MARK: - Setup Constraints
@@ -93,15 +103,13 @@ extension LoginViewController {
         view.addSubview(bottomStackView)
         
         NSLayoutConstraint.activate([
-//            welcomeLabel.topAnchor.constraint(lessThanOrEqualTo: view.topAnchor, constant: 160),
-            welcomeLabel.topAnchor.constraint(equalTo: view.topAnchor, constant: 40),
+            welcomeLabel.topAnchor.constraint(lessThanOrEqualTo: view.topAnchor, constant: 100),
             welcomeLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor)
         ])
         
         
         NSLayoutConstraint.activate([
-            stackView.topAnchor.constraint(lessThanOrEqualTo: welcomeLabel.bottomAnchor, constant: 70),
-//            stackView.topAnchor.constraint(equalTo: welcomeLabel.bottomAnchor, constant: 100),
+            stackView.topAnchor.constraint(lessThanOrEqualTo: welcomeLabel.bottomAnchor, constant: 100),
             stackView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 40),
             stackView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -40)
         ])
@@ -110,8 +118,65 @@ extension LoginViewController {
             bottomStackView.topAnchor.constraint(equalTo: stackView.bottomAnchor, constant: 20),
             bottomStackView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 40),
             bottomStackView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -40),
-            bottomStackView.bottomAnchor.constraint(lessThanOrEqualTo: view.bottomAnchor, constant: -20)
+            bottomStackView.bottomAnchor.constraint(lessThanOrEqualTo: view.bottomAnchor, constant: -40)
         ])
+    }
+}
+
+// MARK: - Notification Center
+extension LoginViewController {
+   private func keyboardWillShow() {
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShowHandler), name: UIResponder.keyboardWillShowNotification, object: nil)
+        
+        let gestureResignFirstResponder = UITapGestureRecognizer(target: self, action: #selector(gestureResignFirstResponderHandler))
+        view.addGestureRecognizer(gestureResignFirstResponder)
+    }
+    
+   private func keyboardWillHide() {
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHideHandler), name: UIResponder.keyboardWillHideNotification, object: nil)
+    }
+    
+    @objc private func gestureResignFirstResponderHandler() {
+        if emailTextField.isFirstResponder {
+            emailTextField.resignFirstResponder()
+        } else {
+            passwordTextField.resignFirstResponder()
+        }
+        view.frame.origin.y = 0
+    }
+    
+    @objc private func keyboardWillShowHandler(notification: Notification) {
+        guard let userInfo = notification.userInfo else { return }
+        let kbFrameSize = (userInfo[UIResponder.keyboardFrameEndUserInfoKey] as! NSValue).cgRectValue
+//        view.frame.origin.y = -kbFrameSize.height + 120
+        view.frame.origin.y = -kbFrameSize.height / 2
+    }
+    
+    @objc private func keyboardWillHideHandler() {
+        view.frame.origin.y = 0
+    }
+}
+
+// MARK: - Setup TextField
+extension LoginViewController: UITextFieldDelegate {
+    private func configureTF() {
+        emailTextField.delegate = self
+        passwordTextField.delegate = self
+        
+        emailTextField.tag = 1
+        passwordTextField.tag = 2
+        
+        keyboardWillShow()
+        keyboardWillHide()
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        if let nextField = self.view.viewWithTag(textField.tag + 1) as? UITextField {
+            nextField.becomeFirstResponder()
+        } else {
+            textField.resignFirstResponder()
+        }
+        return false
     }
 }
 

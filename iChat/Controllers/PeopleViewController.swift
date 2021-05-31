@@ -49,14 +49,15 @@ class PeopleViewController: UIViewController {
         navigationItem.leftBarButtonItem?.setTitleTextAttributes([NSAttributedString.Key.font: UIFont.systemFont(ofSize: 14)], for: .normal)
         navigationItem.leftBarButtonItem?.tintColor = .red
         
-        usersListener = ListenerService.shared.usersObserve(users: users) { (result) in
+        usersListener = ListenerService.shared.usersObserve(users: users) { [weak self] (result) in
+            guard let self = self else { return }
             switch result {
             case .success(let users):
                 self.users = users
                 self.reloadData(with: nil)
             case .failure(let error):
                 // HERE!
-//                self.showAlertController(with: "Error!", and: error.localizedDescription, functionFrom: "viewDidLoad")
+                self.showAlertController(with: "Error!", and: error.localizedDescription)
             print("")
             }
         }
@@ -88,28 +89,28 @@ extension PeopleViewController {
     // MARK: - Bar Button Item Functions
 extension PeopleViewController {
     @objc private func signOut() {
-        let alertController = UIAlertController(title: nil, message: "Are u sure u want to Log Out?", preferredStyle: .alert)
-        let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
-        let okAction = UIAlertAction(title: "Sign Out", style: .default) { _ in
+        let alertController = UIAlertController(title: nil, message: "Вы хотите выйти?", preferredStyle: .alert)
+        let cancelAction = UIAlertAction(title: "Отмена", style: .cancel, handler: nil)
+        let okAction = UIAlertAction(title: "Выйти", style: .default) { _ in
             do {
                 try Auth.auth().signOut()
-                UIApplication.shared.keyWindow?.rootViewController = AuthViewController()
+                  UIApplication.shared.windows.filter {$0.isKeyWindow}.first?.rootViewController = AuthViewController()
             } catch {
                 print("Cannot sign out \(error.localizedDescription)")
             }
         }
-        print("Debug Description UIAertController: \(alertController.debugDescription)")
         alertController.addAction(cancelAction)
         alertController.addAction(okAction)
         present(alertController, animated: true, completion: nil)
     }
     
     @objc private func deleteAccount() {
-            let passwordController = UIAlertController(title: nil, message: "Input Password!", preferredStyle: .alert)
-            let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
-            let okAction = UIAlertAction(title: "Delete", style: .default) { _ in
+            let passwordController = UIAlertController(title: nil, message: "Введите пароль!", preferredStyle: .alert)
+            let cancelAction = UIAlertAction(title: "Отмена", style: .cancel, handler: nil)
+            let okAction = UIAlertAction(title: "Удалить", style: .default) { [weak self] _ in
+                guard let self = self else { return }
                 guard let password = passwordController.textFields?.first?.text, password != "" else {
-                    self.showAlertController(with: "Error!", and: "Введите пароль")
+                    self.showAlertController(with: "Ошибка!", and: "Введите пароль")
                     return
                 }
                 Auth.auth().signIn(withEmail: self.currentUser.email, password: password) { (_, error) in
@@ -120,7 +121,8 @@ extension PeopleViewController {
                     FirestoreService.shared.deletUser(userPassword: (passwordController.textFields?.first?.text)!) { (result) in
                         switch result {
                         case .success():
-                            UIApplication.shared.keyWindow?.rootViewController = AuthViewController()
+//                            UIApplication.shared.keyWindow?.rootViewController = AuthViewController()
+                            UIApplication.shared.windows.filter {$0.isKeyWindow}.first?.rootViewController = AuthViewController()
                         case .failure(let error):
                             print(error.localizedDescription)
                         }
@@ -156,7 +158,8 @@ extension PeopleViewController: UISearchBarDelegate {
 // MARK: - Data Source
 extension PeopleViewController {
     private func createDataSource() {
-        dataSource = UICollectionViewDiffableDataSource(collectionView: collectionView, cellProvider: { (collectionView, indexPath, user) -> UICollectionViewCell? in
+        dataSource = UICollectionViewDiffableDataSource(collectionView: collectionView, cellProvider: { [weak self] (collectionView, indexPath, user) -> UICollectionViewCell? in
+            guard let self = self else { return nil }
             guard let section = Section(rawValue: indexPath.section) else { fatalError("Unknown section") }
             
             switch section {
@@ -165,7 +168,8 @@ extension PeopleViewController {
             }
         })
         
-        dataSource?.supplementaryViewProvider = {(collectionView, kind, indexPath) in
+        dataSource?.supplementaryViewProvider = { [weak self](collectionView, kind, indexPath) in
+            guard let self = self else { return nil}
             guard let sectionHeader = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: SectionHeader.reuseId, for: indexPath) as? SectionHeader else {
                 fatalError("Cann't create new section header")
             }
@@ -192,7 +196,8 @@ extension PeopleViewController {
 // MARK: - Setup Layout
 extension PeopleViewController {
     private func createCompositionalLayout() -> UICollectionViewLayout {
-        let layout = UICollectionViewCompositionalLayout { (sectionIndex, layoutEnvironment) -> NSCollectionLayoutSection? in
+        let layout = UICollectionViewCompositionalLayout { [weak self] (sectionIndex, layoutEnvironment) -> NSCollectionLayoutSection? in
+            guard let self = self else { return nil }
           
             guard let section = Section(rawValue: sectionIndex) else { fatalError("Unknown section") }
             
@@ -242,22 +247,21 @@ extension PeopleViewController: UICollectionViewDelegate {
 }
 
 // MARK: - SwiftUI
-import SwiftUI
-
-struct PeopleViewControllerProvider: PreviewProvider {
-    static var previews: some View {
-        ContainerView().edgesIgnoringSafeArea(.all)
-    }
-    
-    struct ContainerView: UIViewControllerRepresentable {
-        let viewController = MainTabBarController()
-        
-        func makeUIViewController(context: Context) -> MainTabBarController {
-            return viewController
-        }
-        
-        func updateUIViewController(_ uiViewController: PeopleViewControllerProvider.ContainerView.UIViewControllerType, context: UIViewControllerRepresentableContext<PeopleViewControllerProvider.ContainerView>) {
-            
-        }
-    }
-}
+//import SwiftUI
+//
+//struct PeopleViewControllerProvider: PreviewProvider {
+//    static var previews: some View {
+//        ContainerView().edgesIgnoringSafeArea(.all)
+//    }
+//    
+//    struct ContainerView: UIViewControllerRepresentable {
+//        let viewController = MainTabBarController()
+//        
+//        func makeUIViewController(context: Context) -> MainTabBarController {
+//            return viewController
+//        }
+//        
+//        func updateUIViewController(_ uiViewController: PeopleViewControllerProvider.ContainerView.UIViewControllerType, context: UIViewControllerRepresentableContext<PeopleViewControllerProvider.ContainerView>) {
+//        }
+//    }
+//}

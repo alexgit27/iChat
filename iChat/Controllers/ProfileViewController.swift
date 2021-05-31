@@ -25,12 +25,14 @@ class ProfileViewController: UIViewController {
         super.init(nibName: nil, bundle: nil)
     }
     
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
+  
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        keyboardWillShow()
+        keyboardWillHide()
+        configureTF()
         
         setupConstraints()
         customizeElements()
@@ -62,10 +64,6 @@ class ProfileViewController: UIViewController {
                 self.myTextField.text = ""
             } else {
         self.dismiss(animated: true) {
-//            FirestoreService.shared.chekRequest(receiverUser: self.user) { (condition) in
-//                if condition {
-//                    UIApplication.getTopViewController()?.showAlertController(with: "U can't send message", and: "Message was sended before!")
-//                } else {
             FirestoreService.shared.createWaitingChat(message: message, receiver: self.user) { (result) in
                 switch result {
                 case .success():
@@ -86,7 +84,13 @@ class ProfileViewController: UIViewController {
 }
 }
 
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     deinit {
+        NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillShowNotification, object: nil)
+        NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillHideNotification, object: nil)
         print("ProfileViewController")
     }
 }
@@ -132,6 +136,51 @@ extension ProfileViewController {
             myTextField.trailingAnchor.constraint(equalTo: containerView.trailingAnchor, constant: -24),
             myTextField.heightAnchor.constraint(equalToConstant: 48)
         ])
+    }
+}
+
+extension ProfileViewController {
+    func keyboardWillShow() {
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShowHandler), name: UIResponder.keyboardWillShowNotification, object: nil)
+        let gestureResignFirstResponder = UITapGestureRecognizer(target: self, action: #selector(gestureResignFirstResponderHandler))
+        view.addGestureRecognizer(gestureResignFirstResponder)
+    }
+    
+   private func keyboardWillHide() {
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHideHandler), name: UIResponder.keyboardWillHideNotification, object: nil)
+    }
+    
+    @objc private func gestureResignFirstResponderHandler() {
+        myTextField.resignFirstResponder()
+        view.frame.origin.y = 0
+    }
+    
+    @objc private func keyboardWillShowHandler(notification: Notification) {
+        guard let userInfo = notification.userInfo else { return }
+        let kbFrameSize = (userInfo[UIResponder.keyboardFrameEndUserInfoKey] as! NSValue).cgRectValue
+            view.frame.origin.y = -kbFrameSize.height + 60
+    }
+    
+    
+    
+    @objc private func keyboardWillHideHandler() {
+        view.frame.origin.y = 0
+    }
+    
+}
+
+// MARK: - Setup TextField
+extension ProfileViewController: UITextFieldDelegate {
+    private func configureTF() {
+        myTextField.delegate = self
+        
+        keyboardWillShow()
+        keyboardWillHide()
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
     }
 }
 

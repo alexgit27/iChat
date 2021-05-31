@@ -52,21 +52,15 @@ extension AuthViewController {
         let emailView = ButtonFormView(label: emailLabel, button: emailButton)
         let loginView = ButtonFormView(label: alreadyOnboardLabel, button: loginButton)
         
-        let stackView = UIStackView(arrangedSubviews: [emailView, loginView], axis: .vertical, spacing: 40)
-//        let stackView = UIStackView(arrangedSubviews: [googleView, emailView, loginView])
+        let stackView = UIStackView(arrangedSubviews: [emailView, loginView], axis: .vertical, spacing: 60)
         stackView.translatesAutoresizingMaskIntoConstraints = false
-//        stackView.backgroundColor = .orange
-//        stackView.axis = .vertical
-//        stackView.spacing = 40
         
         logoImageView.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(logoImageView)
         view.addSubview(stackView)
-//        stackView.distribution = .fillProportionally
         
         NSLayoutConstraint.activate([
-//            logoImageView.topAnchor.constraint(equalTo: view.topAnchor, constant: 100),
-            logoImageView.topAnchor.constraint(lessThanOrEqualTo: view.topAnchor, constant: 160),
+            logoImageView.topAnchor.constraint(greaterThanOrEqualTo: view.topAnchor, constant: 130),
             logoImageView.centerXAnchor.constraint(equalTo: view.centerXAnchor)
         ])
         
@@ -75,7 +69,6 @@ extension AuthViewController {
             stackView.topAnchor.constraint(equalTo: logoImageView.bottomAnchor, constant: 100),
             stackView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 40),
             stackView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -40),
-            stackView.bottomAnchor.constraint(lessThanOrEqualTo: view.bottomAnchor, constant: -40)
         ])
     }
 }

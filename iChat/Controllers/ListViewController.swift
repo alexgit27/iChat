@@ -53,7 +53,8 @@ class ListViewController: UIViewController {
         createDataSource()
         reloadData()
         
-        waitingChatsListener = ListenerService.shared.waitingChatsObserve(chats: waitingChats, completion: { (result) in
+        waitingChatsListener = ListenerService.shared.waitingChatsObserve(chats: waitingChats, completion: { [weak self] (result) in
+            guard let self = self else { return }
             switch result {
             case .success(let chats):
                 if self.waitingChats != [], self.waitingChats.count <= chats.count {
@@ -64,17 +65,21 @@ class ListViewController: UIViewController {
                 self.waitingChats = chats
                 self.reloadData()
             case .failure(let error):
-                self.showAlertController(with: "Error", and: error.localizedDescription)
+//                self.showAlertController(with: "Error", and: error.localizedDescription, functionFrom: #function)
+                print(error.localizedDescription)
             }
         })
         
-        activeChatsListener = ListenerService.shared.activeChatsObserve(chats: activeChats, completion: { (result) in
+        activeChatsListener = ListenerService.shared.activeChatsObserve(chats: activeChats, completion: { [weak self] (result) in
+            guard let self = self else { return }
             switch result {
             case .success(let chats):
                 self.activeChats = chats
                 self.reloadData()
             case .failure(let error):
-               self.showAlertController(with: "Error", and: error.localizedDescription)
+//                self.showAlertController(with: "Error", and: error.localizedDescription)
+                // Attempt to present alert controller
+                print(error.localizedDescription)
             }
         })
     }
@@ -86,6 +91,8 @@ class ListViewController: UIViewController {
     deinit {
         waitingChatsListener?.remove()
         activeChatsListener?.remove()
+        
+        print("ListViewController")
     }
 }
 
@@ -169,7 +176,8 @@ func removeWaitingChat(chat: MChat) {
     FirestoreService.shared.deleteWaitingChat(chat: chat) { (result) in
         switch result {
         case .success():
-            self.showAlertController(with: "Success!", and: "Char was deleted.")
+//            self.showAlertController(with: "Success!", and: "Char was deleted.")
+            break
         case .failure(let error):
             self.showAlertController(with: "Error", and: error.localizedDescription)
         }
@@ -179,9 +187,9 @@ func removeWaitingChat(chat: MChat) {
 func moveChatToActive(chat: MChat) {
     FirestoreService.shared.changeToActive(chat: chat) { (result) in
         switch result {
-        
         case .success():
-            self.showAlertController(with: "Success", and: "" )
+//            self.showAlertController(with: "Success", and: "")
+        break
         case .failure(let error):
             self.showAlertController(with: "Error", and: error.localizedDescription)
         }
@@ -270,22 +278,21 @@ extension ListViewController: UISearchBarDelegate {
 }
 
 // MARK: - SwiftUI
-import SwiftUI
-
-struct ListViewControllerProvider: PreviewProvider {
-    static var previews: some View {
-        ContainerView().edgesIgnoringSafeArea(.all)
-    }
-    
-    struct ContainerView: UIViewControllerRepresentable {
-        let viewController = MainTabBarController()
-        
-        func makeUIViewController(context: Context) -> MainTabBarController {
-            return viewController
-        }
-        
-        func updateUIViewController(_ uiViewController: ListViewControllerProvider.ContainerView.UIViewControllerType, context: UIViewControllerRepresentableContext<ListViewControllerProvider.ContainerView>) {
-            
-        }
-    }
-}
+//import SwiftUI
+//
+//struct ListViewControllerProvider: PreviewProvider {
+//    static var previews: some View {
+//        ContainerView().edgesIgnoringSafeArea(.all)
+//    }
+//
+//    struct ContainerView: UIViewControllerRepresentable {
+//        let viewController = MainTabBarController()
+//
+//        func makeUIViewController(context: Context) -> MainTabBarController {
+//            return viewController
+//        }
+//
+//        func updateUIViewController(_ uiViewController: ListViewControllerProvider.ContainerView.UIViewControllerType, context: UIViewControllerRepresentableContext<ListViewControllerProvider.ContainerView>) {
+//        }
+//    }
+//}

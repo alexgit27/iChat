@@ -58,7 +58,6 @@ depends-top-level:
 - !private "userName"
 - !private "viewController"
 depends-member:
-- ["s18AdditiveArithmeticP", ""]
 - ["7SwiftUI10AnimatableP", ""]
 - !private ["7SwiftUI10AnimatableP", "init"]
 - ["SK", ""]
@@ -322,9 +321,7 @@ depends-member:
 - !private ["s25ExpressibleByArrayLiteralP", "all"]
 - !private ["s25ExpressibleByArrayLiteralP", "init"]
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
-- ["s25ExpressibleByFloatLiteralP", ""]
 - !private ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
-- ["s27ExpressibleByIntegerLiteralP", ""]
 - !private ["s27ExpressibleByIntegerLiteralP", "init"]
 - ["s23ExpressibleByNilLiteralP", "laoSangamMN20"]
 - !private ["s23ExpressibleByNilLiteralP", "red"]
@@ -332,7 +329,6 @@ depends-member:
 - ["s32ExpressibleByStringInterpolationP", ""]
 - ["s26ExpressibleByStringLiteralP", ""]
 - ["s33ExpressibleByUnicodeScalarLiteralP", ""]
-- ["SF", ""]
 - ["7SwiftUI7GestureP", "laoSangamMN20"]
 - !private ["7SwiftUI7GestureP", "red"]
 - !private ["7SwiftUI7GestureP", "white"]
@@ -565,7 +561,6 @@ depends-member:
 - ["So8NSObjectP", "CGRect"]
 - !private ["So8NSObjectP", "CGSize"]
 - ["So8NSObjectP", "Hashable"]
-- ["So8NSObjectP", "NSCoder"]
 - !private ["So8NSObjectP", "NSLayoutConstraint"]
 - ["So8NSObjectP", "UIImageView"]
 - ["So8NSObjectP", "UILabel"]
@@ -633,7 +628,6 @@ depends-member:
 - !private ["So14NSSecureCodingP", "shadowOpacity"]
 - !private ["So14NSSecureCodingP", "shadowRadius"]
 - !private ["So14NSSecureCodingP", "white"]
-- ["Sj", ""]
 - !private ["s9OptionSetP", "all"]
 - ["Sq", "laoSangamMN20"]
 - !private ["Sq", "red"]
@@ -680,8 +674,6 @@ depends-member:
 - !private ["7SwiftUI4EdgeO3SetV", "all"]
 - !private ["s10SetAlgebraP", ""]
 - !private ["s10SetAlgebraP", "all"]
-- ["s13SignedNumericP", ""]
-- ["Sx", ""]
 - ["s16TextOutputStreamP", ""]
 - ["s20TextOutputStreamableP", ""]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "backgroundColor"]
@@ -1103,7 +1095,6 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "CGRect"]
 - !private ["So30UIPasteConfigurationSupportingP", "CGSize"]
 - ["So30UIPasteConfigurationSupportingP", "Hashable"]
-- ["So30UIPasteConfigurationSupportingP", "NSCoder"]
 - !private ["So30UIPasteConfigurationSupportingP", "NSLayoutConstraint"]
 - ["So30UIPasteConfigurationSupportingP", "UIImageView"]
 - ["So30UIPasteConfigurationSupportingP", "UILabel"]
@@ -1174,7 +1165,6 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "CGRect"]
 - !private ["So30UIResponderStandardEditActionsP", "CGSize"]
 - ["So30UIResponderStandardEditActionsP", "Hashable"]
-- ["So30UIResponderStandardEditActionsP", "NSCoder"]
 - !private ["So30UIResponderStandardEditActionsP", "NSLayoutConstraint"]
 - ["So30UIResponderStandardEditActionsP", "UIImageView"]
 - ["So30UIResponderStandardEditActionsP", "UILabel"]
@@ -1249,7 +1239,6 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "CGRect"]
 - !private ["So23UIUserActivityRestoringP", "CGSize"]
 - ["So23UIUserActivityRestoringP", "Hashable"]
-- ["So23UIUserActivityRestoringP", "NSCoder"]
 - !private ["So23UIUserActivityRestoringP", "NSLayoutConstraint"]
 - ["So23UIUserActivityRestoringP", "UIImageView"]
 - ["So23UIUserActivityRestoringP", "UILabel"]
@@ -1425,7 +1414,7 @@ depends-member:
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
 - ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
 - !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
-- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - !private ["s26_ExpressibleByColorLiteralP", "init"]
@@ -1563,7 +1552,6 @@ depends-member:
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "userName"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "widthAnchor"]
 depends-nominal:
-- "s18AdditiveArithmeticP"
 - "7SwiftUI10AnimatableP"
 - "SK"
 - !private "So7CALayerC"
@@ -1582,13 +1570,11 @@ depends-nominal:
 - "SQ"
 - !private "s25ExpressibleByArrayLiteralP"
 - "s43ExpressibleByExtendedGraphemeClusterLiteralP"
-- "s25ExpressibleByFloatLiteralP"
-- "s27ExpressibleByIntegerLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
 - "s23ExpressibleByNilLiteralP"
 - "s32ExpressibleByStringInterpolationP"
 - "s26ExpressibleByStringLiteralP"
 - "s33ExpressibleByUnicodeScalarLiteralP"
-- "SF"
 - "7SwiftUI7GestureP"
 - "SH"
 - "s25LosslessStringConvertibleP"
@@ -1607,7 +1593,6 @@ depends-nominal:
 - "So8NSObjectC"
 - "So8NSObjectP"
 - !private "So14NSSecureCodingP"
-- "Sj"
 - !private "s9OptionSetP"
 - "Sq"
 - "7SwiftUI15PreviewProviderP"
@@ -1617,8 +1602,6 @@ depends-nominal:
 - "ST"
 - !private "7SwiftUI4EdgeO3SetV"
 - !private "s10SetAlgebraP"
-- "s13SignedNumericP"
-- "Sx"
 - "s16TextOutputStreamP"
 - "s20TextOutputStreamableP"
 - "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
@@ -1659,7 +1642,7 @@ depends-nominal:
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
 - "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - !private "s33_ExpressibleByBuiltinFloatLiteralP"
-- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
 - "s34_ExpressibleByBuiltinStringLiteralP"
 - "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s26_ExpressibleByColorLiteralP"
