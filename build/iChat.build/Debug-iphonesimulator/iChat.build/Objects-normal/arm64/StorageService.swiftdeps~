@@ -196,7 +196,7 @@ depends-member:
 - !private ["SM", ""]
 - !private ["SM", "joined"]
 - !private ["10Foundation19MutableDataProtocolP", "joined"]
-- !private ["So8NSCodingP", ""]
+- ["So8NSCodingP", ""]
 - !private ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "jpegData"]
 - !private ["So8NSCodingP", "scaledToSafeUploadSize"]
@@ -210,6 +210,7 @@ depends-member:
 - !private ["So21NSItemProviderWritingP", "scaledToSafeUploadSize"]
 - ["So8NSObjectC", ""]
 - !private ["So8NSObjectC", "auth"]
+- !private ["So8NSObjectC", "authWithApp"]
 - !private ["So8NSObjectC", "child"]
 - !private ["So8NSObjectC", "contentType"]
 - !private ["So8NSObjectC", "currentUser"]
@@ -217,8 +218,14 @@ depends-member:
 - !private ["So8NSObjectC", "downloadURL"]
 - !private ["So8NSObjectC", "downloadURLWithCompletion"]
 - !private ["So8NSObjectC", "getData"]
+- !private ["So8NSObjectC", "imageNamed"]
+- !private ["So8NSObjectC", "imageWithCGImage"]
+- !private ["So8NSObjectC", "imageWithCIImage"]
+- !private ["So8NSObjectC", "imageWithContentsOfFile"]
+- !private ["So8NSObjectC", "imageWithData"]
 - !private ["So8NSObjectC", "init"]
 - !private ["So8NSObjectC", "jpegData"]
+- !private ["So8NSObjectC", "pngData"]
 - !private ["So8NSObjectC", "putData"]
 - ["So8NSObjectC", "reference"]
 - ["So8NSObjectC", "referenceForURL"]
@@ -227,9 +234,11 @@ depends-member:
 - ["So8NSObjectC", "storage"]
 - ["So8NSObjectC", "storageForApp"]
 - ["So8NSObjectC", "storageWithURL"]
+- !private ["So8NSObjectC", "systemImageNamed"]
 - !private ["So8NSObjectC", "uid"]
 - !private ["So8NSObjectP", ""]
 - !private ["So8NSObjectP", "auth"]
+- !private ["So8NSObjectP", "authWithApp"]
 - !private ["So8NSObjectP", "child"]
 - !private ["So8NSObjectP", "contentType"]
 - !private ["So8NSObjectP", "currentUser"]
@@ -237,8 +246,14 @@ depends-member:
 - !private ["So8NSObjectP", "downloadURL"]
 - !private ["So8NSObjectP", "downloadURLWithCompletion"]
 - !private ["So8NSObjectP", "getData"]
+- !private ["So8NSObjectP", "imageNamed"]
+- !private ["So8NSObjectP", "imageWithCGImage"]
+- !private ["So8NSObjectP", "imageWithCIImage"]
+- !private ["So8NSObjectP", "imageWithContentsOfFile"]
+- !private ["So8NSObjectP", "imageWithData"]
 - !private ["So8NSObjectP", "init"]
 - !private ["So8NSObjectP", "jpegData"]
+- !private ["So8NSObjectP", "pngData"]
 - !private ["So8NSObjectP", "putData"]
 - ["So8NSObjectP", "reference"]
 - ["So8NSObjectP", "referenceForURL"]
@@ -247,6 +262,7 @@ depends-member:
 - ["So8NSObjectP", "storage"]
 - ["So8NSObjectP", "storageForApp"]
 - ["So8NSObjectP", "storageWithURL"]
+- !private ["So8NSObjectP", "systemImageNamed"]
 - !private ["So8NSObjectP", "uid"]
 - !private ["So14NSSecureCodingP", "init"]
 - !private ["So14NSSecureCodingP", "jpegData"]
@@ -415,7 +431,7 @@ depends-nominal:
 - !private "s10MirrorPathP"
 - !private "SM"
 - !private "10Foundation19MutableDataProtocolP"
-- !private "So8NSCodingP"
+- "So8NSCodingP"
 - !private "So9NSCopyingP"
 - !private "So21NSItemProviderReadingP"
 - !private "So21NSItemProviderWritingP"

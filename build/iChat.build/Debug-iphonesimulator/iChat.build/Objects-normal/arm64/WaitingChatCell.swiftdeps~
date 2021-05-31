@@ -368,6 +368,7 @@ depends-member:
 - !private ["So8NSObjectC", "trailingAnchor"]
 - !private ["So8NSObjectC", "translatesAutoresizingMaskIntoConstraints"]
 - ["So8NSObjectP", "CGRect"]
+- ["So8NSObjectP", "Hashable"]
 - !private ["So8NSObjectP", "MChat"]
 - ["So8NSObjectP", "NSCoder"]
 - !private ["So8NSObjectP", "NSLayoutConstraint"]
@@ -739,6 +740,7 @@ depends-member:
 - !private ["So24UILargeContentViewerItemP", "trailingAnchor"]
 - !private ["So24UILargeContentViewerItemP", "translatesAutoresizingMaskIntoConstraints"]
 - ["So30UIPasteConfigurationSupportingP", "CGRect"]
+- ["So30UIPasteConfigurationSupportingP", "Hashable"]
 - !private ["So30UIPasteConfigurationSupportingP", "MChat"]
 - ["So30UIPasteConfigurationSupportingP", "NSCoder"]
 - !private ["So30UIPasteConfigurationSupportingP", "NSLayoutConstraint"]
@@ -788,6 +790,7 @@ depends-member:
 - !private ["So11UIResponderC", "trailingAnchor"]
 - !private ["So11UIResponderC", "translatesAutoresizingMaskIntoConstraints"]
 - ["So30UIResponderStandardEditActionsP", "CGRect"]
+- ["So30UIResponderStandardEditActionsP", "Hashable"]
 - !private ["So30UIResponderStandardEditActionsP", "MChat"]
 - ["So30UIResponderStandardEditActionsP", "NSCoder"]
 - !private ["So30UIResponderStandardEditActionsP", "NSLayoutConstraint"]
@@ -841,6 +844,7 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "trailingAnchor"]
 - !private ["So18UITraitEnvironmentP", "translatesAutoresizingMaskIntoConstraints"]
 - ["So23UIUserActivityRestoringP", "CGRect"]
+- ["So23UIUserActivityRestoringP", "Hashable"]
 - !private ["So23UIUserActivityRestoringP", "MChat"]
 - ["So23UIUserActivityRestoringP", "NSCoder"]
 - !private ["So23UIUserActivityRestoringP", "NSLayoutConstraint"]
@@ -988,7 +992,7 @@ depends-member:
 - !private ["s30_CustomPlaygroundQuickLookableP", "init"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
 - ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
-- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - !private ["s26_ExpressibleByColorLiteralP", "red"]
@@ -1161,7 +1165,7 @@ depends-nominal:
 - !private "s30_CustomPlaygroundQuickLookableP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
 - "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
-- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
 - "s34_ExpressibleByBuiltinStringLiteralP"
 - "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s26_ExpressibleByColorLiteralP"

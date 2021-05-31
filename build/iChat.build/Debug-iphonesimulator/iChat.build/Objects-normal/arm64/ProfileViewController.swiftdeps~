@@ -52,10 +52,8 @@ depends-top-level:
 - !private "setupConstraints"
 - !private "view"
 depends-member:
-- ["s18AdditiveArithmeticP", ""]
-- ["SK", ""]
+- !private ["SK", ""]
 - !private ["So7CALayerC", "cornerRadius"]
-- !private ["So15CALayerDelegateP", ""]
 - !private ["So15CALayerDelegateP", "addSubview"]
 - !private ["So15CALayerDelegateP", "addTarget"]
 - !private ["So15CALayerDelegateP", "backgroundColor"]
@@ -118,7 +116,7 @@ depends-member:
 - !private ["s7CVarArgP", "user"]
 - !private ["s7CVarArgP", "view"]
 - !private ["s7CVarArgP", "viewDidLoad"]
-- ["Sl", ""]
+- !private ["Sl", ""]
 - ["SL", ""]
 - ["SL", "light"]
 - ["So17UIViewContentModeV", "scaleAspectFill"]
@@ -187,8 +185,6 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "activate"]
 - !private ["s23CustomStringConvertibleP", "addSubview"]
 - !private ["s23CustomStringConvertibleP", "addTarget"]
-- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
-- !private ["s23CustomStringConvertibleP", "appendLiteral"]
 - !private ["s23CustomStringConvertibleP", "backgroundColor"]
 - !private ["s23CustomStringConvertibleP", "bottomAnchor"]
 - !private ["s23CustomStringConvertibleP", "constraint"]
@@ -232,8 +228,6 @@ depends-member:
 - !private ["Se", "topAnchor"]
 - !private ["Se", "trailingAnchor"]
 - !private ["Se", "username"]
-- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
-- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
 - !private ["SE", "addSubview"]
 - !private ["SE", "bottomAnchor"]
 - !private ["SE", "init"]
@@ -300,10 +294,8 @@ depends-member:
 - !private ["s25ExpressibleByArrayLiteralP", ""]
 - !private ["s25ExpressibleByArrayLiteralP", "init"]
 - !private ["s25ExpressibleByArrayLiteralP", "touchUpInside"]
-- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
-- ["s25ExpressibleByFloatLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
 - ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
-- ["s27ExpressibleByIntegerLiteralP", ""]
 - ["s27ExpressibleByIntegerLiteralP", "init"]
 - !private ["s23ExpressibleByNilLiteralP", "addSubview"]
 - !private ["s23ExpressibleByNilLiteralP", "bottomAnchor"]
@@ -313,15 +305,13 @@ depends-member:
 - !private ["s23ExpressibleByNilLiteralP", "topAnchor"]
 - !private ["s23ExpressibleByNilLiteralP", "trailingAnchor"]
 - !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
-- ["s32ExpressibleByStringInterpolationP", ""]
-- !private ["s32ExpressibleByStringInterpolationP", "init"]
-- ["s26ExpressibleByStringLiteralP", ""]
-- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
 - !private ["5iChat16FirestoreServiceC", "chekRequest"]
 - !private ["5iChat16FirestoreServiceC", "createRequestChat"]
 - !private ["5iChat16FirestoreServiceC", "createWaitingChat"]
 - !private ["5iChat16FirestoreServiceC", "shared"]
-- ["SF", ""]
 - !private ["7SwiftUI7GestureP", "addSubview"]
 - !private ["7SwiftUI7GestureP", "bottomAnchor"]
 - !private ["7SwiftUI7GestureP", "leadingAnchor"]
@@ -390,14 +380,12 @@ depends-member:
 - !private ["5iChat19InsertableTextFieldC", "topAnchor"]
 - !private ["5iChat19InsertableTextFieldC", "trailingAnchor"]
 - !private ["5iChat19InsertableTextFieldC", "translatesAutoresizingMaskIntoConstraints"]
-- ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", ""]
 - !private ["5iChat5MUserV", "avatarStringURL"]
 - !private ["5iChat5MUserV", "description"]
 - !private ["5iChat5MUserV", "username"]
 - !private ["So8NSCodingP", "FirestoreService"]
 - ["So8NSCodingP", "InsertableTextField"]
-- ["So8NSCodingP", "MUser"]
-- ["So8NSCodingP", "NSCoder"]
 - !private ["So8NSCodingP", "NSLayoutConstraint"]
 - !private ["So8NSCodingP", "UIApplication"]
 - !private ["So8NSCodingP", "UIButton"]
@@ -482,8 +470,6 @@ depends-member:
 - ["So9NSCopyingP", "systemFont"]
 - !private ["So26NSExtensionRequestHandlingP", "FirestoreService"]
 - ["So26NSExtensionRequestHandlingP", "InsertableTextField"]
-- ["So26NSExtensionRequestHandlingP", "MUser"]
-- ["So26NSExtensionRequestHandlingP", "NSCoder"]
 - !private ["So26NSExtensionRequestHandlingP", "NSLayoutConstraint"]
 - !private ["So26NSExtensionRequestHandlingP", "UIApplication"]
 - !private ["So26NSExtensionRequestHandlingP", "UIButton"]
@@ -597,7 +583,6 @@ depends-member:
 - ["So8NSObjectC", "setupConstraints"]
 - !private ["So8NSObjectC", "showAlertController"]
 - ["So8NSObjectC", "systemFont"]
-- ["So8NSObjectC", "systemFontOfSize"]
 - !private ["So8NSObjectC", "text"]
 - !private ["So8NSObjectC", "topAnchor"]
 - !private ["So8NSObjectC", "trailingAnchor"]
@@ -607,8 +592,6 @@ depends-member:
 - ["So8NSObjectC", "viewDidLoad"]
 - !private ["So8NSObjectP", "FirestoreService"]
 - ["So8NSObjectP", "InsertableTextField"]
-- ["So8NSObjectP", "MUser"]
-- ["So8NSObjectP", "NSCoder"]
 - !private ["So8NSObjectP", "NSLayoutConstraint"]
 - !private ["So8NSObjectP", "UIApplication"]
 - !private ["So8NSObjectP", "UIButton"]
@@ -668,7 +651,6 @@ depends-member:
 - ["So8NSObjectP", "setupConstraints"]
 - !private ["So8NSObjectP", "showAlertController"]
 - ["So8NSObjectP", "systemFont"]
-- ["So8NSObjectP", "systemFontOfSize"]
 - !private ["So8NSObjectP", "text"]
 - !private ["So8NSObjectP", "topAnchor"]
 - !private ["So8NSObjectP", "trailingAnchor"]
@@ -678,7 +660,6 @@ depends-member:
 - ["So8NSObjectP", "viewDidLoad"]
 - !private ["So14NSSecureCodingP", "cornerRadius"]
 - !private ["So14NSSecureCodingP", "mainWhite"]
-- ["Sj", ""]
 - !private ["s9OptionSetP", "touchUpInside"]
 - !private ["Sq", "addSubview"]
 - !private ["Sq", "bottomAnchor"]
@@ -722,18 +703,11 @@ depends-member:
 - !private ["10Foundation20ReferenceConvertibleP", "init"]
 - !private ["s6ResultO", "failure"]
 - !private ["s6ResultO", "success"]
-- ["ST", ""]
+- !private ["ST", ""]
 - !private ["s10SetAlgebraP", ""]
 - !private ["s10SetAlgebraP", "touchUpInside"]
-- ["s13SignedNumericP", ""]
-- ["Sx", ""]
-- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
-- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
-- !private ["s27StringInterpolationProtocolP", "init"]
-- ["s16TextOutputStreamP", ""]
-- !private ["s16TextOutputStreamP", "appendInterpolation"]
-- !private ["s16TextOutputStreamP", "appendLiteral"]
-- ["s20TextOutputStreamableP", ""]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s20TextOutputStreamableP", ""]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "addTarget"]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "bottomAnchor"]
 - ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "init"]
@@ -742,7 +716,6 @@ depends-member:
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "topAnchor"]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "trailingAnchor"]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "translatesAutoresizingMaskIntoConstraints"]
-- !private ["So29UIAccessibilityIdentificationP", ""]
 - !private ["So29UIAccessibilityIdentificationP", "addSubview"]
 - !private ["So29UIAccessibilityIdentificationP", "addTarget"]
 - !private ["So29UIAccessibilityIdentificationP", "backgroundColor"]
@@ -759,7 +732,6 @@ depends-member:
 - !private ["So29UIAccessibilityIdentificationP", "topAnchor"]
 - !private ["So29UIAccessibilityIdentificationP", "trailingAnchor"]
 - !private ["So29UIAccessibilityIdentificationP", "translatesAutoresizingMaskIntoConstraints"]
-- !private ["So12UIAppearanceP", ""]
 - !private ["So12UIAppearanceP", "addSubview"]
 - !private ["So12UIAppearanceP", "addTarget"]
 - !private ["So12UIAppearanceP", "backgroundColor"]
@@ -778,8 +750,6 @@ depends-member:
 - !private ["So12UIAppearanceP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["So21UIAppearanceContainerP", "FirestoreService"]
 - ["So21UIAppearanceContainerP", "InsertableTextField"]
-- ["So21UIAppearanceContainerP", "MUser"]
-- ["So21UIAppearanceContainerP", "NSCoder"]
 - !private ["So21UIAppearanceContainerP", "NSLayoutConstraint"]
 - !private ["So21UIAppearanceContainerP", "UIApplication"]
 - !private ["So21UIAppearanceContainerP", "UIButton"]
@@ -825,8 +795,6 @@ depends-member:
 - !private ["So7UIColorC", "mainWhite"]
 - !private ["So18UIContentContainerP", "FirestoreService"]
 - ["So18UIContentContainerP", "InsertableTextField"]
-- ["So18UIContentContainerP", "MUser"]
-- ["So18UIContentContainerP", "NSCoder"]
 - !private ["So18UIContentContainerP", "NSLayoutConstraint"]
 - !private ["So18UIContentContainerP", "UIApplication"]
 - !private ["So18UIContentContainerP", "UIButton"]
@@ -862,7 +830,6 @@ depends-member:
 - !private ["So30UIContentSizeCategoryAdjustingP", "topAnchor"]
 - !private ["So30UIContentSizeCategoryAdjustingP", "trailingAnchor"]
 - !private ["So30UIContentSizeCategoryAdjustingP", "translatesAutoresizingMaskIntoConstraints"]
-- !private ["So32UIContextMenuInteractionDelegateP", ""]
 - !private ["So32UIContextMenuInteractionDelegateP", "addTarget"]
 - !private ["So32UIContextMenuInteractionDelegateP", "heightAnchor"]
 - ["So32UIContextMenuInteractionDelegateP", "init"]
@@ -882,7 +849,6 @@ depends-member:
 - !private ["So9UIControlC", "topAnchor"]
 - !private ["So9UIControlC", "trailingAnchor"]
 - !private ["So9UIControlC", "translatesAutoresizingMaskIntoConstraints"]
-- !private ["So17UICoordinateSpaceP", ""]
 - !private ["So17UICoordinateSpaceP", "addSubview"]
 - !private ["So17UICoordinateSpaceP", "addTarget"]
 - !private ["So17UICoordinateSpaceP", "backgroundColor"]
@@ -899,7 +865,6 @@ depends-member:
 - !private ["So17UICoordinateSpaceP", "topAnchor"]
 - !private ["So17UICoordinateSpaceP", "trailingAnchor"]
 - !private ["So17UICoordinateSpaceP", "translatesAutoresizingMaskIntoConstraints"]
-- !private ["So13UIDynamicItemP", ""]
 - !private ["So13UIDynamicItemP", "addSubview"]
 - !private ["So13UIDynamicItemP", "addTarget"]
 - !private ["So13UIDynamicItemP", "backgroundColor"]
@@ -918,8 +883,6 @@ depends-member:
 - !private ["So13UIDynamicItemP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["So18UIFocusEnvironmentP", "FirestoreService"]
 - ["So18UIFocusEnvironmentP", "InsertableTextField"]
-- ["So18UIFocusEnvironmentP", "MUser"]
-- ["So18UIFocusEnvironmentP", "NSCoder"]
 - !private ["So18UIFocusEnvironmentP", "NSLayoutConstraint"]
 - !private ["So18UIFocusEnvironmentP", "UIApplication"]
 - !private ["So18UIFocusEnvironmentP", "UIButton"]
@@ -960,7 +923,6 @@ depends-member:
 - ["So18UIFocusEnvironmentP", "user"]
 - !private ["So18UIFocusEnvironmentP", "view"]
 - ["So18UIFocusEnvironmentP", "viewDidLoad"]
-- !private ["So11UIFocusItemP", ""]
 - !private ["So11UIFocusItemP", "addSubview"]
 - !private ["So11UIFocusItemP", "addTarget"]
 - !private ["So11UIFocusItemP", "backgroundColor"]
@@ -977,7 +939,6 @@ depends-member:
 - !private ["So11UIFocusItemP", "topAnchor"]
 - !private ["So11UIFocusItemP", "trailingAnchor"]
 - !private ["So11UIFocusItemP", "translatesAutoresizingMaskIntoConstraints"]
-- !private ["So20UIFocusItemContainerP", ""]
 - !private ["So20UIFocusItemContainerP", "addSubview"]
 - !private ["So20UIFocusItemContainerP", "addTarget"]
 - !private ["So20UIFocusItemContainerP", "backgroundColor"]
@@ -1019,7 +980,6 @@ depends-member:
 - !private ["So7UILabelC", "topAnchor"]
 - !private ["So7UILabelC", "trailingAnchor"]
 - !private ["So7UILabelC", "translatesAutoresizingMaskIntoConstraints"]
-- !private ["So24UILargeContentViewerItemP", ""]
 - !private ["So24UILargeContentViewerItemP", "addSubview"]
 - !private ["So24UILargeContentViewerItemP", "addTarget"]
 - !private ["So24UILargeContentViewerItemP", "backgroundColor"]
@@ -1038,8 +998,6 @@ depends-member:
 - !private ["So24UILargeContentViewerItemP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["So30UIPasteConfigurationSupportingP", "FirestoreService"]
 - ["So30UIPasteConfigurationSupportingP", "InsertableTextField"]
-- ["So30UIPasteConfigurationSupportingP", "MUser"]
-- ["So30UIPasteConfigurationSupportingP", "NSCoder"]
 - !private ["So30UIPasteConfigurationSupportingP", "NSLayoutConstraint"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIApplication"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIButton"]
@@ -1129,8 +1087,6 @@ depends-member:
 - ["So11UIResponderC", "viewDidLoad"]
 - !private ["So30UIResponderStandardEditActionsP", "FirestoreService"]
 - ["So30UIResponderStandardEditActionsP", "InsertableTextField"]
-- ["So30UIResponderStandardEditActionsP", "MUser"]
-- ["So30UIResponderStandardEditActionsP", "NSCoder"]
 - !private ["So30UIResponderStandardEditActionsP", "NSLayoutConstraint"]
 - !private ["So30UIResponderStandardEditActionsP", "UIApplication"]
 - !private ["So30UIResponderStandardEditActionsP", "UIButton"]
@@ -1176,8 +1132,6 @@ depends-member:
 - !private ["So35UISpringLoadedInteractionSupportingP", "addTarget"]
 - !private ["So16UIStateRestoringP", "FirestoreService"]
 - ["So16UIStateRestoringP", "InsertableTextField"]
-- ["So16UIStateRestoringP", "MUser"]
-- ["So16UIStateRestoringP", "NSCoder"]
 - !private ["So16UIStateRestoringP", "NSLayoutConstraint"]
 - !private ["So16UIStateRestoringP", "UIApplication"]
 - !private ["So16UIStateRestoringP", "UIButton"]
@@ -1257,8 +1211,6 @@ depends-member:
 - !private ["So34UITextPasteConfigurationSupportingP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["So18UITraitEnvironmentP", "FirestoreService"]
 - ["So18UITraitEnvironmentP", "InsertableTextField"]
-- ["So18UITraitEnvironmentP", "MUser"]
-- ["So18UITraitEnvironmentP", "NSCoder"]
 - !private ["So18UITraitEnvironmentP", "NSLayoutConstraint"]
 - !private ["So18UITraitEnvironmentP", "UIApplication"]
 - !private ["So18UITraitEnvironmentP", "UIButton"]
@@ -1301,8 +1253,6 @@ depends-member:
 - ["So18UITraitEnvironmentP", "viewDidLoad"]
 - !private ["So23UIUserActivityRestoringP", "FirestoreService"]
 - ["So23UIUserActivityRestoringP", "InsertableTextField"]
-- ["So23UIUserActivityRestoringP", "MUser"]
-- ["So23UIUserActivityRestoringP", "NSCoder"]
 - !private ["So23UIUserActivityRestoringP", "NSLayoutConstraint"]
 - !private ["So23UIUserActivityRestoringP", "UIApplication"]
 - !private ["So23UIUserActivityRestoringP", "UIButton"]
@@ -1401,10 +1351,10 @@ depends-member:
 - ["So12UIFontWeighta", "light"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "init"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
-- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
 - ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
-- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - !private ["s26_ExpressibleByColorLiteralP", "mainWhite"]
 - !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
 - ["s26_ExpressibleByImageLiteralP", "init"]
@@ -1528,38 +1478,34 @@ depends-member:
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "trailingAnchor"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "translatesAutoresizingMaskIntoConstraints"]
 depends-nominal:
-- "s18AdditiveArithmeticP"
-- "SK"
+- !private "SK"
 - !private "So7CALayerC"
 - "So15CALayerDelegateP"
 - !private "So13CAMediaTimingP"
 - "s7CVarArgP"
-- "Sl"
+- !private "Sl"
 - "SL"
 - "So17UIViewContentModeV"
 - "s28CustomDebugStringConvertibleP"
 - "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
 - "Se"
-- !private "s26DefaultStringInterpolationV"
 - "SE"
 - "SQ"
 - !private "s5ErrorP"
 - !private "So15UIControlEventsV"
 - !private "s25ExpressibleByArrayLiteralP"
-- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
-- "s25ExpressibleByFloatLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - "s27ExpressibleByIntegerLiteralP"
 - "s23ExpressibleByNilLiteralP"
-- "s32ExpressibleByStringInterpolationP"
-- "s26ExpressibleByStringLiteralP"
-- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
 - !private "5iChat16FirestoreServiceC"
-- "SF"
 - "7SwiftUI7GestureP"
 - "SH"
 - "5iChat19InsertableTextFieldC"
-- "s25LosslessStringConvertibleP"
+- !private "s25LosslessStringConvertibleP"
 - !private "5iChat5MUserV"
 - "So8NSCodingP"
 - "So9NSCopyingP"
@@ -1574,20 +1520,16 @@ depends-nominal:
 - "So8NSObjectC"
 - "So8NSObjectP"
 - !private "So14NSSecureCodingP"
-- "Sj"
 - !private "s9OptionSetP"
 - "Sq"
 - "5iChat21ProfileViewControllerC"
 - "SY"
 - !private "10Foundation20ReferenceConvertibleP"
 - !private "s6ResultO"
-- "ST"
+- !private "ST"
 - !private "s10SetAlgebraP"
-- "s13SignedNumericP"
-- "Sx"
-- !private "s27StringInterpolationProtocolP"
-- "s16TextOutputStreamP"
-- "s20TextOutputStreamableP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
 - "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
 - "So29UIAccessibilityIdentificationP"
 - "So12UIAppearanceP"
@@ -1629,10 +1571,10 @@ depends-nominal:
 - "So12UIFontWeighta"
 - !private "s30_CustomPlaygroundQuickLookableP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
-- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - "s35_ExpressibleByBuiltinIntegerLiteralP"
 - "s34_ExpressibleByBuiltinStringLiteralP"
-- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s26_ExpressibleByColorLiteralP"
 - !private "s34_ExpressibleByFileReferenceLiteralP"
 - "s26_ExpressibleByImageLiteralP"

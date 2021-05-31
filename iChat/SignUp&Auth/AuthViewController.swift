@@ -11,10 +11,8 @@ class AuthViewController: UIViewController {
     
     let emailButton = UIButton(title: "Email", titleColor: .white, backgroundColor: .buttonDark())
     let loginButton = UIButton(title: "Login", titleColor: .buttonRed(), backgroundColor: .white, isShadow: true)
-    let googleButton = UIButton(title: "Google", titleColor: .black, backgroundColor: .white, isShadow: true)
-    
-    let googleLabel = UILabel(text: "Get started with")
-    let emailLabel = UILabel(text: "Or sign up with")
+
+    let emailLabel = UILabel(text: "Sign up with")
     let alreadyOnboardLabel = UILabel(text: "Already onboard")
     
     let logoImageView = UIImageView(image: #imageLiteral(resourceName: "Logo"), contentMode: .scaleAspectFit)
@@ -29,7 +27,6 @@ class AuthViewController: UIViewController {
         
         view.backgroundColor = .white
         
-        googleButton.customizeGoogleButton()
         setupConstraints()
         
         emailButton.addTarget(self, action: #selector(emailButtonTapped), for: .touchUpInside)
@@ -41,14 +38,10 @@ class AuthViewController: UIViewController {
     }
     
     @objc private func emailButtonTapped() {
-        print(#function)
-        
         present(signUpVC, animated: true, completion: nil)
     }
     
     @objc private func loginButtonTapped() {
-        print(#function)
-        
         present(loginVC, animated: true, completion: nil)
     }
 }
@@ -56,11 +49,10 @@ class AuthViewController: UIViewController {
 // MARK: - Setup Constraints
 extension AuthViewController {
     private func setupConstraints() {
-        let googleView = ButtonFormView(label: googleLabel, button: googleButton)
         let emailView = ButtonFormView(label: emailLabel, button: emailButton)
         let loginView = ButtonFormView(label: alreadyOnboardLabel, button: loginButton)
         
-        let stackView = UIStackView(arrangedSubviews: [googleView, emailView, loginView], axis: .vertical, spacing: 40)
+        let stackView = UIStackView(arrangedSubviews: [emailView, loginView], axis: .vertical, spacing: 40)
 //        let stackView = UIStackView(arrangedSubviews: [googleView, emailView, loginView])
         stackView.translatesAutoresizingMaskIntoConstraints = false
 //        stackView.backgroundColor = .orange
@@ -92,12 +84,10 @@ extension AuthViewController {
 extension AuthViewController: AuthNavigatingDelegate {
     func toLoginVC() {
         present(loginVC, animated: true, completion: nil)
-        print(#function)
     }
     
     func toSignUpVC() {
         present(signUpVC, animated: true, completion: nil)
-        print(#function)
     }
 }
 

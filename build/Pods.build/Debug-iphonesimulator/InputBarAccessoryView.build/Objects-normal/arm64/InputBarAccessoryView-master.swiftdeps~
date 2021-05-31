@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
 options: "5f5832d49eeb2ed0ff10d45e08a647d2"
-build_time: [1622286924, 243458000]
+build_time: [1622457635, 231527000]
 inputs:
   "/Users/alexandr/Desktop/iChat/Pods/InputBarAccessoryView/Sources/Plugins/AttachmentManager/Views/AttachmentCell.swift": [1621871749, 4063306]
   "/Users/alexandr/Desktop/iChat/Pods/InputBarAccessoryView/Sources/Plugins/AttachmentManager/AttachmentManager.swift": [1621871749, 3819392]

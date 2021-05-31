@@ -11,7 +11,7 @@ provides-dynamic-lookup:
 - "register"
 - "shared"
 depends-top-level:
-- !private "=="
+- "=="
 - "Auth"
 - !private "AuthError"
 - "AuthService"
@@ -162,6 +162,7 @@ depends-member:
 - !private ["s30_CustomPlaygroundQuickLookableP", "lowercased"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "lowercased"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "lowercased"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "lowercased"]
@@ -228,6 +229,7 @@ depends-nominal:
 - !private "5iChat10ValidatorsC"
 - !private "s30_CustomPlaygroundQuickLookableP"
 - !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
 - !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s19_HasContiguousBytesP"

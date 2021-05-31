@@ -45,15 +45,6 @@ class ListViewController: UIViewController {
          title = currentUser.username.uppercased()
      }
     
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-    
-    deinit {
-        waitingChatsListener?.remove()
-        activeChatsListener?.remove()
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -61,8 +52,6 @@ class ListViewController: UIViewController {
         setupSearchBar()
         createDataSource()
         reloadData()
-        
-        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "delete chat", style: .plain, target: self, action: #selector(deleteChat))
         
         waitingChatsListener = ListenerService.shared.waitingChatsObserve(chats: waitingChats, completion: { (result) in
             switch result {
@@ -90,15 +79,13 @@ class ListViewController: UIViewController {
         })
     }
     
-    @objc private func deleteChat() {
-        FirestoreService.shared.deleteActiveChat(chat: activeChats.last!) { (result) in
-            switch result {
-            case .success():
-                print("Chat Deleted!")
-            case .failure(let error):
-                print(error.localizedDescription)
-            }
-        }
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    deinit {
+        waitingChatsListener?.remove()
+        activeChatsListener?.remove()
     }
 }
 
@@ -157,8 +144,6 @@ extension ListViewController {
         snapshot.appendItems(waitingChats, toSection: .waitingChats)
         snapshot.appendItems(activeChats, toSection: .activeChats)
         dataSource?.apply(snapshot, animatingDifferences: true)
-//      let second = waitingChats[3]
-//      print(snapshot.indexOfItem(second)
     }
 }
 
@@ -177,13 +162,11 @@ extension ListViewController: UICollectionViewDelegate {
             navigationController?.pushViewController(chatsVC, animated: true)
         }
     }
-    
 }
 
 extension ListViewController: WaitingChatsNavigation {
 func removeWaitingChat(chat: MChat) {
     FirestoreService.shared.deleteWaitingChat(chat: chat) { (result) in
-        print(#function)
         switch result {
         case .success():
             self.showAlertController(with: "Success!", and: "Char was deleted.")

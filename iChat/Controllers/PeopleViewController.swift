@@ -36,6 +36,31 @@ class PeopleViewController: UIViewController {
         
          title = currentUser.username.uppercased()
      }
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        setupSearchBar()
+        setupCollectionView()
+        createDataSource()
+        
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Log Out", style: .plain, target: self, action: #selector(signOut))
+        navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Delete Account", style: .plain, target: self, action: #selector(deleteAccount))
+        navigationItem.leftBarButtonItem?.setTitleTextAttributes([NSAttributedString.Key.font: UIFont.systemFont(ofSize: 14)], for: .normal)
+        navigationItem.leftBarButtonItem?.tintColor = .red
+        
+        usersListener = ListenerService.shared.usersObserve(users: users) { (result) in
+            switch result {
+            case .success(let users):
+                self.users = users
+                self.reloadData(with: nil)
+            case .failure(let error):
+                // HERE!
+//                self.showAlertController(with: "Error!", and: error.localizedDescription, functionFrom: "viewDidLoad")
+            print("")
+            }
+        }
+    }
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
@@ -43,36 +68,11 @@ class PeopleViewController: UIViewController {
     
     deinit {
         usersListener?.remove()
+        print("PeopleViewController")
     }
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        view.backgroundColor = .systemPink
-        setupSearchBar()
-        setupCollectionView()
-        createDataSource()
-        
-        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Log Out", style: .plain, target: self, action: #selector(signOut))
-        navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Delete Account", style: .plain, target: self, action: #selector(deleteAccount))
-        
-        usersListener = ListenerService.shared.usersObserve(users: users, completion: { (result) in
-            switch result {
-            
-            case .success(let users):
-                self.users = users
-                self.reloadData(with: nil)
-            case .failure(let error):
-                // HERE!
-                print("")
-//                self.showAlertController(with: "Error!", and: error.localizedDescription)
- 
-            }
-        })
-        
-      
-    }
-    
+}
+    // MARK: - Setup Collection
+extension PeopleViewController {
     private func setupCollectionView() {
         collectionView = UICollectionView(frame: view.bounds, collectionViewLayout: createCompositionalLayout())
         collectionView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
@@ -83,7 +83,10 @@ class PeopleViewController: UIViewController {
         collectionView.register(SectionHeader.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: SectionHeader.reuseId)
         collectionView.delegate = self
     }
-    
+}
+
+    // MARK: - Bar Button Item Functions
+extension PeopleViewController {
     @objc private func signOut() {
         let alertController = UIAlertController(title: nil, message: "Are u sure u want to Log Out?", preferredStyle: .alert)
         let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
@@ -91,47 +94,45 @@ class PeopleViewController: UIViewController {
             do {
                 try Auth.auth().signOut()
                 UIApplication.shared.keyWindow?.rootViewController = AuthViewController()
-                self.usersListener?.remove()
             } catch {
                 print("Cannot sign out \(error.localizedDescription)")
             }
         }
+        print("Debug Description UIAertController: \(alertController.debugDescription)")
         alertController.addAction(cancelAction)
         alertController.addAction(okAction)
-//        present(alertController, animated: true, completion: nil)t
-        UIApplication.getTopViewController()?.present(alertController, animated: true, completion: nil)
+        present(alertController, animated: true, completion: nil)
     }
     
     @objc private func deleteAccount() {
-//        let alertController = UIAlertController(title: nil, message: "Delet Account?", preferredStyle: .alert)
-//        let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
-        
-//        let okAction = UIAlertAction(title: "Delete", style: .default) { _ in
-            
             let passwordController = UIAlertController(title: nil, message: "Input Password!", preferredStyle: .alert)
-            let cancelAction2 = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
-            let okAction2 = UIAlertAction(title: "Delete", style: .default) { _ in
-                print("hi")
-                FirestoreService.shared.deletUser(userPassword: (passwordController.textFields?.first?.text)!) { (result) in
-                    switch result {
-                    case .success():
-//                        try!  Auth.auth().signOut()
-                        UIApplication.shared.keyWindow?.rootViewController = AuthViewController()
-                    case .failure(let error):
-                        print(error.localizedDescription)
+            let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
+            let okAction = UIAlertAction(title: "Delete", style: .default) { _ in
+                guard let password = passwordController.textFields?.first?.text, password != "" else {
+                    self.showAlertController(with: "Error!", and: "Введите пароль")
+                    return
+                }
+                Auth.auth().signIn(withEmail: self.currentUser.email, password: password) { (_, error) in
+                    if let error = error {
+                        self.showAlertController(with: "Error!", and: error.localizedDescription)
+                        return
+                    }
+                    FirestoreService.shared.deletUser(userPassword: (passwordController.textFields?.first?.text)!) { (result) in
+                        switch result {
+                        case .success():
+                            UIApplication.shared.keyWindow?.rootViewController = AuthViewController()
+                        case .failure(let error):
+                            print(error.localizedDescription)
+                        }
+                    }
                     }
                 }
-            }
+             
             passwordController.addTextField(configurationHandler: nil)
-            passwordController.addAction(cancelAction2)
-            passwordController.addAction(okAction2)
-            UIApplication.getTopViewController()?.present(passwordController, animated: true, completion: nil)
-//            self.present(passwordController, animated: true, completion: nil)
+            passwordController.addAction(cancelAction)
+            passwordController.addAction(okAction)
+            self.present(passwordController, animated: true, completion: nil)
         }
-//        alertController.addAction(cancelAction)
-//        alertController.addAction(okAction)
-//        UIApplication.getTopViewController()?.present(alertController, animated: true, completion: nil)
-//    }
 }
 
 // MARK: - Search Bar

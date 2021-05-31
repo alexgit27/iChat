@@ -159,7 +159,6 @@ extension SignUpViewController {
     
     func keyboardWillHide() {
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHideHandler), name: UIResponder.keyboardWillHideNotification, object: nil)
-        print(#function)
     }
     
     @objc private func keyboardDidShowHandler(notification: Notification) {
@@ -229,12 +228,13 @@ struct SignUpViewControllerProvider: PreviewProvider {
 }
 
 extension UIViewController {
-    func showAlertController(with title: String, and message: String, completion: @escaping () -> Void = {} ) {
+    func showAlertController(with title: String, and message: String, functionFrom: String? = nil, completion: @escaping () -> Void = {} ) {
         let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
         let okAction = UIAlertAction(title: "OK", style: .default, handler: {_ in
           completion()
         })
         alertController.addAction(okAction)
+        print("\(functionFrom) \(alertController.debugDescription)")
         present(alertController, animated: true, completion: nil)
     }
 }

@@ -77,6 +77,7 @@ depends-top-level:
 - "UIViewController"
 - "UIViewControllerRepresentable"
 - "UIViewControllerRepresentableContext"
+- !private "UnicodeScalarType"
 - "View"
 - "Void"
 - !private "alreadyOnboardLabel"
@@ -186,6 +187,7 @@ depends-member:
 - !private ["s7CVarArgP", "confirmPasswordTextField"]
 - !private ["s7CVarArgP", "constraint"]
 - !private ["s7CVarArgP", "contentHorizontalAlignment"]
+- !private ["s7CVarArgP", "debugDescription"]
 - !private ["s7CVarArgP", "default"]
 - !private ["s7CVarArgP", "delegate"]
 - !private ["s7CVarArgP", "dismiss"]
@@ -307,6 +309,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "confirmPasswordTextField"]
 - !private ["s28CustomDebugStringConvertibleP", "constraint"]
 - !private ["s28CustomDebugStringConvertibleP", "contentHorizontalAlignment"]
+- !private ["s28CustomDebugStringConvertibleP", "debugDescription"]
 - !private ["s28CustomDebugStringConvertibleP", "default"]
 - !private ["s28CustomDebugStringConvertibleP", "delegate"]
 - !private ["s28CustomDebugStringConvertibleP", "dismiss"]
@@ -404,6 +407,8 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "addTarget"]
 - !private ["s23CustomStringConvertibleP", "alignment"]
 - !private ["s23CustomStringConvertibleP", "alreadyOnboardLabel"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
 - ["s23CustomStringConvertibleP", "avenir20"]
 - ["s23CustomStringConvertibleP", "avenir26"]
 - !private ["s23CustomStringConvertibleP", "backgroundColor"]
@@ -418,6 +423,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "confirmPasswordTextField"]
 - !private ["s23CustomStringConvertibleP", "constraint"]
 - !private ["s23CustomStringConvertibleP", "contentHorizontalAlignment"]
+- !private ["s23CustomStringConvertibleP", "debugDescription"]
 - !private ["s23CustomStringConvertibleP", "default"]
 - !private ["s23CustomStringConvertibleP", "delegate"]
 - !private ["s23CustomStringConvertibleP", "dismiss"]
@@ -491,6 +497,8 @@ depends-member:
 - !private ["Se", "viewWithTag"]
 - !private ["Se", "white"]
 - !private ["Se", "y"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
 - !private ["SD", "subscript"]
 - !private ["SE", "addSubview"]
 - ["SE", "avenir20"]
@@ -545,6 +553,7 @@ depends-member:
 - !private ["SQ", "confirmPasswordTextField"]
 - !private ["SQ", "constraint"]
 - !private ["SQ", "contentHorizontalAlignment"]
+- !private ["SQ", "debugDescription"]
 - !private ["SQ", "default"]
 - !private ["SQ", "delegate"]
 - !private ["SQ", "dismiss"]
@@ -639,7 +648,9 @@ depends-member:
 - !private ["s23ExpressibleByNilLiteralP", "trailingAnchor"]
 - !private ["s23ExpressibleByNilLiteralP", "viewWithTag"]
 - !private ["s23ExpressibleByNilLiteralP", "white"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
 - ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
 - ["s26ExpressibleByStringLiteralP", ""]
 - ["s33ExpressibleByUnicodeScalarLiteralP", ""]
 - !private ["SF", "*"]
@@ -746,6 +757,7 @@ depends-member:
 - !private ["SH", "confirmPasswordTextField"]
 - !private ["SH", "constraint"]
 - !private ["SH", "contentHorizontalAlignment"]
+- !private ["SH", "debugDescription"]
 - !private ["SH", "default"]
 - !private ["SH", "delegate"]
 - !private ["SH", "dismiss"]
@@ -867,6 +879,7 @@ depends-member:
 - !private ["So8NSCodingP", "constraintLessThanOrEqualToSystemSpacingBelow"]
 - !private ["So8NSCodingP", "constraintLessThanOrEqualToSystemSpacingBelowAnchor"]
 - !private ["So8NSCodingP", "contentHorizontalAlignment"]
+- !private ["So8NSCodingP", "debugDescription"]
 - ["So8NSCodingP", "deinit"]
 - ["So8NSCodingP", "delegate"]
 - !private ["So8NSCodingP", "dismiss"]
@@ -968,6 +981,7 @@ depends-member:
 - ["So26NSExtensionRequestHandlingP", "configureTF"]
 - ["So26NSExtensionRequestHandlingP", "confirmPasswordLabel"]
 - ["So26NSExtensionRequestHandlingP", "confirmPasswordTextField"]
+- !private ["So26NSExtensionRequestHandlingP", "debugDescription"]
 - ["So26NSExtensionRequestHandlingP", "deinit"]
 - ["So26NSExtensionRequestHandlingP", "delegate"]
 - !private ["So26NSExtensionRequestHandlingP", "dismiss"]
@@ -1097,6 +1111,7 @@ depends-member:
 - !private ["So8NSObjectC", "constraintLessThanOrEqualToSystemSpacingBelow"]
 - !private ["So8NSObjectC", "constraintLessThanOrEqualToSystemSpacingBelowAnchor"]
 - !private ["So8NSObjectC", "contentHorizontalAlignment"]
+- !private ["So8NSObjectC", "debugDescription"]
 - !private ["So8NSObjectC", "default"]
 - ["So8NSObjectC", "delegate"]
 - !private ["So8NSObjectC", "dismiss"]
@@ -1217,6 +1232,7 @@ depends-member:
 - !private ["So8NSObjectP", "constraintLessThanOrEqualToSystemSpacingBelow"]
 - !private ["So8NSObjectP", "constraintLessThanOrEqualToSystemSpacingBelowAnchor"]
 - !private ["So8NSObjectP", "contentHorizontalAlignment"]
+- !private ["So8NSObjectP", "debugDescription"]
 - !private ["So8NSObjectP", "default"]
 - ["So8NSObjectP", "deinit"]
 - ["So8NSObjectP", "delegate"]
@@ -1376,7 +1392,6 @@ depends-member:
 - ["5iChat20SignUpViewControllerC", "passwordLabel"]
 - ["5iChat20SignUpViewControllerC", "passwordTextField"]
 - !private ["5iChat20SignUpViewControllerC", "present"]
-- !private ["5iChat20SignUpViewControllerC", "print"]
 - !private ["5iChat20SignUpViewControllerC", "setUpStacks"]
 - !private ["5iChat20SignUpViewControllerC", "setupConstraints"]
 - !private ["5iChat20SignUpViewControllerC", "showAlertController"]
@@ -1418,9 +1433,14 @@ depends-member:
 - !private ["Sx", "_step"]
 - !private ["Sx", "advanced"]
 - !private ["Sx", "distance"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
 - !private ["So22UIAlertControllerStyleV", "alert"]
 - !private ["So18UIAlertActionStyleV", "default"]
 - ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
 - ["s20TextOutputStreamableP", ""]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "addTarget"]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "contentHorizontalAlignment"]
@@ -1459,6 +1479,7 @@ depends-member:
 - !private ["So29UIAccessibilityIdentificationP", "viewWithTag"]
 - !private ["So13UIAlertActionC", "init"]
 - !private ["So17UIAlertControllerC", "addAction"]
+- !private ["So17UIAlertControllerC", "debugDescription"]
 - !private ["So17UIAlertControllerC", "init"]
 - ["So12UIAppearanceP", ""]
 - ["So12UIAppearanceP", "__buttonWithType"]
@@ -1524,6 +1545,7 @@ depends-member:
 - ["So21UIAppearanceContainerP", "confirmPasswordLabel"]
 - ["So21UIAppearanceContainerP", "confirmPasswordTextField"]
 - !private ["So21UIAppearanceContainerP", "contentHorizontalAlignment"]
+- !private ["So21UIAppearanceContainerP", "debugDescription"]
 - ["So21UIAppearanceContainerP", "deinit"]
 - ["So21UIAppearanceContainerP", "delegate"]
 - !private ["So21UIAppearanceContainerP", "dismiss"]
@@ -1608,6 +1630,7 @@ depends-member:
 - ["So18UIContentContainerP", "configureTF"]
 - ["So18UIContentContainerP", "confirmPasswordLabel"]
 - ["So18UIContentContainerP", "confirmPasswordTextField"]
+- !private ["So18UIContentContainerP", "debugDescription"]
 - ["So18UIContentContainerP", "deinit"]
 - ["So18UIContentContainerP", "delegate"]
 - !private ["So18UIContentContainerP", "dismiss"]
@@ -1774,6 +1797,7 @@ depends-member:
 - ["So18UIFocusEnvironmentP", "confirmPasswordLabel"]
 - ["So18UIFocusEnvironmentP", "confirmPasswordTextField"]
 - !private ["So18UIFocusEnvironmentP", "contentHorizontalAlignment"]
+- !private ["So18UIFocusEnvironmentP", "debugDescription"]
 - ["So18UIFocusEnvironmentP", "deinit"]
 - ["So18UIFocusEnvironmentP", "delegate"]
 - !private ["So18UIFocusEnvironmentP", "dismiss"]
@@ -1957,6 +1981,7 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "confirmPasswordLabel"]
 - ["So30UIPasteConfigurationSupportingP", "confirmPasswordTextField"]
 - !private ["So30UIPasteConfigurationSupportingP", "contentHorizontalAlignment"]
+- !private ["So30UIPasteConfigurationSupportingP", "debugDescription"]
 - ["So30UIPasteConfigurationSupportingP", "deinit"]
 - ["So30UIPasteConfigurationSupportingP", "delegate"]
 - !private ["So30UIPasteConfigurationSupportingP", "dismiss"]
@@ -2047,6 +2072,7 @@ depends-member:
 - ["So11UIResponderC", "confirmPasswordLabel"]
 - ["So11UIResponderC", "confirmPasswordTextField"]
 - !private ["So11UIResponderC", "contentHorizontalAlignment"]
+- !private ["So11UIResponderC", "debugDescription"]
 - ["So11UIResponderC", "delegate"]
 - !private ["So11UIResponderC", "dismiss"]
 - !private ["So11UIResponderC", "dismissViewControllerAnimated"]
@@ -2134,6 +2160,7 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "confirmPasswordLabel"]
 - ["So30UIResponderStandardEditActionsP", "confirmPasswordTextField"]
 - !private ["So30UIResponderStandardEditActionsP", "contentHorizontalAlignment"]
+- !private ["So30UIResponderStandardEditActionsP", "debugDescription"]
 - ["So30UIResponderStandardEditActionsP", "deinit"]
 - ["So30UIResponderStandardEditActionsP", "delegate"]
 - !private ["So30UIResponderStandardEditActionsP", "dismiss"]
@@ -2191,6 +2218,7 @@ depends-member:
 - !private ["So35UISpringLoadedInteractionSupportingP", "addAction"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "addTarget"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "contentHorizontalAlignment"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "debugDescription"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "heightAnchor"]
 - ["So35UISpringLoadedInteractionSupportingP", "init"]
 - ["So35UISpringLoadedInteractionSupportingP", "setTitle"]
@@ -2230,6 +2258,7 @@ depends-member:
 - ["So16UIStateRestoringP", "configureTF"]
 - ["So16UIStateRestoringP", "confirmPasswordLabel"]
 - ["So16UIStateRestoringP", "confirmPasswordTextField"]
+- !private ["So16UIStateRestoringP", "debugDescription"]
 - ["So16UIStateRestoringP", "deinit"]
 - ["So16UIStateRestoringP", "delegate"]
 - !private ["So16UIStateRestoringP", "dismiss"]
@@ -2311,7 +2340,6 @@ depends-member:
 - ["So19UITextFieldDelegateP", "passwordLabel"]
 - ["So19UITextFieldDelegateP", "passwordTextField"]
 - !private ["So19UITextFieldDelegateP", "present"]
-- !private ["So19UITextFieldDelegateP", "print"]
 - ["So19UITextFieldDelegateP", "setUpStacks"]
 - ["So19UITextFieldDelegateP", "setupConstraints"]
 - !private ["So19UITextFieldDelegateP", "showAlertController"]
@@ -2386,6 +2414,7 @@ depends-member:
 - ["So18UITraitEnvironmentP", "confirmPasswordLabel"]
 - ["So18UITraitEnvironmentP", "confirmPasswordTextField"]
 - !private ["So18UITraitEnvironmentP", "contentHorizontalAlignment"]
+- !private ["So18UITraitEnvironmentP", "debugDescription"]
 - ["So18UITraitEnvironmentP", "deinit"]
 - ["So18UITraitEnvironmentP", "delegate"]
 - !private ["So18UITraitEnvironmentP", "dismiss"]
@@ -2468,6 +2497,7 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "confirmPasswordLabel"]
 - ["So23UIUserActivityRestoringP", "confirmPasswordTextField"]
 - !private ["So23UIUserActivityRestoringP", "contentHorizontalAlignment"]
+- !private ["So23UIUserActivityRestoringP", "debugDescription"]
 - ["So23UIUserActivityRestoringP", "deinit"]
 - ["So23UIUserActivityRestoringP", "delegate"]
 - !private ["So23UIUserActivityRestoringP", "dismiss"]
@@ -2576,6 +2606,7 @@ depends-member:
 - ["So16UIViewControllerC", "configureTF"]
 - ["So16UIViewControllerC", "confirmPasswordLabel"]
 - ["So16UIViewControllerC", "confirmPasswordTextField"]
+- !private ["So16UIViewControllerC", "debugDescription"]
 - ["So16UIViewControllerC", "delegate"]
 - !private ["So16UIViewControllerC", "dismiss"]
 - ["So16UIViewControllerC", "emailLabel"]
@@ -2720,6 +2751,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "confirmPasswordTextField"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "constraint"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "contentHorizontalAlignment"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "debugDescription"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "dismiss"]
@@ -2806,6 +2838,7 @@ depends-member:
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "confirmPasswordTextField"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "constraint"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "contentHorizontalAlignment"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "debugDescription"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "default"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "delegate"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dismiss"]
@@ -2939,6 +2972,7 @@ depends-nominal:
 - "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
 - "Se"
+- !private "s26DefaultStringInterpolationV"
 - !private "SD"
 - "SE"
 - "SQ"
@@ -2990,6 +3024,7 @@ depends-nominal:
 - "s13SignedNumericP"
 - "So14UIControlStateV"
 - "Sx"
+- !private "s27StringInterpolationProtocolP"
 - !private "So22UIAlertControllerStyleV"
 - !private "So18UIAlertActionStyleV"
 - "s16TextOutputStreamP"
@@ -3266,4 +3301,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "f046267e1787ad88df239e0ddeeb913d"
+interface-hash: "3b023428810243282086fe91c3c46394"

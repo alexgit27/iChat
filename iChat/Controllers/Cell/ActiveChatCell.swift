@@ -34,7 +34,6 @@ class ActiveChatCell: UICollectionViewCell, SelfConfiguringCell {
         lastMessage.text = chat.lastMessageContent
         friendImageView.contentMode = .scaleAspectFit
         friendImageView.sd_setImage(with: URL(string: chat.friendAvatarStringURL), completed: nil)
-//        friendImageView.image = #imageLiteral(resourceName: "human6")
         
     }
     

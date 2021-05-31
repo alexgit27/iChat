@@ -101,6 +101,8 @@ depends-member:
 - ["10Foundation14LocalizedErrorP", "photoNotExist"]
 - ["10Foundation14LocalizedErrorP", "recoverySuggestion"]
 - ["10Foundation14LocalizedErrorP", "userInfo"]
+- ["So8NSCodingP", ""]
+- ["So8NSObjectP", ""]
 - ["5iChat9UserErrorO", "=="]
 - !private ["5iChat9UserErrorO", "NSLocalizedString"]
 - ["5iChat9UserErrorO", "String"]
@@ -132,6 +134,8 @@ depends-nominal:
 - "SH"
 - !private "s6HasherV"
 - "10Foundation14LocalizedErrorP"
+- "So8NSCodingP"
+- "So8NSObjectP"
 - "5iChat9UserErrorO"
 - !private "s35_ExpressibleByBuiltinIntegerLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"

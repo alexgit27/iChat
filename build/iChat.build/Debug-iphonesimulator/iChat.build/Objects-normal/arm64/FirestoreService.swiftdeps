@@ -376,12 +376,10 @@ depends-member:
 - !private ["10Foundation19MutableDataProtocolP", "append"]
 - !private ["10Foundation19MutableDataProtocolP", "init"]
 - !private ["10Foundation19MutableDataProtocolP", "joined"]
-- !private ["So8NSCodingP", ""]
 - ["So8NSObjectC", ""]
 - !private ["So8NSObjectC", "addDocument"]
 - !private ["So8NSObjectC", "addDocumentWithData"]
 - !private ["So8NSObjectC", "auth"]
-- !private ["So8NSObjectC", "authWithApp"]
 - !private ["So8NSObjectC", "collection"]
 - !private ["So8NSObjectC", "collectionWithPath"]
 - !private ["So8NSObjectC", "credential"]
@@ -411,11 +409,10 @@ depends-member:
 - !private ["So8NSObjectC", "reauthenticateWithProvider"]
 - !private ["So8NSObjectC", "setData"]
 - !private ["So8NSObjectC", "uid"]
-- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", ""]
 - !private ["So8NSObjectP", "addDocument"]
 - !private ["So8NSObjectP", "addDocumentWithData"]
 - !private ["So8NSObjectP", "auth"]
-- !private ["So8NSObjectP", "authWithApp"]
 - !private ["So8NSObjectP", "collection"]
 - !private ["So8NSObjectP", "collectionWithPath"]
 - !private ["So8NSObjectP", "credential"]
@@ -589,7 +586,6 @@ depends-nominal:
 - !private "10MessageKit0A4TypeP"
 - !private "SM"
 - !private "10Foundation19MutableDataProtocolP"
-- !private "So8NSCodingP"
 - "So8NSObjectC"
 - "So8NSObjectP"
 - !private "Sq"
