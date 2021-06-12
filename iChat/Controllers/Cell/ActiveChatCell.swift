@@ -50,7 +50,6 @@ extension ActiveChatCell {
         lastMessage.translatesAutoresizingMaskIntoConstraints = false
         gradientView.translatesAutoresizingMaskIntoConstraints = false
         
-        friendImageView.backgroundColor = .yellow
         gradientView.backgroundColor = .orange
         
         self.addSubview(friendImageView)

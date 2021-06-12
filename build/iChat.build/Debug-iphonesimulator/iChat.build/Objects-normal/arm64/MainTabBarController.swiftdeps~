@@ -32,8 +32,6 @@ depends-top-level:
 - !private "tabBar"
 - !private "viewControllers"
 depends-member:
-- !private ["s18AdditiveArithmeticP", ""]
-- ["SK", ""]
 - !private ["So15CALayerDelegateP", "tintColor"]
 - !private ["s7CVarArgP", "ListViewController"]
 - !private ["s7CVarArgP", "MUser"]
@@ -57,8 +55,6 @@ depends-member:
 - ["s9CodingKeyP", "init"]
 - ["s9CodingKeyP", "intValue"]
 - ["s9CodingKeyP", "stringValue"]
-- ["Sl", ""]
-- ["SL", ""]
 - ["So20UIImageConfigurationC", ""]
 - !private ["So20UIImageConfigurationC", "configurationWithFont"]
 - !private ["So20UIImageConfigurationC", "configurationWithPointSize"]
@@ -130,15 +126,8 @@ depends-member:
 - !private ["SQ", "viewControllers"]
 - !private ["SQ", "viewDidLoad"]
 - !private ["s25ExpressibleByArrayLiteralP", "init"]
-- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
-- !private ["s25ExpressibleByFloatLiteralP", ""]
-- !private ["s27ExpressibleByIntegerLiteralP", ""]
 - !private ["s23ExpressibleByNilLiteralP", "image"]
 - !private ["s23ExpressibleByNilLiteralP", "title"]
-- ["s32ExpressibleByStringInterpolationP", ""]
-- ["s26ExpressibleByStringLiteralP", ""]
-- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
-- !private ["SF", ""]
 - !private ["7SwiftUI7GestureP", "image"]
 - !private ["7SwiftUI7GestureP", "title"]
 - !private ["SH", "ListViewController"]
@@ -164,7 +153,6 @@ depends-member:
 - !private ["SH", "viewDidLoad"]
 - !private ["5iChat18ListViewControllerC", ""]
 - !private ["5iChat18ListViewControllerC", "init"]
-- ["s25LosslessStringConvertibleP", ""]
 - ["5iChat5MUserV", "CodingKeys"]
 - ["5iChat5MUserV", ""]
 - !private ["5iChat5MUserV", "init"]
@@ -186,12 +174,10 @@ depends-member:
 - !private ["5iChat20MainTabBarControllerC", "viewControllers"]
 - ["5iChat20MainTabBarControllerC", "viewDidLoad"]
 - !private ["So8NSCodingP", "ListViewController"]
-- ["So8NSCodingP", "MUser"]
-- ["So8NSCodingP", "NSCoder"]
+- !private ["So8NSCodingP", "MUser"]
 - !private ["So8NSCodingP", "PeopleViewController"]
-- ["So8NSCodingP", "String"]
 - !private ["So8NSCodingP", "SymbolConfiguration"]
-- ["So8NSCodingP", "UIImage"]
+- !private ["So8NSCodingP", "UIImage"]
 - !private ["So8NSCodingP", "UINavigationController"]
 - ["So8NSCodingP", "UIViewController"]
 - ["So8NSCodingP", ""]
@@ -218,11 +204,9 @@ depends-member:
 - !private ["So9NSCopyingP", "configurationWithWeight"]
 - !private ["So9NSCopyingP", "init"]
 - !private ["So26NSExtensionRequestHandlingP", "ListViewController"]
-- ["So26NSExtensionRequestHandlingP", "MUser"]
-- ["So26NSExtensionRequestHandlingP", "NSCoder"]
+- !private ["So26NSExtensionRequestHandlingP", "MUser"]
 - !private ["So26NSExtensionRequestHandlingP", "PeopleViewController"]
-- ["So26NSExtensionRequestHandlingP", "String"]
-- ["So26NSExtensionRequestHandlingP", "UIImage"]
+- !private ["So26NSExtensionRequestHandlingP", "UIImage"]
 - !private ["So26NSExtensionRequestHandlingP", "UINavigationController"]
 - ["So26NSExtensionRequestHandlingP", "UIViewController"]
 - ["So26NSExtensionRequestHandlingP", ""]
@@ -257,15 +241,7 @@ depends-member:
 - !private ["So8NSObjectC", "fatalError"]
 - ["So8NSObjectC", "generateNavigationVC"]
 - !private ["So8NSObjectC", "image"]
-- !private ["So8NSObjectC", "imageNamed"]
-- !private ["So8NSObjectC", "imageWithCGImage"]
-- !private ["So8NSObjectC", "imageWithCIImage"]
-- !private ["So8NSObjectC", "imageWithContentsOfFile"]
-- !private ["So8NSObjectC", "imageWithData"]
 - ["So8NSObjectC", "init"]
-- !private ["So8NSObjectC", "jpegData"]
-- !private ["So8NSObjectC", "pngData"]
-- !private ["So8NSObjectC", "systemImageNamed"]
 - !private ["So8NSObjectC", "tabBar"]
 - !private ["So8NSObjectC", "tabBarItem"]
 - !private ["So8NSObjectC", "tintColor"]
@@ -273,12 +249,10 @@ depends-member:
 - !private ["So8NSObjectC", "viewControllers"]
 - ["So8NSObjectC", "viewDidLoad"]
 - !private ["So8NSObjectP", "ListViewController"]
-- ["So8NSObjectP", "MUser"]
-- ["So8NSObjectP", "NSCoder"]
+- !private ["So8NSObjectP", "MUser"]
 - !private ["So8NSObjectP", "PeopleViewController"]
-- ["So8NSObjectP", "String"]
 - !private ["So8NSObjectP", "SymbolConfiguration"]
-- ["So8NSObjectP", "UIImage"]
+- !private ["So8NSObjectP", "UIImage"]
 - !private ["So8NSObjectP", "UINavigationController"]
 - ["So8NSObjectP", "UIViewController"]
 - ["So8NSObjectP", ""]
@@ -291,15 +265,7 @@ depends-member:
 - !private ["So8NSObjectP", "fatalError"]
 - ["So8NSObjectP", "generateNavigationVC"]
 - !private ["So8NSObjectP", "image"]
-- !private ["So8NSObjectP", "imageNamed"]
-- !private ["So8NSObjectP", "imageWithCGImage"]
-- !private ["So8NSObjectP", "imageWithCIImage"]
-- !private ["So8NSObjectP", "imageWithContentsOfFile"]
-- !private ["So8NSObjectP", "imageWithData"]
 - ["So8NSObjectP", "init"]
-- !private ["So8NSObjectP", "jpegData"]
-- !private ["So8NSObjectP", "pngData"]
-- !private ["So8NSObjectP", "systemImageNamed"]
 - !private ["So8NSObjectP", "tabBar"]
 - !private ["So8NSObjectP", "tabBarItem"]
 - !private ["So8NSObjectP", "tintColor"]
@@ -313,19 +279,13 @@ depends-member:
 - !private ["So14NSSecureCodingP", "configurationWithTextStyle"]
 - !private ["So14NSSecureCodingP", "configurationWithWeight"]
 - !private ["So14NSSecureCodingP", "init"]
-- !private ["Sj", ""]
 - !private ["Sq", "image"]
 - !private ["Sq", "title"]
 - !private ["5iChat20PeopleViewControllerC", ""]
 - !private ["5iChat20PeopleViewControllerC", "init"]
 - !private ["SY", "medium"]
-- ["ST", ""]
-- !private ["s13SignedNumericP", ""]
-- !private ["Sx", ""]
 - !private ["So26UIImageSymbolConfigurationC", "init"]
 - !private ["So19UIImageSymbolWeightV", "medium"]
-- ["s16TextOutputStreamP", ""]
-- ["s20TextOutputStreamableP", ""]
 - !private ["So29UIAccessibilityIdentificationP", "SymbolConfiguration"]
 - !private ["So29UIAccessibilityIdentificationP", "image"]
 - !private ["So29UIAccessibilityIdentificationP", "init"]
@@ -335,11 +295,9 @@ depends-member:
 - !private ["So12UIAppearanceP", "tintColor"]
 - !private ["So12UIAppearanceP", "title"]
 - !private ["So21UIAppearanceContainerP", "ListViewController"]
-- ["So21UIAppearanceContainerP", "MUser"]
-- ["So21UIAppearanceContainerP", "NSCoder"]
+- !private ["So21UIAppearanceContainerP", "MUser"]
 - !private ["So21UIAppearanceContainerP", "PeopleViewController"]
-- ["So21UIAppearanceContainerP", "String"]
-- ["So21UIAppearanceContainerP", "UIImage"]
+- !private ["So21UIAppearanceContainerP", "UIImage"]
 - !private ["So21UIAppearanceContainerP", "UINavigationController"]
 - ["So21UIAppearanceContainerP", "UIViewController"]
 - ["So21UIAppearanceContainerP", ""]
@@ -359,11 +317,9 @@ depends-member:
 - ["So24UIBarPositioningDelegateP", "init"]
 - ["So24UICollectionViewDelegateP", "init"]
 - !private ["So18UIContentContainerP", "ListViewController"]
-- ["So18UIContentContainerP", "MUser"]
-- ["So18UIContentContainerP", "NSCoder"]
+- !private ["So18UIContentContainerP", "MUser"]
 - !private ["So18UIContentContainerP", "PeopleViewController"]
-- ["So18UIContentContainerP", "String"]
-- ["So18UIContentContainerP", "UIImage"]
+- !private ["So18UIContentContainerP", "UIImage"]
 - !private ["So18UIContentContainerP", "UINavigationController"]
 - ["So18UIContentContainerP", "UIViewController"]
 - ["So18UIContentContainerP", ""]
@@ -378,11 +334,9 @@ depends-member:
 - !private ["So17UICoordinateSpaceP", "tintColor"]
 - !private ["So13UIDynamicItemP", "tintColor"]
 - !private ["So18UIFocusEnvironmentP", "ListViewController"]
-- ["So18UIFocusEnvironmentP", "MUser"]
-- ["So18UIFocusEnvironmentP", "NSCoder"]
+- !private ["So18UIFocusEnvironmentP", "MUser"]
 - !private ["So18UIFocusEnvironmentP", "PeopleViewController"]
-- ["So18UIFocusEnvironmentP", "String"]
-- ["So18UIFocusEnvironmentP", "UIImage"]
+- !private ["So18UIFocusEnvironmentP", "UIImage"]
 - !private ["So18UIFocusEnvironmentP", "UINavigationController"]
 - ["So18UIFocusEnvironmentP", "UIViewController"]
 - ["So18UIFocusEnvironmentP", ""]
@@ -405,11 +359,9 @@ depends-member:
 - !private ["So22UINavigationControllerC", "init"]
 - !private ["So22UINavigationControllerC", "tabBarItem"]
 - !private ["So30UIPasteConfigurationSupportingP", "ListViewController"]
-- ["So30UIPasteConfigurationSupportingP", "MUser"]
-- ["So30UIPasteConfigurationSupportingP", "NSCoder"]
+- !private ["So30UIPasteConfigurationSupportingP", "MUser"]
 - !private ["So30UIPasteConfigurationSupportingP", "PeopleViewController"]
-- ["So30UIPasteConfigurationSupportingP", "String"]
-- ["So30UIPasteConfigurationSupportingP", "UIImage"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIImage"]
 - !private ["So30UIPasteConfigurationSupportingP", "UINavigationController"]
 - ["So30UIPasteConfigurationSupportingP", "UIViewController"]
 - ["So30UIPasteConfigurationSupportingP", ""]
@@ -441,11 +393,9 @@ depends-member:
 - !private ["So11UIResponderC", "viewControllers"]
 - ["So11UIResponderC", "viewDidLoad"]
 - !private ["So30UIResponderStandardEditActionsP", "ListViewController"]
-- ["So30UIResponderStandardEditActionsP", "MUser"]
-- ["So30UIResponderStandardEditActionsP", "NSCoder"]
+- !private ["So30UIResponderStandardEditActionsP", "MUser"]
 - !private ["So30UIResponderStandardEditActionsP", "PeopleViewController"]
-- ["So30UIResponderStandardEditActionsP", "String"]
-- ["So30UIResponderStandardEditActionsP", "UIImage"]
+- !private ["So30UIResponderStandardEditActionsP", "UIImage"]
 - !private ["So30UIResponderStandardEditActionsP", "UINavigationController"]
 - ["So30UIResponderStandardEditActionsP", "UIViewController"]
 - ["So30UIResponderStandardEditActionsP", ""]
@@ -465,11 +415,9 @@ depends-member:
 - !private ["So35UISpringLoadedInteractionSupportingP", "tintColor"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "title"]
 - !private ["So16UIStateRestoringP", "ListViewController"]
-- ["So16UIStateRestoringP", "MUser"]
-- ["So16UIStateRestoringP", "NSCoder"]
+- !private ["So16UIStateRestoringP", "MUser"]
 - !private ["So16UIStateRestoringP", "PeopleViewController"]
-- ["So16UIStateRestoringP", "String"]
-- ["So16UIStateRestoringP", "UIImage"]
+- !private ["So16UIStateRestoringP", "UIImage"]
 - !private ["So16UIStateRestoringP", "UINavigationController"]
 - ["So16UIStateRestoringP", "UIViewController"]
 - ["So16UIStateRestoringP", ""]
@@ -517,11 +465,9 @@ depends-member:
 - !private ["So12UITabBarItemC", "image"]
 - !private ["So12UITabBarItemC", "title"]
 - !private ["So18UITraitEnvironmentP", "ListViewController"]
-- ["So18UITraitEnvironmentP", "MUser"]
-- ["So18UITraitEnvironmentP", "NSCoder"]
+- !private ["So18UITraitEnvironmentP", "MUser"]
 - !private ["So18UITraitEnvironmentP", "PeopleViewController"]
-- ["So18UITraitEnvironmentP", "String"]
-- ["So18UITraitEnvironmentP", "UIImage"]
+- !private ["So18UITraitEnvironmentP", "UIImage"]
 - !private ["So18UITraitEnvironmentP", "UINavigationController"]
 - ["So18UITraitEnvironmentP", "UIViewController"]
 - ["So18UITraitEnvironmentP", ""]
@@ -535,11 +481,9 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "viewControllers"]
 - ["So18UITraitEnvironmentP", "viewDidLoad"]
 - !private ["So23UIUserActivityRestoringP", "ListViewController"]
-- ["So23UIUserActivityRestoringP", "MUser"]
-- ["So23UIUserActivityRestoringP", "NSCoder"]
+- !private ["So23UIUserActivityRestoringP", "MUser"]
 - !private ["So23UIUserActivityRestoringP", "PeopleViewController"]
-- ["So23UIUserActivityRestoringP", "String"]
-- ["So23UIUserActivityRestoringP", "UIImage"]
+- !private ["So23UIUserActivityRestoringP", "UIImage"]
 - !private ["So23UIUserActivityRestoringP", "UINavigationController"]
 - ["So23UIUserActivityRestoringP", "UIViewController"]
 - ["So23UIUserActivityRestoringP", ""]
@@ -574,11 +518,9 @@ depends-member:
 - !private ["7SwiftUI4ViewP", "image"]
 - !private ["7SwiftUI4ViewP", "title"]
 - !private ["5iChat22WaitingChatsNavigationP", "init"]
-- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
 - !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
 - !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
-- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - !private ["s26_ExpressibleByColorLiteralP", "init"]
 - !private ["s26_ExpressibleByImageLiteralP", "SymbolConfiguration"]
 - !private ["s26_ExpressibleByImageLiteralP", "init"]
@@ -622,13 +564,9 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "title"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "tintColor"]
 depends-nominal:
-- !private "s18AdditiveArithmeticP"
-- "SK"
 - !private "So15CALayerDelegateP"
 - "s7CVarArgP"
 - "s9CodingKeyP"
-- "Sl"
-- "SL"
 - "So20UIImageConfigurationC"
 - "s28CustomDebugStringConvertibleP"
 - !private "s17CustomReflectableP"
@@ -637,18 +575,10 @@ depends-nominal:
 - !private "SE"
 - "SQ"
 - !private "s25ExpressibleByArrayLiteralP"
-- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
-- !private "s25ExpressibleByFloatLiteralP"
-- !private "s27ExpressibleByIntegerLiteralP"
 - !private "s23ExpressibleByNilLiteralP"
-- "s32ExpressibleByStringInterpolationP"
-- "s26ExpressibleByStringLiteralP"
-- "s33ExpressibleByUnicodeScalarLiteralP"
-- !private "SF"
 - !private "7SwiftUI7GestureP"
 - "SH"
 - !private "5iChat18ListViewControllerC"
-- "s25LosslessStringConvertibleP"
 - "5iChat5MUserV"
 - "5iChat20MainTabBarControllerC"
 - "So8NSCodingP"
@@ -659,17 +589,11 @@ depends-nominal:
 - "So8NSObjectC"
 - "So8NSObjectP"
 - !private "So14NSSecureCodingP"
-- !private "Sj"
 - !private "Sq"
 - !private "5iChat20PeopleViewControllerC"
 - !private "SY"
-- "ST"
-- !private "s13SignedNumericP"
-- !private "Sx"
 - !private "So26UIImageSymbolConfigurationC"
 - !private "So19UIImageSymbolWeightV"
-- "s16TextOutputStreamP"
-- "s20TextOutputStreamableP"
 - !private "So29UIAccessibilityIdentificationP"
 - !private "So12UIAppearanceP"
 - "So21UIAppearanceContainerP"
@@ -703,11 +627,9 @@ depends-nominal:
 - "So16UIViewControllerC"
 - !private "7SwiftUI4ViewP"
 - !private "5iChat22WaitingChatsNavigationP"
-- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - !private "s33_ExpressibleByBuiltinFloatLiteralP"
 - !private "s35_ExpressibleByBuiltinIntegerLiteralP"
 - "s34_ExpressibleByBuiltinStringLiteralP"
-- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s26_ExpressibleByColorLiteralP"
 - !private "s26_ExpressibleByImageLiteralP"
 - "10Foundation27_KeyValueCodingAndObservingP"

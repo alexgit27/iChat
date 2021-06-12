@@ -56,6 +56,7 @@ class SetupProfileViewController: UIViewController {
         
     }
     
+    // MARK: Selectors for buttons
     @objc private func goToChatsButtonTapped() {
         FirestoreService.shared.saveProfileWith(id: currentUser.uid, email: currentUser.email!, username: fullNameTextField.text, avatarImage: fullImageView.circleImageView.image, description: aboutMeTextField.text, sex: sexSegmentedControl.titleForSegment(at: sexSegmentedControl.selectedSegmentIndex)) { (result) in
             switch result {
@@ -83,12 +84,13 @@ class SetupProfileViewController: UIViewController {
     }
     
     deinit {
+        // remove observers for keyboard
         NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillShowNotification, object: nil)
         NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillHideNotification, object: nil)
     }
 }
 
-// MARK: - Setup Constraints
+// MARK: -Setup Constraints
 extension SetupProfileViewController {
     private func setupConstraints() {
         let fullNameStackView = UIStackView(arrangedSubviews: [fullNameLabel, fullNameTextField], axis: .vertical, spacing: 0)
@@ -129,8 +131,9 @@ extension SetupProfileViewController {
     }
 }
 
-// MARK: - UINavigationControllerDelegate, UIImagePickerControllerDelegate
+// MARK: -UINavigationControllerDelegate, UIImagePickerControllerDelegate
 extension SetupProfileViewController: UINavigationControllerDelegate, UIImagePickerControllerDelegate {
+    // choose imgage from library phone
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         
         picker.dismiss(animated: true, completion: nil)
@@ -140,7 +143,7 @@ extension SetupProfileViewController: UINavigationControllerDelegate, UIImagePic
     }
 }
 
-// MARK: - Notification Center
+// MARK: -Notification Center
 extension SetupProfileViewController {
    private func keyboardWillShow() {
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShowHandler), name: UIResponder.keyboardWillShowNotification, object: nil)
@@ -152,6 +155,7 @@ extension SetupProfileViewController {
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHideHandler), name: UIResponder.keyboardWillHideNotification, object: nil)
     }
     
+    // Selector for UITapGestureRecognizer
     @objc private func gestureResignFirstResponderHandler() {
         if fullNameTextField.isFirstResponder {
             fullNameTextField.resignFirstResponder()
@@ -161,21 +165,21 @@ extension SetupProfileViewController {
         view.frame.origin.y = 0
     }
     
+    // Selector for keyboard when will show
     @objc private func keyboardWillShowHandler(notification: Notification) {
         guard let userInfo = notification.userInfo else { return }
         let kbFrameSize = (userInfo[UIResponder.keyboardFrameEndUserInfoKey] as! NSValue).cgRectValue
             view.frame.origin.y = -kbFrameSize.height + 120
     }
     
-    
-    
+    // Selector for keyboard when will hide
     @objc private func keyboardWillHideHandler() {
         view.frame.origin.y = 0
     }
     
 }
 
-// MARK: - Setup TextField
+// MARK: -Setup TextField
 extension SetupProfileViewController: UITextFieldDelegate {
     private func configureTF() {
         fullNameTextField.delegate = self
@@ -198,7 +202,7 @@ extension SetupProfileViewController: UITextFieldDelegate {
     }
 }
 
-// MARK: - SwiftUI
+// MARK: -SwiftUI
 import SwiftUI
 
 struct SetupViewControllerProvider: PreviewProvider {

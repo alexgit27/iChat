@@ -86,7 +86,7 @@ extension PeopleViewController {
     }
 }
 
-    // MARK: - Bar Button Item Functions
+    // MARK: -BarButtonItem Selectors
 extension PeopleViewController {
     @objc private func signOut() {
         let alertController = UIAlertController(title: nil, message: "Вы хотите выйти?", preferredStyle: .alert)
@@ -121,7 +121,6 @@ extension PeopleViewController {
                     FirestoreService.shared.deletUser(userPassword: (passwordController.textFields?.first?.text)!) { (result) in
                         switch result {
                         case .success():
-//                            UIApplication.shared.keyWindow?.rootViewController = AuthViewController()
                             UIApplication.shared.windows.filter {$0.isKeyWindow}.first?.rootViewController = AuthViewController()
                         case .failure(let error):
                             print(error.localizedDescription)
@@ -137,7 +136,7 @@ extension PeopleViewController {
         }
 }
 
-// MARK: - Search Bar
+// MARK: -Search Bar
 extension PeopleViewController: UISearchBarDelegate {
     private func setupSearchBar() {
         navigationController?.navigationBar.barTintColor = .mainWhite()
@@ -155,7 +154,7 @@ extension PeopleViewController: UISearchBarDelegate {
     }
 }
 
-// MARK: - Data Source
+// MARK: -Data Source
 extension PeopleViewController {
     private func createDataSource() {
         dataSource = UICollectionViewDiffableDataSource(collectionView: collectionView, cellProvider: { [weak self] (collectionView, indexPath, user) -> UICollectionViewCell? in
@@ -193,7 +192,7 @@ extension PeopleViewController {
     }
 }
 
-// MARK: - Setup Layout
+// MARK: -Setup Layout
 extension PeopleViewController {
     private func createCompositionalLayout() -> UICollectionViewLayout {
         let layout = UICollectionViewCompositionalLayout { [weak self] (sectionIndex, layoutEnvironment) -> NSCollectionLayoutSection? in
@@ -217,9 +216,7 @@ extension PeopleViewController {
         let itemSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1), heightDimension: .fractionalHeight(1))
         let item = NSCollectionLayoutItem(layoutSize: itemSize)
         let groupSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1), heightDimension: .fractionalWidth(0.6))
-//        let groupSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1), heightDimension: .absolute(100))
         let group = NSCollectionLayoutGroup.horizontal(layoutSize: groupSize, subitem: item, count: 2)
-//            .horizontal(layoutSize: groupSize, subitems: [item])
         let spacing = CGFloat(15)
         group.interItemSpacing = .fixed(spacing)
         let section = NSCollectionLayoutSection(group: group)
@@ -237,7 +234,7 @@ extension PeopleViewController {
     }
 }
 
-// MARK: - UICollectionViewDelegate
+// MARK: -UICollectionViewDelegate
 extension PeopleViewController: UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         guard let user = dataSource.itemIdentifier(for: indexPath) else { return }

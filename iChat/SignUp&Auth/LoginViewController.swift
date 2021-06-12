@@ -7,16 +7,15 @@
 
 import UIKit
 
-
-
 class LoginViewController: UIViewController {
     let welcomeLabel = UILabel(text: "Welcome back!", font: .avenir26())
     let loginWithLabel = UILabel(text: "Login with")
     let emailLabel = UILabel(text: "Email")
     let passwordLabel = UILabel(text: "Password")
     let needAnAccountLabel = UILabel(text: "Need an account?")
+    let emailTextField = OneLineTextField(font: .avenir20())
+    let passwordTextField = OneLineTextField(font: .avenir20())
     
-
     let loginButton = UIButton(title: "Login", titleColor: .white, backgroundColor: .buttonDark())
     let signUpButton: UIButton = {
         let button = UIButton(type: .system)
@@ -25,9 +24,6 @@ class LoginViewController: UIViewController {
         button.titleLabel?.font = .avenir20()
         return button
     }()
-    
-    let emailTextField = OneLineTextField(font: .avenir20())
-    let passwordTextField = OneLineTextField(font: .avenir20())
     
     weak var delegate: AuthNavigatingDelegate?
     
@@ -48,11 +44,11 @@ class LoginViewController: UIViewController {
         needAnAccountLabel.allowsDefaultTighteningForTruncation = true
     }
     
+    // MARK: Selectors for buttons
    @objc private func loginButtonTapped() {
     AuthService.shared.login(email: emailTextField.text, password: passwordTextField.text) { (result) in
         switch result {
         case .success(let user):
-//            self.showAlertController(with: "Success!", and: "You succes sign in!") {
                 FirestoreService.shared.getUserData(user: user) { (result) in
                 switch result {
                 case .success(let mUser):
@@ -62,7 +58,6 @@ class LoginViewController: UIViewController {
                 case .failure(_):
                     self.present(SetupProfileViewController(currentUser: user), animated: true, completion: nil)
                 }
-//            }
             }
         case .failure(let error):
             self.showAlertController(with: "Error!", and: error.localizedDescription)
@@ -76,13 +71,15 @@ class LoginViewController: UIViewController {
         })
      }
     
+    
     deinit {
+        // remove observers for keyboard
         NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillShowNotification, object: nil)
         NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillHideNotification, object: nil)
     }
 }
 
-// MARK: - Setup Constraints
+// MARK: -Setup Constraints
 extension LoginViewController {
     private func setupConstraints() {
         let emailStackView = UIStackView(arrangedSubviews: [emailLabel, emailTextField], axis: .vertical, spacing: 0)
@@ -123,7 +120,7 @@ extension LoginViewController {
     }
 }
 
-// MARK: - Notification Center
+// MARK: -Notification Center
 extension LoginViewController {
    private func keyboardWillShow() {
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShowHandler), name: UIResponder.keyboardWillShowNotification, object: nil)
@@ -136,6 +133,7 @@ extension LoginViewController {
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHideHandler), name: UIResponder.keyboardWillHideNotification, object: nil)
     }
     
+    // Selector for UITapGestureRecognizer
     @objc private func gestureResignFirstResponderHandler() {
         if emailTextField.isFirstResponder {
             emailTextField.resignFirstResponder()
@@ -145,6 +143,7 @@ extension LoginViewController {
         view.frame.origin.y = 0
     }
     
+    // Selector for keyboard when will show
     @objc private func keyboardWillShowHandler(notification: Notification) {
         guard let userInfo = notification.userInfo else { return }
         let kbFrameSize = (userInfo[UIResponder.keyboardFrameEndUserInfoKey] as! NSValue).cgRectValue
@@ -152,16 +151,19 @@ extension LoginViewController {
         view.frame.origin.y = -kbFrameSize.height / 2
     }
     
+    // Selector for keyboard when will hide
     @objc private func keyboardWillHideHandler() {
         view.frame.origin.y = 0
     }
 }
 
-// MARK: - Setup TextField
+// MARK: -Setup TextField
 extension LoginViewController: UITextFieldDelegate {
     private func configureTF() {
         emailTextField.delegate = self
         passwordTextField.delegate = self
+        
+        passwordTextField.isSecureTextEntry = true
         
         emailTextField.tag = 1
         passwordTextField.tag = 2

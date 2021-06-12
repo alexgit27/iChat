@@ -20,7 +20,6 @@ depends-member:
 - ["SK", ""]
 - !private ["SK", "filter"]
 - !private ["SK", "first"]
-- !private ["So15CALayerDelegateP", ""]
 - !private ["So15CALayerDelegateP", "isKeyWindow"]
 - !private ["So15CALayerDelegateP", "rootViewController"]
 - !private ["8CloudKit21CKRecordValueProtocolP", "filter"]
@@ -115,7 +114,7 @@ depends-member:
 - !private ["SM", "first"]
 - !private ["10Foundation19MutableDataProtocolP", "filter"]
 - !private ["10Foundation19MutableDataProtocolP", "first"]
-- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", ""]
 - !private ["So8NSCodingP", "isKeyWindow"]
 - !private ["So8NSCodingP", "presentedViewController"]
 - !private ["So8NSCodingP", "rootViewController"]
@@ -165,10 +164,8 @@ depends-member:
 - !private ["Sx", ""]
 - ["s16TextOutputStreamP", ""]
 - ["s20TextOutputStreamableP", ""]
-- !private ["So29UIAccessibilityIdentificationP", ""]
 - !private ["So29UIAccessibilityIdentificationP", "isKeyWindow"]
 - !private ["So29UIAccessibilityIdentificationP", "rootViewController"]
-- !private ["So12UIAppearanceP", ""]
 - !private ["So12UIAppearanceP", "isKeyWindow"]
 - !private ["So12UIAppearanceP", "rootViewController"]
 - !private ["So21UIAppearanceContainerP", ""]
@@ -189,10 +186,8 @@ depends-member:
 - !private ["So18UIContentContainerP", "presentedViewController"]
 - !private ["So18UIContentContainerP", "selectedViewController"]
 - !private ["So18UIContentContainerP", "visibleViewController"]
-- !private ["So17UICoordinateSpaceP", ""]
 - !private ["So17UICoordinateSpaceP", "isKeyWindow"]
 - !private ["So17UICoordinateSpaceP", "rootViewController"]
-- !private ["So13UIDynamicItemP", ""]
 - !private ["So13UIDynamicItemP", "isKeyWindow"]
 - !private ["So13UIDynamicItemP", "rootViewController"]
 - !private ["So18UIFocusEnvironmentP", ""]
@@ -201,13 +196,10 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "rootViewController"]
 - !private ["So18UIFocusEnvironmentP", "selectedViewController"]
 - !private ["So18UIFocusEnvironmentP", "visibleViewController"]
-- !private ["So11UIFocusItemP", ""]
 - !private ["So11UIFocusItemP", "isKeyWindow"]
 - !private ["So11UIFocusItemP", "rootViewController"]
-- !private ["So20UIFocusItemContainerP", ""]
 - !private ["So20UIFocusItemContainerP", "isKeyWindow"]
 - !private ["So20UIFocusItemContainerP", "rootViewController"]
-- !private ["So24UILargeContentViewerItemP", ""]
 - !private ["So24UILargeContentViewerItemP", "isKeyWindow"]
 - !private ["So24UILargeContentViewerItemP", "rootViewController"]
 - !private ["So22UINavigationControllerC", "visibleViewController"]
@@ -215,7 +207,6 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "UINavigationController"]
 - !private ["So30UIPasteConfigurationSupportingP", "UITabBarController"]
 - ["So30UIPasteConfigurationSupportingP", "UIViewController"]
-- !private ["So30UIPasteConfigurationSupportingP", ""]
 - ["So30UIPasteConfigurationSupportingP", "getTopViewController"]
 - !private ["So30UIPasteConfigurationSupportingP", "isKeyWindow"]
 - !private ["So30UIPasteConfigurationSupportingP", "presentedViewController"]
@@ -241,7 +232,6 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "UINavigationController"]
 - !private ["So30UIResponderStandardEditActionsP", "UITabBarController"]
 - ["So30UIResponderStandardEditActionsP", "UIViewController"]
-- !private ["So30UIResponderStandardEditActionsP", ""]
 - ["So30UIResponderStandardEditActionsP", "getTopViewController"]
 - !private ["So30UIResponderStandardEditActionsP", "isKeyWindow"]
 - !private ["So30UIResponderStandardEditActionsP", "presentedViewController"]
@@ -266,7 +256,6 @@ depends-member:
 - !private ["So23UIUserActivityRestoringP", "UINavigationController"]
 - !private ["So23UIUserActivityRestoringP", "UITabBarController"]
 - ["So23UIUserActivityRestoringP", "UIViewController"]
-- !private ["So23UIUserActivityRestoringP", ""]
 - ["So23UIUserActivityRestoringP", "getTopViewController"]
 - !private ["So23UIUserActivityRestoringP", "isKeyWindow"]
 - !private ["So23UIUserActivityRestoringP", "presentedViewController"]
@@ -289,7 +278,6 @@ depends-member:
 - !private ["s24_DestructorSafeContainerP", "filter"]
 - !private ["s24_DestructorSafeContainerP", "first"]
 - ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
-- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - !private ["s19_HasContiguousBytesP", "filter"]
 - !private ["s19_HasContiguousBytesP", "first"]
@@ -346,7 +334,7 @@ depends-nominal:
 - "s25LosslessStringConvertibleP"
 - !private "SM"
 - !private "10Foundation19MutableDataProtocolP"
-- "So8NSCodingP"
+- !private "So8NSCodingP"
 - !private "So26NSExtensionRequestHandlingP"
 - "So8NSObjectC"
 - "So8NSObjectP"
@@ -384,7 +372,6 @@ depends-nominal:
 - !private "s14_ArrayProtocolP"
 - !private "s24_DestructorSafeContainerP"
 - "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
-- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
 - "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s19_HasContiguousBytesP"
 - !private "s35_HasCustomAnyHashableRepresentationP"

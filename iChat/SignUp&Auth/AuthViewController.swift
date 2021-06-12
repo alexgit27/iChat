@@ -37,6 +37,7 @@ class AuthViewController: UIViewController {
         
     }
     
+    // MARK: Selectors for buttons
     @objc private func emailButtonTapped() {
         present(signUpVC, animated: true, completion: nil)
     }
@@ -46,7 +47,7 @@ class AuthViewController: UIViewController {
     }
 }
 
-// MARK: - Setup Constraints
+// MARK: -Setup Constraints
 extension AuthViewController {
     private func setupConstraints() {
         let emailView = ButtonFormView(label: emailLabel, button: emailButton)
@@ -73,7 +74,7 @@ extension AuthViewController {
     }
 }
 
-// MARK: - Protocol AuthNavigatingDelegate
+// MARK: -Protocol AuthNavigatingDelegate
 extension AuthViewController: AuthNavigatingDelegate {
     func toLoginVC() {
         present(loginVC, animated: true, completion: nil)
@@ -84,7 +85,7 @@ extension AuthViewController: AuthNavigatingDelegate {
     }
 }
 
-// MARK: - SwiftUI
+// MARK: -SwiftUI
 import SwiftUI
 
 struct AuthViewControllerProvider: PreviewProvider {

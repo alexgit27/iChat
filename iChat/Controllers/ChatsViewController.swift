@@ -31,9 +31,6 @@ class ChatsViewController: MessagesViewController {
         fatalError("init(coder:) has not been implemented")
     }
     
-    deinit {
-        messageListener?.remove()
-    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -123,9 +120,15 @@ class ChatsViewController: MessagesViewController {
             }
         }
     }
+    
+    deinit {
+        // remove listener for messages
+        messageListener?.remove()
+    }
 }
 
-// MARK: - UINavigationControllerDelegate, UIImagePickerControllerDelegate
+
+// MARK: -UINavigationControllerDelegate, UIImagePickerControllerDelegate
 extension ChatsViewController: UINavigationControllerDelegate, UIImagePickerControllerDelegate {
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         picker.dismiss(animated: true, completion: nil)
@@ -134,7 +137,7 @@ extension ChatsViewController: UINavigationControllerDelegate, UIImagePickerCont
     }
 }
 
-// MARK: - MessagesDataSource
+// MARK: -MessagesDataSource
 extension ChatsViewController: MessagesDataSource {
     func currentSender() -> SenderType {
         return CustomSender(senderId: user.id, displayName: user.username)
@@ -163,7 +166,7 @@ extension ChatsViewController: MessagesDataSource {
     }
 }
 
-// MARK: - ConfigureMessageInputBar
+// MARK: -ConfigureMessageInputBar
 extension ChatsViewController {
     func configureMessageInputBar() {
         messageInputBar.isTranslucent = true
@@ -211,7 +214,7 @@ extension ChatsViewController {
     }
 }
 
-// MARK: - MessagesLayoutDelegate
+// MARK: -MessagesLayoutDelegate
 extension ChatsViewController: MessagesLayoutDelegate {
     func footerViewSize(for section: Int, in messagesCollectionView: MessagesCollectionView) -> CGSize {
         CGSize(width: 0, height: 8)
@@ -227,7 +230,7 @@ extension ChatsViewController: MessagesLayoutDelegate {
 }
 
 
-// MARK: - MessagesDisplayDelegate
+// MARK: -MessagesDisplayDelegate
 extension ChatsViewController: MessagesDisplayDelegate {
     func backgroundColor(for message: MessageType, at indexPath: IndexPath, in messagesCollectionView: MessagesCollectionView) -> UIColor {
         return isFromCurrentSender(message: message) ? .white : #colorLiteral(red: 0.7882352941, green: 0.631372549, blue: 0.9411764706, alpha: 1)
@@ -250,6 +253,7 @@ extension ChatsViewController: MessagesDisplayDelegate {
     }
 }
 
+// MARK: -InputBarAccessoryViewDelegate
 extension ChatsViewController: InputBarAccessoryViewDelegate {
     func inputBar(_ inputBar: InputBarAccessoryView, didPressSendButtonWith text: String) {
         let message = MMessage(user: user, content: text)
@@ -262,7 +266,6 @@ extension ChatsViewController: InputBarAccessoryViewDelegate {
                 self.showAlertController(with: "Error", and: error.localizedDescription)
             }
         }
-        
         inputBar.inputTextView.text = ""
     }
 }

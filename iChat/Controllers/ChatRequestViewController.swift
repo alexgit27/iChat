@@ -76,7 +76,7 @@ class ChatRequestViewController: UIViewController {
     }
 }
 
-// MARK: - Setup Constraints
+// MARK: -Setup Constraints
 extension ChatRequestViewController {
     private func setupConstraints() {
         let buttonsStackView = UIStackView(arrangedSubviews: [acceptButton, denyButton], axis: .horizontal, spacing: 7)
@@ -124,7 +124,7 @@ extension ChatRequestViewController {
     }
 }
 
-// MARK: - SwiftUI
+// MARK: -SwiftUI
 //import SwiftUI
 //
 //struct ChatRequestViewControllerProvider: PreviewProvider {

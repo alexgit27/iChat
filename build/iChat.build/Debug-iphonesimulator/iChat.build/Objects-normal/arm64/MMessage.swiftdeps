@@ -284,7 +284,7 @@ depends-member:
 - !private ["So8NSObjectC", "dateValue"]
 - !private ["So8NSObjectC", "documentID"]
 - !private ["So8NSObjectC", "size"]
-- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", ""]
 - !private ["So8NSObjectP", "data"]
 - !private ["So8NSObjectP", "dataWithServerTimestampBehavior"]
 - !private ["So8NSObjectP", "dateValue"]
@@ -369,7 +369,7 @@ depends-nominal:
 - !private "So21NSItemProviderReadingP"
 - !private "So21NSItemProviderWritingP"
 - "So8NSObjectC"
-- "So8NSObjectP"
+- !private "So8NSObjectP"
 - !private "So14NSSecureCodingP"
 - !private "So24FIRQueryDocumentSnapshotC"
 - !private "10Foundation20ReferenceConvertibleP"

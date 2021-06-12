@@ -41,7 +41,6 @@ depends-top-level:
 - "View"
 - "WaitingChatCell"
 - "WaitingChatControllerProvider"
-- !private "backgroundColor"
 - !private "fatalError"
 - !private "friendImageView"
 - !private "setupConstraints"
@@ -59,7 +58,6 @@ depends-member:
 - !private ["So15CALayerDelegateP", "URL"]
 - ["So15CALayerDelegateP", ""]
 - !private ["So15CALayerDelegateP", "addSubview"]
-- !private ["So15CALayerDelegateP", "backgroundColor"]
 - !private ["So15CALayerDelegateP", "bottomAnchor"]
 - !private ["So15CALayerDelegateP", "clipsToBounds"]
 - ["So15CALayerDelegateP", "configure"]
@@ -82,7 +80,6 @@ depends-member:
 - ["s7CVarArgP", ""]
 - !private ["s7CVarArgP", "activate"]
 - !private ["s7CVarArgP", "addSubview"]
-- !private ["s7CVarArgP", "backgroundColor"]
 - !private ["s7CVarArgP", "bottomAnchor"]
 - !private ["s7CVarArgP", "clipsToBounds"]
 - ["s7CVarArgP", "configure"]
@@ -93,7 +90,6 @@ depends-member:
 - ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "layer"]
 - !private ["s7CVarArgP", "leadingAnchor"]
-- !private ["s7CVarArgP", "red"]
 - ["s7CVarArgP", "reuseId"]
 - !private ["s7CVarArgP", "sd_setImage"]
 - !private ["s7CVarArgP", "setupConstraints"]
@@ -134,7 +130,6 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s28CustomDebugStringConvertibleP", "activate"]
 - !private ["s28CustomDebugStringConvertibleP", "addSubview"]
-- !private ["s28CustomDebugStringConvertibleP", "backgroundColor"]
 - !private ["s28CustomDebugStringConvertibleP", "bottomAnchor"]
 - !private ["s28CustomDebugStringConvertibleP", "clipsToBounds"]
 - ["s28CustomDebugStringConvertibleP", "configure"]
@@ -145,21 +140,18 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "layer"]
 - !private ["s28CustomDebugStringConvertibleP", "leadingAnchor"]
-- !private ["s28CustomDebugStringConvertibleP", "red"]
 - ["s28CustomDebugStringConvertibleP", "reuseId"]
 - !private ["s28CustomDebugStringConvertibleP", "sd_setImage"]
 - !private ["s28CustomDebugStringConvertibleP", "setupConstraints"]
 - !private ["s28CustomDebugStringConvertibleP", "topAnchor"]
 - !private ["s28CustomDebugStringConvertibleP", "trailingAnchor"]
 - !private ["s28CustomDebugStringConvertibleP", "translatesAutoresizingMaskIntoConstraints"]
-- !private ["s17CustomReflectableP", "red"]
 - !private ["s23CustomStringConvertibleP", "NSLayoutConstraint"]
 - ["s23CustomStringConvertibleP", "UIImageView"]
 - !private ["s23CustomStringConvertibleP", "URL"]
 - ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "activate"]
 - !private ["s23CustomStringConvertibleP", "addSubview"]
-- !private ["s23CustomStringConvertibleP", "backgroundColor"]
 - !private ["s23CustomStringConvertibleP", "bottomAnchor"]
 - !private ["s23CustomStringConvertibleP", "clipsToBounds"]
 - ["s23CustomStringConvertibleP", "configure"]
@@ -170,7 +162,6 @@ depends-member:
 - ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "layer"]
 - !private ["s23CustomStringConvertibleP", "leadingAnchor"]
-- !private ["s23CustomStringConvertibleP", "red"]
 - ["s23CustomStringConvertibleP", "reuseId"]
 - !private ["s23CustomStringConvertibleP", "sd_setImage"]
 - !private ["s23CustomStringConvertibleP", "setupConstraints"]
@@ -179,9 +170,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["Se", "friendAvatarStringURL"]
 - !private ["Se", "init"]
-- !private ["Se", "red"]
 - !private ["SE", "init"]
-- !private ["SE", "red"]
 - !private ["SQ", "NSLayoutConstraint"]
 - ["SQ", "UIImageView"]
 - !private ["SQ", "URL"]
@@ -189,7 +178,6 @@ depends-member:
 - !private ["SQ", "activate"]
 - !private ["SQ", "addSubview"]
 - !private ["SQ", "all"]
-- !private ["SQ", "backgroundColor"]
 - !private ["SQ", "bottomAnchor"]
 - !private ["SQ", "clipsToBounds"]
 - ["SQ", "configure"]
@@ -201,7 +189,6 @@ depends-member:
 - ["SQ", "init"]
 - !private ["SQ", "layer"]
 - !private ["SQ", "leadingAnchor"]
-- !private ["SQ", "red"]
 - ["SQ", "reuseId"]
 - !private ["SQ", "sd_setImage"]
 - !private ["SQ", "setupConstraints"]
@@ -214,18 +201,15 @@ depends-member:
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
 - !private ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
 - !private ["s27ExpressibleByIntegerLiteralP", "init"]
-- !private ["s23ExpressibleByNilLiteralP", "red"]
 - ["s32ExpressibleByStringInterpolationP", ""]
 - ["s26ExpressibleByStringLiteralP", ""]
 - ["s33ExpressibleByUnicodeScalarLiteralP", ""]
-- !private ["7SwiftUI7GestureP", "red"]
 - !private ["SH", "NSLayoutConstraint"]
 - ["SH", "UIImageView"]
 - !private ["SH", "URL"]
 - ["SH", ""]
 - !private ["SH", "activate"]
 - !private ["SH", "addSubview"]
-- !private ["SH", "backgroundColor"]
 - !private ["SH", "bottomAnchor"]
 - !private ["SH", "clipsToBounds"]
 - ["SH", "configure"]
@@ -237,7 +221,6 @@ depends-member:
 - ["SH", "init"]
 - !private ["SH", "layer"]
 - !private ["SH", "leadingAnchor"]
-- !private ["SH", "red"]
 - ["SH", "reuseId"]
 - !private ["SH", "sd_setImage"]
 - !private ["SH", "setupConstraints"]
@@ -257,7 +240,6 @@ depends-member:
 - !private ["So8NSCodingP", "URL"]
 - ["So8NSCodingP", ""]
 - !private ["So8NSCodingP", "addSubview"]
-- !private ["So8NSCodingP", "backgroundColor"]
 - !private ["So8NSCodingP", "bottomAnchor"]
 - !private ["So8NSCodingP", "clipsToBounds"]
 - ["So8NSCodingP", "configure"]
@@ -280,7 +262,6 @@ depends-member:
 - ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "layer"]
 - !private ["So8NSCodingP", "leadingAnchor"]
-- !private ["So8NSCodingP", "red"]
 - ["So8NSCodingP", "reuseId"]
 - !private ["So8NSCodingP", "sd_setImage"]
 - !private ["So8NSCodingP", "sd_setImageWithURL"]
@@ -301,10 +282,7 @@ depends-member:
 - !private ["So9NSCopyingP", "constraintLessThanOrEqualToSystemSpacingAfterAnchor"]
 - !private ["So9NSCopyingP", "constraintLessThanOrEqualToSystemSpacingBelow"]
 - !private ["So9NSCopyingP", "constraintLessThanOrEqualToSystemSpacingBelowAnchor"]
-- !private ["So9NSCopyingP", "red"]
 - ["So26NSExtensionRequestHandlingP", "init"]
-- !private ["So21NSItemProviderReadingP", "red"]
-- !private ["So21NSItemProviderWritingP", "red"]
 - ["So14NSLayoutAnchorC", ""]
 - !private ["So14NSLayoutAnchorC", "constraint"]
 - !private ["So14NSLayoutAnchorC", "constraintEqualToSystemSpacingAfter"]
@@ -333,7 +311,6 @@ depends-member:
 - !private ["So8NSObjectC", "activate"]
 - !private ["So8NSObjectC", "activateConstraints"]
 - !private ["So8NSObjectC", "addSubview"]
-- !private ["So8NSObjectC", "backgroundColor"]
 - !private ["So8NSObjectC", "bottomAnchor"]
 - !private ["So8NSObjectC", "clipsToBounds"]
 - ["So8NSObjectC", "configure"]
@@ -359,7 +336,6 @@ depends-member:
 - ["So8NSObjectC", "init"]
 - !private ["So8NSObjectC", "layer"]
 - !private ["So8NSObjectC", "leadingAnchor"]
-- !private ["So8NSObjectC", "red"]
 - ["So8NSObjectC", "reuseId"]
 - !private ["So8NSObjectC", "sd_setImage"]
 - !private ["So8NSObjectC", "sd_setImageWithURL"]
@@ -378,7 +354,6 @@ depends-member:
 - !private ["So8NSObjectP", "activate"]
 - !private ["So8NSObjectP", "activateConstraints"]
 - !private ["So8NSObjectP", "addSubview"]
-- !private ["So8NSObjectP", "backgroundColor"]
 - !private ["So8NSObjectP", "bottomAnchor"]
 - !private ["So8NSObjectP", "clipsToBounds"]
 - ["So8NSObjectP", "configure"]
@@ -404,7 +379,6 @@ depends-member:
 - ["So8NSObjectP", "init"]
 - !private ["So8NSObjectP", "layer"]
 - !private ["So8NSObjectP", "leadingAnchor"]
-- !private ["So8NSObjectP", "red"]
 - ["So8NSObjectP", "reuseId"]
 - !private ["So8NSObjectP", "sd_setImage"]
 - !private ["So8NSObjectP", "sd_setImageWithURL"]
@@ -413,9 +387,7 @@ depends-member:
 - !private ["So8NSObjectP", "trailingAnchor"]
 - !private ["So8NSObjectP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["So14NSSecureCodingP", "cornerRadius"]
-- !private ["So14NSSecureCodingP", "red"]
 - !private ["s9OptionSetP", "all"]
-- !private ["Sq", "red"]
 - ["7SwiftUI15PreviewProviderP", "ContainerView"]
 - ["7SwiftUI15PreviewProviderP", "Default_Previews"]
 - ["7SwiftUI15PreviewProviderP", "MainTabBarController"]
@@ -436,7 +408,6 @@ depends-member:
 - !private ["5iChat19SelfConfiguringCellP", "URL"]
 - ["5iChat19SelfConfiguringCellP", ""]
 - !private ["5iChat19SelfConfiguringCellP", "addSubview"]
-- !private ["5iChat19SelfConfiguringCellP", "backgroundColor"]
 - !private ["5iChat19SelfConfiguringCellP", "bottomAnchor"]
 - !private ["5iChat19SelfConfiguringCellP", "clipsToBounds"]
 - ["5iChat19SelfConfiguringCellP", "configure"]
@@ -470,7 +441,6 @@ depends-member:
 - !private ["So29UIAccessibilityIdentificationP", "URL"]
 - ["So29UIAccessibilityIdentificationP", ""]
 - !private ["So29UIAccessibilityIdentificationP", "addSubview"]
-- !private ["So29UIAccessibilityIdentificationP", "backgroundColor"]
 - !private ["So29UIAccessibilityIdentificationP", "bottomAnchor"]
 - !private ["So29UIAccessibilityIdentificationP", "clipsToBounds"]
 - ["So29UIAccessibilityIdentificationP", "configure"]
@@ -495,7 +465,6 @@ depends-member:
 - !private ["So12UIAppearanceP", "URL"]
 - ["So12UIAppearanceP", ""]
 - !private ["So12UIAppearanceP", "addSubview"]
-- !private ["So12UIAppearanceP", "backgroundColor"]
 - !private ["So12UIAppearanceP", "bottomAnchor"]
 - !private ["So12UIAppearanceP", "clipsToBounds"]
 - ["So12UIAppearanceP", "configure"]
@@ -520,7 +489,6 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "URL"]
 - ["So21UIAppearanceContainerP", ""]
 - !private ["So21UIAppearanceContainerP", "addSubview"]
-- !private ["So21UIAppearanceContainerP", "backgroundColor"]
 - !private ["So21UIAppearanceContainerP", "bottomAnchor"]
 - !private ["So21UIAppearanceContainerP", "clipsToBounds"]
 - ["So21UIAppearanceContainerP", "configure"]
@@ -545,7 +513,6 @@ depends-member:
 - !private ["So24UICollectionReusableViewC", "URL"]
 - ["So24UICollectionReusableViewC", ""]
 - !private ["So24UICollectionReusableViewC", "addSubview"]
-- !private ["So24UICollectionReusableViewC", "backgroundColor"]
 - !private ["So24UICollectionReusableViewC", "bottomAnchor"]
 - !private ["So24UICollectionReusableViewC", "clipsToBounds"]
 - ["So24UICollectionReusableViewC", "configure"]
@@ -567,7 +534,6 @@ depends-member:
 - !private ["So20UICollectionViewCellC", "URL"]
 - ["So20UICollectionViewCellC", ""]
 - !private ["So20UICollectionViewCellC", "addSubview"]
-- !private ["So20UICollectionViewCellC", "backgroundColor"]
 - !private ["So20UICollectionViewCellC", "bottomAnchor"]
 - !private ["So20UICollectionViewCellC", "clipsToBounds"]
 - ["So20UICollectionViewCellC", "configure"]
@@ -580,7 +546,6 @@ depends-member:
 - ["So20UICollectionViewCellC", "setupConstraints"]
 - !private ["So20UICollectionViewCellC", "topAnchor"]
 - !private ["So20UICollectionViewCellC", "trailingAnchor"]
-- !private ["So7UIColorC", "red"]
 - ["So18UIContentContainerP", "init"]
 - ["So17UICoordinateSpaceP", "CGRect"]
 - ["So17UICoordinateSpaceP", "Hashable"]
@@ -591,7 +556,6 @@ depends-member:
 - !private ["So17UICoordinateSpaceP", "URL"]
 - ["So17UICoordinateSpaceP", ""]
 - !private ["So17UICoordinateSpaceP", "addSubview"]
-- !private ["So17UICoordinateSpaceP", "backgroundColor"]
 - !private ["So17UICoordinateSpaceP", "bottomAnchor"]
 - !private ["So17UICoordinateSpaceP", "clipsToBounds"]
 - ["So17UICoordinateSpaceP", "configure"]
@@ -616,7 +580,6 @@ depends-member:
 - !private ["So13UIDynamicItemP", "URL"]
 - ["So13UIDynamicItemP", ""]
 - !private ["So13UIDynamicItemP", "addSubview"]
-- !private ["So13UIDynamicItemP", "backgroundColor"]
 - !private ["So13UIDynamicItemP", "bottomAnchor"]
 - !private ["So13UIDynamicItemP", "clipsToBounds"]
 - ["So13UIDynamicItemP", "configure"]
@@ -641,7 +604,6 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "URL"]
 - ["So18UIFocusEnvironmentP", ""]
 - !private ["So18UIFocusEnvironmentP", "addSubview"]
-- !private ["So18UIFocusEnvironmentP", "backgroundColor"]
 - !private ["So18UIFocusEnvironmentP", "bottomAnchor"]
 - !private ["So18UIFocusEnvironmentP", "clipsToBounds"]
 - ["So18UIFocusEnvironmentP", "configure"]
@@ -666,7 +628,6 @@ depends-member:
 - !private ["So11UIFocusItemP", "URL"]
 - ["So11UIFocusItemP", ""]
 - !private ["So11UIFocusItemP", "addSubview"]
-- !private ["So11UIFocusItemP", "backgroundColor"]
 - !private ["So11UIFocusItemP", "bottomAnchor"]
 - !private ["So11UIFocusItemP", "clipsToBounds"]
 - ["So11UIFocusItemP", "configure"]
@@ -691,7 +652,6 @@ depends-member:
 - !private ["So20UIFocusItemContainerP", "URL"]
 - ["So20UIFocusItemContainerP", ""]
 - !private ["So20UIFocusItemContainerP", "addSubview"]
-- !private ["So20UIFocusItemContainerP", "backgroundColor"]
 - !private ["So20UIFocusItemContainerP", "bottomAnchor"]
 - !private ["So20UIFocusItemContainerP", "clipsToBounds"]
 - ["So20UIFocusItemContainerP", "configure"]
@@ -723,7 +683,6 @@ depends-member:
 - !private ["So24UILargeContentViewerItemP", "URL"]
 - ["So24UILargeContentViewerItemP", ""]
 - !private ["So24UILargeContentViewerItemP", "addSubview"]
-- !private ["So24UILargeContentViewerItemP", "backgroundColor"]
 - !private ["So24UILargeContentViewerItemP", "bottomAnchor"]
 - !private ["So24UILargeContentViewerItemP", "clipsToBounds"]
 - ["So24UILargeContentViewerItemP", "configure"]
@@ -748,7 +707,6 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "URL"]
 - ["So30UIPasteConfigurationSupportingP", ""]
 - !private ["So30UIPasteConfigurationSupportingP", "addSubview"]
-- !private ["So30UIPasteConfigurationSupportingP", "backgroundColor"]
 - !private ["So30UIPasteConfigurationSupportingP", "bottomAnchor"]
 - !private ["So30UIPasteConfigurationSupportingP", "clipsToBounds"]
 - ["So30UIPasteConfigurationSupportingP", "configure"]
@@ -773,7 +731,6 @@ depends-member:
 - !private ["So11UIResponderC", "URL"]
 - ["So11UIResponderC", ""]
 - !private ["So11UIResponderC", "addSubview"]
-- !private ["So11UIResponderC", "backgroundColor"]
 - !private ["So11UIResponderC", "bottomAnchor"]
 - !private ["So11UIResponderC", "clipsToBounds"]
 - ["So11UIResponderC", "configure"]
@@ -798,7 +755,6 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "URL"]
 - ["So30UIResponderStandardEditActionsP", ""]
 - !private ["So30UIResponderStandardEditActionsP", "addSubview"]
-- !private ["So30UIResponderStandardEditActionsP", "backgroundColor"]
 - !private ["So30UIResponderStandardEditActionsP", "bottomAnchor"]
 - !private ["So30UIResponderStandardEditActionsP", "clipsToBounds"]
 - ["So30UIResponderStandardEditActionsP", "configure"]
@@ -827,7 +783,6 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "URL"]
 - ["So18UITraitEnvironmentP", ""]
 - !private ["So18UITraitEnvironmentP", "addSubview"]
-- !private ["So18UITraitEnvironmentP", "backgroundColor"]
 - !private ["So18UITraitEnvironmentP", "bottomAnchor"]
 - !private ["So18UITraitEnvironmentP", "clipsToBounds"]
 - ["So18UITraitEnvironmentP", "configure"]
@@ -852,7 +807,6 @@ depends-member:
 - !private ["So23UIUserActivityRestoringP", "URL"]
 - ["So23UIUserActivityRestoringP", ""]
 - !private ["So23UIUserActivityRestoringP", "addSubview"]
-- !private ["So23UIUserActivityRestoringP", "backgroundColor"]
 - !private ["So23UIUserActivityRestoringP", "bottomAnchor"]
 - !private ["So23UIUserActivityRestoringP", "clipsToBounds"]
 - ["So23UIUserActivityRestoringP", "configure"]
@@ -877,7 +831,6 @@ depends-member:
 - !private ["So6UIViewC", "URL"]
 - ["So6UIViewC", ""]
 - !private ["So6UIViewC", "addSubview"]
-- !private ["So6UIViewC", "backgroundColor"]
 - !private ["So6UIViewC", "bottomAnchor"]
 - !private ["So6UIViewC", "clipsToBounds"]
 - ["So6UIViewC", "configure"]
@@ -941,7 +894,6 @@ depends-member:
 - !private ["7SwiftUI4ViewP", "init"]
 - ["7SwiftUI4ViewP", "makeCoordinator"]
 - ["7SwiftUI4ViewP", "makeUIViewController"]
-- !private ["7SwiftUI4ViewP", "red"]
 - ["7SwiftUI4ViewP", "updateUIViewController"]
 - !private ["7SwiftUI4ViewP", "viewController"]
 - !private ["7SwiftUI11ViewBuilderV", "buildBlock"]
@@ -958,7 +910,6 @@ depends-member:
 - !private ["5iChat07WaitingA4CellC", "URL"]
 - ["5iChat07WaitingA4CellC", ""]
 - !private ["5iChat07WaitingA4CellC", "addSubview"]
-- !private ["5iChat07WaitingA4CellC", "backgroundColor"]
 - !private ["5iChat07WaitingA4CellC", "bottomAnchor"]
 - !private ["5iChat07WaitingA4CellC", "clipsToBounds"]
 - ["5iChat07WaitingA4CellC", "configure"]
@@ -995,7 +946,6 @@ depends-member:
 - ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
-- !private ["s26_ExpressibleByColorLiteralP", "red"]
 - !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "NSLayoutConstraint"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "UIImageView"]
@@ -1003,7 +953,6 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "activate"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "addSubview"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundColor"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "bottomAnchor"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "clipsToBounds"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "configure"]
@@ -1014,7 +963,6 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "layer"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "leadingAnchor"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "red"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "reuseId"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "sd_setImage"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "setupConstraints"]
@@ -1027,7 +975,6 @@ depends-member:
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "activate"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addSubview"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "backgroundColor"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bottomAnchor"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "clipsToBounds"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "configure"]
@@ -1038,7 +985,6 @@ depends-member:
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "layer"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "leadingAnchor"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "red"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "reuseId"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sd_setImage"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setupConstraints"]
@@ -1047,7 +993,6 @@ depends-member:
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["s21_ObjectiveCBridgeableP", ""]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
-- !private ["s21_ObjectiveCBridgeableP", "red"]
 - ["7SwiftUI16_PreviewProviderP", "ContainerView"]
 - ["7SwiftUI16_PreviewProviderP", "Default_Previews"]
 - ["7SwiftUI16_PreviewProviderP", "MainTabBarController"]
@@ -1065,7 +1010,6 @@ depends-member:
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "URL"]
 - ["s38__DefaultCustomPlaygroundQuickLookableP", ""]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "addSubview"]
-- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "backgroundColor"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "bottomAnchor"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "clipsToBounds"]
 - ["s38__DefaultCustomPlaygroundQuickLookableP", "configure"]
@@ -1091,7 +1035,6 @@ depends-nominal:
 - "SL"
 - "5iChat07WaitingA18ControllerProviderV13ContainerViewV"
 - "s28CustomDebugStringConvertibleP"
-- !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
 - !private "Se"
 - !private "SE"
@@ -1099,11 +1042,9 @@ depends-nominal:
 - !private "s25ExpressibleByArrayLiteralP"
 - "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s27ExpressibleByIntegerLiteralP"
-- !private "s23ExpressibleByNilLiteralP"
 - "s32ExpressibleByStringInterpolationP"
 - "s26ExpressibleByStringLiteralP"
 - "s33ExpressibleByUnicodeScalarLiteralP"
-- !private "7SwiftUI7GestureP"
 - "SH"
 - "s25LosslessStringConvertibleP"
 - !private "5iChat5MChatV"
@@ -1111,8 +1052,6 @@ depends-nominal:
 - "So8NSCodingP"
 - !private "So9NSCopyingP"
 - "So26NSExtensionRequestHandlingP"
-- !private "So21NSItemProviderReadingP"
-- !private "So21NSItemProviderWritingP"
 - "So14NSLayoutAnchorC"
 - !private "So18NSLayoutConstraintC"
 - !private "So19NSLayoutXAxisAnchorC"
@@ -1121,7 +1060,6 @@ depends-nominal:
 - "So8NSObjectP"
 - !private "So14NSSecureCodingP"
 - !private "s9OptionSetP"
-- !private "Sq"
 - "7SwiftUI15PreviewProviderP"
 - !private "SY"
 - !private "10Foundation20ReferenceConvertibleP"
@@ -1137,7 +1075,6 @@ depends-nominal:
 - "So21UIAppearanceContainerP"
 - "So24UICollectionReusableViewC"
 - "So20UICollectionViewCellC"
-- !private "So7UIColorC"
 - "So18UIContentContainerP"
 - "So17UICoordinateSpaceP"
 - "So13UIDynamicItemP"
@@ -1168,7 +1105,6 @@ depends-nominal:
 - "s35_ExpressibleByBuiltinIntegerLiteralP"
 - "s34_ExpressibleByBuiltinStringLiteralP"
 - "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
-- !private "s26_ExpressibleByColorLiteralP"
 - !private "s34_ExpressibleByFileReferenceLiteralP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "10Foundation37_KeyValueCodingAndObservingPublishingP"

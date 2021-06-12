@@ -95,7 +95,7 @@ class ProfileViewController: UIViewController {
     }
 }
 
-// MARK: - Setup Constraints
+// MARK: -Setup Constraints
 extension ProfileViewController {
     private func setupConstraints() {
         view.addSubview(imageView)
@@ -139,6 +139,7 @@ extension ProfileViewController {
     }
 }
 
+// MARK: -Notification Center
 extension ProfileViewController {
     func keyboardWillShow() {
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShowHandler), name: UIResponder.keyboardWillShowNotification, object: nil)
@@ -169,7 +170,7 @@ extension ProfileViewController {
     
 }
 
-// MARK: - Setup TextField
+// MARK: -Setup TextField
 extension ProfileViewController: UITextFieldDelegate {
     private func configureTF() {
         myTextField.delegate = self

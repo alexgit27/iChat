@@ -28,6 +28,7 @@
 		A88E9BA3265400B5009BE617 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88E9BA2265400B5009BE617 /* ProfileViewController.swift */; };
 		A88E9BA626540B10009BE617 /* InsertableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88E9BA526540B10009BE617 /* InsertableTextField.swift */; };
 		A88E9BAB26541A89009BE617 /* UIView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88E9BAA26541A89009BE617 /* UIView + Extension.swift */; };
+		A894A9C82674D60C001D7559 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A894A9C72674D60C001D7559 /* .gitignore */; };
 		A8A1332826550E5900A21F02 /* ChatRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A1332726550E5900A21F02 /* ChatRequestViewController.swift */; };
 		A8A1332C2655233400A21F02 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A8A1332B2655233400A21F02 /* GoogleService-Info.plist */; };
 		A8B7D54D265552DE005485B9 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B7D54C265552DE005485B9 /* AuthService.swift */; };
@@ -86,6 +87,7 @@
 		A88E9BA2265400B5009BE617 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		A88E9BA526540B10009BE617 /* InsertableTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertableTextField.swift; sourceTree = "<group>"; };
 		A88E9BAA26541A89009BE617 /* UIView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extension.swift"; sourceTree = "<group>"; };
+		A894A9C72674D60C001D7559 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		A8A1332726550E5900A21F02 /* ChatRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRequestViewController.swift; sourceTree = "<group>"; };
 		A8A1332B2655233400A21F02 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A8B7D54C265552DE005485B9 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
@@ -246,6 +248,7 @@
 		A8F4FC8526497E2A00A5EA83 = {
 			isa = PBXGroup;
 			children = (
+				A894A9C72674D60C001D7559 /* .gitignore */,
 				A8F4FC9026497E2A00A5EA83 /* iChat */,
 				A8F4FC8F26497E2A00A5EA83 /* Products */,
 				28676F85E7A719FBD429F8CE /* Pods */,
@@ -366,6 +369,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A88E9B972653BCDB009BE617 /* users.json in Resources */,
+				A894A9C82674D60C001D7559 /* .gitignore in Resources */,
 				A8F4FC9E26497E2B00A5EA83 /* LaunchScreen.storyboard in Resources */,
 				A88AA1BB264FEB8800C28D00 /* activeChats.json in Resources */,
 				A8F4FC9B26497E2B00A5EA83 /* Assets.xcassets in Resources */,

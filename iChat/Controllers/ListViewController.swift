@@ -65,7 +65,6 @@ class ListViewController: UIViewController {
                 self.waitingChats = chats
                 self.reloadData()
             case .failure(let error):
-//                self.showAlertController(with: "Error", and: error.localizedDescription, functionFrom: #function)
                 print(error.localizedDescription)
             }
         })
@@ -96,7 +95,7 @@ class ListViewController: UIViewController {
     }
 }
 
-// MARK: - Collection View
+// MARK: -Collection View
 extension ListViewController {
     private func setupCollectionView() {
         collectionView = UICollectionView(frame: view.bounds, collectionViewLayout: createCompositionalLayout())
@@ -111,7 +110,7 @@ extension ListViewController {
     }
 }
 
-// MARK: - Setup Data Source
+// MARK: -Setup Data Source
 extension ListViewController {
     private func configure<T: SelfConfiguringCell, U: Hashable>(cellType: T.Type, with value: U, for indexPath: IndexPath) -> T {
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellType.reuseId, for: indexPath) as? T else {
@@ -154,7 +153,7 @@ extension ListViewController {
     }
 }
 
-// MARK: - UICollectionViewDelegate
+// MARK: -UICollectionViewDelegate
 extension ListViewController: UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         guard let chat = self.dataSource?.itemIdentifier(for: indexPath) else { return }
@@ -171,6 +170,7 @@ extension ListViewController: UICollectionViewDelegate {
     }
 }
 
+// MARK: -WaitingChatsNavigation
 extension ListViewController: WaitingChatsNavigation {
 func removeWaitingChat(chat: MChat) {
     FirestoreService.shared.deleteWaitingChat(chat: chat) { (result) in
@@ -197,7 +197,7 @@ func moveChatToActive(chat: MChat) {
 }
 }
 
-// MARK: - Setup Layout
+// MARK: -Setup Layout
 extension ListViewController {
     private func createCompositionalLayout() -> UICollectionViewLayout {
         let layout = UICollectionViewCompositionalLayout { (sectionIndex, layoutEnvironment) -> NSCollectionLayoutSection? in
@@ -223,7 +223,6 @@ extension ListViewController {
         let item = NSCollectionLayoutItem(layoutSize: itemSize)
         let groupSize = NSCollectionLayoutSize(widthDimension: .absolute(88), heightDimension: .absolute(88))
         let group = NSCollectionLayoutGroup.horizontal(layoutSize: groupSize, subitems: [item])
-//        group.contentInsets = NSDirectionalEdgeInsets.init(top: 0, leading: 16, bottom: 0, trailing: 0)
         let section = NSCollectionLayoutSection(group: group)
         section.interGroupSpacing = 20
         section.contentInsets = NSDirectionalEdgeInsets.init(top: 16, leading: 20, bottom: 0, trailing: 20)
@@ -259,7 +258,7 @@ extension ListViewController {
     }
 }
 
-// MARK: - Search Bar
+// MARK: -Search Bar
 extension ListViewController: UISearchBarDelegate {
     private func setupSearchBar() {
         navigationController?.navigationBar.barTintColor = .mainWhite()

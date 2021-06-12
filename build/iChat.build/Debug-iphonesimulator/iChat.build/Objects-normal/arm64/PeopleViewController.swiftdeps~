@@ -314,7 +314,7 @@ depends-member:
 - ["Sl", "init"]
 - !private ["Sl", "section"]
 - !private ["Sl", "uppercased"]
-- !private ["SL", ""]
+- ["SL", ""]
 - !private ["SL", "light"]
 - !private ["SL", "section"]
 - !private ["SL", "uppercased"]
@@ -862,7 +862,7 @@ depends-member:
 - !private ["s30ExpressibleByDictionaryLiteralP", "Key"]
 - !private ["s30ExpressibleByDictionaryLiteralP", "Value"]
 - !private ["s30ExpressibleByDictionaryLiteralP", "init"]
-- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "uppercased"]
 - !private ["s25ExpressibleByFloatLiteralP", "FloatLiteralType"]
 - !private ["s25ExpressibleByFloatLiteralP", ""]
@@ -884,12 +884,12 @@ depends-member:
 - !private ["s23ExpressibleByNilLiteralP", "systemFont"]
 - !private ["s23ExpressibleByNilLiteralP", "users"]
 - !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
-- !private ["s32ExpressibleByStringInterpolationP", ""]
+- ["s32ExpressibleByStringInterpolationP", ""]
 - !private ["s32ExpressibleByStringInterpolationP", "init"]
 - !private ["s32ExpressibleByStringInterpolationP", "uppercased"]
-- !private ["s26ExpressibleByStringLiteralP", ""]
+- ["s26ExpressibleByStringLiteralP", ""]
 - !private ["s26ExpressibleByStringLiteralP", "uppercased"]
-- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "uppercased"]
 - !private ["5iChat16FirestoreServiceC", "deletUser"]
 - !private ["5iChat16FirestoreServiceC", "shared"]
@@ -1077,7 +1077,7 @@ depends-member:
 - !private ["So23FIRListenerRegistrationP", "remove"]
 - !private ["5iChat15ListenerServiceC", "shared"]
 - !private ["5iChat15ListenerServiceC", "usersObserve"]
-- !private ["s25LosslessStringConvertibleP", ""]
+- ["s25LosslessStringConvertibleP", ""]
 - !private ["s25LosslessStringConvertibleP", "uppercased"]
 - ["5iChat5MUserV", ""]
 - !private ["5iChat5MUserV", "contains"]
@@ -1508,6 +1508,7 @@ depends-member:
 - ["So8NSObjectC", "position"]
 - ["So8NSObjectC", "positionForBar"]
 - !private ["So8NSObjectC", "present"]
+- !private ["So8NSObjectC", "presentViewController"]
 - !private ["So8NSObjectC", "print"]
 - !private ["So8NSObjectC", "red"]
 - !private ["So8NSObjectC", "register"]
@@ -1575,6 +1576,7 @@ depends-member:
 - !private ["So8NSObjectC", "windows"]
 - !private ["So8NSObjectP", "Auth"]
 - !private ["So8NSObjectP", "AuthViewController"]
+- !private ["So8NSObjectP", "Bool"]
 - !private ["So8NSObjectP", "CGFloat"]
 - ["So8NSObjectP", "CaseIterable"]
 - !private ["So8NSObjectP", "FirestoreService"]
@@ -1585,6 +1587,7 @@ depends-member:
 - !private ["So8NSObjectP", "ListenerService"]
 - ["So8NSObjectP", "MUser"]
 - !private ["So8NSObjectP", "NSAttributedString"]
+- ["So8NSObjectP", "NSCoder"]
 - ["So8NSObjectP", "NSCollectionLayoutBoundarySupplementaryItem"]
 - !private ["So8NSObjectP", "NSCollectionLayoutGroup"]
 - !private ["So8NSObjectP", "NSCollectionLayoutItem"]
@@ -1595,6 +1598,7 @@ depends-member:
 - !private ["So8NSObjectP", "ProfileViewController"]
 - ["So8NSObjectP", "Section"]
 - !private ["So8NSObjectP", "SectionHeader"]
+- ["So8NSObjectP", "String"]
 - !private ["So8NSObjectP", "UIAlertAction"]
 - !private ["So8NSObjectP", "UIAlertController"]
 - !private ["So8NSObjectP", "UIApplication"]
@@ -1684,6 +1688,7 @@ depends-member:
 - ["So8NSObjectP", "position"]
 - ["So8NSObjectP", "positionForBar"]
 - !private ["So8NSObjectP", "present"]
+- !private ["So8NSObjectP", "presentViewController"]
 - !private ["So8NSObjectP", "print"]
 - !private ["So8NSObjectP", "red"]
 - !private ["So8NSObjectP", "register"]
@@ -1968,11 +1973,11 @@ depends-member:
 - !private ["So18UIAlertActionStyleV", "cancel"]
 - !private ["So18UIAlertActionStyleV", "default"]
 - !private ["So20UIBarButtonItemStyleV", "plain"]
-- !private ["s16TextOutputStreamP", ""]
+- ["s16TextOutputStreamP", ""]
 - !private ["s16TextOutputStreamP", "appendInterpolation"]
 - !private ["s16TextOutputStreamP", "appendLiteral"]
 - !private ["s16TextOutputStreamP", "uppercased"]
-- !private ["s20TextOutputStreamableP", ""]
+- ["s20TextOutputStreamableP", ""]
 - !private ["s20TextOutputStreamableP", "uppercased"]
 - !private ["So29UIAccessibilityIdentificationP", ""]
 - !private ["So29UIAccessibilityIdentificationP", "addSubview"]
@@ -2719,6 +2724,7 @@ depends-member:
 - !private ["So16UINavigationItemC", "searchController"]
 - !private ["So30UIPasteConfigurationSupportingP", "Auth"]
 - !private ["So30UIPasteConfigurationSupportingP", "AuthViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "Bool"]
 - !private ["So30UIPasteConfigurationSupportingP", "CGFloat"]
 - ["So30UIPasteConfigurationSupportingP", "CaseIterable"]
 - !private ["So30UIPasteConfigurationSupportingP", "FirestoreService"]
@@ -2728,6 +2734,7 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "ListenerService"]
 - ["So30UIPasteConfigurationSupportingP", "MUser"]
 - !private ["So30UIPasteConfigurationSupportingP", "NSAttributedString"]
+- ["So30UIPasteConfigurationSupportingP", "NSCoder"]
 - ["So30UIPasteConfigurationSupportingP", "NSCollectionLayoutBoundarySupplementaryItem"]
 - !private ["So30UIPasteConfigurationSupportingP", "NSCollectionLayoutGroup"]
 - !private ["So30UIPasteConfigurationSupportingP", "NSCollectionLayoutItem"]
@@ -2738,6 +2745,7 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "ProfileViewController"]
 - ["So30UIPasteConfigurationSupportingP", "Section"]
 - !private ["So30UIPasteConfigurationSupportingP", "SectionHeader"]
+- ["So30UIPasteConfigurationSupportingP", "String"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIAlertAction"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIAlertController"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIApplication"]
@@ -2791,6 +2799,7 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "position"]
 - ["So30UIPasteConfigurationSupportingP", "positionForBar"]
 - !private ["So30UIPasteConfigurationSupportingP", "present"]
+- !private ["So30UIPasteConfigurationSupportingP", "presentViewController"]
 - !private ["So30UIPasteConfigurationSupportingP", "print"]
 - !private ["So30UIPasteConfigurationSupportingP", "register"]
 - !private ["So30UIPasteConfigurationSupportingP", "registerClass"]
@@ -2912,6 +2921,7 @@ depends-member:
 - ["So11UIResponderC", "position"]
 - ["So11UIResponderC", "positionForBar"]
 - !private ["So11UIResponderC", "present"]
+- !private ["So11UIResponderC", "presentViewController"]
 - !private ["So11UIResponderC", "print"]
 - !private ["So11UIResponderC", "register"]
 - !private ["So11UIResponderC", "registerClass"]
@@ -2959,6 +2969,7 @@ depends-member:
 - !private ["So11UIResponderC", "windows"]
 - !private ["So30UIResponderStandardEditActionsP", "Auth"]
 - !private ["So30UIResponderStandardEditActionsP", "AuthViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "Bool"]
 - !private ["So30UIResponderStandardEditActionsP", "CGFloat"]
 - ["So30UIResponderStandardEditActionsP", "CaseIterable"]
 - !private ["So30UIResponderStandardEditActionsP", "FirestoreService"]
@@ -2968,6 +2979,7 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "ListenerService"]
 - ["So30UIResponderStandardEditActionsP", "MUser"]
 - !private ["So30UIResponderStandardEditActionsP", "NSAttributedString"]
+- ["So30UIResponderStandardEditActionsP", "NSCoder"]
 - ["So30UIResponderStandardEditActionsP", "NSCollectionLayoutBoundarySupplementaryItem"]
 - !private ["So30UIResponderStandardEditActionsP", "NSCollectionLayoutGroup"]
 - !private ["So30UIResponderStandardEditActionsP", "NSCollectionLayoutItem"]
@@ -2978,6 +2990,7 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "ProfileViewController"]
 - ["So30UIResponderStandardEditActionsP", "Section"]
 - !private ["So30UIResponderStandardEditActionsP", "SectionHeader"]
+- ["So30UIResponderStandardEditActionsP", "String"]
 - !private ["So30UIResponderStandardEditActionsP", "UIAlertAction"]
 - !private ["So30UIResponderStandardEditActionsP", "UIAlertController"]
 - !private ["So30UIResponderStandardEditActionsP", "UIApplication"]
@@ -3031,6 +3044,7 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "position"]
 - ["So30UIResponderStandardEditActionsP", "positionForBar"]
 - !private ["So30UIResponderStandardEditActionsP", "present"]
+- !private ["So30UIResponderStandardEditActionsP", "presentViewController"]
 - !private ["So30UIResponderStandardEditActionsP", "print"]
 - !private ["So30UIResponderStandardEditActionsP", "register"]
 - !private ["So30UIResponderStandardEditActionsP", "registerClass"]
@@ -3510,6 +3524,7 @@ depends-member:
 - ["So18UITraitEnvironmentP", "viewForZoomingInScrollView"]
 - !private ["So23UIUserActivityRestoringP", "Auth"]
 - !private ["So23UIUserActivityRestoringP", "AuthViewController"]
+- !private ["So23UIUserActivityRestoringP", "Bool"]
 - !private ["So23UIUserActivityRestoringP", "CGFloat"]
 - ["So23UIUserActivityRestoringP", "CaseIterable"]
 - !private ["So23UIUserActivityRestoringP", "FirestoreService"]
@@ -3519,6 +3534,7 @@ depends-member:
 - !private ["So23UIUserActivityRestoringP", "ListenerService"]
 - ["So23UIUserActivityRestoringP", "MUser"]
 - !private ["So23UIUserActivityRestoringP", "NSAttributedString"]
+- ["So23UIUserActivityRestoringP", "NSCoder"]
 - ["So23UIUserActivityRestoringP", "NSCollectionLayoutBoundarySupplementaryItem"]
 - !private ["So23UIUserActivityRestoringP", "NSCollectionLayoutGroup"]
 - !private ["So23UIUserActivityRestoringP", "NSCollectionLayoutItem"]
@@ -3529,6 +3545,7 @@ depends-member:
 - !private ["So23UIUserActivityRestoringP", "ProfileViewController"]
 - ["So23UIUserActivityRestoringP", "Section"]
 - !private ["So23UIUserActivityRestoringP", "SectionHeader"]
+- ["So23UIUserActivityRestoringP", "String"]
 - !private ["So23UIUserActivityRestoringP", "UIAlertAction"]
 - !private ["So23UIUserActivityRestoringP", "UIAlertController"]
 - !private ["So23UIUserActivityRestoringP", "UIApplication"]
@@ -3582,6 +3599,7 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "position"]
 - ["So23UIUserActivityRestoringP", "positionForBar"]
 - !private ["So23UIUserActivityRestoringP", "present"]
+- !private ["So23UIUserActivityRestoringP", "presentViewController"]
 - !private ["So23UIUserActivityRestoringP", "print"]
 - !private ["So23UIUserActivityRestoringP", "register"]
 - !private ["So23UIUserActivityRestoringP", "registerClass"]
@@ -3787,13 +3805,13 @@ depends-member:
 - !private ["s24_DestructorSafeContainerP", "first"]
 - ["s24_DestructorSafeContainerP", "init"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
-- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "uppercased"]
 - !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
 - ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "uppercased"]
-- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "uppercased"]
 - !private ["s26_ExpressibleByColorLiteralP", "label"]
 - !private ["s26_ExpressibleByColorLiteralP", "mainWhite"]
@@ -4148,7 +4166,7 @@ depends-nominal:
 - "s7CVarArgP"
 - "s12CaseIterableP"
 - "Sl"
-- !private "SL"
+- "SL"
 - "10Foundation15ContiguousBytesP"
 - "s28CustomDebugStringConvertibleP"
 - "s17CustomReflectableP"
@@ -4161,13 +4179,13 @@ depends-nominal:
 - !private "s5ErrorP"
 - "s25ExpressibleByArrayLiteralP"
 - !private "s30ExpressibleByDictionaryLiteralP"
-- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s25ExpressibleByFloatLiteralP"
 - !private "s27ExpressibleByIntegerLiteralP"
 - !private "s23ExpressibleByNilLiteralP"
-- !private "s32ExpressibleByStringInterpolationP"
-- !private "s26ExpressibleByStringLiteralP"
-- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
 - !private "5iChat16FirestoreServiceC"
 - !private "SF"
 - !private "7SwiftUI7GestureP"
@@ -4176,7 +4194,7 @@ depends-nominal:
 - !private "So21NSAttributedStringKeya"
 - !private "So23FIRListenerRegistrationP"
 - !private "5iChat15ListenerServiceC"
-- !private "s25LosslessStringConvertibleP"
+- "s25LosslessStringConvertibleP"
 - "5iChat5MUserV"
 - !private "s10MirrorPathP"
 - "SM"
@@ -4227,8 +4245,8 @@ depends-nominal:
 - !private "So22UIAlertControllerStyleV"
 - !private "So18UIAlertActionStyleV"
 - !private "So20UIBarButtonItemStyleV"
-- !private "s16TextOutputStreamP"
-- !private "s20TextOutputStreamableP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
 - !private "So29UIAccessibilityIdentificationP"
 - !private "So13UIAlertActionC"
 - !private "So17UIAlertControllerC"
@@ -4300,11 +4318,11 @@ depends-nominal:
 - !private "s30_CustomPlaygroundQuickLookableP"
 - "s24_DestructorSafeContainerP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
-- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - !private "s33_ExpressibleByBuiltinFloatLiteralP"
 - "s35_ExpressibleByBuiltinIntegerLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
-- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s26_ExpressibleByColorLiteralP"
 - !private "s26_ExpressibleByImageLiteralP"
 - "s19_HasContiguousBytesP"

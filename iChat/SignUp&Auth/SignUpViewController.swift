@@ -28,11 +28,15 @@ class SignUpViewController: UIViewController {
     let passwordTextField = OneLineTextField(font: .avenir20())
     let confirmPasswordTextField = OneLineTextField(font: .avenir20())
     
+    var topConstraint = NSLayoutConstraint()
+    
     weak var delegate: AuthNavigatingDelegate?
     
     override func viewDidLoad() {
         super.viewDidLoad()
       
+        topConstraint = signUpButton.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: 0)
+        
         keyboardWillShow()
         keyboardWillHide()
         configureTF()
@@ -43,6 +47,7 @@ class SignUpViewController: UIViewController {
         
         signUpButton.addTarget(self, action: #selector(signUpButtonTapped), for: .touchUpInside)
         loginButton.addTarget(self, action: #selector(loginButtonTapped), for: .touchUpInside)
+        
     }
     
     @objc func signUpButtonTapped() {
@@ -70,7 +75,7 @@ class SignUpViewController: UIViewController {
     }
 }
 
-// MARK: - Setup Constraints
+// MARK: -Setup Constraints
 extension SignUpViewController {
     private func setupConstraints() {
         let emailStackView = UIStackView(arrangedSubviews: [emailLabel, emailTextField], axis: .vertical, spacing: 0)
@@ -95,7 +100,7 @@ extension SignUpViewController {
         view.addSubview(bottomStackView)
  
         NSLayoutConstraint.activate([
-            welcomeLabel.topAnchor.constraint(lessThanOrEqualTo: view.topAnchor, constant: 140),
+            welcomeLabel.topAnchor.constraint(lessThanOrEqualTo: view.topAnchor, constant: 160),
             welcomeLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor)
         ])
         
@@ -141,23 +146,29 @@ extension SignUpViewController {
     @objc private func keyboardWillShowHandler(notification: Notification) {
         guard let userInfo = notification.userInfo else { return }
         let kbFrameSize = (userInfo[UIResponder.keyboardFrameEndUserInfoKey] as! NSValue).cgRectValue
-//            view.frame.origin.y = -kbFrameSize.height / 2
-//        view.frame.origin.y = -(kbFrameSize.height + 120) / 2
-        view.frame.origin.y = -kbFrameSize.height + 90
+//        view.frame.origin.y = -(kbFrameSize.height + 90) / 2
+        
+        topConstraint.constant = -kbFrameSize.height
+        topConstraint.isActive = true
     }
  
     @objc private func keyboardWillHideHandler() {
-        view.frame.origin.y = 0
+//        view.frame.origin.y = 0
+        
+        topConstraint.isActive = false
     }
     
 }
 
-// MARK: - Setup TextField
+// MARK: -Setup TextField
 extension SignUpViewController: UITextFieldDelegate {
     private func configureTF() {
         emailTextField.delegate = self
         passwordTextField.delegate = self
         confirmPasswordTextField.delegate = self
+        
+        passwordTextField.isSecureTextEntry = true
+        confirmPasswordTextField.isSecureTextEntry = true
         
         emailTextField.tag = 1
         passwordTextField.tag = 2

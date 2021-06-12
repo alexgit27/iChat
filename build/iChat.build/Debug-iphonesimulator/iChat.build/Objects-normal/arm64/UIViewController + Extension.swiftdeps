@@ -17,38 +17,30 @@ depends-top-level:
 - !private "fatalError"
 depends-member:
 - !private ["s18AdditiveArithmeticP", ""]
-- ["SK", ""]
 - !private ["So15CALayerDelegateP", "dequeueReusableCell"]
 - !private ["So15CALayerDelegateP", "dequeueReusableCellWithReuseIdentifier"]
 - !private ["s7CVarArgP", ""]
 - !private ["s7CVarArgP", "dequeueReusableCell"]
 - !private ["s7CVarArgP", "fatalError"]
-- ["Sl", ""]
-- ["SL", ""]
+- !private ["SL", ""]
 - !private ["s28CustomDebugStringConvertibleP", "dequeueReusableCell"]
 - !private ["s28CustomDebugStringConvertibleP", "fatalError"]
-- ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "dequeueReusableCell"]
 - !private ["s23CustomStringConvertibleP", "fatalError"]
-- ["SQ", ""]
+- !private ["SQ", ""]
 - !private ["SQ", "dequeueReusableCell"]
 - !private ["SQ", "fatalError"]
-- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
 - !private ["s25ExpressibleByFloatLiteralP", ""]
 - !private ["s27ExpressibleByIntegerLiteralP", ""]
-- ["s32ExpressibleByStringInterpolationP", ""]
-- ["s26ExpressibleByStringLiteralP", ""]
-- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
 - !private ["SF", ""]
-- ["SH", ""]
+- !private ["SH", ""]
 - !private ["SH", "dequeueReusableCell"]
 - !private ["SH", "fatalError"]
-- ["s25LosslessStringConvertibleP", ""]
 - ["So8NSCodingP", "Hashable"]
 - ["So8NSCodingP", "IndexPath"]
 - ["So8NSCodingP", "SelfConfiguringCell"]
 - ["So8NSCodingP", "UICollectionView"]
-- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", ""]
 - ["So8NSCodingP", "configure"]
 - !private ["So8NSCodingP", "dequeueReusableCell"]
 - !private ["So8NSCodingP", "dequeueReusableCellWithReuseIdentifier"]
@@ -63,12 +55,10 @@ depends-member:
 - ["So8NSObjectC", "IndexPath"]
 - ["So8NSObjectC", "SelfConfiguringCell"]
 - ["So8NSObjectC", "UICollectionView"]
-- ["So8NSObjectC", ""]
 - ["So8NSObjectC", "configure"]
 - !private ["So8NSObjectC", "dequeueReusableCell"]
 - !private ["So8NSObjectC", "dequeueReusableCellWithReuseIdentifier"]
 - !private ["So8NSObjectC", "fatalError"]
-- ["So8NSObjectP", "Hashable"]
 - ["So8NSObjectP", "IndexPath"]
 - ["So8NSObjectP", "SelfConfiguringCell"]
 - ["So8NSObjectP", "UICollectionView"]
@@ -80,11 +70,8 @@ depends-member:
 - !private ["Sj", ""]
 - !private ["5iChat19SelfConfiguringCellP", "configure"]
 - !private ["5iChat19SelfConfiguringCellP", "reuseId"]
-- ["ST", ""]
 - !private ["s13SignedNumericP", ""]
 - !private ["Sx", ""]
-- ["s16TextOutputStreamP", ""]
-- ["s20TextOutputStreamableP", ""]
 - !private ["So29UIAccessibilityIdentificationP", "dequeueReusableCell"]
 - !private ["So29UIAccessibilityIdentificationP", "dequeueReusableCellWithReuseIdentifier"]
 - !private ["So12UIAppearanceP", "dequeueReusableCell"]
@@ -127,7 +114,6 @@ depends-member:
 - !private ["So30UIFocusItemScrollableContainerP", "dequeueReusableCellWithReuseIdentifier"]
 - !private ["So24UILargeContentViewerItemP", "dequeueReusableCell"]
 - !private ["So24UILargeContentViewerItemP", "dequeueReusableCellWithReuseIdentifier"]
-- ["So30UIPasteConfigurationSupportingP", "Hashable"]
 - ["So30UIPasteConfigurationSupportingP", "IndexPath"]
 - ["So30UIPasteConfigurationSupportingP", "SelfConfiguringCell"]
 - ["So30UIPasteConfigurationSupportingP", "UICollectionView"]
@@ -139,12 +125,10 @@ depends-member:
 - ["So11UIResponderC", "IndexPath"]
 - ["So11UIResponderC", "SelfConfiguringCell"]
 - ["So11UIResponderC", "UICollectionView"]
-- ["So11UIResponderC", ""]
 - ["So11UIResponderC", "configure"]
 - !private ["So11UIResponderC", "dequeueReusableCell"]
 - !private ["So11UIResponderC", "dequeueReusableCellWithReuseIdentifier"]
 - !private ["So11UIResponderC", "fatalError"]
-- ["So30UIResponderStandardEditActionsP", "Hashable"]
 - ["So30UIResponderStandardEditActionsP", "IndexPath"]
 - ["So30UIResponderStandardEditActionsP", "SelfConfiguringCell"]
 - ["So30UIResponderStandardEditActionsP", "UICollectionView"]
@@ -170,7 +154,6 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "dequeueReusableCell"]
 - !private ["So18UITraitEnvironmentP", "dequeueReusableCellWithReuseIdentifier"]
 - !private ["So18UITraitEnvironmentP", "fatalError"]
-- ["So23UIUserActivityRestoringP", "Hashable"]
 - ["So23UIUserActivityRestoringP", "IndexPath"]
 - ["So23UIUserActivityRestoringP", "SelfConfiguringCell"]
 - ["So23UIUserActivityRestoringP", "UICollectionView"]
@@ -188,10 +171,7 @@ depends-member:
 - ["So16UIViewControllerC", ""]
 - ["So16UIViewControllerC", "configure"]
 - !private ["So16UIViewControllerC", "fatalError"]
-- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
-- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
-- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "dequeueReusableCell"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "fatalError"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dequeueReusableCell"]
@@ -199,34 +179,24 @@ depends-member:
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "dequeueReusableCell"]
 depends-nominal:
 - !private "s18AdditiveArithmeticP"
-- "SK"
 - !private "So15CALayerDelegateP"
 - !private "s7CVarArgP"
-- "Sl"
-- "SL"
+- !private "SL"
 - !private "s28CustomDebugStringConvertibleP"
-- "s23CustomStringConvertibleP"
-- "SQ"
-- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23CustomStringConvertibleP"
+- !private "SQ"
 - !private "s25ExpressibleByFloatLiteralP"
 - !private "s27ExpressibleByIntegerLiteralP"
-- "s32ExpressibleByStringInterpolationP"
-- "s26ExpressibleByStringLiteralP"
-- "s33ExpressibleByUnicodeScalarLiteralP"
 - !private "SF"
-- "SH"
-- "s25LosslessStringConvertibleP"
+- !private "SH"
 - "So8NSCodingP"
 - "So26NSExtensionRequestHandlingP"
 - "So8NSObjectC"
 - "So8NSObjectP"
 - !private "Sj"
 - !private "5iChat19SelfConfiguringCellP"
-- "ST"
 - !private "s13SignedNumericP"
 - !private "Sx"
-- "s16TextOutputStreamP"
-- "s20TextOutputStreamableP"
 - !private "So29UIAccessibilityIdentificationP"
 - !private "So12UIAppearanceP"
 - "So21UIAppearanceContainerP"
@@ -250,10 +220,7 @@ depends-nominal:
 - "So23UIUserActivityRestoringP"
 - "So6UIViewC"
 - "So16UIViewControllerC"
-- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
-- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
-- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "10Foundation27_KeyValueCodingAndObservingP"
 - !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
 - !private "s38__DefaultCustomPlaygroundQuickLookableP"

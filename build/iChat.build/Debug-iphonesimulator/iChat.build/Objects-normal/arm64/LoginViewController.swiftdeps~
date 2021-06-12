@@ -35,6 +35,7 @@ provides-dynamic-lookup:
 depends-top-level:
 - !private "+"
 - !private "-"
+- !private "/"
 - !private "Array"
 - "AssignmentPrecedence"
 - "AuthNavigatingDelegate"
@@ -92,7 +93,6 @@ depends-top-level:
 depends-member:
 - ["s18AdditiveArithmeticP", ""]
 - !private ["So20UIStackViewAlignmentV", "firstBaseline"]
-- ["7SwiftUI10AnimatableP", ""]
 - !private ["7SwiftUI10AnimatableP", "height"]
 - !private ["7SwiftUI10AnimatableP", "origin"]
 - !private ["7SwiftUI10AnimatableP", "y"]
@@ -905,22 +905,10 @@ depends-member:
 - !private ["So8NSCodingP", "constraint"]
 - !private ["So8NSCodingP", "constraintEqualToAnchor"]
 - !private ["So8NSCodingP", "constraintEqualToConstant"]
-- !private ["So8NSCodingP", "constraintEqualToSystemSpacingAfter"]
-- !private ["So8NSCodingP", "constraintEqualToSystemSpacingAfterAnchor"]
-- !private ["So8NSCodingP", "constraintEqualToSystemSpacingBelow"]
-- !private ["So8NSCodingP", "constraintEqualToSystemSpacingBelowAnchor"]
 - !private ["So8NSCodingP", "constraintGreaterThanOrEqualToAnchor"]
 - !private ["So8NSCodingP", "constraintGreaterThanOrEqualToConstant"]
-- !private ["So8NSCodingP", "constraintGreaterThanOrEqualToSystemSpacingAfter"]
-- !private ["So8NSCodingP", "constraintGreaterThanOrEqualToSystemSpacingAfterAnchor"]
-- !private ["So8NSCodingP", "constraintGreaterThanOrEqualToSystemSpacingBelow"]
-- !private ["So8NSCodingP", "constraintGreaterThanOrEqualToSystemSpacingBelowAnchor"]
 - !private ["So8NSCodingP", "constraintLessThanOrEqualToAnchor"]
 - !private ["So8NSCodingP", "constraintLessThanOrEqualToConstant"]
-- !private ["So8NSCodingP", "constraintLessThanOrEqualToSystemSpacingAfter"]
-- !private ["So8NSCodingP", "constraintLessThanOrEqualToSystemSpacingAfterAnchor"]
-- !private ["So8NSCodingP", "constraintLessThanOrEqualToSystemSpacingBelow"]
-- !private ["So8NSCodingP", "constraintLessThanOrEqualToSystemSpacingBelowAnchor"]
 - !private ["So8NSCodingP", "contentHorizontalAlignment"]
 - ["So8NSCodingP", "deinit"]
 - ["So8NSCodingP", "delegate"]
@@ -981,22 +969,10 @@ depends-member:
 - !private ["So9NSCopyingP", "constraint"]
 - !private ["So9NSCopyingP", "constraintEqualToAnchor"]
 - !private ["So9NSCopyingP", "constraintEqualToConstant"]
-- !private ["So9NSCopyingP", "constraintEqualToSystemSpacingAfter"]
-- !private ["So9NSCopyingP", "constraintEqualToSystemSpacingAfterAnchor"]
-- !private ["So9NSCopyingP", "constraintEqualToSystemSpacingBelow"]
-- !private ["So9NSCopyingP", "constraintEqualToSystemSpacingBelowAnchor"]
 - !private ["So9NSCopyingP", "constraintGreaterThanOrEqualToAnchor"]
 - !private ["So9NSCopyingP", "constraintGreaterThanOrEqualToConstant"]
-- !private ["So9NSCopyingP", "constraintGreaterThanOrEqualToSystemSpacingAfter"]
-- !private ["So9NSCopyingP", "constraintGreaterThanOrEqualToSystemSpacingAfterAnchor"]
-- !private ["So9NSCopyingP", "constraintGreaterThanOrEqualToSystemSpacingBelow"]
-- !private ["So9NSCopyingP", "constraintGreaterThanOrEqualToSystemSpacingBelowAnchor"]
 - !private ["So9NSCopyingP", "constraintLessThanOrEqualToAnchor"]
 - !private ["So9NSCopyingP", "constraintLessThanOrEqualToConstant"]
-- !private ["So9NSCopyingP", "constraintLessThanOrEqualToSystemSpacingAfter"]
-- !private ["So9NSCopyingP", "constraintLessThanOrEqualToSystemSpacingAfterAnchor"]
-- !private ["So9NSCopyingP", "constraintLessThanOrEqualToSystemSpacingBelow"]
-- !private ["So9NSCopyingP", "constraintLessThanOrEqualToSystemSpacingBelowAnchor"]
 - ["So9NSCopyingP", "white"]
 - ["So26NSExtensionRequestHandlingP", "AuthNavigatingDelegate"]
 - !private ["So26NSExtensionRequestHandlingP", "AuthService"]
@@ -1061,22 +1037,10 @@ depends-member:
 - !private ["So14NSLayoutAnchorC", "constraint"]
 - !private ["So14NSLayoutAnchorC", "constraintEqualToAnchor"]
 - !private ["So14NSLayoutAnchorC", "constraintEqualToConstant"]
-- !private ["So14NSLayoutAnchorC", "constraintEqualToSystemSpacingAfter"]
-- !private ["So14NSLayoutAnchorC", "constraintEqualToSystemSpacingAfterAnchor"]
-- !private ["So14NSLayoutAnchorC", "constraintEqualToSystemSpacingBelow"]
-- !private ["So14NSLayoutAnchorC", "constraintEqualToSystemSpacingBelowAnchor"]
 - !private ["So14NSLayoutAnchorC", "constraintGreaterThanOrEqualToAnchor"]
 - !private ["So14NSLayoutAnchorC", "constraintGreaterThanOrEqualToConstant"]
-- !private ["So14NSLayoutAnchorC", "constraintGreaterThanOrEqualToSystemSpacingAfter"]
-- !private ["So14NSLayoutAnchorC", "constraintGreaterThanOrEqualToSystemSpacingAfterAnchor"]
-- !private ["So14NSLayoutAnchorC", "constraintGreaterThanOrEqualToSystemSpacingBelow"]
-- !private ["So14NSLayoutAnchorC", "constraintGreaterThanOrEqualToSystemSpacingBelowAnchor"]
 - !private ["So14NSLayoutAnchorC", "constraintLessThanOrEqualToAnchor"]
 - !private ["So14NSLayoutAnchorC", "constraintLessThanOrEqualToConstant"]
-- !private ["So14NSLayoutAnchorC", "constraintLessThanOrEqualToSystemSpacingAfter"]
-- !private ["So14NSLayoutAnchorC", "constraintLessThanOrEqualToSystemSpacingAfterAnchor"]
-- !private ["So14NSLayoutAnchorC", "constraintLessThanOrEqualToSystemSpacingBelow"]
-- !private ["So14NSLayoutAnchorC", "constraintLessThanOrEqualToSystemSpacingBelowAnchor"]
 - !private ["So18NSLayoutConstraintC", "activate"]
 - !private ["So18NSLayoutConstraintC", "isActive"]
 - !private ["So17NSLayoutDimensionC", "constraint"]
@@ -1102,7 +1066,6 @@ depends-member:
 - ["So8NSObjectC", ""]
 - ["So8NSObjectC", "__buttonWithType"]
 - !private ["So8NSObjectC", "activate"]
-- !private ["So8NSObjectC", "activateConstraints"]
 - !private ["So8NSObjectC", "addGestureRecognizer"]
 - !private ["So8NSObjectC", "addObserver"]
 - !private ["So8NSObjectC", "addObserverForName"]
@@ -1124,22 +1087,10 @@ depends-member:
 - !private ["So8NSObjectC", "constraint"]
 - !private ["So8NSObjectC", "constraintEqualToAnchor"]
 - !private ["So8NSObjectC", "constraintEqualToConstant"]
-- !private ["So8NSObjectC", "constraintEqualToSystemSpacingAfter"]
-- !private ["So8NSObjectC", "constraintEqualToSystemSpacingAfterAnchor"]
-- !private ["So8NSObjectC", "constraintEqualToSystemSpacingBelow"]
-- !private ["So8NSObjectC", "constraintEqualToSystemSpacingBelowAnchor"]
 - !private ["So8NSObjectC", "constraintGreaterThanOrEqualToAnchor"]
 - !private ["So8NSObjectC", "constraintGreaterThanOrEqualToConstant"]
-- !private ["So8NSObjectC", "constraintGreaterThanOrEqualToSystemSpacingAfter"]
-- !private ["So8NSObjectC", "constraintGreaterThanOrEqualToSystemSpacingAfterAnchor"]
-- !private ["So8NSObjectC", "constraintGreaterThanOrEqualToSystemSpacingBelow"]
-- !private ["So8NSObjectC", "constraintGreaterThanOrEqualToSystemSpacingBelowAnchor"]
 - !private ["So8NSObjectC", "constraintLessThanOrEqualToAnchor"]
 - !private ["So8NSObjectC", "constraintLessThanOrEqualToConstant"]
-- !private ["So8NSObjectC", "constraintLessThanOrEqualToSystemSpacingAfter"]
-- !private ["So8NSObjectC", "constraintLessThanOrEqualToSystemSpacingAfterAnchor"]
-- !private ["So8NSObjectC", "constraintLessThanOrEqualToSystemSpacingBelow"]
-- !private ["So8NSObjectC", "constraintLessThanOrEqualToSystemSpacingBelowAnchor"]
 - !private ["So8NSObjectC", "contentHorizontalAlignment"]
 - !private ["So8NSObjectC", "default"]
 - ["So8NSObjectC", "delegate"]
@@ -1219,7 +1170,6 @@ depends-member:
 - ["So8NSObjectP", ""]
 - ["So8NSObjectP", "__buttonWithType"]
 - !private ["So8NSObjectP", "activate"]
-- !private ["So8NSObjectP", "activateConstraints"]
 - !private ["So8NSObjectP", "addGestureRecognizer"]
 - !private ["So8NSObjectP", "addObserver"]
 - !private ["So8NSObjectP", "addObserverForName"]
@@ -1239,24 +1189,9 @@ depends-member:
 - !private ["So8NSObjectP", "cgRectValue"]
 - ["So8NSObjectP", "configureTF"]
 - !private ["So8NSObjectP", "constraint"]
-- !private ["So8NSObjectP", "constraintEqualToAnchor"]
 - !private ["So8NSObjectP", "constraintEqualToConstant"]
-- !private ["So8NSObjectP", "constraintEqualToSystemSpacingAfter"]
-- !private ["So8NSObjectP", "constraintEqualToSystemSpacingAfterAnchor"]
-- !private ["So8NSObjectP", "constraintEqualToSystemSpacingBelow"]
-- !private ["So8NSObjectP", "constraintEqualToSystemSpacingBelowAnchor"]
-- !private ["So8NSObjectP", "constraintGreaterThanOrEqualToAnchor"]
 - !private ["So8NSObjectP", "constraintGreaterThanOrEqualToConstant"]
-- !private ["So8NSObjectP", "constraintGreaterThanOrEqualToSystemSpacingAfter"]
-- !private ["So8NSObjectP", "constraintGreaterThanOrEqualToSystemSpacingAfterAnchor"]
-- !private ["So8NSObjectP", "constraintGreaterThanOrEqualToSystemSpacingBelow"]
-- !private ["So8NSObjectP", "constraintGreaterThanOrEqualToSystemSpacingBelowAnchor"]
-- !private ["So8NSObjectP", "constraintLessThanOrEqualToAnchor"]
 - !private ["So8NSObjectP", "constraintLessThanOrEqualToConstant"]
-- !private ["So8NSObjectP", "constraintLessThanOrEqualToSystemSpacingAfter"]
-- !private ["So8NSObjectP", "constraintLessThanOrEqualToSystemSpacingAfterAnchor"]
-- !private ["So8NSObjectP", "constraintLessThanOrEqualToSystemSpacingBelow"]
-- !private ["So8NSObjectP", "constraintLessThanOrEqualToSystemSpacingBelowAnchor"]
 - !private ["So8NSObjectP", "contentHorizontalAlignment"]
 - !private ["So8NSObjectP", "default"]
 - ["So8NSObjectP", "deinit"]
@@ -1390,9 +1325,6 @@ depends-member:
 - ["s13SignedNumericP", ""]
 - ["So14UIControlStateV", "normal"]
 - ["Sx", ""]
-- !private ["Sx", "_step"]
-- !private ["Sx", "advanced"]
-- !private ["Sx", "distance"]
 - ["s16TextOutputStreamP", ""]
 - ["s20TextOutputStreamableP", ""]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "addTarget"]
@@ -2239,7 +2171,6 @@ depends-member:
 - ["So16UIStateRestoringP", "viewDidLoad"]
 - ["So16UIStateRestoringP", "welcomeLabel"]
 - ["So18UITabBarControllerC", ""]
-- !private ["So18UITabBarControllerC", "init"]
 - !private ["So18UITabBarControllerC", "modalPresentationStyle"]
 - !private ["So16UITabBarDelegateP", "init"]
 - !private ["So16UITabBarDelegateP", "modalPresentationStyle"]
@@ -2660,7 +2591,7 @@ depends-member:
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
 - ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
 - !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
-- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - ["s26_ExpressibleByColorLiteralP", "buttonDark"]
@@ -2904,7 +2835,7 @@ depends-member:
 depends-nominal:
 - "s18AdditiveArithmeticP"
 - !private "So20UIStackViewAlignmentV"
-- "7SwiftUI10AnimatableP"
+- !private "7SwiftUI10AnimatableP"
 - !private "5iChat22AuthNavigatingDelegateP"
 - !private "5iChat11AuthServiceC"
 - !private "So22UILayoutConstraintAxisV"
@@ -3028,7 +2959,7 @@ depends-nominal:
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
 - "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - !private "s33_ExpressibleByBuiltinFloatLiteralP"
-- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
 - "s34_ExpressibleByBuiltinStringLiteralP"
 - "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - "s26_ExpressibleByColorLiteralP"
